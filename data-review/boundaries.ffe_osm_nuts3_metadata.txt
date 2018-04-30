@@ -40,11 +40,10 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         "instruction": "In addition to the copyright of the Forschungsstelle für Energiewirtschaft e.V. (FfE) (www.ffe.de), the following sources must be cited: © OpenStreetMap-Mitwirkende (https://www.openstreetmap.org/copyright), © GeoBasis-DE / BKG 2016 Daten verändert",
         "copyright": "© FfE"},
     "contributors": [
-        {"name": "Claudia Konetschny", "email": "CKonetschny@ffe.de", "date": "01.05.2018", "comment": ""},
-        {"name": "Michael Ebner", "email": "MEbner@ffe.de", "date": "01.05.2018", "comment": ""},
-        {"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "01.05.2018", "comment": ""},
-        {"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "01.05.2018", "comment": ""}
-        ],
+        {"name": "Claudia Konetschny", "email": "CKonetschny@ffe.de", "date": "2018-05-01", "comment": "Upload data and metadata"},
+        {"name": "Michael Ebner", "email": "MEbner@ffe.de", "date": "2018-05-01", "comment": "none"},
+        {"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "2018-05-01", "comment": "none"},
+        {"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "2018-05-01", "comment": "none"} ],
     "resources": [
         {"name": "",
         "format": "PostgreSQL",
