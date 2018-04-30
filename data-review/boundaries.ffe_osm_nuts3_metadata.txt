@@ -1,0 +1,47 @@
+{
+	"title": "NUTS-3 regions 2013 (generalized)",
+	"description": "NUTS (Nomenclature des unités territoriales statistiques) is a uniform hierarchical nomenclature of spatial reference units in Europe used in official statistics. They are often oriented on administration units. This data set shows the NUTS-3 level for the year 2013.",
+	"language": [ "eng" ],
+	"spatial": 
+		{"location": "",
+		"extent": "Europe",
+		"resolution": "vector"},
+	"temporal": 
+		{"reference_date": "2013-12-31",
+		"start": "",
+		"end": "",
+		"resolution": ""},
+	"sources": [
+		{"name": "Geofabrik - Download OpenStreetMap Data Extracts (Europe)", 
+			"description": "Web page for downloading OpenStreetMap Data", 
+			"url": "https://download.geofabrik.de/europe.html", 
+			"license": "Open Data Commons Open Database License 1.0 (ODbL-1.0)", 
+			"copyright": "© 2016 Geofabrik GmbH and OpenStreetMap Contributors"},
+		{"name": "Bundesamt für Kartographie und Geodäsie - Verwaltungsgebiete 1:250.000 - Stand 01.01.2016", 
+		"description": 
+			"Der Datenbestand umfasst sämtliche Verwaltungseinheiten aller hierarchischen Verwaltungsebenen vom Staat bis zu den Gemeinden mit ihren Verwaltungsgrenzen, statistischen Schlüsselzahlen und dem Namen der Verwaltungseinheit sowie der spezifischen Bezeichnung der Verwaltungsebene des jeweiligen Bundeslandes.
+			Die Geometrie der Grenzen ist hinsichtlich Genauigkeit und Auflösung auf das DLM250 ausgerichtet.", 
+		"url": "http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=13&gdz_user_id=0", 
+		"license": "Geodatenzugangsgesetz (GeoZG), GeoNutzV: Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes vom 19. März 2013 (Bundesgesetzblatt Jahrgang 2013 Teil I Nr. 14)", 
+		"copyright": "© GeoBasis-DE / BKG 2016"} ],
+	"license": 
+		{"id": "",
+		"name": "Open Data Commons Open Database Lizenz 1.0 (ODbL-1.0)",
+		"version": "1.0",
+		"url": "https://opendatacommons.org/licenses/odbl/1.0/",
+		"instruction": "In addition to the copyright of the Forschungsstelle für Energiewirtschaft e.V. (FfE) (www.ffe.de), the following sources must be cited: © OpenStreetMap-Mitwirkende (https://www.openstreetmap.org/copyright), © GeoBasis-DE / BKG 2016 Daten verändert",
+		"copyright": "© FfE"},
+	"contributors": [
+		{"name": "Claudia Konetschny", "email": "CKonetschny@ffe.de", "date": "01.05.2018", "comment": ""},
+		{"name": "Michael Ebner", "email": "MEbner@ffe.de", "date": "01.05.2018", "comment": ""},
+		{"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "01.05.2018", "comment": ""},
+		{"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "01.05.2018", "comment": ""}
+		],
+	"resources": [
+		{"name": "",		
+		"format": "PostgreSQL",
+		"fields": [
+			{"name": "id", "description": "Unique identifier", "unit": ""},
+			{"name": "nuts_code", "description": "NUTS-3 Code: 5-digits, depending on higher NUTS levels (example: DE212)", "unit": ""},
+			{"name": "geom", "description": "Generalisierte Geometrie", "unit": ""} ] } ],
+	"metadata_version": "1.3"}
