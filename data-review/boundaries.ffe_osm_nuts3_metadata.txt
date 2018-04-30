@@ -1,3 +1,12 @@
+/*
+Metadata for OSM NUTS-3 regions 2013
+
+__copyright__   = "none"
+__license__     = "CC0 1.0 Universal Public Domain Dedication (CC0-1.0)"
+__url__         = "https://creativecommons.org/publicdomain/zero/1.0/"
+__author__      = "Claudia Konetschny, Ludee"
+*/
+
 {
 	"title": "NUTS-3 regions 2013 (generalized)",
 	"description": "NUTS (Nomenclature des unités territoriales statistiques) is a uniform hierarchical nomenclature of spatial reference units in Europe used in official statistics. They are often oriented on administration units. This data set shows the NUTS-3 level for the year 2013.",
