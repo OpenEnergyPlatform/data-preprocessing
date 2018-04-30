@@ -1,2 +1,2 @@
 # data-preprocessing
-Formatting and import of data of data. Data and metadata review.
+Formatting and import of data. Data and metadata review.
