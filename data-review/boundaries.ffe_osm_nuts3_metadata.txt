@@ -45,10 +45,10 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         {"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "2018-05-01", "comment": "none"},
         {"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "2018-05-01", "comment": "none"} ],
     "resources": [
-        {"name": "",
+        {"name": "boundaries.ffe_osm_nut3",
         "format": "PostgreSQL",
         "fields": [
-            {"name": "id", "description": "Unique identifier", "unit": ""},
-            {"name": "nuts_code", "description": "NUTS-3 Code: 5-digits, depending on higher NUTS levels (example: DE212)", "unit": ""},
-            {"name": "geom", "description": "Generalisierte Geometrie", "unit": ""} ] } ],
+            {"name": "id", "description": "Unique identifier", "unit": "none"},
+            {"name": "nuts_code", "description": "NUTS-3 Code: 5-digits, depending on higher NUTS levels (example: DE212)", "unit": "none"},
+            {"name": "geom", "description": "Generalisierte Geometrie", "unit": "none"} ] } ],
     "metadata_version": "1.3"}
