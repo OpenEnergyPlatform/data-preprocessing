@@ -27,7 +27,7 @@ CREATE INDEX ffe_osm_nut3_geom_idx
 COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
     "title": "NUTS-3 regions 2013 (generalized)",
     "description": "NUTS (Nomenclature des unités territoriales statistiques) is a uniform hierarchical nomenclature of spatial reference units in Europe used in official statistics. They are often oriented on administration units. This data set shows the NUTS-3 level for the year 2013.",
-    "language": [ "eng" ],
+    "language": [ "eng", "deu" ],
     "spatial": 
         {"location": "none",
         "extent": "Europe",
