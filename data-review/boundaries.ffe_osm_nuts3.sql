@@ -11,9 +11,10 @@ __author__      = "Claudia Konetschny, Ludee"
 -- table
 DROP TABLE IF EXISTS    boundaries.ffe_osm_nut3;
 CREATE TABLE            boundaries.ffe_osm_nut3 (
-    id          bigint NOT NULL DEFAULT nextval('sandbox.osm_nuts3_id_seq'::regclass),
-    nuts_code   character varying COLLATE pg_catalog."default",
-    geom        geometry,
+    id          serial,
+    version     text,
+    nuts_code   varchar(5),
+    geom        geometry(MultiPolygon,3035),
     CONSTRAINT ffe_osm_nut3_pkey PRIMARY KEY (id) );
 
 -- access rights
@@ -60,15 +61,17 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         {"name": "Michael Ebner", "email": "MEbner@ffe.de", "date": "2018-04-27", "comment": "none"},
         {"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "2018-04-27", "comment": "none"},
         {"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "2018-04-27", "comment": "none"},
-        {"name": "Ludee", "email": "none", "date": "2018-04-30", "comment": "Review and correct metadata"} ],
+        {"name": "Ludee", "email": "none", "date": "2018-04-30", "comment": "Review and correct metadata"},
+        {"name": "Ludee", "email": "none", "date": "2018-05-08", "comment": "Review and correct table structure"} ],
     "resources": [
         {"name": "boundaries.ffe_osm_nut3",
         "format": "PostgreSQL",
         "fields": [
             {"name": "id", "description": "Unique identifier", "unit": "none"},
+            {"name": "version", "description": "Version identifier", "unit": "none"},
             {"name": "nuts_code", "description": "NUTS-3 Code: 5-digits, depending on higher NUTS levels (example: DE212)", "unit": "none"},
             {"name": "geom", "description": "Generalisierte Geometrie", "unit": "none"} ] } ],
     "metadata_version": "1.3"}';
 
 -- scenario log (project,version,io,schema_name,table_name,script_name,comment)
-SELECT scenario_log('OEP', 'data-review','input','boundaries','ffe_osm_nut3','boundaries.ffe_osm_nuts3_metadata.txt','Test metadata string');
+SELECT scenario_log('OEP','data-review','input','boundaries','ffe_osm_nut3','boundaries.ffe_osm_nuts3.sql','Test metadata string');
