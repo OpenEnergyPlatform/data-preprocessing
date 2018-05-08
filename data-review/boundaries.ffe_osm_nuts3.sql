@@ -49,7 +49,7 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
             "description": "Der Datenbestand umfasst sämtliche Verwaltungseinheiten aller hierarchischen Verwaltungsebenen vom Staat bis zu den Gemeinden mit ihren Verwaltungsgrenzen, statistischen Schlüsselzahlen und dem Namen der Verwaltungseinheit sowie der spezifischen Bezeichnung der Verwaltungsebene des jeweiligen Bundeslandes. Die Geometrie der Grenzen ist hinsichtlich Genauigkeit und Auflösung auf das DLM250 ausgerichtet.", 
             "url": "http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=13&gdz_user_id=0", 
             "license": "Geodatenzugangsgesetz (GeoZG), GeoNutzV: Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes vom 19. März 2013 (Bundesgesetzblatt Jahrgang 2013 Teil I Nr. 14)", 
-            "copyright": "© GeoBasis-DE / BKG 2016"} ],
+            "copyright": "© GeoBasis-DE / BKG 2016 Daten verändert"} ],
     "license": 
         {"id": "ODbL-1.0",
         "name": "Open Data Commons Open Database Lizenz 1.0",
@@ -71,7 +71,7 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
             {"name": "id", "description": "Unique identifier", "unit": "none"},
             {"name": "version", "description": "Version identifier", "unit": "none"},
             {"name": "nuts_code", "description": "NUTS-3 Code: 5-digits, depending on higher NUTS levels (example: DE212)", "unit": "none"},
-            {"name": "geom", "description": "Generalisierte Geometrie", "unit": "none"} ] } ],
+            {"name": "geom", "description": "Generalized geometry", "unit": "none"} ] } ],
     "metadata_version": "1.3"}';
 
 -- scenario log (project,version,io,schema_name,table_name,script_name,comment)
