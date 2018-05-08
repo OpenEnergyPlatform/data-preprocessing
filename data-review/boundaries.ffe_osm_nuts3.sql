@@ -1,5 +1,6 @@
 /*
 Metadata for OSM NUTS-3 regions 2013
+Review: https://github.com/OpenEnergyPlatform/data-preprocessing/issues/3
 
 __copyright__   = "none"
 __license__     = "CC0 1.0 Universal Public Domain Dedication (CC0-1.0)"
@@ -77,7 +78,6 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
 SELECT scenario_log('OEP','data-review','input','boundaries','ffe_osm_nut3','boundaries.ffe_osm_nuts3.sql','Test metadata string');
 
 
-
 -- import from sandbox
 INSERT INTO boundaries.ffe_osm_nut3(version,nuts_code,geom)
     SELECT  'v1',
@@ -85,4 +85,3 @@ INSERT INTO boundaries.ffe_osm_nut3(version,nuts_code,geom)
             ST_MULTI(geom)
     FROM    sandbox.osm_nuts3
     ORDER BY id;
-    
