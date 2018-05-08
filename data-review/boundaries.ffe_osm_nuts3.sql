@@ -75,3 +75,14 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
 
 -- scenario log (project,version,io,schema_name,table_name,script_name,comment)
 SELECT scenario_log('OEP','data-review','input','boundaries','ffe_osm_nut3','boundaries.ffe_osm_nuts3.sql','Test metadata string');
+
+
+
+-- import from sandbox
+INSERT INTO boundaries.ffe_osm_nut3(version,nuts_code,geom)
+    SELECT  'v1',
+            nuts_code,
+            ST_MULTI(geom)
+    FROM    sandbox.osm_nuts3
+    ORDER BY id;
+    
