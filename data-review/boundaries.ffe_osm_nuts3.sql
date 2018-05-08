@@ -55,7 +55,7 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         "name": "Open Data Commons Open Database Lizenz 1.0",
         "version": "1.0",
         "url": "https://opendatacommons.org/licenses/odbl/1.0/",
-        "instruction": "In addition to the copyright of the Forschungsstelle für Energiewirtschaft e.V. (FfE) (www.ffe.de), the following sources must be cited: © OpenStreetMap-Mitwirkende (https://www.openstreetmap.org/copyright), © GeoBasis-DE / BKG 2016 Daten verändert",
+        "instruction": "In addition to the copyright of the Forschungsstelle für Energiewirtschaft e.V. (FfE) (www.ffe.de), the following sources must be cited: © 2016 Geofabrik GmbH and OpenStreetMap Contributors (https://www.openstreetmap.org/copyright), © GeoBasis-DE / BKG 2016 Daten verändert",
         "copyright": "© FfE"},
     "contributors": [
         {"name": "Claudia Konetschny", "email": "CKonetschny@ffe.de", "date": "2018-05-01", "comment": "Upload data and metadata"},
