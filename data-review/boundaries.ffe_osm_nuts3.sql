@@ -41,11 +41,11 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         "resolution": "none"},
     "sources": [
         {"name": "Geofabrik - Download OpenStreetMap Data Extracts (Europe)", 
-            "description": "Web page for downloading OpenStreetMap Data", 
+            "description": "Web page for downloading OpenStreetMap Data - 2017-12-14 und 2018-02-28 ", 
             "url": "https://download.geofabrik.de/europe.html", 
             "license": "Open Data Commons Open Database License 1.0 (ODbL-1.0)", 
             "copyright": "© 2016 Geofabrik GmbH and OpenStreetMap Contributors"},
-        {"name": "Bundesamt für Kartographie und Geodäsie - Verwaltungsgebiete 1:250.000 - Stand 01.01.2016", 
+        {"name": "Bundesamt für Kartographie und Geodäsie - Verwaltungsgebiete 1:250.000 - Stand 31.12.2013", 
             "description": "Der Datenbestand umfasst sämtliche Verwaltungseinheiten aller hierarchischen Verwaltungsebenen vom Staat bis zu den Gemeinden mit ihren Verwaltungsgrenzen, statistischen Schlüsselzahlen und dem Namen der Verwaltungseinheit sowie der spezifischen Bezeichnung der Verwaltungsebene des jeweiligen Bundeslandes. Die Geometrie der Grenzen ist hinsichtlich Genauigkeit und Auflösung auf das DLM250 ausgerichtet.", 
             "url": "http://www.geodatenzentrum.de/geodaten/gdz_rahmen.gdz_div?gdz_spr=deu&gdz_akt_zeile=5&gdz_anz_zeile=1&gdz_unt_zeile=13&gdz_user_id=0", 
             "license": "Geodatenzugangsgesetz (GeoZG), GeoNutzV: Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes vom 19. März 2013 (Bundesgesetzblatt Jahrgang 2013 Teil I Nr. 14)", 
@@ -63,7 +63,8 @@ COMMENT ON TABLE boundaries.ffe_osm_nut3 IS '{
         {"name": "Tobias Schmid", "email": "TSchmid@ffe.de", "date": "2018-04-27", "comment": "none"},
         {"name": "Fabian Jetter", "email": "FJetter@ffe.de", "date": "2018-04-27", "comment": "none"},
         {"name": "Ludee", "email": "none", "date": "2018-04-30", "comment": "Review and correct metadata"},
-        {"name": "Ludee", "email": "none", "date": "2018-05-08", "comment": "Review and correct table structure"} ],
+        {"name": "Ludee", "email": "none", "date": "2018-05-08", "comment": "Review and correct table structure"},
+        {"name": "Ludee", "email": "none", "date": "2018-05-08", "comment": "Update data versions"} ],
     "resources": [
         {"name": "boundaries.ffe_osm_nut3",
         "format": "PostgreSQL",
