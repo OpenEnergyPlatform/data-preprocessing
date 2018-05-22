@@ -13,15 +13,13 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 __copyright__ = "© Reiner Lemoine Institut"
 __license__ = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __license_url__ = "https://www.gnu.org/licenses/agpl-3.0.en.html"
-__author__ = "Jonas Huber"
+__author__ = "jh-RLI"
 __version__ = "v0.1.3"
 
 
 from sqlalchemy import *
-from shapely.wkb import loads, dumps
-#from osgeo import ogr
+
 import shapefile
-import os, subprocess
 import dateutil.parser as dparser
 from db_io import *
 from db_logger import *
@@ -29,6 +27,7 @@ from db_logger import *
 
 
 con = db_session()
+metadata = MetaData()
 
 """ Daten aus der Datenbank
 
@@ -70,7 +69,7 @@ print(row.keys())
 
 log = LogClass()
 
-# create download folder
+# set download folder
 download_folder = r'C:\eGoPP\vg250'
 testpfad = r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\vg250_2016-01-01.gk3.shape.ebenen\vg250_ebenen\VG250_GEM'
 
@@ -86,7 +85,8 @@ testpfad = r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\vg250_2016-01-01.g
 
 
 def load_file():
-    """ Data
+    """ Load shapefiles to python and read shapefile.
+        Optional: Make downloadfolder dynamic
 
         Parameters
         --------
@@ -132,21 +132,57 @@ def load_file():
                 # first feature of the shapefile
                 feature = shape.shapeRecords()[0]
                 first = feature.shape.__geo_interface__
-                shape_save.append(first)
+
                 #print(shape_save)
                 #print(first)
+                from shapely.geometry import shape
+                shp_geom = shape(first)
+                #print(shp_geom)
+                shape_save.append(shp_geom.wkt)
+                #print(shp_geom)
+                #print(type(shp_geom))
 
     #log.logger().info("Shapefile list: '{}'".format(shapefile_list))
-    print(shape_save)
+
+    test_import = Table('', metadata,
+                           Column('id', Integer, primary_key=True),
+                           Column('value', String(100), nullable=False),
+                           schema='remote_banks'
+                           )
+
+    print("Start: " + str(shape_save))
     print("Loaded shapefile features: " + str(len(shape_save)))
 
-    #thisfile = download_folder + "VG250_GEM"
-    #print(thisfile)
+    for s in metadata.schema:
+        print(s)
+
+    """
+        for x in shape_save:
+        # now use the shape function of Shapely
+        from shapely.geometry import shape
+        shp_geom = shape(shape_save[len(x)])
+        print(shp_geom)
+        print(type(shp_geom))
+    
+    """
 
 
-    # def prase_to_sql (self):
 
-    # def import_to_pgsqldb (self):
+
+
+
+class GeoDataHandler:
+    pass
+
+
+
+def data_to_db(self):
+    """ The data collected out of the Shapefiles get´s stored into a DB
+
+            Parameters
+            --------
+
+    """
 
 
 

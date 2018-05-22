@@ -10,7 +10,7 @@ eGoPreProcessing vg250 borders
 __copyright__   = "Reiner Lemoine Institut"
 __license__     = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __url__         = "https://github.com/openego/data_processing/blob/master/LICENSE"
-__author__      = "Ludee"
+__author__      = "jh-RLI"
 
 
 import os, subprocess
@@ -67,17 +67,6 @@ log = LogClass()
 # logger
 log.logger().info('eGoPreProcessing started!')
 
-""" 
-HARDCODE
-# choose your PostgreSQL version here
-os.environ['PATH'] += r';C://Program Files/PostgreSQL/9.4\bin'
-# http://www.postgresql.org/docs/current/static/libpq-envars.html
-os.environ['PGHOST'] = 'localhost'
-os.environ['PGPORT'] = '5432'
-os.environ['PGUSER'] = 'ludwig_huelk'
-os.environ['PGPASSWORD'] = 'Ls85@12Be'
-os.environ['PGDATABASE'] = 'oedb'
-"""
 
 #Database connection default(reiners_db)
 con = db_session()
