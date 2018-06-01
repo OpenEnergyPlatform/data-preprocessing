@@ -4,7 +4,6 @@ eGoPreProcessing vg250 borders
 # create download folder
 # define files for download
 # download to folder and unzip
-# load & import shapefiles
 """
 
 __copyright__   = "Reiner Lemoine Institut"

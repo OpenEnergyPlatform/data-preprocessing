@@ -29,6 +29,7 @@ from sqlalchemy import *
 
 #db connecion
 con = db_session()
+insp = inspect(con)
 metadata = MetaData()
 
 """ Daten aus der Datenbank
@@ -83,7 +84,7 @@ class DataLoader:
             Parameters
             -------
     """
-    temp = []
+
     shapefilename = ""
     tbl_list = []
     ac = []
@@ -196,7 +197,8 @@ class DataLoader:
             shape = shapefile.Reader(path)
             fields = shape.fields[1:]
             field_names = [field[0] for field in fields]
-            print(len(field_names))
+            #test output
+            #print(len(field_names))
             self.ac.extend(field_names)
 
 
@@ -215,13 +217,12 @@ class DataLoader:
     #example code
     # create the shape in the database
     def insert_shape(self, new_record):
-        """ code from exampel
         tract_latln = new_record.record[10:]
         tract_number = new_record.record[2]
         con.execute("INSERT INTO importtest(lat, lng, tract_number) VALUES(%s, %s, %s) RETURNING id",
                     (float(tract_latln[1]), float(tract_latln[2]), tract_number))
         self.insert_points(new_record, con.fetchone()[0])
-        """
+
 
     #example code
     # insert corrisponding boundary points for a given shape relation
@@ -252,17 +253,32 @@ class DataLoader:
         print(self.tbl_list)
         print(len(self.tbl_list))
 
-
-        """
-        #create Table
+        # set Table
         test_import_tbl1 = Table('importtest', metadata,
-                                 Column('id', Integer, primary_key=True),
-                                 Column('geom', Geometry('POLYGON')),
+                                 Column('id', Integer, primary_key=True, nullable=false),
+                                 Column('geom', Geometry),
                                  schema='orig_vg250')
 
-        test_import_tbl1.drop(con)
-        test_import_tbl1.create(con)
-        """
+        #check if table exist, create base table
+        for t in metadata.sorted_tables:
+            if not t.name == 'importtest':
+                #test_import_tbl1.drop(con)
+                test_import_tbl1.create(con)
+
+
+        # Get all column names in the DB Table by key out of an dict
+        c_temp = []
+        for c in insp.get_columns('importtest','orig_vg250'):
+            c_temp.append(c["name"])
+
+        #  update/add the columns form shapefile to the table if they not exist
+        for j in self.tbl_list:
+            if j.lower() not in c_temp:
+                con.execute('ALTER TABLE %s ADD COLUMN %s Text' % ('orig_vg250.importtest', j))
+            else:
+                print("Column " + j + " already exists!")
+
+
 
     def field_matches(self, ac):
         """
