@@ -14,7 +14,7 @@ __copyright__ = "© Reiner Lemoine Institut"
 __license__ = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __license_url__ = "https://www.gnu.org/licenses/agpl-3.0.en.html"
 __author__ = "jh-RLI"
-__version__ = "v0.1.3"
+__version__ = "v0.1.0"
 
 
 from sqlalchemy import *
@@ -31,45 +31,6 @@ from sqlalchemy import *
 con = db_session()
 insp = inspect(con)
 metadata = MetaData()
-
-""" Daten aus der Datenbank
-
-class Geometry(types.TypeEngine):
-
-    def __init__(self, srid, geom_type, dims=2):
-        super(Geometry, self).__init__()
-        self.srid = srid
-        self.geom_type = geom_type
-        self.dims = dims
-
-    def get_col_spec(self):
-        return 'GEOMETRY()'
-
-    def convert_bind_param(self, value, engine):
-        if value is None:
-            return None
-        else:
-            return "SRID=%s;%s" \
-            % (self.srid, value.wkb.encode('hex'))
-
-    def convert_result_value(self, value, engine):
-        if value is None:
-            return None
-        else:
-            return loads(value.decode('hex'))
-
-
-metadata = MetaData(con)
-places = Table("berlin", metadata, Column("einwohner"))
-
-result = places.select().execute()
-
-row = result.fetchone()
-
-print(row)
-print(row.keys())
-"""
-
 log = LogClass()
 
 # set download folder
@@ -78,7 +39,7 @@ testpfad = r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\vg250_2016-01-01.g
 
 
 
-class DataLoader:
+class BaseDataLoader:
     """
 
             Parameters
@@ -173,9 +134,10 @@ class DataLoader:
         #print(sys.getsizeof(shape_save))
         #print("Start: " + str(shape_save))
         #print("Loaded shapefile features: " + str(len(shape_save)))
+        return path_save
 
         #Method call
-        self.get_shp_values(path_save)
+        #self.get_shp_values(path_save)
 
 
 
@@ -187,18 +149,16 @@ class DataLoader:
         Loads shapefile to python
         Get the values out of every ESRI .shp file (file path: path_save)
         Reads the geometry and the attributes out of the Shapefile using PyShape
-
-        Parameters
-        --------
+        -------
+        :param path_save:
         """
+
         #loops trough all shapefile in path_save and saves the column names to list
         for path in path_save:
             # get record field names to create table
             shape = shapefile.Reader(path)
             fields = shape.fields[1:]
             field_names = [field[0] for field in fields]
-            #test output
-            #print(len(field_names))
             self.ac.extend(field_names)
 
 
@@ -207,43 +167,16 @@ class DataLoader:
 
 
 
-    #example code
-    # loop through each record in shapefile
-    def process_shapes(self, shape_records):
-        for record in shape_records:
-            self.insert_shape(record)
-
-
-    #example code
-    # create the shape in the database
-    def insert_shape(self, new_record):
-        tract_latln = new_record.record[10:]
-        tract_number = new_record.record[2]
-        con.execute("INSERT INTO importtest(lat, lng, tract_number) VALUES(%s, %s, %s) RETURNING id",
-                    (float(tract_latln[1]), float(tract_latln[2]), tract_number))
-        self.insert_points(new_record, con.fetchone()[0])
-
-
-    #example code
-    # insert corrisponding boundary points for a given shape relation
-    def insert_points(self, new_record, id):
-        for point in new_record.shape.points:
-            con.execute("INSERT INTO importtest_p(lat, lng, tract_id) VALUES(%s, %s, %s)",
-                        (float(point[1]), float(point[2]), id))
-
-
-
-
     def mktbl(self, ac):
         """
-                Creates Tabel with all necessary attributes to insert the
-                data from shapefile
+            Creates Tabel with all necessary attributes to insert the
+            data from shapefile
 
-                Parameters
-                --------
-
-
+        ----------
+        :param ac:
         """
+
+
         #find all duplicates in list and saves "clean" list to list
         for j in ac:
             if j not in self.tbl_list:
@@ -280,36 +213,11 @@ class DataLoader:
 
 
 
-    def field_matches(self, ac):
-        """
-        compares existing list with the new list to get new field(table columns)
 
 
-        -------
-        """
-
-
-
-
-
-
-
-
-
-
-
-l = DataLoader()
-#l.mktbl()
-l.load_file()
-
-
-
-
+l = BaseDataLoader()
+l.get_shp_values(l.load_file())
 
 
 
 con.close()
-
-
-
-

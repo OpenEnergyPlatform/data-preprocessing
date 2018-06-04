@@ -3,9 +3,9 @@
 """
 Service functions for reeem_db
 
-This file is part of project REEEM (https://github.com/ReeemProject/reeem_db).
+This file is part of project OEDB (https://github.com/OpenEnergyPlatform).
 It's copyrighted by the contributors recorded in the version control history:
-ReeemProject/reeem_db/database_adapter/reeem_io.py
+#!!
 
 SPDX-License-Identifier: AGPL-3.0-or-later
 """
@@ -14,7 +14,7 @@ __copyright__ = "© Reiner Lemoine Institut"
 __license__ = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __license_url__ = "https://www.gnu.org/licenses/agpl-3.0.en.html"
 __author__ = "jh-RLI"
-__version__ = "v0.1.3"
+__version__ = "v0.1.0"
 
 import sys
 import os
