@@ -14,16 +14,19 @@ __copyright__ = "© Reiner Lemoine Institut"
 __license__ = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __license_url__ = "https://www.gnu.org/licenses/agpl-3.0.en.html"
 __author__ = "jh-RLI"
-__version__ = "v0.1.0"
+__version__ = "v0.0.1"
 
 
-from sqlalchemy import *
+
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 from geoalchemy2 import *
 import shapefile
 import dateutil.parser as dparser
 from db_io import *
 from db_logger import *
 from sqlalchemy import *
+#from db_store import
 
 
 
@@ -32,10 +35,28 @@ con = db_session()
 insp = inspect(con)
 metadata = MetaData()
 log = LogClass()
+Base = declarative_base()
+
 
 # set download folder
 download_folder = r'C:\eGoPP\vg250'
 testpfad = r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\vg250_2016-01-01.gk3.shape.ebenen\vg250_ebenen\VG250_GEM'
+
+
+#ORM
+'''
+class Table(Base):
+    # set Table
+    __tablename__ = 'importtest'
+    id      = Column(Integer, primary_key=True, nullable=false)
+    geom    = Column(Geometry)
+    schema  = 'orig_vg250'
+'''
+
+# create session
+Session = sessionmaker()
+Session.configure(bind=con)
+session = Session()
 
 
 
@@ -177,6 +198,7 @@ class BaseDataLoader:
         """
 
 
+
         #find all duplicates in list and saves "clean" list to list
         for j in ac:
             if j not in self.tbl_list:
@@ -186,28 +208,41 @@ class BaseDataLoader:
         print(self.tbl_list)
         print(len(self.tbl_list))
 
+
         # set Table
         test_import_tbl1 = Table('importtest', metadata,
                                  Column('id', Integer, primary_key=True, nullable=false),
                                  Column('geom', Geometry),
                                  schema='orig_vg250')
 
-        #check if table exist, create base table
-        for t in metadata.sorted_tables:
-            if not t.name == 'importtest':
-                #test_import_tbl1.drop(con)
-                test_import_tbl1.create(con)
+
+        # check if table exist, create base table | mind static schema and table name
+        if 'importtest' not in insp.get_table_names('orig_vg250'):
+            #test_import_tbl1.drop(con)
+            test_import_tbl1.create(con)
+
+            #ORM
+            #Base.metadata.create_all(bind=con)
+
+
+        #test ORM insert
+
+
 
 
         # Get all column names in the DB Table by key out of an dict
         c_temp = []
+        typ_temp = []
         for c in insp.get_columns('importtest','orig_vg250'):
-            c_temp.append(c["name"])
+            c_temp.append(c['name'])
 
-        #  update/add the columns form shapefile to the table if they not exist
+
+        # update/add the columns form shapefile to the table if they not exist
+        # Note: not able to distinguish between column names which name is the same but one or all letters are in written in cpas (Example | example = the same)
         for j in self.tbl_list:
             if j.lower() not in c_temp:
-                con.execute('ALTER TABLE %s ADD COLUMN %s Text' % ('orig_vg250.importtest', j))
+                #for typ in typ_temp:
+                con.execute('ALTER TABLE {} ADD COLUMN {} varchar'.format('orig_vg250.importtest', j))
             else:
                 print("Column " + j + " already exists!")
 
@@ -216,8 +251,9 @@ class BaseDataLoader:
 
 
 l = BaseDataLoader()
-l.get_shp_values(l.load_file())
+#l.get_shp_values(l.load_file())
 
 
 
-con.close()
+
+#con.close()

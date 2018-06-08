@@ -1,12 +1,19 @@
 """
-OEDB 
-# configure logging
+Service functions for oedb
+
+This file is part of project OEDB (https://github.com/OpenEnergyPlatform).
+It's copyrighted by the contributors recorded in the version control history:
+#!!
+
+SPDX-License-Identifier: AGPL-3.0-or-later
 """
 
-__copyright__   = "Reiner Lemoine Institut"
-__license__     = "GNU Affero General Public License Version 3 (AGPL-3.0)"
-__url__         = "https://github.com/openego/data_processing/blob/master/LICENSE"
-__author__      = "jh-RLI"
+__copyright__ = "© Reiner Lemoine Institut"
+__license__ = "GNU Affero General Public License Version 3 (AGPL-3.0)"
+__license_url__ = "https://www.gnu.org/licenses/agpl-3.0.en.html"
+__author__ = "jh-RLI"
+__version__ = "v0.0.1"
+
 
 
 import logging
