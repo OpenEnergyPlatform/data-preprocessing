@@ -24,7 +24,7 @@ import logging
 from sqlalchemy import *
 import configparser as cp
 import pandas as pd
-from db_logger import *
+#from db_logger import *
 
 # parameter
 config_file = 'db_io_config.ini'

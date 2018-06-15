@@ -17,14 +17,14 @@ __author__ = "jh-RLI"
 __version__ = "v0.0.1"
 
 
-
+import os
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from geoalchemy2 import *
 import shapefile
 import dateutil.parser as dparser
-from db_io import *
-from db_logger import *
+from db_io import db_session
+from db_logger import LogClass
 from sqlalchemy import *
 #from db_store import
 
@@ -209,7 +209,7 @@ class BaseDataLoader:
         print(len(self.tbl_list))
 
 
-        # set Table
+        # set Table (not ORM)
         test_import_tbl1 = Table('importtest', metadata,
                                  Column('id', Integer, primary_key=True, nullable=false),
                                  Column('geom', Geometry),
@@ -226,7 +226,7 @@ class BaseDataLoader:
 
 
         #test ORM insert
-
+        #ToDO: Change Tabele to ORM
 
 
 
@@ -249,8 +249,8 @@ class BaseDataLoader:
 
 
 
-
-l = BaseDataLoader()
+#ToDO: Delete all lines that exist only for testing purpose
+#l = BaseDataLoader()
 #l.get_shp_values(l.load_file())
 
 

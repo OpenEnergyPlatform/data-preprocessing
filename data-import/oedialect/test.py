@@ -4,7 +4,7 @@ from oedialect.login import OED_CREDS, DB_CREDS
 
 import oedialect
 
-OED_STRING = 'postgresql+oedialect://{creds}@localhost:8000'.format(creds=OED_CREDS)
+OED_STRING = 'postgresql+oedialect://{creds}@oe2.iks.cs.ovgu.de:5432'.format(creds=OED_CREDS)
 DB_STRING = 'postgresql://{creds}@localhost:5432'.format(creds=DB_CREDS)
 
 if __name__ == '__main__':
@@ -13,7 +13,7 @@ if __name__ == '__main__':
     metadata = MetaData(bind=engine)
 
     tname = 'oedtest'
-    sname = 'sandbox'
+    sname = 'model_draft'
 
     table = Table(tname, metadata,
                   Column('name', VARCHAR(50)),
