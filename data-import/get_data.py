@@ -17,7 +17,7 @@ __version__ = "v0.0.1"
 
 import os
 import time
-# import urllib.request
+from urllib import request
 # import sqlalchemy
 # import shutil
 import zipfile
@@ -26,13 +26,13 @@ import zipfile
 # mind file name changes
 from db_logger import LogClass
 import db_manipulate
-from db_io import cfg, config_section
+from db_io import cfg, CONFIG_SECTION
 
 # start time
 total_time = time.time()
 
 # delete eGoPP folder
-eGoPP_folder = r'/home/hendrik/Dokumente/RLI/data-preprocessing/eGoPP/'
+eGoPP_folder = r'./eGoPP/'
 # if os.path.exists(eGoPP_folder):
 #     shutil.rmtree(eGoPP_folder)
 #     time.sleep(3)
@@ -94,15 +94,15 @@ log.logger().info('username' + " on "
 
 # logger -> config file = 'db_io_config.ini' (current folder)
 log.logger().info(
-    cfg.get(config_section, 'username') + " on " +
-    cfg.get(config_section, 'database') + "@" +
-    cfg.get(config_section, 'host') + ":" +
-    cfg.get(config_section, 'port')
+    cfg.get(CONFIG_SECTION, 'username') + " on " +
+    cfg.get(CONFIG_SECTION, 'database') + "@" +
+    cfg.get(CONFIG_SECTION, 'host') + ":" +
+    cfg.get(CONFIG_SECTION, 'port')
 )
 
 
 # create download folder
-download_folder = r'C:/eGoPP/vg250/'
+download_folder = os.path.join(eGoPP_folder, 'vg250')
 if not os.path.exists(download_folder):
     os.makedirs(download_folder)
     log.logger().info("Create folder: '{}'".format(download_folder))
@@ -125,7 +125,7 @@ for year in years:
     url = download_url + '{}'.format(year) + "/" + file_name
     to_path = download_folder + file_name
     # download
-    # urllib.request.urlretrieve (url, to_path)
+    request.urlretrieve(url, to_path)
     log.logger().info("Into: " + to_path)
 
     # unzip
