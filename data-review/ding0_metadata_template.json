@@ -1,0 +1,45 @@
+{"title": "DING0 - Result data",
+"description": "DIstribution Network Generat0r - A tool to generate synthetic medium and low voltage power distribution grids based on open (or at least accessible) data.",
+"language": [ "eng", "ger" ],
+"spatial": 
+    {"location": "none",
+    "extent": "Germany",
+    "resolution": "vector"},
+"temporal": 
+    {"reference_date": "none",
+    "start": "none",
+    "end": "none",
+    "resolution": "none"},
+"sources": [
+    {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
+    {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
+    {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
+    {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
+    {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
+"license": 
+    {"id": "ODbL-1.0",
+    "name": "Open Data Commons Open Database License 1.0",
+    "version": "1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1.0/",
+    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+    "copyright": "© Reiner Lemoine Institut"},
+"contributors": [
+    {"name": "Ludee", "email": "github.com/Ludee", "date": "2018-06-18", "comment": "Create metadata"},
+    {"name": "", "email": "", "date": "", "comment": ""} ],
+"resources": [
+    {"name": "",
+    "format": "PostgreSQL",
+    "fields": [
+        {"name": "id", "description": "Unique identifier", "unit": "none"},
+        {"name": "year", "description": "Reference year", "unit": "none"},
+        {"name": "value", "description": "Example value", "unit": "none"},
+        {"name": "geom", "description": "Geometry", "unit": "none"} ] } ],
+"metadata_version": "1.3",
+"_comment": {
+    "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
+    "_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "_contains": " http://www.json.org/; http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it",
+    "_additional_information": {
+        "_dates": "Dates must follow the ISO8601 (JJJJ-MM-TT)",
+        "_units": "Use a space between Numbers and units (100 m)",
+"_none": "If not applicable use 'none'"} } }
