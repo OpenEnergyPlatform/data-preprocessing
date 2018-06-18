@@ -29,6 +29,9 @@ from configparser import ConfigParser
 CONFIG_FILENAME = 'db_io_config.ini'
 CONFIG_SECTION = 'reiners_db'
 
+DEFAULT_HOST = '192.168.10.25'
+DEFAULT_PORT = '5432'
+
 LOG_FILENAME = 'db_adapter.log'
 
 sys.tracebacklimit = 0
@@ -88,8 +91,8 @@ def db_session():
     config_file_init()
 
     database = CONFIG_SECTION
-    host = cfg[CONFIG_SECTION].get('host', '192.168.10.25')
-    port = cfg[CONFIG_SECTION].get('port', '5432')
+    host = cfg[CONFIG_SECTION].get('host', DEFAULT_HOST)
+    port = cfg[CONFIG_SECTION].get('port', DEFAULT_PORT)
 
     # user = ''
     try:
