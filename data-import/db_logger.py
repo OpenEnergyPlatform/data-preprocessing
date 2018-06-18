@@ -69,7 +69,7 @@ class LogClass:
         logger = logging.getLogger('eGoPP')
         logger.setLevel(logging.INFO)
         # file handler (fh)
-        fh = logging.FileHandler(r'C:/eGoPP/ego_pp.log')
+        fh = logging.FileHandler('ego_pp.log')
         fh.setLevel(logging.INFO)
         # console handler (ch)
         ch = logging.StreamHandler()
