@@ -15,12 +15,11 @@ __author__ = "jh-RLI"
 __version__ = "v0.0.1"
 
 
-
 import logging
-
 
 # parameter
 log_file = 'db_adapter.log'
+
 
 class LogClass:
     """Class to create a LogClass instance witch makes it easy to use the Log
@@ -33,8 +32,8 @@ class LogClass:
         -------
     """
 
-
-    def logger(self):
+    @staticmethod
+    def logger():
         """Configure logging in console and log file.
 
         Returns
@@ -86,7 +85,6 @@ class LogClass:
 
         return logger
 
-
     def stop_log_fhch(self):
         """ Terminate the file handler (fh) and console handler (ch)
 
@@ -102,29 +100,27 @@ class LogClass:
         self.logger().ch.close()
 
 
-
-def scenario_log(con, project, version, io, schema, table, script, comment):
-    """Write an entry in scenario log table.
-
-    Parameters
-    ----------
-    con : connection
-        SQLAlchemy connection object.
-    project : str
-        Project name.
-    version : str
-        Version number.
-    io : str
-        IO-type (input, output, temp).
-    schema : str
-        Database schema.
-    table : str
-        Database table.
-    script : str
-        Script name.
-    comment : str
-        Comment.
-
-    """
-    
-    
+# def scenario_log(con, project, version, io, schema, table, script, comment):
+#     """Write an entry in scenario log table.
+#
+#     Parameters
+#     ----------
+#     con : connection
+#         SQLAlchemy connection object.
+#     project : str
+#         Project name.
+#     version : str
+#         Version number.
+#     io : str
+#         IO-type (input, output, temp).
+#     schema : str
+#         Database schema.
+#     table : str
+#         Database table.
+#     script : str
+#         Script name.
+#     comment : str
+#         Comment.
+#
+#     """
+#     pass

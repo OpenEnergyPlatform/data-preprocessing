@@ -18,13 +18,13 @@ __version__ = "v0.1.0"
 
 import sys
 import os
-import time
+# import time
 import getpass
-import logging
-from sqlalchemy import *
+# import logging
+import sqlalchemy
 import configparser as cp
-import pandas as pd
-#from db_logger import *
+# import pandas as pd
+# from db_logger import *
 
 # parameter
 config_file = 'db_io_config.ini'
@@ -66,6 +66,7 @@ def logger():
 
     return rl
 """
+
 
 def config_section_set(key, value):
     """Create a config file.
@@ -164,7 +165,7 @@ def db_session():
     database = config_section
     # print('database: ' + database)
 
-    #listlog = [host, port, database]
+    # listlog = [host, port, database]
 
     # user = ''
     try:
@@ -179,14 +180,15 @@ def db_session():
     try:
         password = config_file_get('password')
     except:
-        password = getpass.getpass(prompt='Password: ',
-                                   stream=sys.stderr)
+        password = getpass.getpass(
+            stream=sys.stderr
+        )
         config_section_set(key=user, value=password)
         print('Config file created!')
 
     # engine
     try:
-        conn = create_engine(
+        conn = sqlalchemy.create_engine(
             'postgresql://' + '%s:%s@%s:%s/%s' % (user,
                                                   password,
                                                   host,
@@ -205,7 +207,6 @@ def db_session():
 
     print('Database connection established!')
     return conn
-
 
 
 """ moved to ---> db_logger
@@ -235,21 +236,17 @@ def scenario_log(con, project, version, io, schema, table, script, comment):
     """
 
 
-
 def reeem_filenamesplit(filename):
     """file name identification"""
 
-    filenamesplit = filename.replace(".xlsx", "").replace(".csv", "").split("_")
-    fns = {}
-    fns['day'] = filenamesplit[0]
-    fns['pathway'] = filenamesplit[1]
-    fns['model'] = filenamesplit[2]
-    fns['framework'] = filenamesplit[3]
-    fns['version'] = filenamesplit[4]
-    fns['io'] = filenamesplit[5]
+    filenamesplit = (
+        filename.replace(".xlsx", "").replace(".csv", "").split("_"))
+    fns = {
+        'day': filenamesplit[0],
+        'pathway': filenamesplit[1],
+        'model': filenamesplit[2],
+        'framework': filenamesplit[3],
+        'version': filenamesplit[4],
+        'io': filenamesplit[5],
+    }
     return fns
-    
-
-
-    # import pprint
-    # pprint.pprint(fns)
