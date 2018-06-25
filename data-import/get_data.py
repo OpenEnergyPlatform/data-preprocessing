@@ -15,24 +15,24 @@ __author__ = "jh-RLI"
 __version__ = "v0.0.1"
 
 
-import os, subprocess
+import os
 import time
-import urllib.request
-import sqlalchemy
-import shutil
+from urllib import request
+# import sqlalchemy
+# import shutil
 import zipfile
-import dateutil.parser as dparser
+# import dateutil.parser as dparser
 
-#mind file name changes
-from db_io import *
-from db_logger import *
-from db_manipulate import *
+# mind file name changes
+from db_logger import LogClass
+import db_manipulate
+from db_io import cfg, CONFIG_SECTION
 
 # start time
 total_time = time.time()
 
 # delete eGoPP folder
-eGoPP_folder = r'C:/eGoPP/'
+eGoPP_folder = r'./eGoPP/'
 # if os.path.exists(eGoPP_folder):
 #     shutil.rmtree(eGoPP_folder)
 #     time.sleep(3)
@@ -63,16 +63,16 @@ log.addHandler(ch)
 """
 
 log = LogClass()
-#log = log.getlog('eGoPP')
+# log = log.getlog('eGoPP')
 
 
 # logger
 log.logger().info('eGoPreProcessing started!')
 
 
-#Database connection default(reiners_db)
-con = db_session()
-#con.close() <--- call at file end
+# Database connection default(reiners_db)
+con = db_manipulate.db_session()
+# con.close() <--- call at file end
 
 
 """
@@ -93,21 +93,24 @@ log.logger().info('username' + " on "
 """
 
 # logger -> config file = 'db_io_config.ini' (current folder)
-log.logger().info(cfg.get(config_section, 'username') + " on "
-    + cfg.get(config_section, 'database') + "@"
-    + (cfg.get(config_section, 'host') + ":"
-    + (cfg.get(config_section, 'port'))))
+log.logger().info(
+    cfg.get(CONFIG_SECTION, 'username') + " on " +
+    cfg.get(CONFIG_SECTION, 'database') + "@" +
+    cfg.get(CONFIG_SECTION, 'host') + ":" +
+    cfg.get(CONFIG_SECTION, 'port')
+)
 
 
 # create download folder
-download_folder = r'C:/eGoPP/vg250/'
+download_folder = os.path.join(eGoPP_folder, 'vg250')
 if not os.path.exists(download_folder):
     os.makedirs(download_folder)
     log.logger().info("Create folder: '{}'".format(download_folder))
 
 
 # define files for download
-download_url = 'http://www.geodatenzentrum.de/auftrag1/archiv/vektor/vg250_ebenen/'
+download_url = (
+    'http://www.geodatenzentrum.de/auftrag1/archiv/vektor/vg250_ebenen/')
 download_file_start = 'vg250_'
 download_file_end = '-01-01.gk3.shape.ebenen.zip'
 years = range(2016, 2018)
@@ -121,13 +124,13 @@ for year in years:
     log.logger().info("Download: " + file_name)
     url = download_url + '{}'.format(year) + "/" + file_name
     to_path = download_folder + file_name
-    #download
-    #urllib.request.urlretrieve (url, to_path)
+    # download
+    request.urlretrieve(url, to_path)
     log.logger().info("Into: " + to_path)
 
     # unzip
-    zip = zipfile.ZipFile(to_path)
-    zip.extractall(download_folder + file_name[:-4])
+    zipped_file = zipfile.ZipFile(to_path)
+    zipped_file.extractall(download_folder + file_name[:-4])
     log.logger().info("Unzip: " + file_name)
 
 
@@ -154,7 +157,12 @@ for dirpaths, dirnames, files in full_dir:
             remove1 = [':','/','\\','_','.']
             for char in remove1:
                 s = s.replace(char," ")
-            remove2 = ['C','vg250','g250','ebenen','gk3','eGoPP','shape','historisch','de0001','de0101','de0201','de0301','de0401','de0501','de0601','de0701','de0801','de0901','de1001','de1101',' ','mv','kreisreform',' ']
+            remove2 = [
+                'C','vg250','g250','ebenen','gk3','eGoPP','shape','historisch',
+                'de0001','de0101','de0201','de0301','de0401','de0501','de0601',
+                'de0701','de0801','de0901','de1001','de1101',' ','mv',
+                'kreisreform',' '
+            ]
             for char in remove2:
                 s = s.replace(char,"")
             clean_str = s[:-10]
@@ -162,7 +170,8 @@ for dirpaths, dirnames, files in full_dir:
             date_str = dparser.parse(clean_str,fuzzy=True).date()
 
             # table
-            table_name = os.path.join(file_)[:-4] + "_" + date_str.strftime('%Y-%m-%d')
+            table_name = (
+                os.path.join(file_)[:-4] + "_" + date_str.strftime('%Y-%m-%d'))
             log.logger().info("Table name: " + table_name)
             entry = []
             entry.append(shapefile_path)
@@ -173,20 +182,25 @@ log.logger().info("Shapefile list: '{}'".format(shapefile_list))
 """
 
 
-
 """ Upload to database using shp2pgsql
 # execute
 for shape_path, table_name in shapefile_list:
-    cmd = 'shp2pgsql "' + shape_path + '" boundaries.' + table_name + ' | psql > NUL'
+    cmd = (
+        'shp2pgsql "' + shape_path + '" boundaries.' + table_name + 
+        ' | psql > NUL'
+    )
     log.logger().info("Execute: " + cmd)
     subprocess.check_call(cmd, shell=True)
 
-log.logger().info("Imported tables: '{}'".format([i[1] for i in shapefile_list]))
+log.logger().info(
+    "Imported tables: '{}'".format([i[1] for i in shapefile_list]))
 """
 
 # logger time
-log.logger().info('eGoPreProcessing successfully executed in {:.2f} seconds!'.format(
-        time.time() - total_time))
+log.logger().info(
+    'eGoPreProcessing successfully executed in {:.2f} seconds!'.format(
+        time.time() - total_time)
+)
 
 
 # stop logger
@@ -199,5 +213,5 @@ fh.close()
 ch.close()
 """
 
-#close DB connection/ Drop prostgresql obj.
+# close DB connection/ Drop prostgresql obj.
 con.close()

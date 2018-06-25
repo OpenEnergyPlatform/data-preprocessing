@@ -18,36 +18,43 @@ __version__ = "v0.0.1"
 
 
 import os
+import re
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from geoalchemy2 import *
+from geoalchemy2 import Geometry
 import shapefile
-import dateutil.parser as dparser
 from db_io import db_session
 from db_logger import LogClass
-from sqlalchemy import *
-#from db_store import
+import sqlalchemy
+from sqlalchemy import Table, Column, Integer
+# from db_store import
 
 
-
-#db connecion
+# db connecion
 con = db_session()
-insp = inspect(con)
-metadata = MetaData()
+insp = sqlalchemy.inspect(con)
+metadata = sqlalchemy.MetaData()
 log = LogClass()
 Base = declarative_base()
 
 
+DEFAULT_SCHEMA = 'orig_vg250'
+DEFAULT_TABLE = 'importtest'
+
+
 # set download folder
 download_folder = r'C:\eGoPP\vg250'
-testpfad = r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\vg250_2016-01-01.gk3.shape.ebenen\vg250_ebenen\VG250_GEM'
+testpfad = (
+    r'C:\eGoPP\vg250\vg250_2016-01-01.gk3.shape.ebenen\
+    vg250_2016-01-01.gk3.shape.ebenen\vg250_ebenen\VG250_GEM'
+)
 
 
-#ORM
+# ORM
 '''
 class Table(Base):
     # set Table
-    __tablename__ = 'importtest'
+    __tablename__ = DEFAULT_TABLE
     id      = Column(Integer, primary_key=True, nullable=false)
     geom    = Column(Geometry)
     schema  = 'orig_vg250'
@@ -59,7 +66,6 @@ Session.configure(bind=con)
 session = Session()
 
 
-
 class BaseDataLoader:
     """
 
@@ -68,15 +74,13 @@ class BaseDataLoader:
     """
 
     shapefilename = ""
-    tbl_list = []
-    ac = []
+    columns = set()
 
-
-
-
-    def load_file(self):
+    @staticmethod
+    def load_file():
         """
-        Get all .shp files out of a download, creats a list of the path of the shapefiles
+        Get all .shp files out of a download, creats a list of the path of the
+        shapefiles
         Optional: Make downloadfolder dynamic
 
         Parameters
@@ -88,7 +92,7 @@ class BaseDataLoader:
         full_dir = os.walk(download_folder)
         shapefile_list = []
         path_save = []
-        for dirpaths, dirnames, files in full_dir:
+        for dirpaths, _, files in full_dir:
             for file_ in files:
                 if file_[-3:] == 'shp':
 
@@ -97,26 +101,20 @@ class BaseDataLoader:
                     # log.logger().info("Shapefile path: " + shapefile_path)
 
                     # extract date from string
-                    s = dirpaths.replace('\\', " ").replace('\v', ' ')
-                    # print(s)
-                    remove1 = [':', '/', '\\', '_', '.']
-                    for char in remove1:
-                        s = s.replace(char, " ")
-                    remove2 = ['C', 'vg250', 'g250', 'ebenen', 'gk3', 'eGoPP', 'shape', 'historisch', 'de0001',
-                               'de0101', 'de0201', 'de0301', 'de0401', 'de0501', 'de0601', 'de0701', 'de0801', 'de0901',
-                               'de1001', 'de1101', ' ', 'mv', 'kreisreform', ' ']
-                    for char in remove2:
-                        s = s.replace(char, "")
-                    clean_str = s[:-10]
-                    # print(clean_str)
-                    date_str = dparser.parse(clean_str, fuzzy=True).date()
+                    parent_folder = os.path.basename(os.path.abspath(
+                        os.path.join(dirpaths, os.pardir)))
+                    regex_pattern = re.compile('_[0-9-]*.gk3')
+                    match = regex_pattern.search(parent_folder)[0]
+                    date_str = match[1:-4]
+
                     # table
-                    table_name = os.path.join(file_)[:-4] + "_" + date_str.strftime('%Y-%m-%d')
+                    table_name = (
+                            os.path.join(file_)[:-4] + "_" +
+                            date_str
+                    )
                     # log.logger().info("Table name: " + table_name)
                     path_save.append(shapefile_path)
-                    entry = []
-                    entry.append(shapefile_path)
-                    entry.append(table_name)
+                    entry = [shapefile_path, table_name]
                     shapefile_list.append(entry)
 
                     """ Testing
@@ -150,110 +148,83 @@ class BaseDataLoader:
                     print(type(shp_geom))
                     """
 
-
-        #log.logger().info("Shapefile list: '{}'".format(shapefile_list))
-        #print(sys.getsizeof(shape_save))
-        #print("Start: " + str(shape_save))
-        #print("Loaded shapefile features: " + str(len(shape_save)))
+        # log.logger().info("Shapefile list: '{}'".format(shapefile_list))
+        # print(sys.getsizeof(shape_save))
+        # print("Start: " + str(shape_save))
+        # print("Loaded shapefile features: " + str(len(shape_save)))
         return path_save
 
-        #Method call
-        #self.get_shp_values(path_save)
+        # Method call
+        # self.get_shp_values(path_save)
 
-
-
-
-
-
-    def get_shp_values (self, path_save):
+    def get_shp_values(self, path_save):
         """
         Loads shapefile to python
         Get the values out of every ESRI .shp file (file path: path_save)
-        Reads the geometry and the attributes out of the Shapefile using PyShape
+        Reads the geometry and the attributes out of the Shapefile using
+        PyShape
         -------
         :param path_save:
         """
 
-        #loops trough all shapefile in path_save and saves the column names to list
+        # loops trough all shapefile in path_save and saves the column names to
+        # list
         for path in path_save:
+            pathname = path[:-4]
             # get record field names to create table
-            shape = shapefile.Reader(path)
+            with open(pathname + '.shp', 'rb') as shp_file:
+                with open(pathname + '.dbf', 'rb') as dbf_file:
+                    shape = shapefile.Reader(shp=shp_file, dbf=dbf_file)
             fields = shape.fields[1:]
-            field_names = [field[0] for field in fields]
-            self.ac.extend(field_names)
-
+            field_names = {field[0] for field in fields}
+            self.columns.update(field_names)
 
         # Method call with all column names in the current shapefile
-        self.mktbl(self.ac)
+        self.mktbl()
 
-
-
-    def mktbl(self, ac):
+    def mktbl(self):
         """
-            Creates Tabel with all necessary attributes to insert the
+            Creates Table with all necessary attributes to insert the
             data from shapefile
-
-        ----------
-        :param ac:
         """
-
-
-
-        #find all duplicates in list and saves "clean" list to list
-        for j in ac:
-            if j not in self.tbl_list:
-                self.tbl_list.append(j)
-
-
-        print(self.tbl_list)
-        print(len(self.tbl_list))
-
 
         # set Table (not ORM)
-        test_import_tbl1 = Table('importtest', metadata,
-                                 Column('id', Integer, primary_key=True, nullable=false),
-                                 Column('geom', Geometry),
-                                 schema='orig_vg250')
+        test_import_tbl1 = Table(
+            DEFAULT_TABLE,
+            metadata,
+            Column('id', Integer, primary_key=True, nullable=False),
+            Column('geom', Geometry),
+            schema=DEFAULT_SCHEMA
+        )
 
-
-        # check if table exist, create base table | mind static schema and table name
-        if 'importtest' not in insp.get_table_names('orig_vg250'):
-            #test_import_tbl1.drop(con)
+        # check if table exist, create base table | mind static schema and
+        # table name
+        if DEFAULT_TABLE not in insp.get_table_names(DEFAULT_SCHEMA):
+            # test_import_tbl1.drop(con)
             test_import_tbl1.create(con)
 
-            #ORM
-            #Base.metadata.create_all(bind=con)
+            # ORM
+            # Base.metadata.create_all(bind=con)
 
-
-        #test ORM insert
-        #ToDO: Change Tabele to ORM
-
-
+        # test ORM insert
+        # TODO: Change Tabele to ORM
 
         # Get all column names in the DB Table by key out of an dict
-        c_temp = []
-        typ_temp = []
-        for c in insp.get_columns('importtest','orig_vg250'):
-            c_temp.append(c['name'])
-
+        c_temp = [
+            c['name']
+            for c in insp.get_columns(DEFAULT_TABLE, DEFAULT_SCHEMA)
+        ]
 
         # update/add the columns form shapefile to the table if they not exist
-        # Note: not able to distinguish between column names which name is the same but one or all letters are in written in cpas (Example | example = the same)
-        for j in self.tbl_list:
-            if j.lower() not in c_temp:
-                #for typ in typ_temp:
-                con.execute('ALTER TABLE {} ADD COLUMN {} varchar'.format('orig_vg250.importtest', j))
+        # Note: not able to distinguish between column names which name is the
+        # same but one or all letters are in written in cpas
+        # (Example | example = the same)
+        for column in self.columns:
+            if column.lower() not in c_temp:
+                # for typ in typ_temp:
+                con.execute(
+                    f'ALTER TABLE {DEFAULT_SCHEMA}.{DEFAULT_TABLE} '
+                    f'ADD COLUMN {column} varchar'
+                )
             else:
-                print("Column " + j + " already exists!")
-
-
-
-
-#ToDO: Delete all lines that exist only for testing purpose
-#l = BaseDataLoader()
-#l.get_shp_values(l.load_file())
-
-
-
-
-#con.close()
+                print("Column " + column + " already exists!")

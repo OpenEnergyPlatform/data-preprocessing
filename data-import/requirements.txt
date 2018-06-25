@@ -1,0 +1,5 @@
+sqlalchemy
+geoalchemy2
+pyshp
+python-dateutil
+psycopg2
