@@ -24,8 +24,8 @@ import zipfile
 # import dateutil.parser as dparser
 
 # mind file name changes
-from .db_logger import LogClass
-from .db_io import cfg, CONFIG_SECTION, db_session
+from db_logger import LogClass
+from db_io import cfg, CONFIG_SECTION, db_session
 
 # start time
 total_time = time.time()
