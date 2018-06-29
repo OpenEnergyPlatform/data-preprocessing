@@ -23,8 +23,8 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from geoalchemy2 import Geometry
 import shapefile
-from db_io import db_session
-from db_logger import LogClass
+from .db_io import db_session
+from .db_logger import LogClass
 import sqlalchemy
 from sqlalchemy import Table, Column, Integer
 # from db_store import

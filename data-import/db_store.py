@@ -17,13 +17,13 @@ __author__ = "jh-RLI"
 __version__ = "v0.0.1"
 
 
-from db_manipulate import BaseDataLoader
+from .db_manipulate import BaseDataLoader
 from sqlalchemy import inspect, select
 from shapely.geometry import shape
 from geoalchemy2.shape import from_shape
 from geoalchemy2.elements import WKBElement
 import shapefile
-from db_io import db_session
+from .db_io import db_session
 
 #ToDo: Implement logging
 #from db_logger import *
