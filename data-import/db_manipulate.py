@@ -65,6 +65,7 @@ Session = sessionmaker()
 Session.configure(bind=con)
 session = Session()
 
+field_types = {'N': 'INTEGER', 'C': 'TEXT', 'F': 'FLOAT', 'L': 'BOOLEAN', 'D': 'DATE', 'M': 'TEXT'}
 
 class BaseDataLoader:
     """
@@ -166,6 +167,7 @@ class BaseDataLoader:
         -------
         :param path_save:
         """
+        temp_f_type = set()
 
         # loops trough all shapefile in path_save and saves the column names to
         # list
@@ -178,9 +180,20 @@ class BaseDataLoader:
             fields = shape.fields[1:]
             field_names = {field[0] for field in fields}
             self.columns.update(field_names)
+            f_types = shape.fields
 
         # Method call with all column names in the current shapefile
         self.mktbl()
+
+        # ToDO: needs to be implemented / waiting for answer (pyshp github Issue #143)
+        def record_type_todb(self, inputdict):
+            """
+            Parameters
+            ----------
+            :param inputdict:
+            :return:
+            """
+            pass
 
     def mktbl(self):
         """

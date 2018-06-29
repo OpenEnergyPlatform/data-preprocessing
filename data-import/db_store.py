@@ -140,15 +140,7 @@ class StoreData:
 
 
 
-    #ToDO: needs to be implemented / waiting for answer (pyshp github Issue #143)
-    def record_type_todb (self, inputdict):
-        """
-        Parameters
-        ----------
-        :param inputdict:
-        :return:
-        """
-        pass
+
 
 
 #creats table
