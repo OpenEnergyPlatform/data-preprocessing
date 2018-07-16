@@ -77,9 +77,6 @@ class StoreData:
                 self.insert_shp_geom(geoshp)
             '''
 
-
-
-
     def insert_shp_records(self, r, field_names, geoshp):
         """
         Parameters

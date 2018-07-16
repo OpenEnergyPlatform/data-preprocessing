@@ -181,7 +181,9 @@ class BaseDataLoader:
             field_names = {field[0] for field in fields}
             self.columns.update(field_names)
             f_types = shape.fields
+            print("hi: ")
 
+            print(f_types)
         # Method call with all column names in the current shapefile
         self.mktbl()
 
