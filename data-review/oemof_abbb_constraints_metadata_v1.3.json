@@ -1,44 +1,102 @@
-{"title": "",
-"description": "",
-"language": [ "eng", "ger" ],
-"spatial": 
-    {"location": "",
-    "extent": "",
-    "resolution": ""},
-"temporal": 
-    {"reference_date": "",
-    "start": "",
-    "end": "",
-    "resolution": ""},
-"sources": [
-    {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
-    {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
-"license": 
-    {"id": "",
-    "name": "",
-    "version": "",
-    "url": "",
-    "instruction": "",
-    "copyright": ""},
-"contributors": [
-    {"name": "", "email": "", "date": "", "comment": ""},
-    {"name": "", "email": "", "date": "", "comment": ""} ],
-"resources": [
-    {"name": "",
-    "format": "example.shp",
-    "fields": [
-        {"name": "id", "description": "Unique identifier", "unit": ""},
-        {"name": "year", "description": "Reference year", "unit": ""},
-        {"name": "value", "description": "Example value", "unit": ""},
-        {"name": "geom", "description": "Geometry", "unit": ""} ] } ],
-"metadata_version": "1.3",
-"_comment": {
+{
+  "title": "constraints for simulation related to the Oemof Application Berlin Brandenburg",
+  "description": "A collection of simulation parameters, focus on technologies",
+  "language": [
+    "eng" , "ger"
+  ],
+  "spatial": {
+    "location": "none",
+    "extent": "none",
+    "resolution": "none"
+  },
+  "temporal": {
+    "reference_date": "none",
+    "start": "none",
+    "end": "none",
+    "resolution": "none"
+  },
+  "sources": [
+    {
+      "name": "Dokumentation_AppBBB",
+      "description": "Oemof Application Berlin Brandenburg documentation",
+      "url": "https://github.com/rl-institut/appBBB/blob/master/Dokumentation_AppBBB.pdf",
+      "license": "GNU General Public License v3.0",
+      "copyright": "© Reiner Lemoine Institut"
+    },
+    {
+      "name": "Oemof Application Berlin Brandenburg documentation",
+      "description": "",
+      "url": "https://github.com/rl-institut/appBBB/blob/master/Dokumentation_AppBBB.pdf",
+      "license": "GNU General Public License v3.0",
+      "copyright": "© Reiner Lemoine Institut"
+    }
+  ],
+  "license":
+  {"id": "ODbL-1.0",
+	"name": "Open Data Commons Open Database License 1.0",
+	"version": "1",
+	"url": "https://opendatacommons.org/licenses/odbl/1.0/",
+	"instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+	"copyright": "© Reiner Lemoine Institut"},
+  "contributors": [
+    {
+      "name": "Elisa Gaudchau",
+      "email": "elisa.gaudchau@rl-institut.de",
+      "date": "2016-10-18",
+      "comment": "Created table, added description"
+    },
+    {
+      "name": "Kilian Zimmerer",
+      "email": "",
+      "date": "2017-10-17",
+      "comment": "Update metadata to v1.3"
+    },
+    {
+      "name": "Jonas Huber",
+      "email": "Jonas.Huber@rl-institut.de",
+      "date": "2018-09-18",
+      "comment": "OEP Data Review"
+    }
+  ],
+  "resources": [
+    {
+      "name": "scenario.abbb_constraints",
+      "format": "PostgreSQL",
+      "fields": [
+        {
+          "name": "id",
+          "description": "Unique identifier",
+          "unit": "none"
+        },
+        {
+          "name": "scenario",
+          "description": "Scenario name",
+          "unit": "none"
+        },
+        {
+          "name": "constr",
+          "description": "constraint",
+          "unit": "none"
+        },
+        {
+          "name": "val",
+          "description": "value for constraint",
+          "unit": "different"
+        }
+      ]
+    }
+  ],
+  "metadata_version": "1.3",
+  "_comment": {
     "_url": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
     "_copyright": "© Reiner Lemoine Institut",
     "_metadata_license": "Creative Commons Zero v1.0 Universal (CC0-1.0)",
     "_metadata_license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "_contains": " http://www.json.org/; http://stackoverflow.com/questions/383692/what-is-json-and-why-would-i-use-it",
     "_additional_information": {
-        "_dates": "Dates must follow the ISO8601 (JJJJ-MM-TT)",
-        "_units": "Use a space between Numbers and units (100 m)",
-        "_none": "If not applicable use 'none'"} } }
+      "_dates": "Dates must follow the ISO8601 (JJJJ-MM-TT)",
+      "_units": "Use a space between Numbers and units (100 m)",
+      "_none": "If not applicable use 'none'"
+    }
+  }
+}

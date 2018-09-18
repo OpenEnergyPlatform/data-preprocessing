@@ -1,11 +1,11 @@
 {"title": "",
 "description": "",
 "language": [ "eng", "ger" ],
-"spatial": 
+"spatial":
     {"location": "",
     "extent": "",
     "resolution": ""},
-"temporal": 
+"temporal":
     {"reference_date": "",
     "start": "",
     "end": "",
@@ -13,7 +13,7 @@
 "sources": [
     {"name": "", "description": "", "url": "", "license": "", "copyright": ""},
     {"name": "", "description": "", "url": "", "license": "", "copyright": ""} ],
-"license": 
+"license":
     {"id": "",
     "name": "",
     "version": "",
@@ -25,7 +25,7 @@
     {"name": "", "email": "", "date": "", "comment": ""} ],
 "resources": [
     {"name": "",
-    "format": "example.shp",
+    "format": "",
     "fields": [
         {"name": "id", "description": "Unique identifier", "unit": ""},
         {"name": "year", "description": "Reference year", "unit": ""},
