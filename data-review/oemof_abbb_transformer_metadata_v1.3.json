@@ -1,16 +1,16 @@
 {
     "title": "Transformer power",
     "description": "Transformer parameters",
-    "language": [ ""  ],
+    "language": [ "ger" ],
     "spatial": {
         "location": "",
-        "extend": "",
+        "extent": "",
         "resolution": ""},
     "temporal": {
-        "reference_date": "",
-        "start": "",
-        "end": "",
-        "resolution": ""},
+        "reference_date": "2016-09-08",
+        "start": "none",
+        "end": "none",
+        "resolution": "none"},
     "sources": [
             {"name": "",
             "description": "",
@@ -18,11 +18,11 @@
             "license": "",
             "copyright": ""}],
     "license": {
-        "id": "",
-        "name": "",
-        "version": "",
-        "url": "",
-        "instruction": "",
+        "id": "ODbL-1.0",
+        "name": "Open Database License (ODbL) v1.0",
+        "version": "1.0",
+        "url": "http://www.opendefinition.org/licenses/odc-odbl",
+        "instruction": "You are free to share, to create and to adapt as long as you attribute, share-alike and keep open. Copyright 2016 Reiner Lemoine Institut",
         "copyright": ""},
     "contributors": [
             {"name": "Ludwig H\\u00fclk",
@@ -32,7 +32,11 @@
             {"name": "Kilian Zimmerer",
             "email": "",
             "date": "2017-10-17",
-            "comment": "Update metadata to v1.3"}],
+            "comment": "Update metadata to v1.3"},
+            {"name": "Christian Hofmann",
+            "email": "christian.hofmann@rl-insitut.de",
+            "date": "2018-09-08",
+            "comment": "Update metadata (v1.3)"}],
     "resources": [
             {"name": "scenario.abbb_transformer",
             "format": "PostgreSQL",
