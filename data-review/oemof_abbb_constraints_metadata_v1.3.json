@@ -1,13 +1,13 @@
 {
-  "title": "constraints for simulation related to the Oemof Application Berlin Brandenburg",
-  "description": "A collection of simulation parameters, focus on technologies for the scenarios ES2030, gruene2030, gruene2030_bk0 and gruene2025 ",
+  "title": "constraints for simulation",
+  "description": "A collection of simulation parameters, focus on technologies for the scenarios ES2030, gruene2030, gruene2030_bk0 and gruene2025",
   "language": [
     "eng" , "ger"
   ],
   "spatial": {
     "location": "none",
-    "extent": "none",
-    "resolution": "none"
+    "extent": "Brandenburg and Berlin",
+    "resolution": "Regionale Planungsgemeinschaften und Berlin"
   },
   "temporal": {
     "reference_date": "none",
