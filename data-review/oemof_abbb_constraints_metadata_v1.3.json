@@ -17,15 +17,15 @@
   },
   "sources": [
     {
-      "name": "Dokumentation_AppBBB",
-      "description": "Oemof Application Berlin Brandenburg documentation",
-      "url": "https://github.com/rl-institut/appBBB/blob/master/Dokumentation_AppBBB.pdf",
+      "name": "appBBB",
+      "description": "An oemof application to model the heat and power systems of Brandenburg and Berlin",
+      "url": "https://github.com/rl-institut/appBBB",
       "license": "GNU General Public License v3.0",
       "copyright": "© Reiner Lemoine Institut"
     },
     {
-      "name": "Oemof Application Berlin Brandenburg documentation",
-      "description": "",
+      "name": "Dokumentation_AppBBB",
+      "description": "Oemof Application Berlin Brandenburg documentation",
       "url": "https://github.com/rl-institut/appBBB/blob/master/Dokumentation_AppBBB.pdf",
       "license": "GNU General Public License v3.0",
       "copyright": "© Reiner Lemoine Institut"
