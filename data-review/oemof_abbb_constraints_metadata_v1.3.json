@@ -1,6 +1,6 @@
 {
   "title": "constraints for simulation related to the Oemof Application Berlin Brandenburg",
-  "description": "A collection of simulation parameters, focus on technologies",
+  "description": "A collection of simulation parameters, focus on technologies for the scenarios ES2030, gruene2030, gruene2030_bk0 and gruene2025 ",
   "language": [
     "eng" , "ger"
   ],
