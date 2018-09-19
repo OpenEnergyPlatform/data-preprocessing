@@ -49,7 +49,7 @@ DING0_TABLES = {'versioning': 'ding0_versioning',
 
 # metadatastring file folder. #ToDO: Test if Path works on other os (Tested on Windows7)
 # Modify if folder name is different
-FOLDER = Path('C:/ego_grid_ding0_metadatastrings')
+FOLDER = Path('\oemof_abbb_metadata\data-review')
 
 
 def load_json_files():
