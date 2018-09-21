@@ -71,7 +71,7 @@
             {"name": "Christian Hofmann",
             "email": "christian.hofmann@rl-institut.de",
             "date": "2018-09-18",
-            "comment": "update metadata (v1.3); fixed urls"}
+            "comment": "update metadata (v1.3); fixed comment"}
             ],
     "resources": [
             {"name": "scenario.abbb_demand",
@@ -105,4 +105,4 @@
     "_additional_information": {
         "_dates": "Dates must follow the ISO8601 (JJJJ-MM-TT)",
         "_units": "Use a space between Numbers and units (100 m)",
-    "_none": "If not applicable use 'none'"} } }
+      "_none": "If not applicable use value _none_"} } }
