@@ -19,8 +19,8 @@ oemof_abbb__regions_metadata_v1.3.json
     
 
 oemof_abbb_simulation_parameter__metadata_v1.3.json
-    - units for co2_var, co2_fix, eta_elec, eta_th, eta_el_chp, eta_th_chp, eta_chp_flex_el, sigma_chp, beta_chp, opex_var, opex_fix, capex, c_rate_in, c_rate_out, eta_in, eta_out, cap_loss, lifetime, wacc
-    - units are missing in original table as well
+    - units and description for co2_var, co2_fix, eta_elec, eta_th, eta_el_chp, eta_th_chp, eta_chp_flex_el, sigma_chp, beta_chp, opex_var, opex_fix, capex, c_rate_in, c_rate_out, eta_in, eta_out, cap_loss, lifetime, wacc
+    - units and description are missing in original table as well
 
 
 oemof_abbb_transformer_metadata_v1.3.json
