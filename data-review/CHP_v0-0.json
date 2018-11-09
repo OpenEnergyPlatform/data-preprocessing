@@ -11,8 +11,7 @@
 {"name": "Technology Data for Energy Plants for Electricity and District heating generation August 2016","description": "Danish Energy Agency 2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_aug_2016_update_sept2018.pdf","license": "FIXME","copyright": "Danish Energy Agency 2018"},
 {"name": "Technology data for Energy Plants - Generation of Electricity and District Heating, Energy Storage and Energy Carrier Generation and Conversion","description": "Heating 2012","url": "https://energiatalgud.ee/img_auth.php/4/42/Energinet.dk._Technology_Data_for_Energy_Plants._2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
 {"name": "A guide to cogeneration","description": "The European Association for the Promotion of Cogeneration 2001","url": "http://www.panelamonitor.org/media/docrepo/document/files/a-guide-to-cogeneration.pdf","license": "FIXME","copyright": "EDUCOGEN"},
-{"name": "Catalogue of CHP Technologies","description": "USEnvironmentalProtectionAgency2017","url": "https://www.epa.gov/sites/production/files/2015-07/documents/catalog_of_chp_technologies.pdf","license": "FIXME","copyright": "U.S. Environmental Protection Agency Combined Heat and Power Partnership"},
-{"name": "","description": "","url": "","license": "","copyright": ""} ],
+{"name": "Catalogue of CHP Technologies","description": "USEnvironmentalProtectionAgency2017","url": "https://www.epa.gov/sites/production/files/2015-07/documents/catalog_of_chp_technologies.pdf","license": "FIXME","copyright": "U.S. Environmental Protection Agency Combined Heat and Power Partnership"}],
 "license": 
 {"id": "ODbL-1.0", "name": "Open Data Commons Open Database License 1.0", "version": "1", "url": "https://opendatacommons.org/licenses/odbl/1.0/", "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!", "copyright": ""},
 "contributors": [

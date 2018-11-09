@@ -6,15 +6,13 @@
 "temporal":
 {"reference_date": "none","start": "2007","end": "2018","resolution": "irregular"},
 "sources": [
-{"name": "Concentrating Solar Power Projects by Technology","description": "NREL","url": "https://www.nrel.gov/csp/solarpaces/by_technology.cfm","license": "FIXME","copyright": "NREL"},
+{"name": "Concentrating Solar Power Projects by Technology","description": "NREL","url": "https://solarpaces.nrel.gov/by-technology","license": "FIXME","copyright": "NREL"},
 {"name": "Concentrating Solar Power - From Research To Implementation","description": "Directorate-GeneralforEnergyandTransport2007","url": "http://www.solarpaces.org/wp-content/uploads/2007_concertrating_solar_power_en.pdf","license": "FIXME","copyright": "European Communities, 2007"},
-{"name": "Analysis of Concentrated Solar Power Technologies' Feasibility , Selection and Promotional Strategy for Bangladesh - Journal of Mechanical Engineering, Vol. ME 44, No. 2","description": "Barua2014","url": "http://dx.doi.org/10.3329/jme.v44i2.21435","license": "none","copyright": "Copyright (c) "},
+{"name": "Analysis of Concentrated Solar Power Technologies' Feasibility , Selection and Promotional Strategy for Bangladesh - Journal of Mechanical Engineering, Vol. ME 44, No. 2","description": "Barua2014","url": "http://dx.doi.org/10.3329/jme.v44i2.21435","license": "none","copyright": "Journal of Mechanical Engineering 2014"},
 {"name": "Renewable Energy Technologies Cost Analysis Series: Concentrating Solar Power - Volume 1: Power Sector Issue 2/5","description": "Irena2012","url": "https://www.irena.org/documentdownloads/publications/re_technologies_cost_analysis-csp.pdf","license": "FIXME","copyright": "IRENA 2012"},
 {"name": "Parabolic Trough Collector Cost  Update for the System Advisor  Model (SAM)","description": "Kurup2015","url": "http://www.nrel.gov/docs/fy16osti/65228.pdf","license": "FIXME","copyright": "NREL"},
 {"name": "Renewable Power Generation Costs in 2012: An Overview","description": "InternationalRenewableEnergyAgencyIRENA2014","url": "http://www.irena.org/publications/2013/Jan/Renewable-Power-Generation-Costs-in-2012-An-Overview","license": "FIXME","copyright": "IRENA 2013"},
-{"name": "Conceptual design of a concentrating solar power plant for a combined electricity and water supply of the city El Gouna","description": "Wellmann2015","url": "http://dx.doi.org/10.14279/depositonce-4943","license": "In Copyright","copyright": "Wellmann, Johannes"},
-{"name": "","description": "","url": "","license": "","copyright": ""},
-{"name": "","description": "","url": "","license": "","copyright": ""} ],
+{"name": "Conceptual design of a concentrating solar power plant for a combined electricity and water supply of the city El Gouna","description": "Wellmann2015","url": "http://dx.doi.org/10.14279/depositonce-4943","license": "In Copyright","copyright": "Wellmann, Johannes"}],
 "license": 
 {"id": "ODbL-1.0", "name": "Open Data Commons Open Database License 1.0", "version": "1", "url": "https://opendatacommons.org/licenses/odbl/1.0/", "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!", "copyright": ""},
 "contributors": [
