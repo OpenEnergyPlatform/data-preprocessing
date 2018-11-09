@@ -1,5 +1,5 @@
-{"title": "An open dataset for thermal energy system models",
-"description": "Components include heat pumps, Combined Heat and Power (CHP) plants, resistive heat sources, thermal storage, concentrating solar thermal plants and desalination",
+{"title": "Thermal Energy System Models",
+"description": "An open dataset for thermal energy system models. Components include heat pumps, Combined Heat and Power (CHP) plants, resistive heat sources, thermal storage, concentrating solar thermal plants and desalination",
 "language": [ "eng","none "],
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
