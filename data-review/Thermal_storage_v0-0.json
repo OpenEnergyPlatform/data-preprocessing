@@ -24,9 +24,7 @@
 {"name": "ego_grid_ding0_versioning", "format": "PostgreSQL", "fields": [
 {"name": "id","description": "unambiguous unique numer","unit": "integer"},
 {"name": "run_id","description": "time and date of table generation","unit": "yyyyMMddhhmmss"},
-{"name": "description","description": "FIXME","unit": "string"},
-{"name": "","description": "","unit": ""}, 
-{"name": "","description": "","unit": ""} ] } ],
+{"name": "description","description": "FIXME","unit": "string"} ] } ],
 "metadata_version": "1.3",
 "_comment": {
 "_metadata_license": "", "_url": "", "_contains": "", "_additional_information": {
