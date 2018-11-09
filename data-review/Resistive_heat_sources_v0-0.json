@@ -6,11 +6,9 @@
 "temporal":
 {"reference_date": "none","start": "2015","end": "2017","resolution": "irregular"},
 "sources": [
-{"name": "Technology Data for Energy Plants for Electricity and District heating generation August 2016","description": "Agency2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_aug_2016_update_sept2018.pdf","license": "FIXME","copyright": "FIXME"},
-{"name": "Technology data for Energy Plants - Generation of Electricity and District Heating, Energy Storage and Energy Carrier Generation and Conversion","description": "Heating2012","url": "https://energiatalgud.ee/img_auth.php/4/42/Energinet.dk._Technology_Data_for_Energy_Plants._2012.pdf","license": "FIXME","copyright": "FIXME"},
-{"name": "Analysis of the potential for Power-to-Heat/Cool applications to increase flexibility in the European electricity system until 2030 Lead","description": "INSIGHTE2017","url": "https://bib.irb.hr/datoteka/889378.PtH_C_final_version_final.pdf","license": "FIXME","copyright": "INSIGHT_E"},
-{"name": "","description": "","url": "","license": "","copyright": ""},
-{"name": "","description": "","url": "","license": "","copyright": ""} ],
+{"name": "Technology Data for Energy Plants for Electricity and District heating generation August 2016","description": "Danish Energy Agency 2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_el_and_dh_-_aug_2016_upd_oct18.pdf","license": "FIXME","copyright": "Danish Energy Agency 2018"},
+{"name": "Technology data for Energy Plants - Generation of Electricity and District Heating, Energy Storage and Energy Carrier Generation and Conversion","description": "Heating2012","url": "https://energiatalgud.ee/img_auth.php/4/42/Energinet.dk._Technology_Data_for_Energy_Plants._2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
+{"name": "Analysis of the potential for Power-to-Heat/Cool applications to increase flexibility in the European electricity system until 2030 Lead","description": "INSIGHTE2017","url": "https://bib.irb.hr/datoteka/889378.PtH_C_final_version_final.pdf","license": "FIXME","copyright": "INSIGHT_E"}],
 "license": 
 {"id": "ODbL-1.0", "name": "Open Data Commons Open Database License 1.0", "version": "1", "url": "https://opendatacommons.org/licenses/odbl/1.0/", "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!", "copyright": ""},
 "contributors": [
