@@ -4,7 +4,7 @@
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
 "temporal":
-{"reference_date": "none","start": "none","end": "none","resolution": "none"},
+{"reference_date": "none","start": "2011","end": "2015","resolution": "irregular"},
 "sources": [
 {"name": "Techno-economic and spatial analysis of vertical ground source heat pump systems in Germany","description": "Blum2011","url": "http://dx.doi.org/10.1016/j.energy.2011.02.044","license": "FIXME","copyright": "2011 Elsevier Ltd."},
 {"name": "Mapping and analyses of the current and future (2020 - 2030)  - Work package 2: Assessment of the technologies for the year 2012 heating/cooling fuel deployment (fossil/renewables) ","description": "Email2016","url": "https://ec.europa.eu/energy/sites/ener/files/documents/mapping-hc-final_report-wp2.pdf","license": "FIXME","copyright": "FIXME"},

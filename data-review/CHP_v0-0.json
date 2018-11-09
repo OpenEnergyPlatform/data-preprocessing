@@ -4,7 +4,7 @@
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
 "temporal":
-{"reference_date": "none","start": "none","end": "none","resolution": "none"},
+{"reference_date": "none","start": "2001","end": "2015","resolution": "irregular"},
 "sources": [
 {"name": "Mapping and analyses of the current and future (2020 - 2030)  - Work package 2: Assessment of the technologies for the year 2012 heating/cooling fuel deployment (fossil/renewables) ","description": "Email2016","url": "https://ec.europa.eu/energy/sites/ener/files/documents/mapping-hc-final_report-wp2.pdf","license": "FIXME","copyright": "FIXME"},
 {"name": "Technology data for Energy Plants - Individual Heating Plants and Energy Transport","description": "DanishEnergyAgency2012","url": "https://ens.dk/sites/ens.dk/files/Analyser/c_teknologikatalog_for_individuelle_varmeanlaeg_og_energitransport_2012.pdf","license": "FIXME","copyright": "FIXME"},

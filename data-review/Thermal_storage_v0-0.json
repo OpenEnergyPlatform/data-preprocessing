@@ -4,7 +4,7 @@
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
 "temporal":
-{"reference_date": "none","start": "none","end": "none","resolution": "none"},
+{"reference_date": "none","start": "2004","end": "2017","resolution": "irregular"},
 "sources": [
 {"name": "Application of phase change materials for thermal energy storage in concentrated solar thermal power plants: A review to recent developments","description": "Xu2015","url": "http://dx.doi.org/10.1016/j.apenergy.2015.09.016","license": "FIXME","copyright": "2015 Elsevier Ltd."},
 {"name": "Two-tank molten salt storage for parabolic trough solar power plants","description": "Herrmann2004","url": "https://www.sciencedirect.com/science/article/pii/S0360544203001932","license": "FIXME","copyright": "2003 Elsevier Ltd."},

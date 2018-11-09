@@ -4,7 +4,7 @@
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
 "temporal":
-{"reference_date": "none","start": "none","end": "none","resolution": "none"},
+{"reference_date": "none","start": "2011","end": "2013","resolution": "irregular"},
 "sources": [
 {"name": "Technical review and evaluation of the economics of water desalination: Current and future challenges for better water supply sustainability","description": "Ghaffour2013","url": "http://dx.doi.org/10.1016/j.desal.2012.10.015","license": "FIXME","copyright": "2012 Elsevier Ltd."},
 {"name": "Technical review and evaluation of the economics of water desalination: Current and future challenges for better water supply sustainability","description": "Ghaffour2013","url": "http://dx.doi.org/10.1016/j.desal.2012.10.015","license": "FIXME","copyright": "2012 Elsevier Ltd."},

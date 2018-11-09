@@ -4,7 +4,7 @@
 "spatial": 
 {"location": "none","extent": "none","resolution": "none"},
 "temporal":
-{"reference_date": "none","start": "none","end": "none","resolution": "none"},
+{"reference_date": "none","start": "2007","end": "2018","resolution": "irregular"},
 "sources": [
 {"name": "Concentrating Solar Power Projects by Technology","description": "NREL","url": "https://www.nrel.gov/csp/solarpaces/by_technology.cfm","license": "FIXME","copyright": "NREL"},
 {"name": "Concentrating Solar Power - From Research To Implementation","description": "Directorate-GeneralforEnergyandTransport2007","url": "http://www.solarpaces.org/wp-content/uploads/2007_concertrating_solar_power_en.pdf","license": "FIXME","copyright": "European Communities, 2007"},
