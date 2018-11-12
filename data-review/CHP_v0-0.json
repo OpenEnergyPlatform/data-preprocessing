@@ -36,8 +36,7 @@
 {"name": "var_unit","description": "Unit of variable.","unit": "none"},
 {"name": "aggregation","description": "none","unit": "none"},
 {"name": "updated","description": "Date of latest modification","unit": "none"},
-{"name": "reference","description": "Bibtex String that references the information source.","unit": "none"},
-{"name": "description","description": "FIXME","unit": "string"} ] } ],
+{"name": "reference","description": "Bibtex String that references the information source.","unit": "none"} ] } ],
 "metadata_version": "1.3",
 "_comment": {
 "_metadata_license": "", "_url": "", "_contains": "", "_additional_information": {
