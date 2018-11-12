@@ -19,9 +19,23 @@
 {"name": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date":"2018-11-09", "comment": "Removed template lines and enhanced sources"} ],
 "resources": [
 {"name": "ego_grid_ding0_versioning", "format": "PostgreSQL", "fields": [
-{"name": "id","description": "unambiguous unique numer","unit": "integer"},
-{"name": "run_id","description": "time and date of table generation","unit": "yyyyMMddhhmmss"},
-{"name": "description","description": "FIXME","unit": "string"} ] } ],
+{"name": "id","description": "unambiguous unique numer","unit": "none"},
+{"name": "component_id","description": "Identifying numer of component. May repeat due to several occurences of the same component.","unit": "none"},
+{"name": "version","description": "none","unit": "none"},
+{"name": "schema","description": "none","unit": "none"},
+{"name": "category","description": "none","unit": "none"},
+{"name": "region","description": "Country, city or Region","unit": "none"},
+{"name": "year","description": "none","unit": "none"},
+{"name": "technology","description": "Name of Combined Heat and Power Technology","unit": "none"},
+{"name": "type","description": "Type of Combined Heat and Power Technology","unit": "none"},
+{"name": "model","description": "none","unit": "none"},
+{"name": "company","description": "Responsible company","unit": "none"},
+{"name": "var_name","description": "Name of variable","unit": "none"},
+{"name": "var_value","description": "Description of variable","unit": "none"},
+{"name": "var_unit","description": "Unit of variable.","unit": "none"},
+{"name": "aggregation","description": "Data aggregated or not","unit": "none"},
+{"name": "updated","description": "Date of latest modification","unit": "none"},
+{"name": "reference","description": "Bibtex String that references the information source.","unit": "none"} ] } ],
 "metadata_version": "1.3",
 "_comment": {
 "_metadata_license": "", "_url": "", "_contains": "", "_additional_information": {
