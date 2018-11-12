@@ -6,12 +6,12 @@
 "temporal":
 {"reference_date": "none","start": "2001","end": "2015","resolution": "irregular"},
 "sources": [
-{"name": "Mapping and analyses of the current and future (2020 - 2030)  - Work package 2: Assessment of the technologies for the year 2012 heating/cooling fuel deployment (fossil/renewables) ","description": "Email 2016","url": "https://ec.europa.eu/energy/sites/ener/files/documents/mapping-hc-final_report-wp2.pdf","license": "FIXME","copyright": "European Union"},
-{"name": "Technology data for Energy Plants - Individual Heating Plants and Energy Transport","description": "Danish Energy Agency 2012","url": "https://ens.dk/sites/ens.dk/files/Analyser/c_teknologikatalog_for_individuelle_varmeanlaeg_og_energitransport_2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
-{"name": "Technology Data for Energy Plants for Electricity and District heating generation August 2016","description": "Danish Energy Agency 2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_aug_2016_update_sept2018.pdf","license": "FIXME","copyright": "Danish Energy Agency 2018"},
-{"name": "Technology data for Energy Plants - Generation of Electricity and District Heating, Energy Storage and Energy Carrier Generation and Conversion","description": "Heating 2012","url": "https://energiatalgud.ee/img_auth.php/4/42/Energinet.dk._Technology_Data_for_Energy_Plants._2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
-{"name": "A guide to cogeneration","description": "The European Association for the Promotion of Cogeneration 2001","url": "http://www.panelamonitor.org/media/docrepo/document/files/a-guide-to-cogeneration.pdf","license": "FIXME","copyright": "EDUCOGEN"},
-{"name": "Catalogue of CHP Technologies","description": "USEnvironmentalProtectionAgency2017","url": "https://www.epa.gov/sites/production/files/2015-07/documents/catalog_of_chp_technologies.pdf","license": "FIXME","copyright": "U.S. Environmental Protection Agency Combined Heat and Power Partnership"}],
+{"name": "Mapping and analyses of the current and future (2020 - 2030)  - Work package 2: Assessment of the technologies for the year 2012 heating/cooling fuel deployment (fossil/renewables) ","description": "bibtex key: Email2016","url": "https://ec.europa.eu/energy/sites/ener/files/documents/mapping-hc-final_report-wp2.pdf","license": "FIXME","copyright": "European Union"},
+{"name": "Technology data for Energy Plants - Individual Heating Plants and Energy Transport","description": "bibtex key: Agency2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/c_teknologikatalog_for_individuelle_varmeanlaeg_og_energitransport_2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
+{"name": "Technology Data for Energy Plants for Electricity and District heating generation August 2016","description": "bibtex key: Agency2018","url": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_plants_el_and_dh_-_aug_2016_update_sept2018.pdf","license": "FIXME","copyright": "Danish Energy Agency 2018"},
+{"name": "Technology data for Energy Plants - Generation of Electricity and District Heating, Energy Storage and Energy Carrier Generation and Conversion","description": "bibtex key: DanishEnergyAgency2012","url": "https://energiatalgud.ee/img_auth.php/4/42/Energinet.dk._Technology_Data_for_Energy_Plants._2012.pdf","license": "FIXME","copyright": "Danish Energy Agency 2012"},
+{"name": "A guide to cogeneration","description": "bibtex key: TheEuropeanAssociationforthePromotionofCogeneration2001","url": "http://www.panelamonitor.org/media/docrepo/document/files/a-guide-to-cogeneration.pdf","license": "FIXME","copyright": "EDUCOGEN"},
+{"name": "Catalogue of CHP Technologies","description": "bibtex key: USEnvironmentalProtectionAgency2017","url": "https://www.epa.gov/sites/production/files/2015-07/documents/catalog_of_chp_technologies.pdf","license": "FIXME","copyright": "U.S. Environmental Protection Agency Combined Heat and Power Partnership"}],
 "license": 
 {"id": "ODbL-1.0", "name": "Open Data Commons Open Database License 1.0", "version": "1", "url": "https://opendatacommons.org/licenses/odbl/1.0/", "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!", "copyright": ""},
 "contributors": [
@@ -20,8 +20,23 @@
 {"name": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date":"2018-11-09", "comment": "Removed template lines and enhanced sources"} ],
 "resources": [
 {"name": "ego_grid_ding0_versioning", "format": "PostgreSQL", "fields": [
-{"name": "id","description": "unambiguous unique numer","unit": "integer"},
-{"name": "run_id","description": "time and date of table generation","unit": "yyyyMMddhhmmss"},
+{"name": "id","description": "unambiguous unique numer","unit": "none"},
+{"name": "component_id","description": "Identifying numer of component. May repeat due to several occurences of the same component.","unit": "none"},
+{"name": "version","description": "none","unit": "none"},
+{"name": "schema","description": "none","unit": "none"},
+{"name": "category","description": "none","unit": "none"},
+{"name": "region","description": "Country or Region","unit": "none"},
+{"name": "year","description": "none","unit": "none"},
+{"name": "technology","description": "Name of Combined Heat and Power Technology","unit": "none"},
+{"name": "type","description": "Type of Combined Heat and Power Technology","unit": "none"},
+{"name": "model","description": "none","unit": "none"},
+{"name": "company","description": "none","unit": "none"},
+{"name": "var_name","description": "Name of variable","unit": "none"},
+{"name": "var_value","description": "Description of variable","unit": "none"},
+{"name": "var_unit","description": "Unit of variable.","unit": "none"},
+{"name": "aggregation","description": "none","unit": "none"},
+{"name": "updated","description": "Date of latest modification","unit": "none"},
+{"name": "reference","description": "Bibtex String that references the information source.","unit": "none"},
 {"name": "description","description": "FIXME","unit": "string"} ] } ],
 "metadata_version": "1.3",
 "_comment": {
