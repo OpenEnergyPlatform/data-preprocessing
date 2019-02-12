@@ -103,3 +103,4 @@ ENV/
 # PyCharm
 .idea
 data/
+config.ini
