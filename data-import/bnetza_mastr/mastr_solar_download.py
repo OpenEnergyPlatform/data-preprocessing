@@ -21,6 +21,7 @@ from sessions import mastr_session
 from mastr_power_unit_download import read_power_units
 
 import pandas as pd
+from multiprocessing import Process, Lock
 import numpy as np
 import datetime
 import os
@@ -258,6 +259,21 @@ def setup_power_unit_solar():
         return power_unit_solar
 
 
+def download_single_unit_solar(unit_solar_entry, csv_solar, lock):
+    """Download single Solareinheit entry and write its content in a file.
+
+    :param unit_solar_entry: single entry from a unit_solar_list
+    :param csv_solar: file in which to write the content of the unit_solar_entry
+    :param lock: instance of Lock to prevent simultaneous write access to csv_solar file
+    """
+    lock.acquire()
+    try:
+        unit_solar = get_power_unit_solar(unit_solar_entry)
+        write_to_csv(csv_solar, unit_solar)
+    finally:
+        lock.release()
+
+
 def download_unit_solar():
     """Download Solareinheit.
 
@@ -273,12 +289,28 @@ def download_unit_solar():
     log.info(f'Download MaStR Solar')
     log.info(f'Number of unit_solar: {unit_solar_list_len}')
 
+    lock = Lock()
     for i in range(start_from, unit_solar_list_len, 1):
-        try:
-            unit_solar = get_power_unit_solar(unit_solar_list[i])
-            write_to_csv(csv_solar, unit_solar)
-        except:
-            log.exception(f'Download failed unit_solar ({i}): {unit_solar_list[i]}')
+        single_dl = Process(
+            target=download_single_unit_solar,
+            args=(unit_solar_list[i], csv_solar, lock)
+        )
+        single_dl.start()
+
+
+def download_single_unit_solar_eeg(unit_solar_entry, csv_solar_eeg, lock):
+    """Download single unit_solar_eeg entry and write its content in a file.
+
+    :param unit_solar_entry: single entry from a unit_solar_list
+    :param csv_solar_eeg: file in which to write the content of the unit_solar_entry
+    :param lock: instance of Lock to prevent simultaneous write access to csv_solar file
+    """
+    lock.acquire()
+    try:
+        unit_solar_eeg = get_unit_solar_eeg(unit_solar_entry)
+        write_to_csv(csv_solar_eeg, unit_solar_eeg)
+    finally:
+        lock.release()
 
 
 def download_unit_solar_eeg():
@@ -290,9 +322,10 @@ def download_unit_solar_eeg():
     unit_solar_list = unit_solar['EegMastrNummer'].values.tolist()
     unit_solar_list_len = len(unit_solar_list)
 
+    lock = Lock()
     for i in range(0, unit_solar_list_len, 1):
-        try:
-            unit_solar_eeg = get_unit_solar_eeg(unit_solar_list[i])
-            write_to_csv(csv_solar_eeg, unit_solar_eeg)
-        except:
-            log.exception(f'Download failed unit_solar_eeg ({i}): {unit_solar_list[i]}')
+        single_dl = Process(
+            target=download_single_unit_solar_eeg,
+            args=(unit_solar_list[i], csv_solar_eeg, lock)
+        )
+        single_dl.start()
