@@ -26,8 +26,10 @@ import numpy as np
 import datetime
 import os
 from zeep.helpers import serialize_object
-
+import multiprocessing as mp
+from multiprocessing import queues
 import logging
+import time
 
 log = logging.getLogger(__name__)
 
@@ -259,27 +261,35 @@ def setup_power_unit_solar():
         return power_unit_solar
 
 
-def download_single_unit_solar(unit_solar_entry, csv_solar, lock):
-    """Download single Solareinheit entry and write its content in a file.
-
-    :param unit_solar_entry: single entry from a unit_solar_list
-    :param csv_solar: file in which to write the content of the unit_solar_entry
-    :param lock: instance of Lock to prevent simultaneous write access to csv_solar file
-    """
-    lock.acquire()
-    try:
-        unit_solar = get_power_unit_solar(unit_solar_entry)
-        write_to_csv(csv_solar, unit_solar)
-    finally:
-        lock.release()
+def download_proc(queue, idx, writing_queue, api_call):
+    """Execute the download from the queue"""
+    pr = mp.current_process()
+    rstart = time.time()
+    print('Start {} from loop {}, queue empty={}'.format(pr.pid, idx, str(queue.empty())))
+    while not queue.empty():
+        unit_entry = queue.get()  # Read from the queue and do nothing
+        df = api_call(unit_entry)
+        writing_queue.put(df)
+    print('Finish {} from loop {} in {}s'.format(pr.pid, idx, time.time() - rstart))
 
 
-def download_unit_solar():
+def download_solar_proc(queue, idx, writing_queue):
+    """Execute the download from the queue"""
+    download_proc(queue, idx, writing_queue, get_power_unit_solar)
+
+
+def download_solar_eeg_proc(queue, idx, writing_queue):
+    """Execute the download from the queue"""
+    download_proc(queue, idx, writing_queue, get_unit_solar_eeg)
+
+
+def download_unit_solar(n_entries=10, start_from=36154):
     """Download Solareinheit.
 
+    :param n_entries: number of entries from unit_solar_list
+    :param start_from: index of first unit_solar_entry in the unit_solar_list
     Existing units: 31543 (2019-02-10)
     """
-    start_from = 36154
 
     data_version = get_data_version()
     csv_solar = f'data/bnetza_mastr_{data_version}_unit-solar.csv'
@@ -289,43 +299,129 @@ def download_unit_solar():
     log.info(f'Download MaStR Solar')
     log.info(f'Number of unit_solar: {unit_solar_list_len}')
 
-    lock = Lock()
-    for i in range(start_from, unit_solar_list_len, 1):
-        single_dl = Process(
-            target=download_single_unit_solar,
-            args=(unit_solar_list[i], csv_solar, lock)
-        )
-        single_dl.start()
+    parallel_download(
+        csv_solar,
+        unit_solar_list,
+        download_solar_proc,
+        n_entries=n_entries,
+        start_from=start_from
+    )
 
 
-def download_single_unit_solar_eeg(unit_solar_entry, csv_solar_eeg, lock):
-    """Download single unit_solar_eeg entry and write its content in a file.
+def download_unit_solar_eeg(n_entries=10, start_from=0):
+    """Download unit_solar_eeg using GetAnlageEegSolar request.
 
-    :param unit_solar_entry: single entry from a unit_solar_list
-    :param csv_solar_eeg: file in which to write the content of the unit_solar_entry
-    :param lock: instance of Lock to prevent simultaneous write access to csv_solar file
+    :param n_entries: number of entries from unit_solar_list
+    :param start_from: index of first unit_solar_entry in the unit_solar_list
     """
-    lock.acquire()
-    try:
-        unit_solar_eeg = get_unit_solar_eeg(unit_solar_entry)
-        write_to_csv(csv_solar_eeg, unit_solar_eeg)
-    finally:
-        lock.release()
-
-
-def download_unit_solar_eeg():
-    """Download unit_solar_eeg using GetAnlageEegSolar request."""
     data_version = get_data_version()
     csv_solar_eeg = f'data/bnetza_mastr_{data_version}_unit-solar-eeg.csv'
     unit_solar = setup_power_unit_solar()
 
     unit_solar_list = unit_solar['EegMastrNummer'].values.tolist()
-    unit_solar_list_len = len(unit_solar_list)
 
-    lock = Lock()
-    for i in range(0, unit_solar_list_len, 1):
-        single_dl = Process(
-            target=download_single_unit_solar_eeg,
-            args=(unit_solar_list[i], csv_solar_eeg, lock)
-        )
-        single_dl.start()
+    parallel_download(
+        csv_solar_eeg,
+        unit_solar_list,
+        download_solar_eeg_proc,
+        n_entries=n_entries,
+        start_from=start_from
+    )
+
+
+def load_data(entries, queue):
+    """Load entries in a queue."""
+    lstart = time.time()
+    print('Loading..  {} entries in the queue'.format(len(entries)))
+    for entry in entries:
+        queue.put(entry)
+    print('Loaded {} entries in the queue in {}s'.format(len(entries), time.time() - lstart))
+
+
+def writer_proc(queue, n_entries, csv_file):
+    """Process responsible to write data in a queue to a csv file"""
+    pr = mp.current_process()
+    print('{} from writer, queue empty={}'.format(pr.pid, str(queue.empty())))
+    wstart = time.time()
+
+    n_iter_before_save = np.min([int(n_entries / 10.), 20000])
+
+    n_loop = 0
+    df_list = []
+    while n_loop < n_entries:
+        try:
+            df = queue.get(timeout=3)  # Read from the queue and do nothing
+            df_list.append(df)
+        except queues.Empty:
+            print('End of queue')
+            print('{} Write to file {}'.format(time.ctime(time.time()), n_loop))
+            if df_list:
+                write_to_csv(csv_file, pd.concat(df_list))
+                df_list = []
+        if np.mod(n_loop, n_iter_before_save) == 0:
+            print('{} Write to file {}'.format(time.ctime(time.time()), n_loop))
+            write_to_csv(csv_file, pd.concat(df_list))
+            df_list = []
+        n_loop = n_loop + 1
+    if df_list:
+        print('{} Write to file {}'.format(time.ctime(time.time()), n_loop))
+        write_to_csv(csv_file, pd.concat(df_list))
+    print('{} writer done in {}s'.format(pr.pid, time.time() - wstart))
+
+
+def parallel_download(csv_file, entries_list, dl_proc, n_entries=60, start_from=0):
+
+    print('Files to download: {}, starting from idx {} in the entry list'.format(
+        n_entries,
+        start_from)
+    )
+
+    num_cpu = mp.cpu_count()
+    write_queue = mp.Queue()
+    # Queues for download entries
+    pqueues = []
+    download_ps = []
+
+    for i in range(num_cpu):
+        pqueue = mp.Queue()  # writer() writes to pqueue from _this_ process
+        pqueues.append(pqueue)
+        download_p = mp.Process(target=dl_proc, args=((pqueue), (i), (write_queue),))
+        download_p.daemon = True
+        download_ps.append(download_p)
+
+    _start = time.time()
+
+    tot_entries_in_list = len(entries_list)
+    # make sure the user demand do not query indexes beyond the entries list max size
+    if start_from + n_entries >= tot_entries_in_list:
+        n_entries = tot_entries_in_list - start_from
+
+    solar_idxs = []
+    if n_entries > 0:
+        # split the number of entries equally between the different download queues
+        step = n_entries / num_cpu
+        step = np.int(step)
+
+        for i in range(num_cpu):
+            solar_idxs.append([start_from + i * step, start_from + (i + 1) * step])
+        solar_idxs[-1][1] = start_from + n_entries
+
+    # load the entries in the download queues
+    for idxs, j in zip(solar_idxs, range(num_cpu)):
+        load_data(entries_list[idxs[0]:idxs[1]], pqueues[j])
+        download_ps[j].start()
+
+    # start the process which write to csv file from a queue
+    time.sleep(1)
+    writer_p = mp.Process(target=writer_proc, args=((write_queue), (n_entries), (csv_file)))
+    writer_p.daemon = True
+
+    time.sleep(2)
+    writer_p.start()
+    writer_p.join()
+
+    print("Total process took {} seconds".format(time.time() - _start))
+
+
+if __name__ == '__main__':
+    download_unit_solar(n_entries=10, start_from=236154)
