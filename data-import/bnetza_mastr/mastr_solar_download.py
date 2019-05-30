@@ -287,7 +287,7 @@ def download_solar_eeg_proc(queue, idx, writing_queue):
     download_proc(queue, idx, writing_queue, get_unit_solar_eeg, 'unit_solar_egg')
 
 
-def download_unit_solar(n_entries=10, start_from=36154):
+def download_unit_solar(n_entries=None, start_from=0):
     """Download Solareinheit.
 
     :param n_entries: number of entries from unit_solar_list
@@ -303,6 +303,9 @@ def download_unit_solar(n_entries=10, start_from=36154):
     log.info(f'Download MaStR Solar')
     log.info(f'Number of unit_solar: {unit_solar_list_len}')
 
+    if n_entries is None:
+        n_entries = len(unit_solar_list)
+
     parallel_download(
         csv_solar,
         unit_solar_list,
@@ -312,7 +315,7 @@ def download_unit_solar(n_entries=10, start_from=36154):
     )
 
 
-def download_unit_solar_eeg(n_entries=10, start_from=0):
+def download_unit_solar_eeg(n_entries=None, start_from=0):
     """Download unit_solar_eeg using GetAnlageEegSolar request.
 
     :param n_entries: number of entries from unit_solar_list
@@ -323,6 +326,9 @@ def download_unit_solar_eeg(n_entries=10, start_from=0):
     unit_solar = setup_power_unit_solar()
 
     unit_solar_list = unit_solar['EegMastrNummer'].values.tolist()
+
+    if n_entries is None:
+        n_entries = len(unit_solar_list)
 
     parallel_download(
         csv_solar_eeg,
