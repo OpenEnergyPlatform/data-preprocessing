@@ -26,6 +26,7 @@ import numpy as np
 import datetime
 import os
 from zeep.helpers import serialize_object
+from zeep.exceptions import Fault
 import multiprocessing as mp
 from multiprocessing import queues
 import logging
@@ -261,26 +262,29 @@ def setup_power_unit_solar():
         return power_unit_solar
 
 
-def download_proc(queue, idx, writing_queue, api_call):
+def download_proc(queue, idx, writing_queue, api_call, entry_descr=''):
     """Execute the download from the queue"""
     pr = mp.current_process()
     rstart = time.time()
     print('Start {} from loop {}, queue empty={}'.format(pr.pid, idx, str(queue.empty())))
     while not queue.empty():
         unit_entry = queue.get()  # Read from the queue and do nothing
-        df = api_call(unit_entry)
-        writing_queue.put(df)
+        try:
+            df = api_call(unit_entry)
+            writing_queue.put(df)
+        except Fault:
+            log.error('Downloading {} failed : ({})'.format(entry_descr, unit_entry))
     print('Finish {} from loop {} in {}s'.format(pr.pid, idx, time.time() - rstart))
 
 
 def download_solar_proc(queue, idx, writing_queue):
     """Execute the download from the queue"""
-    download_proc(queue, idx, writing_queue, get_power_unit_solar)
+    download_proc(queue, idx, writing_queue, get_power_unit_solar, 'unit_solar')
 
 
 def download_solar_eeg_proc(queue, idx, writing_queue):
     """Execute the download from the queue"""
-    download_proc(queue, idx, writing_queue, get_unit_solar_eeg)
+    download_proc(queue, idx, writing_queue, get_unit_solar_eeg, 'unit_solar_egg')
 
 
 def download_unit_solar(n_entries=10, start_from=36154):
