@@ -64,7 +64,7 @@ def get_power_unit(start_from, limit=2000):
     return power_unit
 
 
-def download_power_unit(power_unit_list_len=500, limit=2000):
+def download_power_unit(power_unit_list_len=2110200, limit=2000):
     """Download StromErzeuger.
 
     Arguments
@@ -83,6 +83,7 @@ def download_power_unit(power_unit_list_len=500, limit=2000):
     1965200 (2019-04-11)
     2018480 (2019-05-15)
     2020220 (2019-05-16)
+    2110197 (2019-06-11)
     """
 
     data_version = get_data_version()
