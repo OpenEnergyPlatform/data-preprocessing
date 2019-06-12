@@ -1,6 +1,6 @@
 {"name": "supply.bnetza_mastr",
 "title": "Bundesnetzagentur - Marktstammdatenregister - Stromerzeuger",
-"id": "supply.bnetza_mastr_1.0",
+"id": "supply.bnetza_mastr",
 "description": "Download and process MaStR data",
 "language": [ "en-GB", "de-DE" ],
 "keywords": [ "powerplants, renewables" ],
@@ -36,7 +36,7 @@
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "supply.bnetza_mastr_wind",
-    "path": "bnetza_mastr_0.11_wind.csv",
+    "path": "bnetza_mastr_rli_v1.4_wind.csv",
     "format": "csv",
     "encoding" : "UTF-8",
     "schema": {
@@ -164,7 +164,7 @@
 
     {"profile": "tabular-data-resource",
     "name": "supply.bnetza_mastr_hydro",
-    "path": "bnetza_mastr_0.11_hydro.csv",
+    "path": "bnetza_mastr_rli_v1.4_hydro.csv",
     "format": "csv",
     "encoding" : "UTF-8",
     "schema": {
@@ -280,7 +280,7 @@
 
     {"profile": "tabular-data-resource",
     "name": "supply.bnetza_mastr_biomass",
-    "path": "bnetza_mastr_0.11_biomass.csv",
+    "path": "bnetza_mastr_rli_v1.4_biomass.csv",
     "format": "csv",
     "encoding" : "UTF-8",
     "schema": {
@@ -401,7 +401,7 @@
 
     {"profile": "tabular-data-resource",
     "name": "supply.bnetza_mastr_solar",
-    "path": "bnetza_mastr_0.11_solar.csv",
+    "path": "bnetza_mastr_rli_v1.4_solar.csv",
     "format": "csv",
     "encoding" : "UTF-8",
     "schema": {
