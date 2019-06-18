@@ -27,11 +27,12 @@ from mastr_biomass_download import download_unit_biomass, download_unit_biomass_
 from mastr_biomass_process import make_biomass
 from mastr_solar_download import download_unit_solar, download_unit_solar_eeg
 from mastr_solar_process import make_solar
+from oep_upload import oep_upload_mastr_wind
 
 import time
 
 """version"""
-DATA_VERSION = 'rli_v1.3.2_permit-test'
+DATA_VERSION = 'rli_v1.4'
 
 if __name__ == "__main__":
     """logging"""
@@ -39,17 +40,14 @@ if __name__ == "__main__":
     start_time = time.time()
     log.info(f'MaStR script started with data version: {DATA_VERSION}')
 
-    """OEP"""
-    # metadata = oep_session()
-
     """MaStR Einheiten"""
-    download_power_unit()
+    # download_power_unit()
 
     """Wind"""
-    download_unit_wind()
-    download_unit_wind_eeg()
-    download_unit_wind_permit()
-    make_wind()
+    # download_unit_wind()
+    # download_unit_wind_eeg()
+    # download_unit_wind_permit()
+    # make_wind()
 
     """Hydro"""
     # download_unit_hydro()
@@ -65,6 +63,9 @@ if __name__ == "__main__":
     # download_unit_solar()
     # download_unit_solar_eeg()
     # make_solar()
+
+    """OEP"""
+    oep_upload_mastr_wind()
 
     """close"""
     log.info('MaSTR script successfully executed in {:.2f} seconds'

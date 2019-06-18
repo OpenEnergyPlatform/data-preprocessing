@@ -277,11 +277,17 @@ def read_unit_wind_permit(csv_name):
                                        'AufrufLebenszeitEnde': str,
                                        'AufrufVersion': str,
                                        'GenMastrNummer': str,
+                                       'DatumLetzteAktualisierung': str,
                                        'Art': str,
                                        'Datum': str,
                                        'Behoerde': str,
                                        'Aktenzeichen': str,
                                        'Frist': str,
+                                       'WasserrechtsNummer': str,
+                                       'WasserrechtAblaufdatum': str,
+                                       'Meldedatum': str,
+                                       'VerknuepfteEinheiten': str,
+                                       'version': str,
                                        'timestamp': str})
     # log.info(f'Finished reading data from {csv_name}')
     return unit_wind_permit
