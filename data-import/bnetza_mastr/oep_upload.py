@@ -90,7 +90,7 @@ def oep_session():
         engine = sa.create_engine(oed_string)
         metadata = sa.MetaData(bind=engine)
 
-        print(f'Connect to OEP: {engine}')
+        log.info(f'Connect to OEP: {engine}')
         return engine, metadata
 
     except:
@@ -106,7 +106,7 @@ def oep_create_mastr_wind():
     """Create table for MaStR Wind
 
     """
-    table_name_wind = 'bnetza_mastr_wind'
+    table_name_wind = 'bnetza_mastr_wind_v1_4'
     schema_name = 'sandbox'
     engine, metadata = oep_session()
 
@@ -249,9 +249,9 @@ def oep_create_mastr_wind():
     print('Connection to OEP established')
     if not engine.dialect.has_table(conn, table_name_wind, schema_name):
         MastrWind.create()
-        print(f'Created table {schema_name}.{table_name_wind}')
+        log.info(f'Created table {schema_name}.{table_name_wind}')
     else:
-        print(f'Table {schema_name}.{table_name_wind} already exists')
+        log.info(f'Table {schema_name}.{table_name_wind} already exists')
 
     return conn, table_name_wind, schema_name
 
@@ -411,13 +411,13 @@ def oep_upload_mastr_wind():
     data_version = get_data_version()
     csv_wind = f'data/bnetza_mastr_{data_version}_wind.csv'
     data_wind = read_wind(csv_wind)
-    #print(data_wind.head())
 
     conn, table_name_wind, schema_name = oep_create_mastr_wind()
 
     try:
+        log.info('Start Upload of ' + csv_wind)
         data_wind.to_sql(table_name_wind, conn, schema_name, if_exists='replace')
-        print('Inserted data to ' + table_name_wind)
+        log.info('Inserted data to ' + table_name_wind)
     except Exception as e:
         #session.rollback()
         raise
