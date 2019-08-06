@@ -24,9 +24,9 @@
         "grantNo": "03KSE031"
     },
     "spatial": {
-        "location": "none",
+        "location": null,
         "extent": "Germany",
-        "resolution": "none"
+        "resolution": null
     },
     "temporal": {
         "referenceDate": "",
@@ -75,31 +75,31 @@
                         "name": "id",
                         "description": "Unique identifier",
                         "type": "serial",
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "variable",
                         "description": "Variable",
                         "type": "string",
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "unit",
                         "description": "Unit of measure",
                         "type": "string",
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "year",
                         "description": "Scenario year",
                         "type": "integer",
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "value",
                         "description": "Value",
                         "type": "float",
-                        "unit": "none"
+                        "unit": null
                     }
                 ],
                 "primaryKey": [
@@ -120,14 +120,14 @@
                 ]
             },
             "dialect": {
-                "delimiter": "none",
+                "delimiter": null,
                 "decimalSeparator": "."
             }
         }
     ],
     "review": {
-        "path": "none",
-        "badge": "none"
+        "path": null,
+        "badge": null
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4",
@@ -144,6 +144,6 @@
         "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-        "none": "If not applicable use (none)"
+        "null": "If not applicable use (null)"
     }
 }
