@@ -30,10 +30,12 @@
     },
     "temporal": {
         "referenceDate": "",
-        "start": "2020-01-01T00:00+01:00",
-        "end": "2050-01-01T00:00+01:00",
-        "resolution": "10 a",
-        "timestamp": "left"
+        "timeseries":
+            {"start": "2020-01-01T00:00+01:00",
+            "end": "2050-01-01T00:00+01:00",
+            "resolution": "10 a",
+            "timestamp": "left",
+            "aggregationType": null }
     },
     "sources": [
         {
