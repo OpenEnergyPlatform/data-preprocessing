@@ -45,7 +45,12 @@
             "title": "Own projection",
             "description": "Details see report provided under URL",
             "path": "https://",
-            "license": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
+                "instruction": null,
+                "attribution": null}],
             "copyright": "(c) \u00d6ko-Institut"
         }
     ],
