@@ -363,14 +363,19 @@ def download_unit_wind_permit():
 
         unit_wind_list = unit_wind['GenMastrNummer'].values.tolist()
         unit_wind_list_len = len(unit_wind_list)
-
         for i in range(0, unit_wind_list_len, 1):
+          if not pd.isna(unit_wind_list[i]):
             try:
                 unit_wind_permit = get_unit_wind_permit(unit_wind_list[i])
-                write_to_csv(csv_wind_permit, unit_wind_permit)
+                for k,v in unit_wind_permit.VerknuepfteEinheiten.items():
+                  df = pd.DataFrame.from_dict(v)
+                    df_new = pd.DataFrame({'MastrNummer':df.iloc[i].MaStRNummer,'Einheittyp':df.iloc[i].Einheittyp,
+                      'GenMastrNummer':unit_wind_list[i], 'Art':unit_wind_permit.Art,'Datum':unit_wind_permit.Datum, 'Behoerde': unit_wind_permit.Behoerde, 'Aktenzeichen':unit_wind_permit.Aktenzeichen,
+                      'Frist': unit_wind_permit.Frist, 'WasserrechtsNummer':unit_wind_permit.WasserrechtsNummer, 
+                    'WasserrechtAblaufdatum': unit_wind_permit.WasserrechtAblaufdatum, 'Meldedatum': unit_wind_permit.Meldedatum})
+                    write_to_csv(csv_wind_permit, df_new)
             except:
                 log.exception(f'Download failed unit_wind_permit ({i}): {unit_wind_list[i]}')
-
 
 def disentangle_manufacturer(wind_unit):
     wu = wind_unit
