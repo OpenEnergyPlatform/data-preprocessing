@@ -1,5 +1,5 @@
 {
-    "title": "Turbine Library",
+    "title": "wind_turbine_library",
     "description": "A collection of the most common wind turbines with information on capacity, power curves and other parameters available from specification sheets",
     "language": [ "eng" ],
     "spatial": {
