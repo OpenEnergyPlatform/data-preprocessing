@@ -31,7 +31,7 @@ from mastr_solar_process import make_solar
 import time
 
 """version"""
-DATA_VERSION = 'rli_v1.4'
+DATA_VERSION = 'rli_v1.3.2_permit-test'
 
 if __name__ == "__main__":
     """logging"""
@@ -43,23 +43,23 @@ if __name__ == "__main__":
     # metadata = oep_session()
 
     """MaStR Einheiten"""
-    download_power_unit()
+    #download_power_unit()
 
     """Wind"""
-    download_unit_wind()
-    download_unit_wind_eeg()
+    #download_unit_wind()
+    #download_unit_wind_eeg()
     download_unit_wind_permit()
-    make_wind()
+    #make_wind()
 
     """Hydro"""
-    download_unit_hydro()
-    download_unit_hydro_eeg()
-    make_hydro()
+    #download_unit_hydro()
+    #download_unit_hydro_eeg()
+    #make_hydro()
 
     """Biomass"""
-    download_unit_biomass()
-    download_unit_biomass_eeg()
-    make_biomass()
+    #download_unit_biomass()
+    #download_unit_biomass_eeg()
+    #make_biomass()
 
     """Solar"""
     # download_unit_solar()

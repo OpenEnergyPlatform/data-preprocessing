@@ -360,7 +360,7 @@ def download_unit_wind_permit():
         data_version = get_data_version()
         csv_wind_permit = f'data/bnetza_mastr_{data_version}_unit-wind-permit.csv'
         unit_wind = setup_power_unit_wind()
-
+        df_all = pd.DataFrame()
         unit_wind_list = unit_wind['GenMastrNummer'].values.tolist()
         unit_wind_list_len = len(unit_wind_list)
         for i in range(0, unit_wind_list_len, 1):
@@ -368,12 +368,32 @@ def download_unit_wind_permit():
             try:
                 unit_wind_permit = get_unit_wind_permit(unit_wind_list[i])
                 for k,v in unit_wind_permit.VerknuepfteEinheiten.items():
-                  df = pd.DataFrame.from_dict(v)
-                    df_new = pd.DataFrame({'MastrNummer':df.iloc[i].MaStRNummer,'Einheittyp':df.iloc[i].Einheittyp,
-                      'GenMastrNummer':unit_wind_list[i], 'Art':unit_wind_permit.Art,'Datum':unit_wind_permit.Datum, 'Behoerde': unit_wind_permit.Behoerde, 'Aktenzeichen':unit_wind_permit.Aktenzeichen,
-                      'Frist': unit_wind_permit.Frist, 'WasserrechtsNummer':unit_wind_permit.WasserrechtsNummer, 
-                    'WasserrechtAblaufdatum': unit_wind_permit.WasserrechtAblaufdatum, 'Meldedatum': unit_wind_permit.Meldedatum})
-                    write_to_csv(csv_wind_permit, df_new)
+                  df_new = pd.DataFrame.from_dict(v)
+                  df = pd.DataFrame()
+                  gennr = df_new.size * [unit_wind_permit.GenMastrNummer.iloc[0]]
+                  dates = df_new.size * [unit_wind_permit.Datum.iloc[0]]
+                  types = df_new.size * [unit_wind_permit.Art.iloc[0]]
+                  authority = df_new.size * [(unit_wind_permit.Behoerde.iloc[0]).translate({ord(','):None})]
+                  file_num = df_new.size * [unit_wind_permit.Aktenzeichen.iloc[0]]
+                  frist = df_new.size * [unit_wind_permit.Frist.iloc[0]['Wert']]
+                  water_num = df_new.size * [unit_wind_permit.WasserrechtsNummer.iloc[0]]
+                  water_date = df_new.size * [unit_wind_permit.WasserrechtAblaufdatum.iloc[0]['Wert']]
+                  reporting_date = df_new.size * [unit_wind_permit.Meldedatum.iloc[0]]
+                  df = pd.DataFrame(
+                      {
+                      'GenMastrNummer':gennr,
+                      'Datum': dates,
+                      'Art': types,
+                      'Behoerde': authority, 
+                      'Aktenzeichen': file_num,
+                      'Frist': frist, 
+                      'WasserrechtsNummer': water_num, 
+                      'WasserrechtAblaufdatum': water_date, 
+                      'Meldedatum': reporting_date
+                      })
+                  df_all = pd.concat([df_new, df.reindex(df_new.index)], axis=1)
+                  df_all.set_index(['GenMastrNummer'], inplace=True)
+                  write_to_csv(csv_wind_permit,df_all)
             except:
                 log.exception(f'Download failed unit_wind_permit ({i}): {unit_wind_list[i]}')
 
