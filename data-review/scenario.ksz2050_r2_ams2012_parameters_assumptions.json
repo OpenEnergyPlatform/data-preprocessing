@@ -21,11 +21,11 @@
         "homepage": "https://www.klimaschutzszenario2050.de",
         "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
         "sourceCode": "not available",
-        "contact": "szendb@oeko.de",
+        "contact": "oedb@oeko.de",
         "grantNo": "03KSE031",
-        "fundingAgency": "Bundesministerium f\u00fcr Umwelt, Naturschutz und nukleare Sicherheit",
+        "fundingAgency": "Diese Daten wurden im Auftrag des Bundesministeriums um Umwelt, Naturschutz und nukleare Sicherheit erstellt",
         "fundingAgencyLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Logo_Bundesministerium_f%C3%BCr_Umwelt_Naturschutz_und_nukleare_Sicherheit.png",
-        "publisherLogo": null
+        "publisherLogo": "https://www.oeko.de/fileadmin/templates/oeko/Resources/Public/images/logo.svg"
     },
     "spatial": {
         "location": null,
