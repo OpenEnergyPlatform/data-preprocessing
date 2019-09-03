@@ -13,7 +13,7 @@
         "Electricity generation",
         "Electricity consumption"
     ],
-    "publicationDate": "",
+    "publicationDate": null,
     "context": {
         "homepage": "https://www.klimaschutzszenario2050.de",
         "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
@@ -30,7 +30,7 @@
         "resolution": null
     },
     "temporal": {
-        "referenceDate": "",
+        "referenceDate": null,
         "timeseries":
             {"start": "2020-01-01T00:00+01:00",
             "end": "2050-01-01T00:00+01:00",
