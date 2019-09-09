@@ -1,0 +1,162 @@
+{
+    "name": "szenariendb_gwp",
+    "title": "Global warming potentials from IPCC Assessment Reports",
+    "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
+    "description": "This table holds global warming potentials (GWP) published in the IPCC Assessment reports. Due to legal aspects this table currently only holds a subset gases of all published GWPs. The subset was chosen to the gases most related to energy modeling.",
+    "language": [
+        "english"
+    ],
+    "keywords": [
+        "IPCC",
+        "Global warming potential",
+        "GWP",
+        "Greenhouse gas"
+    ],
+    "publicationDate": "2019-09-09",
+    "spacial": {
+        "extent": "global"
+    },
+    "sources": [
+        {
+            "title": "Climate Change: The IPCC Scientific Assessment",
+            "description": "Report Prepared for IPCC by Working Group 1",
+            "path": "https://www.ipcc.ch/report/ar1/wg1/"
+        },
+        {
+            "title": "Climate Change 1995: The Science of Climate Change",
+            "description": "Contribution of Working Group I to the Second Assessment Report of the Intergovernmental Panel on Climate Change",
+            "path": "https://www.ipcc.ch/report/ar2/wg1/"
+        },
+        {
+            "title": "Climate Change 2001: The Scientific Basis",
+            "description": "Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change",
+            "path": "https://www.ipcc.ch/report/ar3/wg1/"
+        },
+        {
+            "title": "Climate Change 2007: The Physical Science Basis",
+            "description": "Working Group I Contribution to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
+            "path": "https://www.ipcc.ch/report/ar4/wg1/"
+        },
+        {
+            "title": "Climate Change 2013: The Physical Science Basis",
+            "description": "Working Group I Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
+            "path": "https://www.ipcc.ch/report/ar5/wg1/"
+        }
+    ],
+    "license": [
+        {
+            "name": "dl-de-by-2.0",
+            "title": "Data licence Germany \u2013 attribution \u2013 version 2.0",
+            "path": "https://www.govdata.de/dl-de/by-2-0",
+            "instruction": "https://www.govdata.de/dl-de/by-2-0",
+            "attribution": "\u00a9 \u00d6ko-Institut"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Lukas Emele",
+            "email": "oedb@oeko.de",
+            "date": "2019-09-09",
+            "object": "",
+            "comment": "Collection of data from IPCC assessment reports"
+        },
+        {
+            "title": "Lukas Emele",
+            "email": "oedb@oeko.de",
+            "date": "2019-09-09",
+            "object": "",
+            "comment": "Creation of metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "climate.szenariendb_gwp",
+            "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "unique identifier",
+                        "type": "serial",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "greenhouse_gas",
+                        "description": "Name of the greenhouse gas given as common name, chemical name and/or industrial abbreviation",
+                        "type": "varchar",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "gas_group",
+                        "description": "Gas group as mentioned in the respective IPCC Assessment Report. Attention: The gas groups are not harmonized across the various IPCC Assessment Reports!",
+                        "type": "varchar",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "chemical_formula",
+                        "description": "Chemical formula of the respective greenhouse gas",
+                        "type": "varchar",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "ipcc_report",
+                        "description": "Source of the GWP value. AR1 meaning the First Assessment Report, AR2 the second Assessment Report etc.",
+                        "type": "varchar",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "source",
+                        "description": "Source table within the respective IPCC Assessment Report",
+                        "type": "varchar",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "time_horizon",
+                        "description": "Time horizon for which the GWP of a greenhouse gas was calculated. If unsure: a time horizon of 100 years is most commonly used.",
+                        "type": "integer",
+                        "unit": "year"
+                    },
+                    {
+                        "name": "global_warming_potential",
+                        "description": "Global warming potential of a greenhouse gas",
+                        "type": "float",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "inequality_sign",
+                        "description": "For some gases the Assessment Reports can only give lower or upper limits of the GWP values. In this case this column provides information whether the GWP is below or above a specific value.",
+                        "type": "varchar",
+                        "unit": "null"
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ]
+            },
+            "dialect": {
+                "delimiter": "",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss\u00b1hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
