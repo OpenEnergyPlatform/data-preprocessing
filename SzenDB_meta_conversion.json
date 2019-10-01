@@ -67,7 +67,8 @@
     "attribution": "© Öko-Institut, © AG Energiebilanzen contributors, © IPCC AR5 chapter contributors, © Wikipedia contributors"} ],
 "contributors": [
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-09", "object": "metadata", "comment": "create metadata"},
-    {"title": "Hannah Förster, Christian Winger", "email": "h.foerster@oeko.de, c.winger@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refinement of metadata"},
+    {"title": "Christian Winger", "email": "c.winger@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refinement of metadata"},
+    {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refinement of metadata"},
 	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"}	],
 "resources": [
     {"profile": "tabular-data-resource",
