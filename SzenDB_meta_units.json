@@ -4,7 +4,7 @@
 "description": "This table holds common names and abbreviations of units and other metrics often used in energy and climate modelling.",
 "language": ["en-GB"],
 "keywords": ["Öko-Institut", "units", "abbreviations"],
-"publicationDate": "",
+"publicationDate": null,
 "context":
     {"homepage": "https://www.oeko.de/forschung-beratung/projekte/pr-details/verbundvorhaben-szenariendb-datenbank-fuer-klima-und-energieszenarien-teilvorhaben-szenarienreche/",
     "documentation": null,
@@ -28,7 +28,7 @@
         "aggregationType": null} },
 "sources": [
     {"title": "Joule",
-    "description": "",
+    "description": null,
     "path": "https://en.wikipedia.org/w/index.php?title=Joule&oldid=909735965",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -37,7 +37,7 @@
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
     {"title": "Barrel of oil equivalent",
-    "description": "",
+    "description": null,
     "path": "https://en.wikipedia.org/w/index.php?title=Barrel_of_oil_equivalent&oldid=906040694",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -123,7 +123,7 @@
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-08", "object": "metadata", "comment": "create metadata"},
 	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refine metadata"},
 	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
-    {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
+    {"title": null, "email": null, "date": null, "object": null, "comment": null} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "szenariendb_units",

@@ -48,7 +48,7 @@
         "attribution": "© IPCC AR5 chapter contributors"} ] } ,
 		
     {"title": "Barrel of oil equivalent",
-    "description": "",
+    "description": null,
     "path": "https://en.wikipedia.org/w/index.php?title=Barrel_of_oil_equivalent&oldid=906040694",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
