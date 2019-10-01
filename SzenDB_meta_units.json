@@ -123,7 +123,7 @@
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-08", "object": "metadata", "comment": "create metadata"},
 	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refine metadata"},
 	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
-    {"title": null, "email": null, "date": null, "object": null, "comment": null} ],
+    {"title": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date": "2019-10-01", "object": "metadata", "comment": "review metadata"} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "szenariendb_units",

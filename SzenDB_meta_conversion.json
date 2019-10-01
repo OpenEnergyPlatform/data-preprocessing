@@ -69,7 +69,8 @@
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-09", "object": "metadata", "comment": "create metadata"},
     {"title": "Christian Winger", "email": "c.winger@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refinement of metadata"},
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refinement of metadata"},
-	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"}	],
+	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
+    {"title": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date": "2019-10-01", "object": "metadata", "comment": "review metadata"}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "szenariendb_conversion",
