@@ -18,9 +18,9 @@
     {"location": null,
     "extent": null,
     "resolution": null},
-"temporal": 
+"temporal":
     {"referenceDate": null,
-    "timeseries": 
+    "timeseries":
         {"start": null,
         "end": null,
         "resolution": null,
@@ -45,8 +45,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Watt",
+       {"title": "Watt",
     "path": "https://en.wikipedia.org/w/index.php?title=Watt&oldid=906739787",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -54,8 +53,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "British thermal unit",
+       {"title": "British thermal unit",
     "path": "https://en.wikipedia.org/w/index.php?title=British_thermal_unit&oldid=907548783",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -63,8 +61,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Tonne",
+       {"title": "Tonne",
     "path": "https://en.wikipedia.org/w/index.php?title=Tonne&oldid=909088225",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -72,8 +69,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Calorie",
+       {"title": "Calorie",
     "path": "https://en.wikipedia.org/w/index.php?title=Calorie&oldid=908554845",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -81,9 +77,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-	
-		
-	   {"title": "Carbon dioxide",
+       {"title": "Carbon dioxide",
     "path": "https://en.wikipedia.org/w/index.php?title=Carbon_dioxide&oldid=909802844",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -91,8 +85,7 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Methane",
+       {"title": "Methane",
     "path": "https://en.wikipedia.org/w/index.php?title=Methane&oldid=908934557",
     "licenses": [
         {"name": "CC-BY-SA 3.0",
@@ -100,10 +93,8 @@
         "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] },
-				
-	   {"title": "Nitrous oxide",
+       {"title": "Nitrous oxide",
     "path": "https://en.wikipedia.org/w/index.php?title=Nitrous_oxide&oldid=909987975",
-    
     "licenses": [
         {"name": "CC-BY-SA 3.0",
         "title": "Creative Commons Attribution-ShareAlike",
@@ -111,8 +102,6 @@
         "instruction": "You are free to share and adapt as long as you attribute and share alike",
         "attribution": "© Wikipedia contributors"} ] }
         ],
-							
-				
 "licenses": [
     {"name": "CC-BY-SA 4.0",
     "title": "Attribution-ShareAlike 4.0 International",
@@ -121,8 +110,8 @@
     "attribution": "© Öko-Institut, © Wikipedia contributors"} ],
 "contributors": [
     {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-08", "object": "metadata", "comment": "create metadata"},
-	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refine metadata"},
-	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
+    {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refine metadata"},
+    {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
     {"title": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date": "2019-10-01", "object": "metadata", "comment": "review metadata"} ],
 "resources": [
     {"profile": "tabular-data-resource",
@@ -134,11 +123,10 @@
         "fields": [
             {"name": "id", "description": "unique identifier", "type": "serial", "unit": null},
             {"name": "name", "description": "name of unit / metric", "type": "varchar", "unit": null},
-			{"name": "abbreviation", "description": "abbreviation of unit / metric", "type": "varchar", "unit": null}],
+            {"name": "abbreviation", "description": "abbreviation of unit / metric", "type": "varchar", "unit": null}],
         "primaryKey": ["id"],
         "foreignKeys": [] }
 }],
-
 "metaMetadata":
     {"metadataVersion": "OEP-1.4.0",
     "metadataLicense":
