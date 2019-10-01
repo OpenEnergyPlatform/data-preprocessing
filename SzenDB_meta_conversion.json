@@ -7,8 +7,8 @@
 "publicationDate": "2019-08-08",
 "context":
     {"homepage": "https://www.oeko.de/forschung-beratung/projekte/pr-details/verbundvorhaben-szenariendb-datenbank-fuer-klima-und-energieszenarien-teilvorhaben-szenarienreche/",
-    "documentation": "none",
-    "sourceCode": "none",
+    "documentation": null,
+    "sourceCode": null,
     "contact": "oedb@oeko.de",
     "grantNo": "03ET4057C",
     "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
@@ -31,19 +31,19 @@
     "description": "Conversion tool to convert various energy related units",
     "path": "https://ag-energiebilanzen.de/33-0-Energieeinheitenumrechner.html",
     "licenses": [
-        {"name": "none",
-        "title": "none",
-        "path": "none",
-        "instruction": "none",
+        {"name": null,
+        "title": null,
+        "path": null,
+        "instruction": null,
         "attribution": "© AG Energiebilanzen"} ] } ,
 		
 	   {"title": " GWP and GTP with and without inclusion of climate–carbon feedbacks (cc fb) in response to emissions of the indicated non-CO2 gases",
     "description": "Emission factors for conversion to CO2 equivalents",
     "path": "http://www.climatechange2013.org/images/report/WG1AR5_Chapter08_FINAL.pdf",
     "licenses": [
-        {"name": "none",
-        "title": "none",
-        "path": "none",
+        {"name": null,
+        "title": null,
+        "path": null,
         "instruction": "This chapter should be cited as: Myhre, G., D. Shindell, F.-M. Bréon, W. Collins, J. Fuglestvedt, J. Huang, D. Koch, J.-F. Lamarque, D. Lee, B. Mendoza, T. Nakajima, A. Robock, G. Stephens, T. Takemura and H. Zhang, 2013: Anthropogenic and Natural Radiative Forcing. In: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change [Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA",
         "attribution": "© IPCC AR5 chapter contributors"} ] } ,
 		
