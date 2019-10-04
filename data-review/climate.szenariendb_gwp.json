@@ -57,14 +57,14 @@
             "title": "Lukas Emele",
             "email": "oedb@oeko.de",
             "date": "2019-09-09",
-            "object": "",
+            "object": null,
             "comment": "Collection of data from IPCC assessment reports"
         },
         {
             "title": "Lukas Emele",
             "email": "oedb@oeko.de",
             "date": "2019-09-09",
-            "object": "",
+            "object": null,
             "comment": "Creation of metadata"
         }
     ],
@@ -137,7 +137,7 @@
                 ]
             },
             "dialect": {
-                "delimiter": "",
+                "delimiter": null,
                 "decimalSeparator": "."
             }
         }
