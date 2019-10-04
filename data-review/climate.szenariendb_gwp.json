@@ -4,7 +4,7 @@
     "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
     "description": "This table holds global warming potentials (GWP) published in the IPCC Assessment reports. Due to legal aspects this table currently only holds a subset gases of all published GWPs. The subset was chosen to the gases most related to energy modeling.",
     "language": [
-        "english"
+        "en-GB"
     ],
     "keywords": [
         "IPCC",
