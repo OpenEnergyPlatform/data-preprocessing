@@ -66,6 +66,13 @@
             "date": "2019-09-09",
             "object": null,
             "comment": "Creation of metadata"
+        },
+                {
+            "title": "Mirjam Stappel",
+            "email": "mirjam.stappel@iee.fraunhofer.de",
+            "date": "2019-10-04",
+            "object": "metadata",
+            "comment": "review metadata"
         }
     ],
     "resources": [
