@@ -143,37 +143,37 @@
                         "name": "id",
                         "description": "unique identifier",
                         "type": "serial",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "greenhouse_gas",
                         "description": "Name of the greenhouse gas given as common name, chemical name and/or industrial abbreviation",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "gas_group",
                         "description": "Gas group as mentioned in the respective IPCC Assessment Report. Attention: The gas groups are not harmonized across the various IPCC Assessment Reports!",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "chemical_formula",
                         "description": "Chemical formula of the respective greenhouse gas",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "ipcc_report",
                         "description": "Source of the GWP value. AR1 meaning the First Assessment Report, AR2 the second Assessment Report etc.",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "source",
                         "description": "Source table within the respective IPCC Assessment Report",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "time_horizon",
@@ -185,13 +185,13 @@
                         "name": "global_warming_potential",
                         "description": "Global warming potential of a greenhouse gas",
                         "type": "float",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "inequality_sign",
                         "description": "For some gases the Assessment Reports can only give lower or upper limits of the GWP values. In this case this column provides information whether the GWP is below or above a specific value.",
                         "type": "varchar",
-                        "unit": "null"
+                        "unit": null
                     }
                 ],
                 "primaryKey": [
