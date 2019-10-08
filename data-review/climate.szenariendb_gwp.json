@@ -13,34 +13,89 @@
         "Greenhouse gas"
     ],
     "publicationDate": "2019-09-09",
-    "spatial": {
-        "extent": "global"
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
     },
+    "spatial": {
+        "location": null,
+        "extent": "global",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries":
+            {"start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null },
     "sources": [
         {
             "title": "Climate Change: The IPCC Scientific Assessment",
             "description": "Report Prepared for IPCC by Working Group 1",
-            "path": "https://www.ipcc.ch/report/ar1/wg1/"
+            "path": "https://www.ipcc.ch/report/ar1/wg1/",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null}],
+            "copyright": null
         },
         {
             "title": "Climate Change 1995: The Science of Climate Change",
             "description": "Contribution of Working Group I to the Second Assessment Report of the Intergovernmental Panel on Climate Change",
-            "path": "https://www.ipcc.ch/report/ar2/wg1/"
+            "path": "https://www.ipcc.ch/report/ar2/wg1/",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null}],
+            "copyright": null
         },
         {
             "title": "Climate Change 2001: The Scientific Basis",
             "description": "Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change",
-            "path": "https://www.ipcc.ch/report/ar3/wg1/"
+            "path": "https://www.ipcc.ch/report/ar3/wg1/",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null}],
+            "copyright": null
         },
         {
             "title": "Climate Change 2007: The Physical Science Basis",
             "description": "Working Group I Contribution to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
-            "path": "https://www.ipcc.ch/report/ar4/wg1/"
+            "path": "https://www.ipcc.ch/report/ar4/wg1/",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null}],
+            "copyright": null
         },
         {
             "title": "Climate Change 2013: The Physical Science Basis",
             "description": "Working Group I Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
-            "path": "https://www.ipcc.ch/report/ar5/wg1/"
+            "path": "https://www.ipcc.ch/report/ar5/wg1/",
+            "licenses": [
+                {"name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null}],
+            "copyright": null
         }
     ],
     "license": [
@@ -141,6 +196,15 @@
                 ],
                 "primaryKey": [
                     "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [],
+                        "reference": {
+                            "resource": null,
+                            "fields": []
+                        }
+                    }
                 ]
             },
             "dialect": {
@@ -149,6 +213,10 @@
             }
         }
     ],
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.0",
         "metadataLicense": {
