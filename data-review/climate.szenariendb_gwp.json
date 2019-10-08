@@ -122,10 +122,17 @@
             "object": "metadata",
             "comment": "Creation of metadata"
         },
-                {
+        {
             "title": "Mirjam Stappel",
             "email": "mirjam.stappel@iee.fraunhofer.de",
             "date": "2019-10-04",
+            "object": "metadata",
+            "comment": "review metadata"
+        },
+        {
+            "title": "Christian Hofmann",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2019-10-08",
             "object": "metadata",
             "comment": "review metadata"
         }
