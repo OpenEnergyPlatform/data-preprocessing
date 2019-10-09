@@ -136,6 +136,13 @@
             "object": "metadata",
             "comment": "review metadata"
         }
+		{
+            "title": "Jonas Huber",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2019-10-08",
+            "object": "metadata",
+            "comment": "review metadata"
+        }
     ],
     "resources": [
         {
