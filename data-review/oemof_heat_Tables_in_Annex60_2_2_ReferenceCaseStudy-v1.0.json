@@ -1,0 +1,149 @@
+{"name": "Tables_in_Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+"title": "Table 18-20 in Annex 60 Neighborhood Case",
+"id": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+"description": "Data of pipe properties, pipe material properties and topology design for configuration 90-60, 50-30 and 20-10.",
+"language": ["en-US"],
+"keywords": [null],
+"publicationDate": null,
+"context":
+    {"homepage": "http://iea-annex60.org/",
+    "documentation": "http://www.iea-annex60.org/finalReport/activity_2_2.html",
+    "sourceCode": "https://github.com/ibpsa/modelica-ibpsa",
+    "contact": "Michael Wetter MWetter@lbl.gov, Christoph van Treeck treeck@e3d.rwth-aachen.de",
+    "grantNo": null,
+    "fundingAgency": null,
+    "fundingAgencyLogo": null,
+    "publisherLogo": "https://iea-ebc.org/Data/Sites/1/skins/ebc/img/ebc.png"},
+"spatial":
+    {"location": null,
+    "extent": null,
+    "resolution": null},
+"temporal": 
+    {"referenceDate": null,
+    "timeseries": 
+        {"start": null,
+        "end": null,
+        "resolution": null,
+        "alignment": null,
+        "aggregationType": null} },
+"sources": [
+    {"title": "Isoplus - Steel pipes - single - series 1",
+    "description": "Pipe properties for Isoplus Series 1 steel pipe",
+    "path": "http://en.isoplus.dk/_upload/06022014145812_477254646_0003.pdf",
+    "licenses": [
+        {"name": null,
+        "title": null,
+        "path": null,
+        "instruction": null,
+        "attribution": null} ] },
+    {"title": null,
+    "description": "Pipe material properties for steel PUR and Jacket (PEHD)",
+    "path": null,
+    "licenses": [
+        {"name": null,
+        "title": null,
+        "path": null,
+        "instruction": null,
+        "attribution": null} ] },
+    {"title": null,
+    "description": "Topology design for configuration 90-60, 50-30 and 20-10.",
+    "path": null,
+    "licenses": [
+        {"name": null,
+        "title": null,
+        "path": null,
+        "instruction": null,
+        "attribution": null} ] }],
+"licenses": [
+    {"name": "BSD 3-Clause Clear License",
+    "title": "3-clause BSD-license",
+    "path": "https://github.com/ibpsa/modelica-ibpsa/blob/master/IBPSA/legal.html",
+    "instruction": null,
+    "attribution": null} ],
+"contributors": [
+    {"title": null, "email": null, "date": null, "object": null, "comment": null},
+    {"title": null, "email": null, "date": null, "object": null, "comment": null} ],
+"resources": [
+    {"profile": "tabular-data-resource",
+    "name": "Pipe_properties.csv",
+    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "format": "csv",
+    "encoding" : "us-ascii",
+    "schema": {
+        "fields": [
+            {"name": "Pipe class ID", "description": null, "type": "string", "unit": "-"},
+            {"name": "Inner diameter", "description": null, "type": "float", "unit": "m"},
+            {"name": "Outer diameter", "description": null, "type": "float", "unit": "mm"},
+            {"name": "Steel wall thickness", "description": null, "type": "float", "unit": "mm"},
+            {"name": "External diameter incl. Insulation", "description": null, "type": "integer", "unit": "mm"},
+            {"name": "Wall roughness coefficient", "description": null, "type": "float", "unit": "mm"},
+            {"name": "Heat losses coefficient", "description": null, "type": "float", "unit": "W/mK"} ],
+        "primaryKey": [null],
+        "foreignKeys": [{
+                "fields": [null],
+                "reference": {
+                    "resource": null,
+                    "fields": [null] } } ] },
+    "dialect":
+        {"delimiter": ",",
+        "decimalSeparator": "."} },
+    {"profile": "tabular-data-resource",
+    "name": "Pipe_material_properties.csv",
+    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "format": "csv",
+    "encoding" : "us-ascii",
+    "schema": {
+        "fields": [
+            {"name": "Material", "description": null, "type": "integer", "unit": "-"},
+            {"name": "rho", "description": null, "type": "float", "unit": "kg/m3"},
+            {"name": "k", "description": null, "type": "float", "unit": "W/mK"},
+            {"name": "cp", "description": null, "type": "integer", "unit": "J/kgK"} ],
+        "primaryKey": [null],
+        "foreignKeys": [{
+                "fields": [null],
+                "reference": {
+                    "resource": null,
+                    "fields": [null] } } ] },
+    "dialect":
+        {"delimiter": ",",
+        "decimalSeparator": "."} },
+    {"profile": "tabular-data-resource",
+    "name": "Topology_design_for_configuration_90-60_50-30_and_20-10.csv",
+    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "format": "csv",
+    "encoding" : "us-ascii",
+    "schema": {
+        "fields": [
+            {"name": "Line ID", "description": null, "type": "integer", "unit": "-"},
+            {"name": "Nodes connected from", "description": null, "type": "string", "unit": "-"},
+            {"name": "Nodes connected to", "description": null, "type": "string", "unit": "-"},
+            {"name": "Length", "description": null, "type": "float", "unit": "m"},
+            {"name": "Nominal diameter (90-60)", "description": null, "type": "string", "unit": "-"},
+            {"name": "Nominal diameter (50-30)", "description": null, "type": "string", "unit": "-"},
+            {"name": "Nominal diameter (20-10)", "description": null, "type": "string", "unit": "-"} ],
+        "primaryKey": [null],
+        "foreignKeys": [{
+                "fields": [null],
+                "reference": {
+                    "resource": null,
+                    "fields": [null] } } ] },
+    "dialect":
+        {"delimiter": ",",
+        "decimalSeparator": "."} } ],
+"review": {
+    "path": null,
+    "badge": null},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4.0",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "null": "If not applicable use (null)"} }
