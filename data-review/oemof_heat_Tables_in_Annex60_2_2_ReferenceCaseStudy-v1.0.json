@@ -71,7 +71,7 @@
     "encoding" : "us-ascii",
     "schema": {
         "fields": [
-            {"name": "Pipe class ID", "description": null, "type": "string", "unit": "-"},
+            {"name": "Pipe class ID", "description": null, "type": "string", "unit": null},
             {"name": "Inner diameter", "description": null, "type": "float", "unit": "m"},
             {"name": "Outer diameter", "description": null, "type": "float", "unit": "mm"},
             {"name": "Steel wall thickness", "description": null, "type": "float", "unit": "mm"},
@@ -94,7 +94,7 @@
     "encoding" : "us-ascii",
     "schema": {
         "fields": [
-            {"name": "Material", "description": null, "type": "integer", "unit": "-"},
+            {"name": "Material", "description": null, "type": "integer", "unit": null},
             {"name": "rho", "description": null, "type": "float", "unit": "kg/m3"},
             {"name": "k", "description": null, "type": "float", "unit": "W/mK"},
             {"name": "cp", "description": null, "type": "integer", "unit": "J/kgK"} ],
@@ -114,13 +114,13 @@
     "encoding" : "us-ascii",
     "schema": {
         "fields": [
-            {"name": "Line ID", "description": null, "type": "integer", "unit": "-"},
-            {"name": "Nodes connected from", "description": null, "type": "string", "unit": "-"},
-            {"name": "Nodes connected to", "description": null, "type": "string", "unit": "-"},
+            {"name": "Line ID", "description": null, "type": "integer", "unit": null},
+            {"name": "Nodes connected from", "description": null, "type": "string", "unit": null},
+            {"name": "Nodes connected to", "description": null, "type": "string", "unit": null},
             {"name": "Length", "description": null, "type": "float", "unit": "m"},
-            {"name": "Nominal diameter (90-60)", "description": null, "type": "string", "unit": "-"},
-            {"name": "Nominal diameter (50-30)", "description": null, "type": "string", "unit": "-"},
-            {"name": "Nominal diameter (20-10)", "description": null, "type": "string", "unit": "-"} ],
+            {"name": "Nominal diameter (90-60)", "description": null, "type": "string", "unit": null},
+            {"name": "Nominal diameter (50-30)", "description": null, "type": "string", "unit": null},
+            {"name": "Nominal diameter (20-10)", "description": null, "type": "string", "unit": null} ],
         "primaryKey": [null],
         "foreignKeys": [{
                 "fields": [null],
