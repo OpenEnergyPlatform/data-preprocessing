@@ -66,7 +66,7 @@
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "Pipe_properties.csv",
-    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "path": null,
     "format": "csv",
     "encoding" : "us-ascii",
     "schema": {
@@ -89,7 +89,7 @@
         "decimalSeparator": "."} },
     {"profile": "tabular-data-resource",
     "name": "Pipe_material_properties.csv",
-    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "path": null,
     "format": "csv",
     "encoding" : "us-ascii",
     "schema": {
@@ -109,7 +109,7 @@
         "decimalSeparator": "."} },
     {"profile": "tabular-data-resource",
     "name": "Topology_design_for_configuration_90-60_50-30_and_20-10.csv",
-    "path": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
+    "path": null,
     "format": "csv",
     "encoding" : "us-ascii",
     "schema": {
