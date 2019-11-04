@@ -3,7 +3,7 @@
 "id": null,
 "description": "The total heat demand is given (in W) for all 24 buildings in a timestep of 900s for one year, taking into account Uccle weather conditions and fixed setpoint temperature of 21 degrees (no internal gains). The attics are assumed unheated, so the given demand is the sum for day- and night-zones, or all apartments. Numbering of buildings follows the node numbering, as given in the specification document, Figure 1. The data is provided in one file (first column is time, others represent the buildings in order 1 to 24).",
 "language": ["en-US"],
-"keywords": null,
+"keywords": ["Heat", "Demand"],
 "publicationDate": null,
 "context":
     {"homepage": "http://iea-annex60.org/",

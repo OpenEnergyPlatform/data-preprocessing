@@ -3,7 +3,7 @@
 "id": "http://www.iea-annex60.org/downloads/Annex60_2_2_ReferenceCaseStudy-v1.0.pdf",
 "description": "Data of pipe properties, pipe material properties and topology design for configuration 90-60, 50-30 and 20-10.",
 "language": ["en-US"],
-"keywords": [null],
+"keywords": ["reference"],
 "publicationDate": null,
 "context":
     {"homepage": "http://iea-annex60.org/",
@@ -36,8 +36,8 @@
         "path": null,
         "instruction": null,
         "attribution": null} ] },
-    {"title": null,
-    "description": "Pipe material properties for steel PUR and Jacket (PEHD)",
+    {"title": "Pipe material properties for steel PUR and Jacket (PEHD)",
+    "description": null,
     "path": null,
     "licenses": [
         {"name": null,
@@ -45,8 +45,8 @@
         "path": null,
         "instruction": null,
         "attribution": null} ] },
-    {"title": null,
-    "description": "Topology design for configuration 90-60, 50-30 and 20-10.",
+    {"title": "Topology design for configuration 90-60, 50-30 and 20-10.",
+    "description": null,
     "path": null,
     "licenses": [
         {"name": null,
