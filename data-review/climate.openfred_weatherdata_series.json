@@ -1,7 +1,7 @@
 {
     "name": "openfred_series",
     "title": "open_FRED Weatherdata",
-    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_",
+    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_series",
     "description": "",
     "language": [
         "en-GB", "de-DE"
@@ -176,8 +176,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "climate.openfred_timespans",
-            "path": "",
+            "name": "climate.openfred_series",
+            "path": "https://openenergy-platform.org/dataedit/view/climate/openfred_series",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -190,31 +190,31 @@
                     },
                     {
                         "name": "values",
-                        "description": "",
+                        "description": "values of the measurement",
                         "type": "double precision array",
                         "unit": null
                     },
                     {
                         "name": "height",
-                        "description": "",
+                        "description": "height of the measuring point",
                         "type": "double precision",
                         "unit": "metre"
                     },
                     {
                         "name": "timespan_id",
-                        "description": "",
+                        "description": "timespan and resolution",
                         "type": "bigint",
                         "unit": null
                     },
                     {
                         "name": "location_id",
-                        "description": "",
+                        "description": "Geographical location of the measuring point",
                         "type": "bigint",
                         "unit": null
                     },
                     {
                         "name": "variable_id",
-                        "description": "",
+                        "description": "measurement variables",
                         "type": "bigint",
                         "unit": null
                     }

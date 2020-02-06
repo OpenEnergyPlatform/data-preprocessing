@@ -1,7 +1,7 @@
 {
     "name": "openfred_variables",
     "title": "open_FRED Weatherdata",
-    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_",
+    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_variables",
     "description": "",
     "language": [
         "en-GB", "de-DE"
@@ -177,7 +177,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "climate.openfred_variables",
-            "path": "",
+            "path": "https://openenergy-platform.org/dataedit/view/climate/openfred_variables",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
