@@ -12,66 +12,150 @@
     "publicationDate": "",
     "context": {
         "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
-        "documentation": "",
-        "sourceCode": "",
-        "contact": "",
-        "grantNo": "",
-        "fundingAgency": "",
-        "fundingAgencyLogo": "",
-        "publisherLogo": ""
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "0324006A",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
     },
     "spatial": {
-        "location": "null",
+        "location": null,
         "extent": "Germany (generous)",
         "resolution": " 0.0625° (~6.6 km)"
     },
     "temporal": {
-        "referenceDate": "null",
+        "referenceDate": null,
         "timeseries": {
             "start": "2002",
             "end": "2017",
             "resolution": "30 min",
             "alignment": "horizontal",
-            "aggregationType": "null"
+            "aggregationType": null
         }
     },
     "sources": [
-        {
-            "title": "COSMO-CLM",
-            "description": "",
-            "path": "",
-            "licenses": [
-                {
-                    "name": "null",
-                    "title": "null",
-                    "path": "null",
-                    "instruction": "null",
-                    "attribution": "null"
-                }
-            ]
-        },
         {
             "title": "MERRA2",
             "description": "Modern-Era Retrospective analysis for Research and Applications, Version 2",
             "path": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/data_access/",
             "licenses": [
                 {
-                    "name": "null",
-                    "title": "null",
-                    "path": "null",
-                    "instruction": "null",
-                    "attribution": "null"
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "noaa_globe",
+            "description": "Global Land One-km Base Elevation Project (GLOBE)",
+            "path": "http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "ecjrc_glc2000",
+            "description": "Global Land Cover 2000",
+            "path": "'http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "nasa_aerosols",
+            "description": "GACP aerosol optical thickness and Angstrom exponent dataset",
+            "path": "https://gacp.giss.nasa.gov/data/time_ser/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "gldb",
+            "description": "Global Lake Database (GLDB)",
+            "path": "https://www.adv-sci-res.net/16/57/2019/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "copernicus_clc",
+            "description": "Copernicus Land Monitoring Services - CORINE Land Cover (CLC) - CLC 2012",
+            "path": "https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012?tab=download",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "fao_hwsd",
+            "description": "Harmonised World Soil Database",
+            "path": "http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "modis_albedo",
+            "description": "Filled Land Surface Albedo Product",
+            "path": "https://www.umb.edu/spectralmass/terra_aqua_modis/modis_brdf_albedo_product_mcd43",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
                 }
             ]
         }
     ],
     "licenses": [
         {
-            "name": "CC-BY-4.0",
-            "title": "Creative Commons Attribution 4.0 International",
-            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
-            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
-            "attribution": "© Helmholtz-Zentrum Geesthacht"
+            "name": "",
+            "title": "",
+            "path": "",
+            "instruction": "",
+            "attribution": ""
         }
     ],
     "contributors": [
@@ -102,31 +186,31 @@
                         "name": "id",
                         "description": "Unique identifier",
                         "type": "bigint",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "start",
                         "description": "timestamp without time zone",
                         "type": "timestamp",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "stop",
                         "description": "timestamp without time zone",
                         "type": "timestamp",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "resolution",
                         "description": "30 min resolution",
                         "type": "interval",
-                        "unit": "null"
+                        "unit": null
                     },
                     {
                         "name": "segments",
                         "description": "timestamp without time zone as segments for each start/end range in 30min resolution",
                         "type": "timestamp",
-                        "unit": "null"
+                        "unit": null
                     }
                 ],
                 "primaryKey": [
@@ -135,26 +219,26 @@
                 "foreignKeys": [
                     {
                         "fields": [
-                            "null"
+                            null
                         ],
                         "reference": {
-                            "resource": "null",
+                            "resource": null,
                             "fields": [
-                                "null"
+                                null
                             ]
                         }
                     }
                 ]
             },
             "dialect": {
-                "delimiter": "null",
+                "delimiter": null,
                 "decimalSeparator": "."
             }
         }
     ],
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
-        "badge": "null"
+        "badge": null
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.0",
