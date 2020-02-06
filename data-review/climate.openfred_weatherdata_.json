@@ -1,17 +1,17 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
+    "name": "openfred_",
+    "title": "open_FRED Weatherdata",
+    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_",
     "description": "",
     "language": [
-        ""
+        "en-GB", "de-DE"
     ],
     "keywords": [
         ""
     ],
     "publicationDate": "",
     "context": {
-        "homepage": "",
+        "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
         "documentation": "",
         "sourceCode": "",
         "contact": "",
@@ -37,7 +37,7 @@
     },
     "sources": [
         {
-            "title": "",
+            "title": "COSMO-CLM-MERRA2",
             "description": "",
             "path": "",
             "licenses": [
@@ -67,11 +67,11 @@
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+            "attribution": "© Helmholtz-Zentrum Geesthacht"
         }
     ],
     "contributors": [
@@ -136,8 +136,8 @@
         }
     ],
     "review": {
-        "path": "",
-        "badge": ""
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
+        "badge": "null"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.0",
