@@ -1,5 +1,5 @@
 {
-    "name": "openfred_",
+    "name": "openfred_locations",
     "title": "open_FRED Weatherdata",
     "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_",
     "description": "",
@@ -21,46 +21,46 @@
         "publisherLogo": ""
     },
     "spatial": {
-        "location": "",
-        "extent": "",
-        "resolution": ""
+        "location": "null",
+        "extent": "Germany (generous)",
+        "resolution": " 0.0625° (~6.6 km)"
     },
     "temporal": {
-        "referenceDate": "",
+        "referenceDate": "null",
         "timeseries": {
-            "start": "",
-            "end": "",
-            "resolution": "",
-            "alignment": "",
-            "aggregationType": ""
+            "start": "2002",
+            "end": "2017",
+            "resolution": "30 min",
+            "alignment": "horizontal",
+            "aggregationType": "null"
         }
     },
     "sources": [
         {
-            "title": "COSMO-CLM-MERRA2",
+            "title": "COSMO-CLM",
             "description": "",
             "path": "",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": "null",
+                    "title": "null",
+                    "path": "null",
+                    "instruction": "null",
+                    "attribution": "null"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "MERRA2",
+            "description": "Modern-Era Retrospective analysis for Research and Applications, Version 2",
+            "path": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/data_access/",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": "null",
+                    "title": "null",
+                    "path": "null",
+                    "instruction": "null",
+                    "attribution": "null"
                 }
             ]
         }
@@ -76,61 +76,60 @@
     ],
     "contributors": [
         {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
-        },
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-02-06", 
+            "object": "metadata", 
+            "comment": "Create metadata"},
         {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
+            "title": "Jonas Huber",
+            "email": "Jonas.Huber@rl-institut.de",
+            "date": "2020-02-06",
+            "object": "Metadata",
+            "comment": "Update metadata"
         }
     ],
     "resources": [
         {
-            "profile": "",
-            "name": "",
+            "profile": "tabular-data-resource",
+            "name": "climate.openfred_timespans",
             "path": "",
-            "format": "",
-            "encoding": "",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": "null"
                     },
                     {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
+                        "name": "point",
+                        "description": "Point geometry of weatherdata measurement points",
+                        "type": "geometry",
+                        "unit": "4326"
                     }
                 ],
                 "primaryKey": [
-                    ""
+                    "id"
                 ],
                 "foreignKeys": [
                     {
                         "fields": [
-                            ""
+                            "null"
                         ],
                         "reference": {
-                            "resource": "",
+                            "resource": "null",
                             "fields": [
-                                ""
+                                "null"
                             ]
                         }
                     }
                 ]
             },
             "dialect": {
-                "delimiter": "",
+                "delimiter": "null",
                 "decimalSeparator": "."
             }
         }

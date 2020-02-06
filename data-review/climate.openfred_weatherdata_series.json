@@ -1,0 +1,207 @@
+{
+    "name": "openfred_series",
+    "title": "open_FRED Weatherdata",
+    "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_",
+    "description": "",
+    "language": [
+        "en-GB", "de-DE"
+    ],
+    "keywords": [
+        ""
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
+        "documentation": "",
+        "sourceCode": "",
+        "contact": "",
+        "grantNo": "",
+        "fundingAgency": "",
+        "fundingAgencyLogo": "",
+        "publisherLogo": ""
+    },
+    "spatial": {
+        "location": "null",
+        "extent": "Germany (generous)",
+        "resolution": " 0.0625° (~6.6 km)"
+    },
+    "temporal": {
+        "referenceDate": "null",
+        "timeseries": {
+            "start": "2002",
+            "end": "2017",
+            "resolution": "30 min",
+            "alignment": "horizontal",
+            "aggregationType": "null"
+        }
+    },
+    "sources": [
+        {
+            "title": "COSMO-CLM",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "null",
+                    "title": "null",
+                    "path": "null",
+                    "instruction": "null",
+                    "attribution": "null"
+                }
+            ]
+        },
+        {
+            "title": "MERRA2",
+            "description": "Modern-Era Retrospective analysis for Research and Applications, Version 2",
+            "path": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/data_access/",
+            "licenses": [
+                {
+                    "name": "null",
+                    "title": "null",
+                    "path": "null",
+                    "instruction": "null",
+                    "attribution": "null"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+            "attribution": "© Helmholtz-Zentrum Geesthacht"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-02-06", 
+            "object": "metadata", 
+            "comment": "Create metadata"},
+        {
+            "title": "Jonas Huber",
+            "email": "Jonas.Huber@rl-institut.de",
+            "date": "2020-02-06",
+            "object": "Metadata",
+            "comment": "Update metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "climate.openfred_timespans",
+            "path": "",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "values",
+                        "description": "",
+                        "type": "double precision array",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "height",
+                        "description": "",
+                        "type": "double precision",
+                        "unit": "metre"
+                    },
+                    {
+                        "name": "timespan_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "location_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": "null"
+                    },
+                    {
+                        "name": "variable_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": "null"
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            "timespan_id"
+                        ],
+                        "reference": {
+                            "resource": "climate.openfred_timespans",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+                        
+                    },
+                    {
+                        "fields": [
+                            "location_id"
+                        ],
+                        "reference": {
+                            "resource": "climate.openfred_locations",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+                        
+                    },
+                    {
+                        "fields": [
+                            "variable_id"
+                        ],
+                        "reference": {
+                            "resource": "climate.openfred_variables",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+                        
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "null",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
+        "badge": "null"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
