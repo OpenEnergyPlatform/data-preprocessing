@@ -16,14 +16,14 @@
         "sourceCode": null,
         "contact": null,
         "grantNo": "0324006A",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
         "fundingAgencyLogo": null,
         "publisherLogo": null
     },
     "spatial": {
         "location": null,
         "extent": "Germany (generous)",
-        "resolution": " 0.0625° (~6.6 km)"
+        "resolution": "0.0625° (~6.6 km)"
     },
     "temporal": {
         "referenceDate": null,
@@ -151,11 +151,11 @@
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": "ODC-By-1.0",
+            "title": "Open Data Commons Attribution License v1.0",
+            "path": "https://opendatacommons.org/licenses/by/1.0/",
+            "instruction": "https://opendatacommons.org/licenses/by/summary/index.html",
+            "attribution": "© Helmholtz-Zentrum Geesthacht"
         }
     ],
     "contributors": [
@@ -171,6 +171,13 @@
             "date": "2020-02-06",
             "object": "Metadata",
             "comment": "Update metadata"
+        },
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-02-19",
+            "object": "Metadata",
+            "comment": "Update license information"
         }
     ],
     "resources": [
