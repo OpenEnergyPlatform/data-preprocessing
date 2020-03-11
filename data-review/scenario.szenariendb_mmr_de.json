@@ -1,0 +1,79 @@
+{"name": "szenariendb_mmr_de",
+"title": "Emission scenario data submitted by Germany under Regulation (EU) 525/2013",
+"id": "",
+"description": "This table holds emission projections and corresponding parameters, submitted under Article 14 of Regulation (EU) 525/2013",
+"language": [ "en-GB" ],
+"keywords": [ "Germany", "Emission projections", "Key parameters", "Assumptions", "Emission scenarios", "Monitoring Mechanism Regulation", "Article 14"],
+"publicationDate": "2020-03-11",
+"context":
+    {"homepage": "https://eur-lex.europa.eu/eli/reg/2013/525/oj",
+    "documentation": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32014R0749&from=EN#d1e32-67-1",
+    "sourceCode": null,
+    "contact": "oedb@oeko.de",
+    "fundingAuthority": null,
+    "fundingAuthorityLogo": null,
+    "grantNo": null},
+"spatial":
+    {"location": null,
+    "extent": "Germany",
+    "resolution": null},
+"temporal":
+    {"referenceDate": null,
+    "start": "2015-01-01T00:00+01:00",
+    "end": "2035-01-01T00:00+01:00",
+    "resolution": "yearly",
+    "timestamp": "left"},
+"sources": [
+    {"title": "EIONET Central Data Repository", "description": null, "path": "https://cdr.eionet.europa.eu/de/eu/mmr/art04-13-14_lcds_pams_projections/projections/", "license": "https://creativecommons.org/licenses/by/2.5/dk/deed.en_GB", "copyright": ""}],
+"licenses": [
+    {"name": "Attribution 2.5 Denmark",
+    "title": "CC BY 2.5 DK",
+    "path": "https://creativecommons.org/licenses/by/2.5/dk/deed.en_GB",
+    "instruction": "free to share and adapt under attibution",
+    "attribution": ""}],
+"contributors": [
+    {"title": "Öko-Institut", "email": "oedb@oeko", "date": "2030-03-11", "object": "metadata", "comment": "Initial version metadata"}],
+"resources": [
+    {"profile": "tabular-data-resource",
+    "name": "scenario.szenariendb_mmr_de",
+    "path": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
+    "format": "PostgreSQL",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
+            {"name": "scenario", "description": "Name of the scenario: with existing measures scenario = WEM, with additional measures scenario = WAM, without measures scenario = WOM", "type": "string", "unit": "none"},
+            {"name": "member_state", "description": "ISO-alpha-2 memberstate code", "type": "string", "unit": "none"},
+			{"name": "submission_year", "description": "year that data was submitted by Member State", "type": "integer", "unit": "none"},
+            {"name": "parameter", "description": "Parameter that is reported", "type": "string", "unit": "none"},
+			{"name": "crf_sector", "description": "Sector according to the Common Reporting Format (CRF)", "type": "string", "unit": "none"},
+			{"name": "gas", "description": "Name of gas", "type": "string", "unit": "none"},
+			{"name": "default_unit", "description": "Default unit data should be reported in", "type": "string", "unit": "none"},
+			{"name": "additional_unit_information", "description": "Unit data was reported in", "type": "string", "unit": "none"},
+			{"name": "year", "description": "Year of data", "type": "integer", "unit": "none"},
+			{"name": "value", "description": "Value of data", "type": "float", "unit": "none"},
+			{"name": "notation_key", "description": "Notation key that was used in case cell is empty", "type": "string", "unit": "none"},
+			{"name": "is_baseyear", "description": "Indicates with 1 if this is the base year used for the projection", "type": "boolean", "unit": "none"}
+		],
+        "primaryKey": ["id"],
+        "foreignKeys": [] },
+    "dialect":
+        {"delimiter": "none",
+        "decimalSeparator": "."} } ],
+"review": {
+    "path": "none",
+    "badge": "none"},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"}},
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+"none": "If not applicable use (none)"}}
