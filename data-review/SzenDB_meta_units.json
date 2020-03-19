@@ -1,155 +1,153 @@
-{"name": "szenariendb_units",
-"title": "Names and abbreviation of common units and metrics",
-"id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
-"description": "This table holds common names and abbreviations of units and other metrics often used in energy and climate modelling.",
-"language": ["en-GB"],
-"keywords": ["Öko-Institut", "units", "abbreviations"],
-"publicationDate": "",
-"context":
-    {"homepage": "https://www.oeko.de/forschung-beratung/projekte/pr-details/verbundvorhaben-szenariendb-datenbank-fuer-klima-und-energieszenarien-teilvorhaben-szenarienreche/",
+{
+  "name": "szenariendb_units",
+  "title": "Names and abbreviation of common units and metrics",
+  "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
+  "description": "This table holds common names and abbreviations of units often used in energy and climate modelling.",
+  "language": [
+    "en-GB"
+  ],
+  "keywords": [
+    "Öko-Institut",
+    "units",
+    "abbreviations",
+    "SzenarienDB"
+  ],
+  "publicationDate": "2019-03-19",
+  "context": {
+    "homepage": "https://www.oeko.de/forschung-beratung/projekte/pr-details/verbundvorhaben-szenariendb-datenbank-fuer-klima-und-energieszenarien-teilvorhaben-szenarienreche/",
     "documentation": "none",
     "sourceCode": "none",
     "contact": "oedb@oeko.de",
     "grantNo": "03ET4057C",
     "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
     "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
-    "publisherLogo": "https://www.oeko.de/fileadmin/templates/oeko/Resources/Public/images/logo.svg"},
-"spatial":
-    {"location": null,
+    "publisherLogo": "https://www.oeko.de/fileadmin/templates/oeko/Resources/Public/images/logo.svg"
+  },
+  "spatial": {
+    "location": null,
     "extent": null,
-    "resolution": null},
-"temporal": 
-    {"referenceDate": null,
-    "timeseries": 
-        {"start": null,
-        "end": null,
-        "resolution": null,
-        "alignment": null,
-        "aggregationType": null} },
-"sources": [
-    {"title": "Joule",
-    "description": "",
-    "path": "https://en.wikipedia.org/w/index.php?title=Joule&oldid=909735965",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-    {"title": "Barrel of oil equivalent",
-    "description": "",
-    "path": "https://en.wikipedia.org/w/index.php?title=Barrel_of_oil_equivalent&oldid=906040694",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Watt",
-    "path": "https://en.wikipedia.org/w/index.php?title=Watt&oldid=906739787",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "British thermal unit",
-    "path": "https://en.wikipedia.org/w/index.php?title=British_thermal_unit&oldid=907548783",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Tonne",
-    "path": "https://en.wikipedia.org/w/index.php?title=Tonne&oldid=909088225",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Calorie",
-    "path": "https://en.wikipedia.org/w/index.php?title=Calorie&oldid=908554845",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-	
-		
-	   {"title": "Carbon dioxide",
-    "path": "https://en.wikipedia.org/w/index.php?title=Carbon_dioxide&oldid=909802844",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-		
-	   {"title": "Methane",
-    "path": "https://en.wikipedia.org/w/index.php?title=Methane&oldid=908934557",
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] },
-				
-	   {"title": "Nitrous oxide",
-    "path": "https://en.wikipedia.org/w/index.php?title=Nitrous_oxide&oldid=909987975",
-    
-    "licenses": [
-        {"name": "CC-BY-SA 3.0",
-        "title": "Creative Commons Attribution-ShareAlike",
-        "path": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
-        "instruction": "You are free to share and adapt as long as you attribute and share alike",
-        "attribution": "© Wikipedia contributors"} ] }
-        ],
-							
-				
-"licenses": [
-    {"name": "CC-BY-SA 4.0",
-    "title": "Attribution-ShareAlike 4.0 International",
-    "path": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-    "instruction": "You are free to share and adapt as long as you attribute and share alike",
-    "attribution": "© Öko-Institut, © Wikipedia contributors"} ],
-"contributors": [
-    {"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-08", "object": "metadata", "comment": "create metadata"},
-	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-13", "object": "metadata", "comment": "refine metadata"},
-	{"title": "Hannah Förster", "email": "h.foerster@oeko.de", "date": "2019-08-14", "object": "metadata", "comment": "validation of metadata"},
-    {"title": "", "email": "", "date": "", "object": "", "comment": ""} ],
-"resources": [
-    {"profile": "tabular-data-resource",
-    "name": "szenariendb_units",
-    "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
-    "format": "PostgreSQL",
-    "encoding" : "UTF-8",
-    "schema": {
+    "resolution": null
+  },
+  "temporal": {
+    "referenceDate": null,
+    "timeseries": {
+      "start": null,
+      "end": null,
+      "resolution": null,
+      "aggregationType": null
+    }
+  },
+  "sources": [
+    {
+      "title": null,
+      "description": null,
+      "path": null,
+      "licenses": [
+        {
+          "name": null,
+          "title": null,
+          "path": null,
+          "instruction": null,
+          "attribution": null
+        }
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA 4.0",
+      "title": "Attribution-ShareAlike 4.0 International",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "instruction": "You are free to share and adapt as long as you attribute and share alike",
+      "attribution": "© Öko-Institut, © Wikipedia contributors"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-08",
+      "object": "metadata",
+      "comment": "create metadata"
+    },
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-13",
+      "object": "metadata",
+      "comment": "refine metadata"
+    },
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-14",
+      "object": "metadata",
+      "comment": "validation of metadata"
+    },
+    {
+      "title": "Lukas Emele",
+      "email": "l.emele@oeko.de",
+      "date": "2020-03-19",
+      "object": "metadata",
+      "comment": "convert metadata to new table structure and adapt sources"
+    }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "szenariendb_units",
+      "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
+      "format": "PostgreSQL",
+      "encoding": "UTF-8",
+      "schema": {
         "fields": [
-            {"name": "id", "description": "unique identifier", "type": "serial", "unit": null},
-            {"name": "name", "description": "name of unit / metric", "type": "varchar", "unit": null},
-			{"name": "abbreviation", "description": "abbreviation of unit / metric", "type": "varchar", "unit": null}],
-        "primaryKey": ["id"],
-        "foreignKeys": [] }
-}],
-
-"metaMetadata":
-    {"metadataVersion": "OEP-1.4.0",
-    "metadataLicense":
-        {"name": "CC0-1.0",
-        "title": "Creative Commons Zero v1.0 Universal",
-        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
-"_comment":
-    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+          {
+            "name": "id",
+            "description": "unique identifier",
+            "type": "serial",
+            "unit": null
+          },
+          {
+            "name": "quantity",
+            "description": "quantity measured with the unit",
+            "type": "varchar",
+            "unit": null
+          },
+          {
+            "name": "unit_name",
+            "description": "name of unit",
+            "type": "varchar",
+            "unit": null
+          },
+          {
+            "name": "unit_abbreviation",
+            "description": "abbreviation of unit",
+            "type": "varchar",
+            "unit": null
+          }
+        ],
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": []
+      }
+    }
+  ],
+  "metaMetadata": {
+    "metadataVersion": "OEP-1.4.0",
+    "metadataLicense": {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "_comment": {
+    "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
     "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
     "units": "Use a space between numbers and units (100 m)",
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-    "null": "If not applicable use (null)"} }
+    "null": "If not applicable use (null)"
+  }
+}
