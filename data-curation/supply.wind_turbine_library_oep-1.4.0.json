@@ -1,9 +1,9 @@
 {"name": "wind_turbine_library",
-"title": "A collection of the most common wind turbines with information on capacity, power curves and other parameters available from specification sheets",
-"id": "https://openenergy-platform.org/dataedit/view/supply/turbine_library",
-"description": "",
+"title": "Wind Turbine Library",
+"id": "https://openenergy-platform.org/dataedit/view/supply/wind_turbine_library",
+"description": "A collection of the most common wind turbines with information on capacity, power curves and other parameters available from specification sheets",
 "language": ["en-GB", "en-US", "de-DE"],
-"keywords": ["Wind, renewable, electricity"],
+"keywords": ["windpower, wind, powercurve, electricity"],
 "publicationDate": "2019-08-13",
 "context":
     {"homepage": "https://openfredproject.wordpress.com/",
@@ -144,7 +144,8 @@
 "contributors": [
     {"title": "Malte Petersen", "email": null, "date": "2018-11-01", "object": null, "comment": "Prepared the dataset"},
     {"title": "Christian Hofmann", "email": "christian.hofmann@rl-institut.de", "date": "2019-04-09", "object": "Upload, Metadata", "comment": "reworked, fixed, added metadata and uploaded everything"},
-    {"title": "Jonas Huber", "email": "jonas.huber@rl-institut.de", "date": "2019-08-05", "object": "Metadata", "comment": "update string to metadata v1.4"} ],
+    {"title": "Jonas Huber", "email": "jonas.huber@rl-institut.de", "date": "2019-08-05", "object": "Metadata", "comment": "Update string to metadata v1.4"},
+    {"title": "Ludee", "email": null, "date": "2020-03-23", "object": "Metadata", "comment": "Update and publish metadata"} ],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "supply.turbine_library",
