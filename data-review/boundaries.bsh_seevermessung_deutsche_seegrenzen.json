@@ -1,0 +1,192 @@
+{
+    "name": "bsh_seevermessung_deutsche_seegrenzen",
+    "title": "BSH - Seegrenzen der Bundesrepublik Deutschland",
+    "id": "",
+    "description": "Der Datensatz Seegrenzen beinhaltet die seewärtigen Begrenzungen der ausschließlichen Wirtschaftszone (AWZ), des Küstenmeeres und die Basislinien. Es handelt sich um verdichtete Koordinaten der Seegrenzkarten 2920 (Nordsee) und 2921 (Ostsee). Es sind auf geodätische Linien verdichtete (interpolierte) Koordinaten. Der Abstand der Knotenpunkte auf den geodätischen Verbindungslinien der festgelegten Grenzpunkte ist kleiner gleich 100 m. Die Seegrenzen Deutschlands wurden in dem heute nicht mehr üblichen Koordinatensystem "Europäisches Datum 1950 (ED50)" proklamiert. Grundlage dieser Festlegung sind insbesondere die Bekanntmachung der Proklamation der Bundesregierung über die Ausweitung des deutschen Küstenmeeres vom 19. Oktober 1994 (BGBl. I S. 3428) und die Proklamation der Bundesrepublik Deutschland über die Errichtung einer ausschließlichen Wirtschaftszone vom 25. November 1994 (BGBl. II S. 3769), die hinsichtlich der Abgrenzung des deutschen Küstenmeeres und der deutschen ausschließlichen Wirtschaftszone maßgeblich sind. Um diese Grenzen in heutigen GIS-Systemen besser verwenden zu können und Umrechnungsfehler zu vermeiden, hat das Bundesamt für Seeschifffahrt und Hydrographie die hier vorliegenden Gebrauchskoordinaten in WGS 84 abgeleitet. Sie sind insoweit keine offiziellen Seegrenzen Deutschlands.",
+    "language": [
+        "de-DE"
+    ],
+    "keywords": [
+        "mcloud_category_waters",
+        "Küstenmeer",
+        "Basislinie",
+        "Seegrenzen",
+        "AWZ"
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "",
+        "documentation": "",
+        "sourceCode": "",
+        "contact": "",
+        "grantNo": "",
+        "fundingAgency": "",
+        "fundingAgencyLogo": "",
+        "publisherLogo": ""
+    },
+    "spatial": {
+        "location": "",
+        "extent": "",
+        "resolution": "shape"
+    },
+    "temporal": {
+        "referenceDate": "",
+        "timeseries": {
+            "start": "",
+            "end": "",
+            "resolution": "",
+            "alignment": "",
+            "aggregationType": ""
+        }
+    },
+    "sources": [
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "GeoNutzV",
+            "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für dieBereitstellung von Geodaten des Bundes (GeoNutzV)",
+            "path": "https://www.gesetze-im-internet.de/geonutzv/GeoNutzV.pdf",
+            "instruction": "",
+            "attribution": "© Bundesamt für Seeschifffahrt und Hydrographie"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee",
+            "email": null,
+            "date": "2020-04-21",
+            "object": "metadata",
+            "comment": "Create metadata and download data"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "boundaries.bsh_seevermessung_deutsche_seegrenzen",
+            "path": "",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "fid",
+                        "description": "",
+                        "type": "integer",
+                        "unit": null
+                    },
+                    {
+                        "name": "gml_id",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "BESCHREIBUNG",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "AUFLOESUNG",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "QUELLE",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "QUELLENBEZEICHNUNG",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "HINWEIS",
+                        "description": "",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "geom",
+                        "description": "",
+                        "type": "geometry",
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    "fid"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            ""
+                        ],
+                        "reference": {
+                            "resource": "",
+                            "fields": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
