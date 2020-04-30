@@ -1,21 +1,21 @@
 {
     "name": "openfred_locations",
-    "title": "open_FRED Weatherdata",
+    "title": "coastDat3_COSMO-CLM_MERRA2 - open_FRED Weatherdata",
     "id": "https://openenergy-platform.org/dataedit/view/climate/openfred_locations",
-    "description": "",
+    "description": "This is an atmospheric hindcast for Western Europe and the North Atlantic using COSMO-CLM version 5.0 with spectral nudging from 2002-2017. MERRA2 reanalysis data are used as forcing. Additionally transient and monthly aerosol data of the MACv2 climatology are prescribed. The model uses a rotated grid with 566 x 481 grid points and a grid point distance of 0.0625 degrees, the rotated North pole is located at 162.0 W, 39.25 N. The published data excludes the sponge zone and have 526 x 441 grid points. In rotated coordinates the published simulation data extends from 22.64 W to 10.18 E, 11.2 S to 16.3 N, in geographical coordinates this corresponds to about 12 W to 30 E, 39 N to 60 N.",
     "language": [
         "en-GB", "de-DE"
     ],
     "keywords": [
-        ""
+        "COSMO-CLM", "hindcast", "MERRA2", "Open Data", "regional modelling", "renewable energy"
     ],
     "publicationDate": "",
     "context": {
         "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
         "documentation": null,
-        "sourceCode": null,
-        "contact": null,
-        "grantNo": "0324006A",
+        "sourceCode": "https://github.com/open-fred",
+        "contact": "ronny.petrik@hzg.de",
+        "grantNo": "0324006A-C",
         "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
         "fundingAgencyLogo": null,
         "publisherLogo": null
@@ -29,8 +29,8 @@
         "referenceDate": null,
         "timeseries": {
             "start": "2002",
-            "end": "2017",
-            "resolution": "30 min",
+            "end": "2018",
+            "resolution": "15 min -- 60 min (depending on parameter)",
             "alignment": "horizontal",
             "aggregationType": null
         }
@@ -169,15 +169,22 @@
             "title": "Jonas Huber",
             "email": "Jonas.Huber@rl-institut.de",
             "date": "2020-02-06",
-            "object": "Metadata",
+            "object": "metadata",
             "comment": "Update metadata"
         },
         {
             "title": "Ludee", 
             "email": "Ludwig.Huelk@rl-institut.de", 
             "date": "2020-02-19",
-            "object": "Metadata",
+            "object": "metadata",
             "comment": "Update license information"
+        },
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-04-30",
+            "object": "metadata",
+            "comment": "Update metadata information"
         }
     ],
     "resources": [
@@ -197,9 +204,9 @@
                     },
                     {
                         "name": "point",
-                        "description": "Point geometry of weatherdata measurement points",
-                        "type": "geometry",
-                        "unit": "4326"
+                        "description": "Point geometry of weatherdata measurement points EPSG:4326",
+                        "type": "geometry(POINT)",
+                        "unit": null
                     }
                 ],
                 "primaryKey": [
