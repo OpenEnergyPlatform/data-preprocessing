@@ -1,16 +1,24 @@
 # OEM to ORM
 
-Create database tables (and schema) from metadata json file(s)
+Create database tables (and schema) from oemetadata json file(s)
 
 ## Usage:
-See help: 
-1. Create env from requirements.txt, and activate
-2. execute the following in a cmd
-```
-python oep_oedialect_upload_from_gpkg.py
-```
+Keep in mind the current state is not fully tested. The code is
+still quit error prone f.e. the postgres types are not fully 
+supported by the oedialct - work in progress. 
 
-Try it with example files in "test_files" folder:
+To use this tool you need to be signed up on the OEP. 
+
+For security reasons, tables can only be created in existing 
+schemas and just in the schemas "model_draft" and "sandbox".
+
+Step-by-Step: 
+1. Create env from requirements.txt, and activate
+2. Put the metadata file in the folder metadata or put your own folder in this 
+    directory
+3. execute the following in a cmd:
 ```
-python md_to_orm.py --engine=postgresql --host=localhost --port=5432 --log-level=debug --from-folder test_files
+python oep_oedialect_oem2orm.py
 ```
+4. Provide credentials and folder name in prompt
+5. The table will be created 
