@@ -1,0 +1,291 @@
+{
+    "name": "openfred_series",
+    "title": "open_FRED Weatherdata",
+    "id": "https://openenergy-platform.org/dataedit/view/demand/openfred_",
+    "description": "",
+    "language": [
+        "en-GB", "de-DE"
+    ],
+    "keywords": [
+        ""
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "0324006A",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Germany (generous)",
+        "resolution": " 0.0625° (~6.6 km)"
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": "2002",
+            "end": "2017",
+            "resolution": "30 min",
+            "alignment": "horizontal",
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "MERRA2",
+            "description": "Modern-Era Retrospective analysis for Research and Applications, Version 2",
+            "path": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/data_access/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "noaa_globe",
+            "description": "Global Land One-km Base Elevation Project (GLOBE)",
+            "path": "http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "ecjrc_glc2000",
+            "description": "Global Land Cover 2000",
+            "path": "'http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "nasa_aerosols",
+            "description": "GACP aerosol optical thickness and Angstrom exponent dataset",
+            "path": "https://gacp.giss.nasa.gov/data/time_ser/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "gldb",
+            "description": "Global Lake Database (GLDB)",
+            "path": "https://www.adv-sci-res.net/16/57/2019/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "copernicus_clc",
+            "description": "Copernicus Land Monitoring Services - CORINE Land Cover (CLC) - CLC 2012",
+            "path": "https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012?tab=download",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "fao_hwsd",
+            "description": "Harmonised World Soil Database",
+            "path": "http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "modis_albedo",
+            "description": "Filled Land Surface Albedo Product",
+            "path": "https://www.umb.edu/spectralmass/terra_aqua_modis/modis_brdf_albedo_product_mcd43",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "",
+            "title": "",
+            "path": "",
+            "instruction": "",
+            "attribution": ""
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee",
+            "email": "Ludwig.Huelk@rl-institut.de",
+            "date": "2020-02-06",
+            "object": "metadata",
+            "comment": "Create metadata"},
+        {
+            "title": "Jonas Huber",
+            "email": "Jonas.Huber@rl-institut.de",
+            "date": "2020-02-06",
+            "object": "Metadata",
+            "comment": "Update metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.openfred_series",
+            "path": "",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": null
+                    },
+                    {
+                        "name": "values",
+                        "description": "",
+                        "type": "double precision array",
+                        "unit": null
+                    },
+                    {
+                        "name": "height",
+                        "description": "",
+                        "type": "double precision",
+                        "unit": "metre"
+                    },
+                    {
+                        "name": "timespan_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": null
+                    },
+                    {
+                        "name": "location_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": null
+                    },
+                    {
+                        "name": "variable_id",
+                        "description": "",
+                        "type": "bigint",
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            "timespan_id"
+                        ],
+                        "reference": {
+                            "resource": "model_draft.openfred_timespans",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+
+                    },
+                    {
+                        "fields": [
+                            "location_id"
+                        ],
+                        "reference": {
+                            "resource": "model_draft.openfred_locations",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+
+                    },
+                    {
+                        "fields": [
+                            "variable_id"
+                        ],
+                        "reference": {
+                            "resource": "model_draft.openfred_variables",
+                            "fields": [
+                                "id"
+                            ]
+                        }
+
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
