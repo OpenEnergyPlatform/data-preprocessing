@@ -103,13 +103,11 @@ def create_tables_from_metadata_file(db: DB, metadata_file: str) -> List[sa.Tabl
 
         # Get primary keys:
         primary_keys = jmespath.search("schema.primaryKey[*]", table)
-
         # Get foreign_keys:
         foreign_keys = {
             fk["fields"][0]: fk["reference"]
             for fk in jmespath.search("schema.foreignKeys", table)
         }
-
         # Create columns:
         columns = []
         for field in jmespath.search("schema.fields[*]", table):
@@ -149,8 +147,8 @@ if __name__ == "__main__":
     logger = logging.getLogger()
 
     metadata_folder = input("Enter metadata folder name:")
+    # ToDo: add the review-oemetadata path 
     folder = pathlib.Path.cwd() / metadata_folder
-    print(folder)
     metadata_files = [str(file) for file in folder.iterdir()]
 
     db = setup_db_connection()
@@ -159,10 +157,10 @@ if __name__ == "__main__":
     for metadata_file in metadata_files:
         try:
             md_tables = create_tables_from_metadata_file(db, metadata_file)
-            print(md_tables)
+            logger.info(md_tables)
         except:
             logger.error(
-                f'Could not generate tables from metadatafile "{metadata_file}"'
+                f'Could not generate tables from metadatafile: "{metadata_file}"'
             )
             raise
         tables.extend(md_tables)
