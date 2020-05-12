@@ -1,5 +1,5 @@
 # oem2orm tutorial 
-This will move to the examples -> tutorials repository
+This will move to the OpenEnergyPlatform/examples -> tutorials repository
 
 This is a tutorial on how to use the oem2orm tool. It shows how 
 to create tables from oemetadata using the oedialect on the OEP 
