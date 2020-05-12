@@ -143,11 +143,27 @@ def create_tables_from_metadata_file(db: DB, metadata_file: str) -> List[sa.Tabl
     return tables
 
 
+def check_oep_schema_whitelist(oem_schema):
+    """
+    Check if the used schema is supported by the oep-api.
+
+    :param oem_schema:string
+    :return: bool
+    """
+    api_open_schema = ['model_draft', 'sandbox']
+
+    for s in api_open_schema:
+        if oem_schema in s:
+            return True
+        else:
+            return False
+
+
 if __name__ == "__main__":
     logger = logging.getLogger()
 
     metadata_folder = input("Enter metadata folder name:")
-    # ToDo: add the review-oemetadata path 
+    # ToDo: add the review-oemetadata path
     folder = pathlib.Path.cwd() / metadata_folder
     metadata_files = [str(file) for file in folder.iterdir()]
 
