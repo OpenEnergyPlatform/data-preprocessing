@@ -1,0 +1,7 @@
+sqlalchemy
+psycopg2-binary
+jmespath
+GeoAlchemy2
+oedialect
+geopandas
+pandas
