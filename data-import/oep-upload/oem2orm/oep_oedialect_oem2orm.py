@@ -1,22 +1,19 @@
 __copyright__ = "Reiner Lemoine Institut"
 __license__   = "GNU Affero General Public License Version 3 (AGPL-3.0)"
 __url__       = "https://github.com/openego/data_processing/blob/master/LICENSE"
-__author__    = "Ludee, jh-RLI"
+__author__    = "henhuy, jh-RLI"
 
 import os
 from collections import namedtuple
 from typing import List
 import json
 import logging
-import pandas as pd
 import pathlib
 import jmespath
 import getpass
 import sqlalchemy as sa
 from sqlalchemy.orm import sessionmaker
 import oedialect
-import geopandas as gpd
-from geoalchemy2.types import Geometry
 
 from postgresql_types import TYPES
 
