@@ -12,6 +12,7 @@ import pathlib
 import jmespath
 import getpass
 import sqlalchemy as sa
+import re
 from sqlalchemy.orm import sessionmaker
 import oedialect
 
@@ -37,6 +38,14 @@ class MetadataError(Exception):
 
 
 def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform.org"):
+    """
+    Create SQLAlchemy connection to Database API with Username and Token.
+    Default is the OEP RESTful-API.
+
+    :param engine: Database engine, default is postgresql
+    :param host: API provider
+    :return:
+    """
     try:
         user = os.environ["OEP_USER"]
     except KeyError:
@@ -58,6 +67,14 @@ def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform
 
 
 def create_tables(db: DB, tables: List[sa.Table]):
+    """
+    Creates a SQLAlchemy create ORM table-objects via API connection on a Database.
+    The tables can be a list of ORM.
+
+    :param db: API
+    :param tables: SQLAlchemy ORM objects (automatically retrieved from OEM json strings)
+    :return:
+    """
     for table in tables:
         if not db.engine.dialect.has_schema(db.engine, table.schema):
             logging.info(f'The provided database schema: "{table.schema}" does not exist. Please use an existing schema')
@@ -72,6 +89,37 @@ def create_tables(db: DB, tables: List[sa.Table]):
                     raise
 
 
+def delete_tables(db: DB, tables: List[sa.Table]):
+    """
+    Drop all tables stored in the sqlalchemy metadata object. The tables are sorted by
+    foreign key and dropped one by one. Each drop interaction requires the user to
+    confirm the action.
+
+    :param db: sqla engine and metadata object
+    :param tables:
+    :return:
+    """
+
+    ordered_tables = order_tables_by_foreign_keys(tables)
+    reversed_tables = reversed(ordered_tables)
+
+    print("Please confirm that you would like to drop the following tables:")
+    for n, tab in enumerate(tables):
+        print("{: 3d}. {}".format(n, tab))
+
+        print("Please confirm with either of the choices below:\n" +
+              "- yes\n" +
+              "- no\n" +
+              "- the indexes to drop in the format 0, 2, 3, 5")
+        confirmation = input(
+            "Please type the choice completely as there is no default choice.")
+        if re.fullmatch('[Yy]es', confirmation):
+            for tab in reversed_tables:
+                tab.drop(db.engine, checkfirst=True)
+        elif re.fullmatch('[Nn]o', confirmation):
+            print("Cancelled dropping of tables")
+
+
 def order_tables_by_foreign_keys(tables: List[sa.Table]):
     """
     This function tries to order tables to avoid missing foreign key errors.
@@ -82,6 +130,15 @@ def order_tables_by_foreign_keys(tables: List[sa.Table]):
 
 
 def create_tables_from_metadata_file(db: DB, metadata_file: str) -> List[sa.Table]:
+    """
+    Takes a metadata file in oem format (tested with oem v1.4.0) and
+    generates a sqlalchemy ORM Table representation. The oem can contain
+    multiple Tables, this function will return one or multiple sa table objects.
+
+    :param db: API
+    :param metadata_file: json file (oem 1.4.0)
+    :return: collection of sqlalchemy table objects
+    """
     with open(metadata_file, "r") as metadata_json:
         metadata = json.loads(metadata_json.read())
     tables_raw = jmespath.search("resources", metadata)
@@ -156,16 +213,49 @@ def check_oep_api_schema_whitelist(oem_schema):
             return False
 
 
-def select_oem_dir(oem_folder=None, filename=None):
-    if oem_folder is not None:
-        oem_path = pathlib.Path.cwd() / oem_folder
+def select_oem_dir(oem_folder_name=None, filename=None):
+    """
+    Select the metadata directory or file that is used to generate the tables.
+    The default is the current directory (where you execute the script from)
+    inside a folder called oem_folder.
+
+    :param oem_folder:
+    :param filename:
+    :return:
+    """
+    if oem_folder_name is not None:
+        oem_path = pathlib.Path.cwd() / oem_folder_name
         return oem_path
-    else:
+    elif oem_folder_name is 'default':
         pass
         # default_oem_path =
+    else:
+        raise FileNotFoundError
+
+
+def collect_ordered_tables_from_oem(oem_folder_path):
+    tables = []
+    metadata_files = [str(file) for file in oem_folder_path.iterdir()]
+
+    for metadata_file in metadata_files:
+        try:
+            md_tables = create_tables_from_metadata_file(db, metadata_file)
+            logger.info(md_tables)
+        except:
+            logger.error(
+                f'Could not generate tables from metadatafile: "{metadata_file}"'
+            )
+            raise
+        tables.extend(md_tables)
+
+    fk_ordered_tables = order_tables_by_foreign_keys(tables)
+
+    return fk_ordered_tables
 
 
 if __name__ == "__main__":
+    # Easy cmd usage and testing (development purpose)
+
     logger = logging.getLogger()
 
     metadata_folder = input("Enter metadata folder name:")
@@ -188,6 +278,8 @@ if __name__ == "__main__":
         tables.extend(md_tables)
     ordered_tables = order_tables_by_foreign_keys(tables)
     create_tables(db, ordered_tables)
+
+    delete_tables(db, tables)
 
     # gdf_awz = gpd.read_file("bsh_seegrenzen_awz.gpkg")
     # print(gdf_awz)
