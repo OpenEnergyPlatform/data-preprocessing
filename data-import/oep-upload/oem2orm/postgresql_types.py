@@ -11,24 +11,29 @@ from sqlalchemy.dialects.postgresql import DOUBLE_PRECISION
 
 class DatabaseTypes:
     types = {
+        # basic types
         "bigint": sa.BIGINT,
         "int": sa.INTEGER,
         "integer": sa.INTEGER,
-        # not support with oedialect
-        "double precision": DOUBLE_PRECISION,
-        "double precision array": sa.ARRAY("DOUBLE_PRECISION"),
         "varchar": sa.VARCHAR,
         "json": sa.JSON,
         "text": sa.TEXT,
-        "geometry point": Geometry("POINT"),
         "timestamp": sa.TIMESTAMP,
         "interval": sa.Interval,
         "string": sa.String,
         "float": sa.FLOAT,
         "boolean": sa.Boolean,
         "date": sa.Date,
+
+        # Spatial types
+        "geometry point": Geometry("POINT"),
         "geom": Geometry("GEOMETRY"),
-        "geometry": Geometry("GEOMETRY")
+        "geometry": Geometry("GEOMETRY"),
+
+        # not support with oedialect
+        "double precision": psql.DOUBLE_PRECISION
+        # "double precision array": sa.ARRAY("DOUBLE_PRECISION"),
+
     }
 
     def __getitem__(self, item):
