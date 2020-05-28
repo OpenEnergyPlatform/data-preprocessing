@@ -16,7 +16,7 @@ import re
 from sqlalchemy.orm import sessionmaker
 import oedialect
 
-from postgresql_types import TYPES
+from .postgresql_types import TYPES
 
 
 # prepare connection string to connect via oep API
