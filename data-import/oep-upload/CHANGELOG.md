@@ -7,18 +7,42 @@ and the versiong aim to respect [Semantic Versioning](http://semver.org/spec/v2.
 Here is a template for new release sections
 
 ```
+Template:
+
 ## Current
+### Added
+- basic description
+### Changed
+- basic description
+### Removed
+- basic description
 
 ## [_._._] - 20XX-MM-DD
 
 ### Added
--
+- basic description [#PR/#Issue/#Commit]
 ### Changed
--
+- basic description [#PR/#Issue/#Commit]
 ### Removed
--
+- basic description [#PR/#Issue/#Commit]
 ```
 ## Current
+
+### Added
+- provide a minimal working example as jupyter notebook tutorial
+
+### Changed
+- Update README
+
+## [0.2.2] - 2020-06-02
+
+### Added
+- new function: setting up a logger
+
+### Changed
+- add missing input parameter
+- extended description in changelog
+- Fix logging 
 
 ## [0.2.0] - 2020-05-27
 
