@@ -8,7 +8,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as fh:
 
 setuptools.setup(
     name="oem2orm",
-    version="0.2.1",
+    version="0.2.2",
     author="henhuy, jh-RLI",
     author_email="Hendrik.Huyskens@rl-institut.de",
     description="SQLAlchemy module to generate ORM, read from data model in open-energy-metadata(oem-v1.4.0) JSON format",
