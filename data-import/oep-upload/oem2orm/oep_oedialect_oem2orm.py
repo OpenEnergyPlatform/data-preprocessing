@@ -37,6 +37,19 @@ class MetadataError(Exception):
     pass
 
 
+def setup_logger():
+    """
+    Easy logging setup depending on user input. Provides a logger for INFO level logging.
+    :return: logging.INFO or none
+    """
+    logger_level = input("Display logging information[Yes] or [No]:")
+    if re.fullmatch('[Yy]es', logger_level):
+        print('logging activated')
+        return logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
+    elif re.fullmatch('[Nn]o', logger_level):
+        pass
+
+
 def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform.org"):
     """
     Create SQLAlchemy connection to Database API with Username and Token.
@@ -44,8 +57,9 @@ def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform
 
     :param engine: Database engine, default is postgresql
     :param host: API provider
-    :return:
+    :return: DB(sa.engine, sa.metadata) namedtuple
     """
+
     try:
         user = os.environ["OEP_USER"]
     except KeyError:
@@ -73,7 +87,7 @@ def create_tables(db: DB, tables: List[sa.Table]):
 
     :param db: API
     :param tables: SQLAlchemy ORM objects (automatically retrieved from OEM json strings)
-    :return:
+    :return: none
     """
     for table in tables:
         if not db.engine.dialect.has_schema(db.engine, table.schema):
@@ -97,7 +111,7 @@ def delete_tables(db: DB, tables: List[sa.Table]):
 
     :param db: sqla engine and metadata object
     :param tables:
-    :return:
+    :return: none
     """
 
     ordered_tables = order_tables_by_foreign_keys(tables)
@@ -221,7 +235,7 @@ def select_oem_dir(oem_folder_name=None, filename=None):
 
     :param oem_folder:
     :param filename:
-    :return:
+    :return: string (path to current directory + folder name) or none
     """
     if oem_folder_name is not None:
         oem_path = pathlib.Path.cwd() / oem_folder_name
@@ -233,16 +247,16 @@ def select_oem_dir(oem_folder_name=None, filename=None):
         raise FileNotFoundError
 
 
-def collect_ordered_tables_from_oem(oem_folder_path):
+def collect_ordered_tables_from_oem(db: DB, oem_folder_path):
     tables = []
     metadata_files = [str(file) for file in oem_folder_path.iterdir()]
 
     for metadata_file in metadata_files:
         try:
             md_tables = create_tables_from_metadata_file(db, metadata_file)
-            logger.info(md_tables)
+            logging.info(md_tables)
         except:
-            logger.error(
+            logging.error(
                 f'Could not generate tables from metadatafile: "{metadata_file}"'
             )
             raise
