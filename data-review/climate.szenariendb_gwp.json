@@ -2,7 +2,7 @@
     "name": "szenariendb_gwp",
     "title": "Global warming potentials from IPCC Assessment Reports",
     "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
-    "description": "This table holds global warming potentials (GWP) published in the IPCC Assessment reports. Due to legal aspects this table currently only holds a subset gases of all published GWPs. The subset was chosen to the gases most related to energy modeling.",
+    "description": "This table holds global warming potentials (GWP) published in the IPCC Assessment reports.",
     "language": [
         "en-GB"
     ],
@@ -17,36 +17,32 @@
         "homepage": null,
         "documentation": null,
         "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
+        "contact": "oedb@oeko.de",
+        "grantNo": "03ET4057",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
+        "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
     },
     "spatial": {
         "location": null,
         "extent": "global",
         "resolution": null
     },
-    "temporal": {
-        "referenceDate": null,
-        "timeseries":
-            {"start": null,
-            "end": null,
-            "resolution": null,
-            "alignment": null,
-            "aggregationType": null },
+    "temporal": null,
     "sources": [
         {
             "title": "Climate Change: The IPCC Scientific Assessment",
             "description": "Report Prepared for IPCC by Working Group 1",
             "path": "https://www.ipcc.ch/report/ar1/wg1/",
             "licenses": [
-                {"name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null}],
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
             "copyright": null
         },
         {
@@ -54,11 +50,14 @@
             "description": "Contribution of Working Group I to the Second Assessment Report of the Intergovernmental Panel on Climate Change",
             "path": "https://www.ipcc.ch/report/ar2/wg1/",
             "licenses": [
-                {"name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null}],
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
             "copyright": null
         },
         {
@@ -66,11 +65,14 @@
             "description": "Contribution of Working Group I to the Third Assessment Report of the Intergovernmental Panel on Climate Change",
             "path": "https://www.ipcc.ch/report/ar3/wg1/",
             "licenses": [
-                {"name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null}],
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
             "copyright": null
         },
         {
@@ -78,11 +80,14 @@
             "description": "Working Group I Contribution to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",
             "path": "https://www.ipcc.ch/report/ar4/wg1/",
             "licenses": [
-                {"name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null}],
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
             "copyright": null
         },
         {
@@ -90,23 +95,71 @@
             "description": "Working Group I Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change",
             "path": "https://www.ipcc.ch/report/ar5/wg1/",
             "licenses": [
-                {"name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null}],
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
+            "copyright": null
+		},
+		{
+			"title": "Reporting Requirements",
+			"description": "The  UNFCCC reporting guidelines on annual inventories for Parties included in Annex I to the Convention (Annex I Parties) require each Annex I Party [...] to provide its annual GHG inventory covering emissions and removals of direct GHGs (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3)) [...].",
+			"path": "https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/greenhouse-gas-inventories-annex-i-parties/reporting-requirements",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
+            "copyright": null
+		},
+		{
+			"title": "Handbook for the Montreal Protocol on Substances that Deplete the Ozone Layer (Thirteenth edition, 2019)",
+			"description": "Published by the Ozone Secretariat (The Secretariat for the Vienna Convention for the Protection of the Ozone Layer and for the Montreal Protocol on Substances that Deplete the Ozone Layer of the United Nations Environment Programme)",
+			"path": "https://ozone.unep.org/sites/default/files/2019-06/MP_Handbook_2019_W.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
+            "copyright": null
+		},
+		{
+			"title": "Regulation (EU) No 517/2014 of the European Parliament and of the Council of 16 April 2014 on fluorinated greenhouse gases and repealing Regulation (EC) No 842/2006",
+			"description": "EU F-Gas Regulation",
+			"path": "http://data.europa.eu/eli/reg/2014/517/oj",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ],
             "copyright": null
         }
     ],
-    "licenses": [
-        {
-            "name": "dl-de-by-2.0",
-            "title": "Data licence Germany \u2013 attribution \u2013 version 2.0",
-            "path": "https://www.govdata.de/dl-de/by-2-0",
-            "instruction": "https://www.govdata.de/dl-de/by-2-0",
-            "attribution": "\u00a9 \u00d6ko-Institut"
-        }
-    ],
+	"licenses": [
+		{
+			"name": "dl-de-by-2.0",
+			"title": "Data licence Germany – attribution – version 2.0",
+			"path": "https://www.govdata.de/dl-de/by-2-0",
+			"instruction": "https://www.govdata.de/dl-de/by-2-0",
+			"attribution": "\u00a9 \u00d6ko-Institut"
+		}
+	],
     "contributors": [
         {
             "title": "Lukas Emele",
@@ -135,13 +188,34 @@
             "date": "2019-10-08",
             "object": "metadata",
             "comment": "review metadata"
-        }
-		{
+        },
+        {
             "title": "Jonas Huber",
             "email": "jonas.huber@rl-institut.de",
             "date": "2019-10-08",
             "object": "metadata",
             "comment": "review metadata"
+        },
+        {
+            "title": "Juli Reithinger",
+            "email": "oedb@oeko.de",
+            "date": "2020-05-06",
+            "object": "data",
+            "comment": "Assistance whith compiling the improved table."
+        },
+        {
+            "title": "Lukas Emele",
+            "email": "oedb@oeko.de",
+            "date": "2020-05-06",
+            "object": "data",
+            "comment": "Extension of the table, now covering all gases. Three additional columns showing which greenhouse gas is covered by which reporting obligation."
+        },
+        {
+            "title": "Lukas Emele",
+            "email": "oedb@oeko.de",
+            "date": "2020-05-12",
+            "object": "metadata",
+            "comment": "Bug fixes in metadata"
         }
     ],
     "resources": [
@@ -167,7 +241,7 @@
                     },
                     {
                         "name": "gas_group",
-                        "description": "Gas group as mentioned in the respective IPCC Assessment Report. Attention: The gas groups are not harmonized across the various IPCC Assessment Reports!",
+                        "description": "Gas group a gas is belonging to. The gas groups were harmonized across the various IPCC Assessment Reports.",
                         "type": "varchar",
                         "unit": null
                     },
@@ -199,26 +273,35 @@
                         "name": "global_warming_potential",
                         "description": "Global warming potential of a greenhouse gas",
                         "type": "float",
-                        "unit": null
+                        "unit": "kg CO2 equivalent per kg gas"
                     },
                     {
                         "name": "inequality_sign",
                         "description": "For some gases the Assessment Reports can only give lower or upper limits of the GWP values. In this case this column provides information whether the GWP is below or above a specific value.",
                         "type": "varchar",
                         "unit": null
+                    },
+                    {
+                        "name": "covered_by_unfccc",
+                        "description": "This column indicates whether a specific gas is covered by the United Nations Framework Convention on Climate Change (UNFCCC).",
+                        "type": "varchar",
+                        "unit": null
+                    },
+                    {
+                        "name": "covered_by_montreal_protocol",
+                        "description": "This column indicates whether a specific gas is covered by the Montreal Protocol on Substances that Deplete the Ozone Layer.",
+                        "type": "varchar",
+                        "unit": null
+                    },
+                    {
+                        "name": "covered_by_eu_f_gas_regulation",
+                        "description": "This column indicates whether a specific gas is covered by the EU F-gas regulation (Regulation (EU) No 517/2014 of the European Parliament and of the Council of 16 April 2014 on fluorinated greenhouse gases and repealing Regulation (EC) No 842/2006).",
+                        "type": "varchar",
+                        "unit": null
                     }
                 ],
                 "primaryKey": [
                     "id"
-                ],
-                "foreignKeys": [
-                    {
-                        "fields": [],
-                        "reference": {
-                            "resource": null,
-                            "fields": []
-                        }
-                    }
                 ]
             },
             "dialect": {
