@@ -1,0 +1,210 @@
+{
+    "name": "ERA5_hourly_data_singlelevel_1979_to_present",
+    "title": "ERA5 hourly data on single levels from 1979 to present",
+    "id": "10.24381/cds.adbb2d47",
+    "description": "Reanalysis climate data, worldwide, hourly, 1979 to present",
+    "language": [
+        "en-GB"
+    ],
+    "keywords": [
+        "reanalysis",
+		"meteorology",
+		"ERA5",
+		"weather",
+		"climate",
+		"model"
+    ],
+    "publicationDate": "2018-06-14",
+    "context": {
+        "homepage": "https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview",
+        "documentation": "https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation",
+        "sourceCode": "https://cds.climate.copernicus.eu/cdsapp#!/home",
+        "contact": "copernicus-support@ecmwf.int",
+        "grantNo": null,
+        "fundingAgency": "European Commission",
+        "fundingAgencyLogo": null,
+        "publisherLogo": "https://www.ecmwf.int/sites/default/files/ECMWF_Master_Logo_RGB_nostrap.png"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "global",
+        "resolution": "atmosphere 0.25 °, ocean_waves 0.5 °"
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": "1979-01-01",
+            "end": "present",
+            "resolution": "1 h",
+			"alignment": {
+				"wind": "right",
+				"temperature": "left",
+				"radiation": "left"
+			},
+			"aggregationType": {
+				"wind":null,
+				"temperature":null,
+				"radiation":null
+			}
+        }
+    },
+    "sources": [
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": "https://apps.ecmwf.int/datasets/licences/copernicus/",
+            "instruction": "This licence is free of charge, worldwide, non-exclusive, royalty free and perpetual. Access to Copernicus Products is given for the purpose of the following use in so far as it is lawful: reproduction, distribution, communication to the public; adaptation, modification and combination with	other data and information; or any combination of the foregoing.",
+            "attribution": "European Centre for Medium-Range Weather Forecasts (ECMWF)"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Franziska Drathschmidt",
+            "email": "Franziska.Drathschmidt@dlr.de",
+            "date": "2020-05-26",
+            "object": "metadata",
+            "comment": "Create ERA5-Metadata"
+        },
+        {
+            "title": "Christian Hofmann",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2020-05-28",
+            "object": "metadata",
+            "comment": "Review ERA5-Metadata"
+        },
+		{
+            "title": "Franziska Drathschmidt",
+            "email": "Franziska.Drathschmidt@dlr.de",
+            "date": "2020-06-09",
+            "object": "metadata",
+            "comment": "Add one more layer to alignment and aggregationType"
+        },
+		{
+            "title": "Franziska Drathschmidt",
+            "email": "Franziska.Drathschmidt@dlr.de",
+            "date": "2020-06-09",
+            "object": "metadata",
+            "comment": "Add resources"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "gridded-data-resource",
+            "name": "era5_temp_wind_cds.grib",
+            "path": null,
+            "format": "GRIB",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "latitude",
+                        "description": "latitude",
+                        "type": "float64",
+                        "unit": "degrees_north"
+                    },
+                    {
+                        "name": "longitude",
+                        "description": "longitude",
+                        "type": "float64",
+                        "unit": "degrees_east"
+                    },
+					{
+                        "name": "time",
+                        "description": "initial time of forecast",
+                        "type": "datetine64",
+                        "unit": null
+                    },
+					{
+                        "name": "u100",
+                        "description": "100 metre U wind component",
+                        "type": "float32",
+                        "unit": "ms**-1"
+                    },
+					{
+                        "name": "v100",
+                        "description": "100 metre V wind component",
+                        "type": "float32",
+                        "unit": "ms**-1"
+                    },
+					{
+                        "name": "t2",
+                        "description": "2 metre temperature",
+                        "type": "float32",
+                        "unit": "K"
+                    }
+                ],
+                "primaryKey": [
+                    null
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": null
+            }
+        }
+    ],
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
