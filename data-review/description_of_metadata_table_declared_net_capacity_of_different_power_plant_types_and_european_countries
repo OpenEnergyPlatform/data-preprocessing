@@ -1,0 +1,167 @@
+{
+    "name": "metadata_table_declared_net_capacity_of_different_power_plant_types_and_european_countries",
+    "title": "declared_net_capacity_of_different_power_plant_types_and_european_countries",
+    "id": "none",
+    "description": "net capacity of all existing power plant types for autoproducer and public power plants and all european counties",
+    "language": [
+        "de-DE"
+    ],
+    "keywords": [
+        "declared net capacity",
+	"european countries",
+	"all power plant types",
+	"eurostat"
+    ],
+    "publicationDate": "ToDo",
+    "context": {
+        "homepage": "ToDo",
+        "documentation": "none",
+        "sourceCode": "none",
+        "contact": "https://github.com/Vera-IER",
+        "grantNo": "ToDo",
+        "fundingAgency": "ToDo",
+        "fundingAgencyLogo": "ToDo",
+        "publisherLogo": "ToDo"
+    },
+    "spatial": {
+        "location": "null",
+        "extent": "europe",
+        "resolution": "country resolution"
+    },
+    "temporal": {
+        "referenceDate": "yearly average of 2010",
+        "timeseries": "none"
+	   "start": "none",
+            "end": "none",
+            "resolution": "none",
+            "alignment": "none",
+            "aggregationType": "none"
+       }
+    },
+    "sources": [
+        {
+            "title": "Energy infrastructure and capacities (nrg_inf)",
+            "description": "https://ec.europa.eu/eurostat/cache/metadata/en/nrg_inf_epc_esms.htm",
+            "path": "https://ec.europa.eu/eurostat/web/energy/data/database",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://ec.europa.eu/info/legal-notice_en#copyright-notice",
+                    "instruction": "You are free: To Share, To Create, To Adapt",
+                    "attribution": "© Institut für Energiewirtschaft und rationelle Energieanwendung, Universtität Stuttgart"
+                }
+            ]
+        },
+    ],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://ec.europa.eu/info/legal-notice_en#copyright-notice",
+            "instruction": "You are free: To Share, To Create, To Adapt",
+            "attribution": "© Institut für Energiewirtschaft und rationelle Energieanwendung, Universität Stuttgart"
+        }
+    ],
+    
+    "contributors": [
+        {
+            "title": "Vera-IER",
+            "email": "vera.sehn@ier.uni-stuttgart.de",
+            "date": "2020-06-03",
+            "object": "metadata",
+            "comment": "create metadata"
+        },
+        
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "metadata_table_declared_net_capacity_of_different_power_plant_types_and_european_countries",
+            "path": "ToDo",
+            "format": ".xlsx",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        ""name": "id",
+                        "description": "Unique identifier",
+                        "type": "serial",
+                        "unit": null
+                    },
+                     {
+                        "name": "Name",
+                        "description": specification of the power plant type",
+                        "type": "string",
+                        "unit": null
+                    },
+		 {
+                        "name": "Eurostat Code",
+                        "description": "eurostat classification",
+                        "type": "string",
+                        "unit": null
+                    },
+ 		{
+                        "name": "Jahr",
+                        "description": "Reference year",
+                        "type": "integer",
+                        "unit": null
+                    },
+		 {
+                        "name": "Region",
+                        "description": "specification of the region",
+                        "type": "string",
+                        "unit": null
+                    },
+ 		{
+                        "name": "Wert",
+                        "description": "value",
+                        "type": "integer",
+                        "unit": "GW"
+                    },
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            "none"
+                        ],
+                        "reference": {
+                            "resource": "none",
+                            "fields": [
+                                "none"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "none",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
