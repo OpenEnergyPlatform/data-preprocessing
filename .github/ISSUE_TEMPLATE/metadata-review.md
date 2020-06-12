@@ -9,7 +9,7 @@ assignees: christian-rli, jh-RLI, Ludee
 
 ## Issue description
 
-I'm submitting a metadata string for review. After opening this issue, I will push the string to a new branch called *review/**mydataname*** in the review folder. I will reference this issue by leaving a **#number_of_issue** at the end of my commit message. Alternatively I can drop the string in a comment below.
+I'm submitting an oemetadata string for review. After opening this issue, I will put my string in the review folder and push it to a new branch called *review/**mydataname***. I will reference this issue by leaving a **#number_of_issue** at the end of my commit message. Alternatively I can drop the string in a comment below.
 
 ## Workflow checklist
 
