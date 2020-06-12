@@ -1,6 +1,6 @@
 ---
 name: Metadata Review
-about: Submit Metadata String for Review
+about: Submit an OEMetadata String for Review
 title: ''
 labels: review
 assignees: christian-rli, jh-RLI, Ludee
