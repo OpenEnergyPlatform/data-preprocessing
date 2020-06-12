@@ -15,7 +15,8 @@ I'm submitting an oemetadata string for review. After opening this issue, I will
 
 - [x] I have submitted this issue to have my metadata reviewed
 - [ ] I have uploaded my data to the OEP **provide link**
-- [ ] The string is pushed in a new branch
-- [ ] A reviewer has started working on this issue
+- [ ] The string is pushed to a new branch
+- [ ] A reviewer started working on this issue
 - [ ] A reviewer finished working on this issue (and awarded a badge)
-- [ ] Data was moved to its final schema
+- [ ] Data moved to its final schema
+- [ ] The branch for this issue is merged into master and the issue can be closed
