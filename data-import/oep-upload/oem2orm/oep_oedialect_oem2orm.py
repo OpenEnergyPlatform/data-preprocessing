@@ -96,7 +96,7 @@ def create_tables(db: DB, tables: List[sa.Table]):
             if not db.engine.dialect.has_table(db.engine, table.name, table.schema):
                 try:
                     print(table)
-                    table.create()
+                    table.create(checkfirst=True)
                     logging.info(f"Created table {table.name}")
                 except sa.exc.ProgrammingError:
                     logging.error(f'Table "{table.name}" already exists')
@@ -207,7 +207,12 @@ def create_tables_from_metadata_file(db: DB, metadata_file: str) -> List[sa.Tabl
                 )
             columns.append(column)
 
-        tables.append(sa.Table(table_name, db.metadata, *columns, schema=schema))
+        if check_oep_api_schema_whitelist(schema):
+            tables.append(sa.Table(table_name, db.metadata, *columns, schema=schema, extend_existing=True))
+        else:
+            logging.info("The current schema:'" + schema + "' is changed to 'model_draft'")
+            schema = "model_draft"
+            tables.append(sa.Table(table_name, db.metadata, *columns, schema=schema, extend_existing=True))
     return tables
 
 
@@ -220,11 +225,11 @@ def check_oep_api_schema_whitelist(oem_schema):
     """
     api_open_schema = ['model_draft', 'sandbox']
 
-    for s in api_open_schema:
-        if oem_schema in s:
-            return True
-        else:
-            return False
+    if oem_schema in api_open_schema:
+        return True
+    else:
+        logging.info("The OEP-API does not allow to write un-reviewed data to another schema then model_draft or sandbox")
+        return False
 
 
 def select_oem_dir(oem_folder_name=None, filename=None):
@@ -233,7 +238,7 @@ def select_oem_dir(oem_folder_name=None, filename=None):
     The default is the current directory (where you execute the script from)
     inside a folder called oem_folder.
 
-    :param oem_folder:
+    :param oem_folder_name:
     :param filename:
     :return: string (path to current directory + folder name) or none
     """
