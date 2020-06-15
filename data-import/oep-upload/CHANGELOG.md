@@ -29,10 +29,19 @@ Template:
 ## Current
 
 ### Added
+
+### Changed
+
+
+## [0.2.3] - 2020-06-02
+
+### Added
 - provide a minimal working example as jupyter notebook tutorial
 
 ### Changed
 - Update README
+- include OEP public schema (whitelist) check
+
 
 ## [0.2.2] - 2020-06-02
 
@@ -43,6 +52,7 @@ Template:
 - add missing input parameter
 - extended description in changelog
 - Fix logging 
+
 
 ## [0.2.0] - 2020-05-27
 
