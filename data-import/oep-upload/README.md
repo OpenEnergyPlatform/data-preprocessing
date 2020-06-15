@@ -83,3 +83,11 @@ oem2orm.create_tables(db, orm)
 ```python
 oem2orm.delete_tables(db, orm)
 ```
+
+##Docs:
+
+### oem2orm generator
+
+#### Supported datatypes
+
+## Database support
