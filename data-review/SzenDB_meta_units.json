@@ -1,0 +1,160 @@
+{
+  "name": "szenariendb_units",
+  "title": "Names and abbreviation of common units and metrics",
+  "id": "https://openenergy-platform.org/dataedit/view/reference/szenariendb_units",
+  "description": "This table holds common names and abbreviations of units often used in energy and climate modelling.",
+  "language": [
+    "en-GB"
+  ],
+  "keywords": [
+    "Öko-Institut",
+    "units",
+    "abbreviations",
+    "SzenarienDB"
+  ],
+  "publicationDate": "2019-03-19",
+  "context": {
+    "homepage": "https://www.oeko.de/forschung-beratung/projekte/pr-details/verbundvorhaben-szenariendb-datenbank-fuer-klima-und-energieszenarien-teilvorhaben-szenarienreche/",
+    "documentation": "none",
+    "sourceCode": "none",
+    "contact": "oedb@oeko.de",
+    "grantNo": "03ET4057C",
+    "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+    "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg?__blob=poster&v=2",
+    "publisherLogo": "https://www.oeko.de/fileadmin/templates/oeko/Resources/Public/images/logo.svg"
+  },
+  "spatial": {
+    "location": null,
+    "extent": null,
+    "resolution": null
+  },
+  "temporal": {
+    "referenceDate": null,
+    "timeseries": {
+      "start": null,
+      "end": null,
+      "resolution": null,
+      "aggregationType": null
+    }
+  },
+  "sources": [
+    {
+      "title": null,
+      "description": null,
+      "path": null,
+      "licenses": [
+        {
+          "name": null,
+          "title": null,
+          "path": null,
+          "instruction": null,
+          "attribution": null
+        }
+      ]
+    }
+  ],
+  "licenses": [
+    {
+        "name": "ODbL-1.0",
+        "title": "Open Data Commons Open Database License 1.0",
+        "path": "https://opendatacommons.org/licenses/odbl/1.0/",
+        "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+        "attribution": "© Öko-Institut"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-08",
+      "object": "metadata",
+      "comment": "create metadata"
+    },
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-13",
+      "object": "metadata",
+      "comment": "refine metadata"
+    },
+    {
+      "title": "Hannah Förster",
+      "email": "h.foerster@oeko.de",
+      "date": "2019-08-14",
+      "object": "metadata",
+      "comment": "validation of metadata"
+    },
+    {
+      "title": "Lukas Emele",
+      "email": "l.emele@oeko.de",
+      "date": "2020-03-19",
+      "object": "metadata",
+      "comment": "convert metadata to new table structure and adapt sources"
+    },
+    {
+        "title": "Ludee",
+        "email": null,
+        "date": "2020-06-19",
+        "object": "metadata",
+        "comment": "Review metadata"
+    }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "reference.szenariendb_units",
+      "path": "https://openenergy-platform.org/dataedit/view/reference/szenariendb_units",
+      "format": "PostgreSQL",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "description": "unique identifier",
+            "type": "serial",
+            "unit": null
+          },
+          {
+            "name": "quantity",
+            "description": "quantity measured with the unit",
+            "type": "varchar",
+            "unit": null
+          },
+          {
+            "name": "unit_name",
+            "description": "name of unit",
+            "type": "varchar",
+            "unit": null
+          },
+          {
+            "name": "unit_abbreviation",
+            "description": "abbreviation of unit",
+            "type": "varchar",
+            "unit": null
+          }
+        ],
+        "primaryKey": [
+          "id"
+        ],
+        "foreignKeys": []
+      }
+    }
+  ],
+  "metaMetadata": {
+    "metadataVersion": "OEP-1.4.0",
+    "metadataLicense": {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "_comment": {
+    "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "null": "If not applicable use (null)"
+  }
+}
