@@ -42,13 +42,14 @@ Describe your dataset shortly here.
 
 ## Metadata and data for review
 
-model_draft.project_nameofdata
+Here are the links to my data and metadata. Naming follows the pattern model_draft.project_nameofdata:
 **Metadata:** https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
 **Data:** https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
 
 
 ## Reviewed and published metadata and data
 
+Final naming and location of the data and metadata after the review are as follows:
 **schema.tablename**
 * [Metadata]()
 * [Data]()
