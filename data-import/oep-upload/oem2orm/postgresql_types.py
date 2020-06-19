@@ -26,9 +26,9 @@ class DatabaseTypes:
         "date": sa.Date,
 
         # Spatial types
-        "geometry point": Geometry("POINT"),
-        "geom": Geometry("GEOMETRY"),
-        "geometry": Geometry("GEOMETRY"),
+        "geometry point": Geometry("POINT",  spatial_index=False),
+        "geom": Geometry("GEOMETRY",  spatial_index=False),
+        "geometry": Geometry("GEOMETRY",  spatial_index=False),
 
         # not support with oedialect
         "double precision": psql.DOUBLE_PRECISION
