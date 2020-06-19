@@ -1,5 +1,5 @@
 {
-  "name": "szenariendb_units",
+  "name": "reference.szenariendb_units",
   "title": "Names and abbreviation of common units and metrics",
   "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
   "description": "This table holds common names and abbreviations of units often used in energy and climate modelling.",
@@ -95,8 +95,8 @@
   "resources": [
     {
       "profile": "tabular-data-resource",
-      "name": "szenariendb_units",
-      "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
+      "name": "reference.szenariendb_units",
+      "path": "https://openenergy-platform.org/dataedit/view/reference/szenariendb_units",
       "format": "PostgreSQL",
       "encoding": "UTF-8",
       "schema": {
