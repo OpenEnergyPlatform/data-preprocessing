@@ -1,5 +1,5 @@
 {
-  "name": "szenariendb_conversion",
+  "name": "reference.szenariendb_conversion",
   "title": "Conversion factors for common units and metrics",
   "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_conversion",
   "description": "This table holds conversion factors of units often used in energy and climate modelling.",
@@ -291,8 +291,8 @@
   "resources": [
     {
       "profile": "tabular-data-resource",
-      "name": "szenariendb_conversion",
-      "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_conversion",
+      "name": "reference.szenariendb_conversion",
+      "path": "https://openenergy-platform.org/dataedit/view/reference/szenariendb_conversion",
       "format": "PostgreSQL",
       "encoding": "UTF-8",
       "schema": {
