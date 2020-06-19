@@ -3,7 +3,7 @@ name: Review Process Improvement Suggestion
 about: File an issue to improve the workflow of reviews
 title: ''
 labels: review-process
-assignees: Ludee, jh-RLI, christian-rli
+assignees: christian-rli, jh-RLI, Ludee
 
 ---
 
