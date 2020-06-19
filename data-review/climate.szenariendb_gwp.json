@@ -232,7 +232,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "climate.szenariendb_gwp",
-            "path": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
+            "path": "https://openenergy-platform.org/dataedit/view/climate/szenariendb_gwp",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
