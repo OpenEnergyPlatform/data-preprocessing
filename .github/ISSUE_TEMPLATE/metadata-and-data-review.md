@@ -14,8 +14,10 @@ Please see **review_process.md**
 
 ## Metadata and data for review
 
-    * https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
-    * https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
+**Metadata:**
+* https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
+**Data:**
+* https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
 
 ## Workflow checklist
 
@@ -45,5 +47,5 @@ Please see **review_process.md**
 ## Reviewed and published metadata and data
 
 **schema.tablename**
-    * [Metadata](todo)
-    * [Data](todo)
+* [Metadata](todo)
+* [Data](todo)
