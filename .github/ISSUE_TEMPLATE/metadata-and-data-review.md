@@ -17,12 +17,12 @@ Describe your dataset shortly here.
 ## Workflow checklist
 
 1. GitHub
-- [x] I have submitted this issue to start a public metadata and data review (#number_of_issue)
-- [ ] Create a new review-branch named review/project_#number_of_issue and push the OEMetadata that needs to be reviewed there
+- [x] I have submitted this issue to have metadata and data review documented (Issue #NR)
+- [ ] Create a new review-branch and push OEMetadata to new branch (review/project_nameofdata#NR)
 
 2. OEP
-- [ ] Upload data to the OEP into schema model_draft (see upload tutorial)
-- [ ] Link the URL of data in this issue (model_draft.project_nameofdata)
+- [ ] Upload data to the OEP in schema model_draft (see upload tutorial)
+- [ ] Link URL of data in this issue (model_draft.project_nameofdata)
 
 3. Start a Review
 - [ ] Start a pull request (PR) from review-branch to master
@@ -36,7 +36,7 @@ Describe your dataset shortly here.
 - [ ] Data moved to its final schema
 - [ ] Add OEP tags to table
 - [ ] Merge PR and delete review-branch
-- [ ] Document final links of metadata and data
+- [ ] Document final links of metadata and data in issue description
 - [ ] Close issue
 
 
