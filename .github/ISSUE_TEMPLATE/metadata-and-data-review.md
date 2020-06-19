@@ -50,5 +50,5 @@ model_draft.project_nameofdata
 ## Reviewed and published metadata and data
 
 **schema.tablename**
-* [Metadata](todo)
-* [Data](todo)
+* [Metadata]()
+* [Data]()
