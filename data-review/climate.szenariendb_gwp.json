@@ -1,16 +1,18 @@
 {
     "name": "szenariendb_gwp",
     "title": "Global warming potentials from IPCC Assessment Reports",
-    "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_gwp",
+    "id": "https://openenergy-platform.org/dataedit/view/climate/szenariendb_gwp",
     "description": "This table holds global warming potentials (GWP) published in the IPCC Assessment reports.",
     "language": [
         "en-GB"
     ],
     "keywords": [
+        "Öko-Institut",
         "IPCC",
         "Global warming potential",
         "GWP",
-        "Greenhouse gas"
+        "Greenhouse gas",
+        "SzenarienDB"
     ],
     "publicationDate": "2019-09-09",
     "context": {
@@ -104,11 +106,11 @@
                 }
             ],
             "copyright": null
-		},
-		{
-			"title": "Reporting Requirements",
-			"description": "The  UNFCCC reporting guidelines on annual inventories for Parties included in Annex I to the Convention (Annex I Parties) require each Annex I Party [...] to provide its annual GHG inventory covering emissions and removals of direct GHGs (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3)) [...].",
-			"path": "https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/greenhouse-gas-inventories-annex-i-parties/reporting-requirements",
+        },
+        {
+            "title": "Reporting Requirements",
+            "description": "The  UNFCCC reporting guidelines on annual inventories for Parties included in Annex I to the Convention (Annex I Parties) require each Annex I Party [...] to provide its annual GHG inventory covering emissions and removals of direct GHGs (carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), perfluorocarbons (PFCs), hydrofluorocarbons (HFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3)) [...].",
+            "path": "https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/greenhouse-gas-inventories-annex-i-parties/reporting-requirements",
             "licenses": [
                 {
                     "name": null,
@@ -119,11 +121,11 @@
                 }
             ],
             "copyright": null
-		},
-		{
-			"title": "Handbook for the Montreal Protocol on Substances that Deplete the Ozone Layer (Thirteenth edition, 2019)",
-			"description": "Published by the Ozone Secretariat (The Secretariat for the Vienna Convention for the Protection of the Ozone Layer and for the Montreal Protocol on Substances that Deplete the Ozone Layer of the United Nations Environment Programme)",
-			"path": "https://ozone.unep.org/sites/default/files/2019-06/MP_Handbook_2019_W.pdf",
+        },
+        {
+            "title": "Handbook for the Montreal Protocol on Substances that Deplete the Ozone Layer (Thirteenth edition, 2019)",
+            "description": "Published by the Ozone Secretariat (The Secretariat for the Vienna Convention for the Protection of the Ozone Layer and for the Montreal Protocol on Substances that Deplete the Ozone Layer of the United Nations Environment Programme)",
+            "path": "https://ozone.unep.org/sites/default/files/2019-06/MP_Handbook_2019_W.pdf",
             "licenses": [
                 {
                     "name": null,
@@ -134,11 +136,11 @@
                 }
             ],
             "copyright": null
-		},
-		{
-			"title": "Regulation (EU) No 517/2014 of the European Parliament and of the Council of 16 April 2014 on fluorinated greenhouse gases and repealing Regulation (EC) No 842/2006",
-			"description": "EU F-Gas Regulation",
-			"path": "http://data.europa.eu/eli/reg/2014/517/oj",
+        },
+        {
+            "title": "Regulation (EU) No 517/2014 of the European Parliament and of the Council of 16 April 2014 on fluorinated greenhouse gases and repealing Regulation (EC) No 842/2006",
+            "description": "EU F-Gas Regulation",
+            "path": "http://data.europa.eu/eli/reg/2014/517/oj",
             "licenses": [
                 {
                     "name": null,
@@ -151,15 +153,15 @@
             "copyright": null
         }
     ],
-	"licenses": [
-		{
-			"name": "dl-de-by-2.0",
-			"title": "Data licence Germany – attribution – version 2.0",
-			"path": "https://www.govdata.de/dl-de/by-2-0",
-			"instruction": "https://www.govdata.de/dl-de/by-2-0",
-			"attribution": "\u00a9 \u00d6ko-Institut"
-		}
-	],
+    "licenses": [
+        {
+            "name": "dl-de-by-2.0",
+            "title": "Data licence Germany – attribution – version 2.0",
+            "path": "https://www.govdata.de/dl-de/by-2-0",
+            "instruction": "https://www.govdata.de/dl-de/by-2-0",
+            "attribution": "\u00a9 \u00d6ko-Institut"
+        }
+    ],
     "contributors": [
         {
             "title": "Lukas Emele",
@@ -216,6 +218,14 @@
             "date": "2020-05-12",
             "object": "metadata",
             "comment": "Bug fixes in metadata"
+        }
+        ,
+        {
+            "title": "Ludee",
+            "email": null,
+            "date": "2020-06-19",
+            "object": "metadata",
+            "comment": "Review metadata"
         }
     ],
     "resources": [
