@@ -37,10 +37,13 @@ Template:
 
 ### Added
 - provide a minimal working example as jupyter notebook tutorial
+- Ne OEP-API reflated functions: Prepare the oemetadata string to send to api 
+    Simple User Input function to set the OEP-API-Token
 
 ### Changed
 - Update README
 - include OEP public schema (whitelist) check
+- Spatial types from Geoalchemy2 do not set a spatial_index anymore
 
 
 ## [0.2.2] - 2020-06-02
