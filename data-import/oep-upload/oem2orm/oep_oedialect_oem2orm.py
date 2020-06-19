@@ -95,7 +95,6 @@ def create_tables(db: DB, tables: List[sa.Table]):
         else:
             if not db.engine.dialect.has_table(db.engine, table.name, table.schema):
                 try:
-                    print(table)
                     table.create(checkfirst=True)
                     logging.info(f"Created table {table.name}")
                 except sa.exc.ProgrammingError:
@@ -270,6 +269,62 @@ def collect_ordered_tables_from_oem(db: DB, oem_folder_path):
     fk_ordered_tables = order_tables_by_foreign_keys(tables)
 
     return fk_ordered_tables
+
+
+def prepare_md_for_api_action(table_name=None, oem_folder_path=None):
+    """
+    Prepares the JSON String for the sql comment on table
+    Required: The .json file names must contain the table name
+    Instruction: Check the SQL "comment on table" for each table
+                (e.g. use pgAdmin, OEP-API or OEP/dataedit)
+    Parameters
+    ----------
+    table_name:  str
+            table name of the sqlAlchemy table
+    Returns
+    -------
+    data:str
+            Contains the .json file as string
+    """
+    if oem_folder_path is not None:
+        metadata_files = [str(file) for file in oem_folder_path.iterdir()]
+    else:
+        metadata_files = None
+        print("Please provide a path to the metadata folder")
+        pass
+
+    if table_name is not None:
+        for json_file in metadata_files:
+            if table_name in json_file:
+                try:
+                    with open(json_file) as jf:
+                        try:
+                            data = json.loads(jf.read())
+                            return data
+
+                        except:
+                            print("Unable to load JSON file: " + table_name)
+
+                except:
+                    print("Unable to load the file: " + json_file)
+    else:
+        print("Please provide the name of the table")
+
+
+def setUserToken():
+    # Simple user input.
+    # This function is implemented as helper
+    # Restructure: Move all API related functions in own class
+
+    try:
+        token = os.environ["OEP_TOKEN"]
+    except KeyError:
+        token = getpass.getpass("OEP-Token:")
+
+    if token is not None:
+        return token
+    else:
+        print("Please provide your OEP-API token.")
 
 
 if __name__ == "__main__":
