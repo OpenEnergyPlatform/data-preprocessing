@@ -1,7 +1,7 @@
 {
-  "name": "reference.szenariendb_units",
+  "name": "szenariendb_units",
   "title": "Names and abbreviation of common units and metrics",
-  "id": "https://openenergy-platform.org/dataedit/view/model_draft/szenariendb_units",
+  "id": "https://openenergy-platform.org/dataedit/view/reference/szenariendb_units",
   "description": "This table holds common names and abbreviations of units often used in energy and climate modelling.",
   "language": [
     "en-GB"
@@ -90,6 +90,13 @@
       "date": "2020-03-19",
       "object": "metadata",
       "comment": "convert metadata to new table structure and adapt sources"
+    },
+    {
+        "title": "Ludee",
+        "email": null,
+        "date": "2020-06-19",
+        "object": "metadata",
+        "comment": "Review metadata"
     }
   ],
   "resources": [
