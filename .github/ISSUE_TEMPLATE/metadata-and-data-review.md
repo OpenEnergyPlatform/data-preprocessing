@@ -10,32 +10,28 @@ assignees: christian-rli, jh-RLI, Ludee
 ## Issue description
 
 I'm submitting an open dataset with a corresponding OEMetadata string for review. 
-Please see 
+Please see **review_process.md**
 
-## Metadata and data for review: 
+## Metadata and data for review
+
     * https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
     * https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
 
-## Reviewed and published metadata and data:
-1. szenariendb_units
-    * [Metadata](todo)
-    * [Data](todo)
-
 ## Workflow checklist
 
-* GitHub
+1. GitHub
 - [x] I have submitted this issue to have metadata and data review documented (Issue #NR)
 - [ ] Create a new review-branch and push OEMetadata to new branch (review/project_nameofdata#NR)
 
-* OEP
+1. OEP
 - [ ] Upload data to the OEP in schema model_draft (see upload tutorial)
 - [ ] Link URL of data in this issue (model_draft.project_nameofdata)
 
-* Start a Review
+1. Start a Review
 - [ ] Start a pull request (PR) from review-branch to master
 - [ ] Assign a reviewer and get in contact
 
-* Reviewer section
+1. Reviewer section
 - [ ] A reviewer starts working on the issue
 - [ ] Review data license
 - [ ] A reviewer finished working on this issue (and awarded a badge)
@@ -45,3 +41,9 @@ Please see
 - [ ] Merge PR and delete review-branch
 - [ ] Document final links of metadata and data
 - [ ] Close issue
+
+## Reviewed and published metadata and data
+
+**schema.tablename**
+    * [Metadata](todo)
+    * [Data](todo)
