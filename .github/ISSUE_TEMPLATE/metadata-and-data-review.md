@@ -1,7 +1,7 @@
 ---
 name: Metadata and Data Review
 about: Submit open data and an OEMetadata string for review
-title: ''
+title: 'Review: NameOfDataset'
 labels: review
 assignees: christian-rli, jh-RLI, Ludee
 
@@ -10,14 +10,9 @@ assignees: christian-rli, jh-RLI, Ludee
 ## Issue description
 
 I'm submitting an open dataset with a corresponding OEMetadata string for review. 
-Please see **review_process.md**
+Please see **review_process.md** for technical detail.
+Describe your dataset shortly here.
 
-## Metadata and data for review
-
-**Metadata:**
-* https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
-**Data:**
-* https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
 
 ## Workflow checklist
 
@@ -25,15 +20,15 @@ Please see **review_process.md**
 - [x] I have submitted this issue to have metadata and data review documented (Issue #NR)
 - [ ] Create a new review-branch and push OEMetadata to new branch (review/project_nameofdata#NR)
 
-1. OEP
+2. OEP
 - [ ] Upload data to the OEP in schema model_draft (see upload tutorial)
 - [ ] Link URL of data in this issue (model_draft.project_nameofdata)
 
-1. Start a Review
+3. Start a Review
 - [ ] Start a pull request (PR) from review-branch to master
 - [ ] Assign a reviewer and get in contact
 
-1. Reviewer section
+4. Reviewer section
 - [ ] A reviewer starts working on the issue
 - [ ] Review data license
 - [ ] A reviewer finished working on this issue (and awarded a badge)
@@ -43,6 +38,14 @@ Please see **review_process.md**
 - [ ] Merge PR and delete review-branch
 - [ ] Document final links of metadata and data
 - [ ] Close issue
+
+
+## Metadata and data for review
+
+model_draft.project_nameofdata
+**Metadata:** https://github.com/OpenEnergyPlatform/data-preprocessing/blob/review/project_nameofdata/data-review/project_nameofdata.json
+**Data:** https://openenergy-platform.org/dataedit/view/model_draft/project_nameofdata
+
 
 ## Reviewed and published metadata and data
 
