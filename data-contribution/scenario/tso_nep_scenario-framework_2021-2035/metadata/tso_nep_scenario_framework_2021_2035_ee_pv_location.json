@@ -78,17 +78,11 @@
     ],
     "contributors": [
         {
-            "title": "tba",
-            "email": "",
-            "object": "",
-            "comment": ""
-        },
-        {
-            "title": "tba",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
+            "title": "TSO",
+            "email": null,
+            "date": "2020-06-22",
+            "object": "data",
+            "comment": "Provide example data."
         },
         {
             "title": "Ludee",
@@ -153,6 +147,19 @@
                 "primaryKey": [
                     "id"
                 ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
             },
             "dialect": {
                 "delimiter": ";",
