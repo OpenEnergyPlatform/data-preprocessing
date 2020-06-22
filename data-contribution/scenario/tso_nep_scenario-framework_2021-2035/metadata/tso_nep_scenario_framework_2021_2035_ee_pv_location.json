@@ -33,10 +33,7 @@
             "start": "2018",
             "end": "2040",
             "resolution": "2020; 2035; 2040",
-<<<<<<< HEAD
             "alignment": "middle",
-=======
->>>>>>> a480a2d2ddc0090da339793458740b01df8897c4
             "aggregationType": "tba"
         }
     },
@@ -156,18 +153,6 @@
                 "primaryKey": [
                     "id"
                 ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                        ],
-                        "reference": {
-                            "resource": null,
-                            "fields": [
-                                null
-                            ]
-                        }
-                    }
-                ]
             },
             "dialect": {
                 "delimiter": ";",
