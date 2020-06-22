@@ -12,7 +12,6 @@
         "Szenariorahmen",
         "2021-2035"
     ],
-    "publicationDate": "tba",
     "context": {
         "homepage": "https://www.netzausbau.de/5schritte/szenariorahmen/de.html",
         "documentation": "https://www.netzausbau.de/bedarfsermittlung/2035_2021/szenariorahmen/de.html",
@@ -34,7 +33,6 @@
             "start": "2020",
             "end": "2040",
             "resolution": "2020; 2035; 2040",
-            "alignment": "tba",
             "aggregationType": "tba"
         }
     },
@@ -81,7 +79,6 @@
         {
             "title": "tba",
             "email": "",
-            "date": "",
             "object": "",
             "comment": ""
         },
@@ -151,7 +148,6 @@
                 "foreignKeys": [
                     {
                         "fields": [
-                            null
                         ],
                         "reference": {
                             "resource": null,
