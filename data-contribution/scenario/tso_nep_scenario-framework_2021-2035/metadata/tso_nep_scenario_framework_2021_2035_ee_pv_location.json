@@ -2,7 +2,7 @@
     "name": "TSO NEP Scenario Framework 2021-2035 - EE regionalisation - PV location",
     "title": "tso_nep_scenario_framework_2021_2035_ee_pv_location",
     "id": "tba",
-    "description": "In the draft scenario framework 2021-2035, the transmission system operators outlined four possible scenarios for the likely development of the electricity sector up to the years 2035 and 2040.",
+    "description": "In the draft scenario framework 2021-2035, the transmission system operators outlined four possible scenarios for the likely development of the electricity sector up to the years 2035 and 2040. Installed capacities PV.",
     "language": [
         "de-DE",
         "en-GB"
@@ -29,12 +29,12 @@
         "resolution": "Federal state"
     },
     "temporal": {
-        "referenceDate": "2020",
+        "referenceDate": "2018",
         "timeseries": {
-            "start": "2020",
+            "start": "2018",
             "end": "2040",
             "resolution": "2020; 2035; 2040",
-            "alignment": "tba",
+            "alignment": "middle",
             "aggregationType": "tba"
         }
     },
@@ -78,6 +78,13 @@
         }
     ],
     "contributors": [
+        {
+            "title": "tba",
+            "email": "",
+            "date": "",
+            "object": "",
+            "comment": ""
+        },
         {
             "title": "tba",
             "email": "",
@@ -130,13 +137,13 @@
                         "name": "pv_roof",
                         "description": "Solar (PV) installed capacity - roof mounted (Gebäude)",
                         "type": "float",
-                        "unit": "tba"
+                        "unit": "GW"
                     },
                     {
                         "name": "pv_open_area",
                         "description": "Solar (PV) installed capacity - open area mounted (Freifläche)",
                         "type": "float",
-                        "unit": "tba"
+                        "unit": "GW"
                     },
                     {
                         "name": "aggregated",
@@ -164,7 +171,7 @@
             },
             "dialect": {
                 "delimiter": ";",
-                "decimalSeparator": ","
+                "decimalSeparator": "."
             }
         }
     ],
