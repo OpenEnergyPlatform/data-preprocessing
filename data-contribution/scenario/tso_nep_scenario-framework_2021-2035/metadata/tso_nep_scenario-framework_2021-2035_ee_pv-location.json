@@ -96,7 +96,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.tso_nep_scenario-framework_2021-2035_ee_pv-location",
+            "name": "model_draft.tso_nep_scenario_framework_2021_2035_ee_pv_location",
             "path": "tba",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
@@ -129,13 +129,13 @@
                     {
                         "name": "pv_roof",
                         "description": "Solar (PV) installed capacity - roof mounted (Gebäude)",
-                        "type": "double precision",
+                        "type": "float",
                         "unit": "tba"
                     },
                     {
                         "name": "pv_open_area",
                         "description": "Solar (PV) installed capacity - open area mounted (Freifläche)",
-                        "type": "double precision",
+                        "type": "float",
                         "unit": "tba"
                     },
                     {
