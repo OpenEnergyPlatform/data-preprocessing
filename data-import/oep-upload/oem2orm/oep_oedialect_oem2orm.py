@@ -13,8 +13,10 @@ import jmespath
 import getpass
 import sqlalchemy as sa
 import re
+from omi.dialects.oep.parser import JSONParser_1_4
 from sqlalchemy.orm import sessionmaker
 import oedialect
+import requests
 
 from .postgresql_types import TYPES
 
@@ -64,10 +66,8 @@ def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform
         user = os.environ["OEP_USER"]
     except KeyError:
         user = input("Enter OEP-username:")
-    try:
-        token = os.environ["OEP_TOKEN"]
-    except KeyError:
-        token = getpass.getpass("OEP-Token:")
+
+    token = setUserToken()
 
     # Generate connection string:
     conn_str = CONNECTION_STRING
@@ -78,6 +78,20 @@ def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform
     engine = sa.create_engine(conn_str)
     metadata = sa.MetaData(bind=engine)
     return DB(engine, metadata)
+
+
+def setupApiAction(schema, table):
+    API_ACTION = namedtuple("API_Action", ["url", "headers"])
+    OEP_URL = "https://openenergy-platform.org"
+
+    url = OEP_URL + "/api/v0/schema/{schema}/tables/{table}/meta/".format(
+        schema=schema, table=table
+    )
+
+    token = setUserToken()
+    headers = {'Authorization': 'Token %s'%token, 'Accept' : 'application/json', 'content_type': 'application/json'}
+
+    return API_ACTION(url, headers)
 
 
 def create_tables(db: DB, tables: List[sa.Table]):
@@ -251,7 +265,7 @@ def select_oem_dir(oem_folder_name=None, filename=None):
         raise FileNotFoundError
 
 
-def collect_ordered_tables_from_oem(db: DB, oem_folder_path):
+def collect_tables_from_oem(db: DB, oem_folder_path):
     tables = []
     metadata_files = [str(file) for file in oem_folder_path.iterdir()]
 
@@ -271,7 +285,7 @@ def collect_ordered_tables_from_oem(db: DB, oem_folder_path):
     return fk_ordered_tables
 
 
-def prepare_md_for_api_action(table_name=None, oem_folder_path=None):
+def prepare_md_for_http_action(table_name=None, oem_folder_path=None):
     """
     Prepares the JSON String for the sql comment on table
     Required: The .json file names must contain the table name
@@ -286,6 +300,7 @@ def prepare_md_for_api_action(table_name=None, oem_folder_path=None):
     data:str
             Contains the .json file as string
     """
+
     if oem_folder_path is not None:
         metadata_files = [str(file) for file in oem_folder_path.iterdir()]
     else:
@@ -309,6 +324,65 @@ def prepare_md_for_api_action(table_name=None, oem_folder_path=None):
                     print("Unable to load the file: " + json_file)
     else:
         print("Please provide the name of the table")
+
+
+def api_updateMdOnTable(metadata):
+    """
+
+    """
+    schema = getTableSchemaFromOEM(metadata)
+    table = getTableNameFromOEM(metadata)
+
+    logging.info("UPDATE METADATA")
+    api_action = setupApiAction(table, schema)
+    requests.post(api_action.url, data=metadata, headers=api_action.headers)
+    logging.info("   ok.")
+
+
+def api_DownloadMd(api_connection, schema, table, metadata=None):
+    """
+    """
+    logging.info("DOWNLOAD_METADATA")
+    api_action = setupApiAction(table, schema)
+    res = requests.get(api_action.url)
+    res = res.json()
+    logging.info("   ok.")
+    return res
+
+
+def saveMdToJson(data, filepath, encoding="utf-8"):
+    logging.info("saving %s" % filepath)
+    with open(filepath, "w", encoding=encoding) as f:
+        return json.dump(data, f, sort_keys=True, indent=2)
+
+
+def moveTableToSchema(engine, destination_schema):
+    pass
+
+
+def omi_ValidateMd(data):
+    OmiParser = JSONParser_1_4()
+    logging.info("VALIDATE")
+    try:
+        OmiParser.parse_from_string(data)
+        logging.info("The metadatafile is valid for OEM version 1.4.0")
+    except TypeError:
+        logging.error("Something went wrong, please make sure that the input OEM is provided in string format")
+
+
+def getTableNameFromOEM(metadata):
+    try:
+        name = metadata["resources"][0]["name"]
+    except:
+        raise Exception("table name not found in metadata (name in resource[0])")
+    return name
+
+def getTableSchemaFromOEM(metadata):
+    try:
+        schema = metadata["resources"][1]["name"]
+    except:
+        raise Exception("table name not found in metadata (name in resource[0])")
+    return schema
 
 
 def setUserToken():
