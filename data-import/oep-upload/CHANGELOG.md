@@ -29,15 +29,23 @@ Template:
 ## Current
 
 ### Added
+- Support to setup the OEP API-URL
+- Metadata Up- and download are supported
+- Save downloaded metadata to file
+- Validate metadata using OMI parser v1.4.0
 
 ### Changed
+- IMPORTANT: change functions names in #COMMIT
+
+
+## [0.2.4] - 2020-06-02
 
 
 ## [0.2.3] - 2020-06-02
 
 ### Added
 - provide a minimal working example as jupyter notebook tutorial
-- Ne OEP-API reflated functions: Prepare the oemetadata string to send to api 
+- New OEP-API related functions: Prepare the oemetadata string to send to api 
     Simple User Input function to set the OEP-API-Token
 
 ### Changed
