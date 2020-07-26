@@ -20,7 +20,7 @@ To use this tool with the OEP API you need to be signed up to the OEP since
 you need to provide an API-Token. 
 
 If you want to upload OEM that was officially reviewed you must clone the
-OEP data-preprocessing repository on GitHub [here](https://github.com/OpenEnergyPlatform/data-preprocessing).
+OEP data-preprocessing repository on [GitHub](https://github.com/OpenEnergyPlatform/data-preprocessing).
 The data-review folder contains all of the successfully reviewed OEM files.
 
 For security reasons, tables can only be created in existing 
@@ -53,41 +53,49 @@ from oem2orm import oep_oedialect_oem2orm as oem2orm
 Now just call the functions provided in oem2orm like this:
 
 Recommended execution order:
-1. Setup the logger
+- Setup the logger
 ```python
 oem2orm.setup_logger()
 ```
 
-2. Setup the Database API connection as Namedtuple storing the SQLAlchemy engine and metadata:
+- Setup the Database API connection as Namedtuple storing the SQLAlchemy engine and metadata:
 ```python
 db = oem2orm.setup_db_connection()
 ```
 
-3. Provide the oem files in a folder (in the current directory).
-3.1 Pass the folder name to the function:
+- Provide the oem files in a folder (in the current directory).
+- Pass the folder name to the function:
 ```python
 metadata_folder = oem2orm.select_oem_dir(oem_folder_name="folder_name")
 ```
 
-4. Setup a SQLAlchemy ORM including all data-model in the provided oem files:
+- Setup a SQLAlchemy ORM including all data-model in the provided oem files:
 ```python
 orm = oem2orm.collect_ordered_tables_from_oem(db, metadata_folder)
 ```
 
-5. Create the tables on the Database:
+- Create the tables on the Database:
 ```python
 oem2orm.create_tables(db, orm)
 ```
 
-6. Delete all tables that have been created (all tables available in sa.metadata)
+- Delete all tables that have been created (all tables available in sa.metadata)
 ```python
 oem2orm.delete_tables(db, orm)
 ```
 
-##Docs:
+## Docs:
+
+### Database connection
+We use a global namedtuple called "DB" To store the sqlalchemy connection objects engine and metadata.
+The namedtuple is available wen import oem2orm in a script. To establish the namedtuple use the function
+setup_db_connection(). Now you can use DB.engine or DB.metadata.
 
 ### oem2orm generator
 
 #### Supported datatypes
+
+#### Spatial Types
+We create columns with spatial datatypes using Geoalchemy2. 
 
 ## Database support
