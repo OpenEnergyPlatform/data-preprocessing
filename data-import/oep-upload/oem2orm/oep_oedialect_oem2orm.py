@@ -81,7 +81,7 @@ def setup_db_connection(engine="postgresql+oedialect", host="openenergy-platform
 
 
 def setupApiAction(schema, table):
-    API_ACTION = namedtuple("API_Action", ["url", "headers"])
+    API_ACTION = namedtuple("API_Action", ["dest_url", "headers"])
     OEP_URL = "https://openenergy-platform.org"
 
     url = OEP_URL + "/api/v0/schema/{schema}/tables/{table}/meta/".format(
@@ -285,16 +285,24 @@ def collect_tables_from_oem(db: DB, oem_folder_path):
     return fk_ordered_tables
 
 
-def prepare_md_for_http_action(table_name=None, oem_folder_path=None):
+def load_json(filepath):
+    logging.info("reading %s" % filepath)
+    with open(filepath, "rb") as f:
+        return json.load(f)
+
+
+def mdToDict(oem_folder_path, file_name=None):
     """
     Prepares the JSON String for the sql comment on table
-    Required: The .json file names must contain the table name
+    Required: The .json file names must contain the file name parameter.
     Instruction: Check the SQL "comment on table" for each table
                 (e.g. use pgAdmin, OEP-API or OEP/dataedit)
     Parameters
     ----------
-    table_name:  str
-            table name of the sqlAlchemy table
+    oem_folder_path:
+            path to metadata directory
+    file_name:  str
+            metadata file name
     Returns
     -------
     data:str
@@ -308,43 +316,62 @@ def prepare_md_for_http_action(table_name=None, oem_folder_path=None):
         print("Please provide a path to the metadata folder")
         pass
 
-    if table_name is not None:
+    if file_name is not None:
         for json_file in metadata_files:
-            if table_name in json_file:
+            if file_name in json_file:
                 try:
-                    with open(json_file) as jf:
-                        try:
-                            data = json.loads(jf.read())
-                            return data
+                    # with open(json_file) as jf:
+                    #     try:
+                    #         data = json.loads(jf.read())
+                    #         return data
+                    #
+                    #     except KeyError:
+                    #         logging.error("Unable to load JSON file: " + file_name)
 
-                        except:
-                            print("Unable to load JSON file: " + table_name)
+                    data = load_json(json_file)
+                    return data
 
-                except:
-                    print("Unable to load the file: " + json_file)
+                except FileNotFoundError:
+                    logging.error("Unable to load the file: " + json_file)
     else:
-        print("Please provide the name of the table")
+        logging.error("Please provide the name of the metadata file")
+
+
+def parseDatapackageToString(oem_folder_path, datapackage_name=None, table_name=None):
+    """
+    Implement automation to upload metadata to all tables of a single datapackage.json file.
+    :param oem_folder_path:
+    :param datapackage_name:
+    :param table_name:
+    :return:
+    """
+    raise NotImplemented
 
 
 def api_updateMdOnTable(metadata):
     """
 
     """
-    schema = getTableSchemaFromOEM(metadata)
-    table = getTableNameFromOEM(metadata)
+    schema = getTableSchemaNameFromOEM(metadata)[0]
+    table = getTableSchemaNameFromOEM(metadata)[1]
 
     logging.info("UPDATE METADATA")
-    api_action = setupApiAction(table, schema)
-    requests.post(api_action.url, data=metadata, headers=api_action.headers)
-    logging.info("   ok.")
+    api_action = setupApiAction(schema, table)
+    resp = requests.post(api_action.dest_url, data=metadata, headers=api_action.headers)
+    if resp.status_code is "200":
+        logging.info("   ok.")
+    else:
+        logging.info(resp.json())
+        logging.info("HTTP status code: ")
+        logging.info(resp.status_code)
 
 
-def api_DownloadMd(api_connection, schema, table, metadata=None):
+def api_downloadMd(schema, table):
     """
     """
     logging.info("DOWNLOAD_METADATA")
-    api_action = setupApiAction(table, schema)
-    res = requests.get(api_action.url)
+    api_action = setupApiAction(schema, table)
+    res = requests.get(api_action.dest_url)
     res = res.json()
     logging.info("   ok.")
     return res
@@ -360,29 +387,26 @@ def moveTableToSchema(engine, destination_schema):
     pass
 
 
-def omi_ValidateMd(data):
+def omi_validateMd(data):
     OmiParser = JSONParser_1_4()
     logging.info("VALIDATE")
     try:
-        OmiParser.parse_from_string(data)
+        OmiParser.parse(data)
         logging.info("The metadatafile is valid for OEM version 1.4.0")
-    except TypeError:
+    except TypeError as e:
         logging.error("Something went wrong, please make sure that the input OEM is provided in string format")
+        logging.error(e)
 
 
-def getTableNameFromOEM(metadata):
+def getTableSchemaNameFromOEM(metadata):
     try:
-        name = metadata["resources"][0]["name"]
+        schema_name = metadata["resources"][0]["name"]
+        if "." in schema_name:
+            schema, tablename = schema_name.split(".")
+            return schema, tablename
     except:
         raise Exception("table name not found in metadata (name in resource[0])")
-    return name
 
-def getTableSchemaFromOEM(metadata):
-    try:
-        schema = metadata["resources"][1]["name"]
-    except:
-        raise Exception("table name not found in metadata (name in resource[0])")
-    return schema
 
 
 def setUserToken():
