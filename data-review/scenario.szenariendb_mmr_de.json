@@ -44,7 +44,7 @@
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "scenario.szenariendb_mmr_de",
-    "path": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
+    "path": "https://openenergy-platform.org/dataedit/view/scenario/szenariendb_mmr_de",
     "format": "PostgreSQL",
     "encoding" : "UTF-8",
     "schema": {
