@@ -64,8 +64,8 @@
     ],
     "licenses": [
         {
-            "name": "CAMS License Agreement and Privacy Statement",
-            "title": null,
+            "name": null,
+            "title": "CAMS License Agreement and Privacy Statement",
             "path": "http://www.soda-pro.com/documents/10157/326300/CAMS-data-license.pdf/59241f5b-085d-4e79-bf42-1f19b0731d9f",
             "instruction": "1.1 This License is free of charge, worldwide, non-exclusive, royalty free and perpetual. 1.2 Access to CAMS Information is given for the purpose of the following use in so far as it is lawful:a)reproduction; b)distribution; c)communication to the public; d)adaptation, modification and combination with other data and information; e)any combination of points (a) to (d).",
             "attribution": null
