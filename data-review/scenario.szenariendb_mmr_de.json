@@ -22,9 +22,16 @@
     "start": "2015-01-01T00:00+01:00",
     "end": "2035-01-01T00:00+01:00",
     "resolution": "yearly",
-    "timestamp": "left"},
+    "timestamp": "left",
+    "aggregationType": null},
 "sources": [
-    {"title": "EIONET Central Data Repository", "description": null, "path": "https://cdr.eionet.europa.eu/de/eu/mmr/art04-13-14_lcds_pams_projections/projections/", "license": "https://creativecommons.org/licenses/by/2.5/dk/deed.en_GB", "copyright": ""}],
+    {"title": "EIONET Central Data Repository", "description": null, "path": "https://cdr.eionet.europa.eu/de/eu/mmr/art04-13-14_lcds_pams_projections/projections/",
+        "licenses": [{
+                "name": "CC-BY-4.0",
+                "title": "Creative Commons Attribution 4.0 International",
+                "path": "https://cdr.eionet.europa.eu/legalnotice",
+                "instruction": "You are free: To Share, To Create, To Adapt. You must give attribution",
+                "attribution": "© EEA"}]}],
 "licenses": [
     {"name": "Attribution 2.5 Denmark",
     "title": "CC BY 2.5 DK",
