@@ -28,12 +28,7 @@
         "publisherLogo": null
     },
     "spatial": {
-        "location": {
-			"latitude": "36.8299",
-			"typeLatitude":"positive North, ISO 19115",
-			"longitude": "-2.4054",
-			"typeLongitude": "positive East, ISO 19115"
-			},
+        "location": "36.8299, -2.4054",
         "extent": null,
         "resolution": null,
 		"altitude":"4.00m",
