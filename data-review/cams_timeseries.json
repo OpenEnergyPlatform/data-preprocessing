@@ -31,15 +31,12 @@
         "location": "36.8299, -2.4054",
         "extent": null,
         "resolution": null,
-		"altitude":"4.00m",
-		"ElevationOfCamsCell": "373.19m"
     },
     "temporal": {
         "referenceDate": null,
         "start": "2018-01-01T00:00:00",
         "end": "2019-01-01T00:00:00",
         "resolution": "minutes",
-		"timeReference": "Universal Time (UT)"
     },
     "sources": [
         {
@@ -74,11 +71,18 @@
             "object": "metadata",
             "comment": "Create CAMS Timeseries-Metadata"
         },
+        {
+            "title": "Christian Hofmann",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2020-07-28",
+            "object": "metadata",
+            "comment": "Review metadata"
+        },
     ],
     "resources": [
         {
-            "profile": null,
-            "name": "Almeria_2018.csv",
+            "profile": "tabular-data-resource",
+            "name": "Almeria_2018",
             "path": null,
             "format": "csv",
             "encoding": "UTF-8",
@@ -86,7 +90,7 @@
                 "fields": [
                     {
                         "name": "Observation period",
-                        "description": "Observation period",
+                        "description": "Observation period. Time spcifies UT, not UTC",
                         "type": null,
                         "unit": "ISO 8601"
                     },
