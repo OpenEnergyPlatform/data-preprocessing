@@ -69,8 +69,8 @@
         {"delimiter": null,
         "decimalSeparator": "."} } ],
 "review": {
-    "path": null,
-    "badge": null},
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/58",
+    "badge": "silver"},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4",
     "metadataLicense":
