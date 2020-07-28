@@ -89,7 +89,7 @@ def setupApiAction(schema, table):
     )
 
     token = setUserToken()
-    headers = {'Authorization': 'Token %s'%token, 'Accept' : 'application/json', 'content_type': 'application/json'}
+    headers = {'Authorization': 'Token %s'%token, 'Accept': 'application/json', 'Content-Type': 'application/json'}
 
     return API_ACTION(url, headers)
 
@@ -306,7 +306,7 @@ def mdToDict(oem_folder_path, file_name=None):
     Returns
     -------
     data:str
-            Contains the .json file as string
+            Contains the .json file as dict
     """
 
     if oem_folder_path is not None:
@@ -320,14 +320,6 @@ def mdToDict(oem_folder_path, file_name=None):
         for json_file in metadata_files:
             if file_name in json_file:
                 try:
-                    # with open(json_file) as jf:
-                    #     try:
-                    #         data = json.loads(jf.read())
-                    #         return data
-                    #
-                    #     except KeyError:
-                    #         logging.error("Unable to load JSON file: " + file_name)
-
                     data = load_json(json_file)
                     return data
 
@@ -357,9 +349,10 @@ def api_updateMdOnTable(metadata):
 
     logging.info("UPDATE METADATA")
     api_action = setupApiAction(schema, table)
-    resp = requests.post(api_action.dest_url, data=metadata, headers=api_action.headers)
+    resp = requests.post(api_action.dest_url, json=metadata, headers=api_action.headers)
     if resp.status_code is "200":
         logging.info("   ok.")
+        logging.info(api_action.dest_url)
     else:
         logging.info(resp.json())
         logging.info("HTTP status code: ")
@@ -384,7 +377,7 @@ def saveMdToJson(data, filepath, encoding="utf-8"):
 
 
 def moveTableToSchema(engine, destination_schema):
-    pass
+    raise NotImplemented
 
 
 def omi_validateMd(data):
@@ -408,11 +401,9 @@ def getTableSchemaNameFromOEM(metadata):
         raise Exception("table name not found in metadata (name in resource[0])")
 
 
-
 def setUserToken():
     # Simple user input.
     # This function is implemented as helper
-    # Restructure: Move all API related functions in own class
 
     try:
         token = os.environ["OEP_TOKEN"]
@@ -455,3 +446,4 @@ if __name__ == "__main__":
 
     # gdf_awz = gpd.read_file("bsh_seegrenzen_awz.gpkg")
     # print(gdf_awz)
+
