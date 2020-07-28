@@ -1,8 +1,8 @@
 {
-    "name": "CAMS Radiation Service v3.2 all-sky irradiation (derived from satellite data)",
+    "name": "cams_radiation_service_v3_2_all_sky_irradiation",
     "title": "CAMS Radiation Service v3.2 all-sky irradiation (derived from satellite data)",
     "id": null,
-    "description": "A time-series of solar radiation received on horizontal plane and plane always normal to the sun rays at ground level.Returns the global, beam and diffuse irradiations integrated over a selected time step, for a selected location (Meteosat Second Generation satellite coverage) and a selected period.",
+    "description": "A time-series of solar radiation received on horizontal plane and plane always normal to the sun rays at ground level. Returns the global, beam and diffuse irradiations integrated over a selected time step, for a selected location (Meteosat Second Generation satellite coverage) and a selected period.",
     "language": [
         "en-GB"
     ],
