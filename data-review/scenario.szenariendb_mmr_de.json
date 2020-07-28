@@ -49,28 +49,28 @@
     "encoding" : "UTF-8",
     "schema": {
         "fields": [
-            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": "none"},
-            {"name": "scenario", "description": "Name of the scenario: with existing measures scenario = WEM, with additional measures scenario = WAM, without measures scenario = WOM", "type": "string", "unit": "none"},
-            {"name": "member_state", "description": "ISO-alpha-2 memberstate code", "type": "string", "unit": "none"},
-			{"name": "submission_year", "description": "year that data was submitted by Member State", "type": "integer", "unit": "none"},
-            {"name": "parameter", "description": "Parameter that is reported", "type": "string", "unit": "none"},
-			{"name": "crf_sector", "description": "Sector according to the Common Reporting Format (CRF)", "type": "string", "unit": "none"},
-			{"name": "gas", "description": "Name of gas", "type": "string", "unit": "none"},
-			{"name": "default_unit", "description": "Default unit data should be reported in", "type": "string", "unit": "none"},
-			{"name": "additional_unit_information", "description": "Unit data was reported in", "type": "string", "unit": "none"},
-			{"name": "year", "description": "Year of data", "type": "integer", "unit": "none"},
-			{"name": "value", "description": "Value of data", "type": "float", "unit": "none"},
-			{"name": "notation_key", "description": "Notation key that was used in case cell is empty", "type": "string", "unit": "none"},
-			{"name": "is_baseyear", "description": "Indicates with 1 if this is the base year used for the projection", "type": "boolean", "unit": "none"}
+            {"name": "id", "description": "Unique identifier", "type": "serial", "unit": null},
+            {"name": "scenario", "description": "Name of the scenario: with existing measures scenario = WEM, with additional measures scenario = WAM, without measures scenario = WOM", "type": "string", "unit": null},
+            {"name": "member_state", "description": "ISO-alpha-2 memberstate code", "type": "string", "unit": null},
+			{"name": "submission_year", "description": "year that data was submitted by Member State", "type": "integer", "unit": null},
+            {"name": "parameter", "description": "Parameter that is reported", "type": "string", "unit": null},
+			{"name": "crf_sector", "description": "Sector according to the Common Reporting Format (CRF)", "type": "string", "unit": null},
+			{"name": "gas", "description": "Name of gas", "type": "string", "unit": null},
+			{"name": "default_unit", "description": "Default unit data should be reported in", "type": "string", "unit": null},
+			{"name": "additional_unit_information", "description": "Unit data was reported in", "type": "string", "unit": null},
+			{"name": "year", "description": "Year of data", "type": "integer", "unit": null},
+			{"name": "value", "description": "Value of data", "type": "float", "unit": null},
+			{"name": "notation_key", "description": "Notation key that was used in case cell is empty", "type": "string", "unit": null},
+			{"name": "is_baseyear", "description": "Indicates with 1 if this is the base year used for the projection", "type": "boolean", "unit": null}
 		],
         "primaryKey": ["id"],
         "foreignKeys": [] },
     "dialect":
-        {"delimiter": "none",
+        {"delimiter": null,
         "decimalSeparator": "."} } ],
 "review": {
-    "path": "none",
-    "badge": "none"},
+    "path": null,
+    "badge": null},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4",
     "metadataLicense":
@@ -84,4 +84,4 @@
     "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
     "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
     "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
-"none": "If not applicable use (none)"}}
+    "null": "If not applicable use null"}}
