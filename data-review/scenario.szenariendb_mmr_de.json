@@ -39,7 +39,8 @@
     "instruction": "free to share and adapt under attibution",
     "attribution": ""}],
 "contributors": [
-    {"title": "Öko-Institut", "email": "oedb@oeko", "date": "2030-03-11", "object": "metadata", "comment": "Initial version metadata"}],
+    {"title": "Öko-Institut", "email": "oedb@oeko", "date": "2020-03-11", "object": "metadata", "comment": "Initial version metadata"},
+    {"title": "Reiner Lemoine Institut", "email": "christian.hofmannb@rl-institut.de", "date": "2020-07-28", "object": "metadata", "comment": "Review metadata"}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "scenario.szenariendb_mmr_de",
