@@ -1,6 +1,6 @@
 {"name": "szenariendb_mmr_de",
 "title": "Emission scenario data submitted by Germany under Regulation (EU) 525/2013",
-"id": "",
+"id": "https://openenergy-platform.org/dataedit/view/scenario/szenariendb_mmr_de",
 "description": "This table holds emission projections and corresponding parameters, submitted under Article 14 of Regulation (EU) 525/2013",
 "language": [ "en-GB" ],
 "keywords": [ "Germany", "Emission projections", "Key parameters", "Assumptions", "Emission scenarios", "Monitoring Mechanism Regulation", "Article 14"],
