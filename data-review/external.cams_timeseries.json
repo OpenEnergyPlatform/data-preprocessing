@@ -1,0 +1,334 @@
+{
+    "name": "cams_radiation_service_v3_2_all_sky_irradiation",
+    "title": "CAMS Radiation Service v3.2 all-sky irradiation (derived from satellite data)",
+    "id": null,
+    "description": "A time-series of solar radiation received on horizontal plane and plane always normal to the sun rays at ground level. Returns the global, beam and diffuse irradiations integrated over a selected time step, for a selected location (Meteosat Second Generation satellite coverage) and a selected period.",
+    "language": [
+        "en-GB"
+    ],
+    "keywords": [
+        "radiation",
+		"meteorology",
+		"CAMS",
+		"weather",
+		"climate",
+		"model",
+		"satellite",
+		"timeseries"
+    ],
+    "publicationDate": "2020-03-31",
+    "context": {
+        "homepage": "http://www.soda-pro.com/web-services/radiation/cams-radiation-service",
+        "documentation": "http://www.soda-pro.com/documents/10157/326238/CAMS72_2018SC1_D72.4.3.1_2019_UserGuide_v1.pdf/e18faf53-a8dd-4e80-9329-1726d1fad208",
+        "sourceCode": null,
+        "contact": "copernicus-support@ecmwf.int",
+        "grantNo": null,
+        "fundingAgency": "European Union",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": "36.8299, -2.4054",
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "start": "2018-01-01T00:00:00",
+        "end": "2019-01-01T00:00:00",
+        "resolution": "minutes"
+    },
+    "sources": [
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": "CAMS License Agreement and Privacy Statement",
+            "path": "http://www.soda-pro.com/documents/10157/326300/CAMS-data-license.pdf/59241f5b-085d-4e79-bf42-1f19b0731d9f",
+            "instruction": "1.1 This License is free of charge, worldwide, non-exclusive, royalty free and perpetual. 1.2 Access to CAMS Information is given for the purpose of the following use in so far as it is lawful:a)reproduction; b)distribution; c)communication to the public; d)adaptation, modification and combination with other data and information; e)any combination of points (a) to (d).",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Franziska Drathschmidt",
+            "email": "Franziska.Drathschmidt@dlr.de",
+            "date": "2020-07-20",
+            "object": "metadata",
+            "comment": "Create CAMS Timeseries-Metadata"
+        },
+        {
+            "title": "Christian Hofmann",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2020-07-28",
+            "object": "metadata",
+            "comment": "Review metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "Almeria_2018",
+            "path": null,
+            "format": "csv",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Observation period",
+                        "description": "Observation period. Time spcifies UT, not UTC",
+                        "type": null,
+                        "unit": "ISO 8601"
+                    },
+                    {
+                        "name": "TOA",
+                        "description": "Irradiation on horizontal plane at the top of atmosphere ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "Clear sky GHI",
+                        "description": "Clear sky global irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "Clear sky BHI",
+                        "description": "Clear sky beam irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "Clear sky DHI",
+                        "description": "Clear sky diffuse irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "Clear sky BNI",
+                        "description": "Clear sky beam irradiation on mobile plane following the sun at normal incidence ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "GHI",
+                        "description": "Global irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "BHI",
+                        "description": "Beam irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "DHI",
+                        "description": "Diffuse irradiation on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "BNI",
+                        "description": "Beam irradiation on mobile plane following the sun at normal incidence ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+					{
+                        "name": "Reliability",
+                        "description": "Proportion of reliable data in the summarization ",
+                        "type": null,
+                        "unit": "0-1"
+                    },
+					{
+                        "name": "sza",
+                        "description": "Solar zenithal angle for the middle of the summarization ",
+                        "type": null,
+                        "unit": "deg"
+                    },
+					{
+                        "name": "summer/winter split",
+                        "description": "1.0 means summer, 0.0 means winter",
+                        "type": "boolean",
+                        "unit": "1,0"
+                    },
+					{
+                        "name": "tco3",
+                        "description": "Total column content of ozone ",
+                        "type": "float",
+                        "unit": "Dobson unit"
+                    },
+					{
+                        "name": "tcwv",
+                        "description": "Total column content of water vapour ",
+                        "type": "float",
+                        "unit": "kg/m2"
+                    },
+					{
+                        "name": "AOD BC",
+                        "description": "Partial aerosol optical depth at 550 nm for black carbon",
+                        "type": "float",
+                        "unit": null
+                    },
+					{
+                        "name": "AOD DU",
+                        "description": "Partial aerosol optical depth at 550 nm for dust",
+                        "type": "float",
+                        "unit": null
+                    },
+					{
+                        "name": "AOD SS",
+                        "description": "Partial aerosol optical depth at 550 nm for sea salt",
+                        "type": "float",
+                        "unit": null
+                    },
+					{
+                        "name": "AOD OR",
+                        "description": "Partial aerosol optical depth at 550 nm for organic matter",
+                        "type": "float",
+                        "unit": null
+                    },
+					{
+                        "name": "AOD SU",
+                        "description": "Partial aerosol optical depth at 550 nm for sulphate",
+                        "type": "float",
+                        "unit": null
+                    },
+					{
+                        "name": "AOD NI",
+                        "description": "Partial aerosol optical depth at 550 nm for nitrate",
+                        "type": "float",
+                        "unit": null
+                    },
+										{
+                        "name": "AOD AM",
+                        "description": "Partial aerosol optical depth at 550 nm for ammonium",
+                        "type": "float",
+                        "unit": null
+                    },
+										{
+                        "name": "alpha",
+                        "description": "Angstroem coefficient for aerosol",
+                        "type": null,
+                        "unit": null
+                    },
+										{
+                        "name": "Aerosol type",
+                        "description": "Obsolete (value is always -1)",
+                        "type": null,
+                        "unit": null
+                    },
+										{
+                        "name": "fiso",
+                        "description": "MODIS-like BRDF parameter fiso",
+                        "type": "float",
+                        "unit": null
+                    },
+										{
+                        "name": "fvol",
+                        "description": "MODIS-like BRDF parameter fvol",
+                        "type": "float",
+                        "unit": null
+                    },
+										{
+                        "name": "fgeo",
+                        "description": "MODIS-like BRDF parameter fgeo",
+                        "type": "float",
+                        "unit": null
+                    },
+										{
+                        "name": "albedo",
+                        "description": "Ground albedo",
+                        "type": null,
+                        "unit": null
+                    },
+										{
+                        "name": "Cloud optical depth",
+                        "description": "(value of the nearest acquisition time of the pixel)",
+                        "type": null,
+                        "unit": null
+                    },
+															{
+                        "name": "Cloud coverage",
+                        "description": "Cloud coverage of the pixel (percentage from 0 to 100, value of the nearest acquisition time of the pixel) -1=no value",
+                        "type": "integer",
+                        "unit": "percentage"
+                    },
+															{
+                        "name": "Cloud type",
+                        "description": "Cloud type (value of the nearest acquisition time of the pixel) -1=no value 0=no clouds 5=low-level cloud 6=medium-level cloud 7=high-level cloud 8=thin cloud",
+                        "type": "integer",
+                        "unit": null
+                    },
+															{
+                        "name": "GHI no corr",
+                        "description": "Global irradiation without bias correction on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+															{
+                        "name": "BHI no corr",
+                        "description": "Beam irradiation without bias correction on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+															{
+                        "name": "DHI no corr",
+                        "description": "Diffuse irradiation without bias correction on horizontal plane at ground level ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    },
+															{
+                        "name": "BNI no corr",
+                        "description": "Beam irradiation without bias correction on mobile plane following the sun at normal incidence ",
+                        "type": "float",
+                        "unit": "Wh/m2"
+                    }
+                ],
+                "primaryKey": [
+                ],
+                "foreignKeys": [
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": null
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/65",
+        "badge": "silver"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
