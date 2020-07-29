@@ -311,8 +311,8 @@
         }
     ],
     "review": {
-        "path": null,
-        "badge": null
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/65",
+        "badge": "silver"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.0",
