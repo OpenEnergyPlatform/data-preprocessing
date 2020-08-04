@@ -82,7 +82,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "Almeria_2018",
+            "name": "climate.Almeria_2018",
             "path": null,
             "format": "csv",
             "encoding": "UTF-8",
