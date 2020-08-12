@@ -45,7 +45,7 @@
 6. Check the dates for compliance with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601). This applies to the keys `publicationDate`, `referenceDate`, `start`, `end` and `date`.
 7. Make sure that there is an author with a contact and add yourself as a reviewer in the contributors list.
 8. The table should be created in the schema _model_draft_ and then moved to the final schema. Under `resources` the key `name` is the name of the table as it will be stored on the OEDB. The schema is specified by putting the schema name in front and separating it from the table name with a dot. So the name will read something like `model_draft.tablename`. When [uploading the data/metadata via oem2orm](https://github.com/OpenEnergyPlatform/tutorial/blob/master/upload/OEP_Upload_Process_Data_and_Metadata.ipynb), model_draft will need to be set as a schema in the resources name. Once that is done, change the schema to where the final location of the dataset is supposed to go. A [list of schemas](https://openenergy-platform.org/dataedit/schemas) can be observed on the OEP.
-9. Check if the resource description reflets the provided data.
+9. Check if the resource description reflets the provided data and make sure that a primary key is set.
 10. Only in the case of geographic data, make sure that:
  *  the geometry column is named `geom` (for vector data) or `rast` (for raster data)
  * The data type is `geometry` (or `raster`)
@@ -63,48 +63,34 @@
   * created the table (with the [upload tutorial](https://github.com/OpenEnergyPlatform/tutorial/blob/master/upload/OEP_Upload_Process_Data_and_Metadata.ipynb))
   * attached the metadata string to the table
   * uploaded any data
+* take over these tasks in case they weren't done yet
 * Check that a primary key is set
 * If any errors occur(ed), check if all columns are described in resources and have the right data format
 * Move the data to the final schema
 * Merge the related PR
 * Tick the last boxes of the issue and close it
-
-## Data quality
-
-The database set-up of the OEP is designed to support users in achieving good data quality:
-
-* Plausibility and integration tests are applied to identify mistakes in the data.
-* When the number of users and reviewers becomes large enough, user evaluations and ratings on data quality will be implemented.
-
-Further information and guidelines regarding data management and data publication can be found here: [Open Knowledge Foundation](https://okfn.org/opendata/how-to-open-data/), [Open Data Foundation](http://www.odaf.org/?lvl1=resources&lvl2=papers) and [Software Carpentry](https://software-carpentry.org/) (e.g. [here](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf)).
+* Yay, good job!
 
 
-Refer to
-https://cos.io/our-services/open-science-badges/
+## Badge criteria
 
+The database set-up of the OEP aims to support users in achieving good data quality.  We developed our data management and publication guidelines with the information and guidelines of the [Open Knowledge Foundation](https://okfn.org/opendata/how-to-open-data/). A good resource to learn about working with open data is [Software Carpentry](https://software-carpentry.org/). See for example this publication on [good enough practices for schientific computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf)). When the number of users and reviewers becomes large enough, user evaluations and ratings on data quality will be implemented. For now, we are implementing badges as a reference for quality, because [badges come recommended](https://cos.io/our-services/open-science-badges/).
 
-
-A certain badge implies that defined criteria are fulfilled, including subordinate ones (e.g. datasets holding a gold badge also fulfill criteria of bronze and silver).
-
-### Badge criteria
-
-The quality of data is indicated by a badge, e.g.
-* Bronze
-* Silver
-* Gold
-* Platin
+The quality of data is indicated by a badge, i.e. Bronze, Silver, Gold or Platinum. A particular badge implies that all the criteria defined for it are fulfilled, including the ones of subordinate badges. So for example a dataset holding a gold badge also fulfills the criteria described in bronze and silver).
 
 1. **Bronze** (must-have)
-* Meta data exist
+* Metadata exist
 * Primary key on table
-* Has name following conventions
+* Has a name following the name conventions
+
 2. **Silver** (should-have)
 * Meta data exhaustive
-* Spatial index defined
 * Data, metadata and additional material (e.g., documentation, article) has been provided
+
 3. **Gold** (good-to-have)
 * Plausibility and integrity - for verification
 * ...
-4. **Platin** (best-practice)
+
+4. **Platinum** (best-practice)
 * Approved/rated positively by XX users
 * A testing script is provided
