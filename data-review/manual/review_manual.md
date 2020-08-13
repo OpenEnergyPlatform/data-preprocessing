@@ -74,23 +74,21 @@
 
 ## Badge criteria
 
-The database set-up of the OEP aims to support users in achieving good data quality.  We developed our data management and publication guidelines with the information and guidelines of the [Open Knowledge Foundation](https://okfn.org/opendata/how-to-open-data/). A good resource to learn about working with open data is [Software Carpentry](https://software-carpentry.org/). See for example this publication on [good enough practices for schientific computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf)). When the number of users and reviewers becomes large enough, user evaluations and ratings on data quality will be implemented. For now, we are implementing badges as a reference for quality, because [badges come recommended](https://cos.io/our-services/open-science-badges/).
+The database set-up of the OEP aims to support users in achieving good data quality.  We developed our data management and publication guidelines with the information and guidelines of the [Open Knowledge Foundation](https://okfn.org/opendata/how-to-open-data/). A good resource to learn about working with open data is [Software Carpentry](https://software-carpentry.org/). See for example this publication on [good enough practices for schientific computing](https://github.com/swcarpentry/good-enough-practices-in-scientific-computing/blob/gh-pages/good-enough-practices-for-scientific-computing.pdf). When the number of users and reviewers becomes large enough, we hope to implement user evaluations and ratings on data quality. For now, we are implementing badges as a reference for quality, because [badges come recommended](https://cos.io/our-services/open-science-badges/).
 
 The quality of data is indicated by a badge, i.e. Bronze, Silver, Gold or Platinum. A particular badge implies that all the criteria defined for it are fulfilled, including the ones of subordinate badges. So for example a dataset holding a gold badge also fulfills the criteria described in bronze and silver).
 
 1. **Bronze** (must-have)
 * Metadata exist
-* Primary key on table
-* Has a name following the name conventions
+* Primary key on table (for data on the OEP)
+* Has a name following the naming conventions
 
 2. **Silver** (should-have)
-* Meta data exhaustive
-* Data, metadata and additional material (e.g., documentation, article) has been provided
+* Meta data is exhaustive, specifically context, a contact, sources and resources are provided
+* Data itself has been provided under an open license
 
 3. **Gold** (good-to-have)
-* Plausibility and integrity - for verification
-* ...
+* Additional material, like a documentation or an article are linked
 
 4. **Platinum** (best-practice)
-* Approved/rated positively by XX users
-* A testing script is provided
+* Approved/rated positively by a number of users OR a testing script is provided
