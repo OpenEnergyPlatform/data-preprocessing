@@ -1,0 +1,272 @@
+{"name": "open_MODEX_base_scenario_datapackage",
+"title": "Database for the cross modelling and framework comparison in the project open_MODEX.",
+"id": "http://openenergyplatform.org/dataedit/view/model_draft/open_MODEX_base_scenario_datapackage",
+"description": "datamodel, metadata and examples provided as datapackage",
+"language": ["en-GB"],
+"keywords": ["datamodel", "datapackage", "open_MODEX", "comparison", "Framework"],
+"publicationDate": "2020-10-15",
+"context":
+    {"homepage": "https://reiner-lemoine-institut.de/open_modex/",
+    "documentation": "https://github.com/OpenEnergyPlatform/oedatamodel/blob/develop/README.md",
+    "sourceCode": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel/latest",
+    "contact": "",
+    "grantNo": "",
+    "fundingAgency": "german federal ministry for economics and energy",
+    "fundingAgencyLogo": "https://www.bmwi.de/SiteGlobals/BMWI/StyleBundles/Bilder/bmwi_logo_en.svgz?__blob=normal&v=10",
+    "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"},
+"spatial":
+    {"location": "",
+    "extent": "",
+    "resolution": ""},
+"temporal": 
+    {"referenceDate": "",
+    "timeseries": 
+        {"start": "",
+        "end": "",
+        "resolution": "",
+        "alignment": "",
+        "aggregationType": ""} },
+"sources": [
+    {
+        "title": "Open energy datamodel",
+        "description": "oedatamodel for energy model data",
+        "path": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel",
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "title": "Creative Commons Zero v1.0 Universal",
+                "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "instruction": "You are free: To Share, To Create, To Adapt",
+                "attribution": "© Reiner Lemoine Institut"
+            }
+        ]
+    },
+    {
+        "title": "Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale {PV} levelised cost of electricity",
+        "description": "[oed-table:scalar],[Bibtexkey:Vartiainen2019] - Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale PV levelised cost of electricity Progress in Photovoltaics: Research and Applications",
+        "path": "10.1002/pip.3189",
+        "licenses": [
+            {
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "© Progress in Photovoltaics: Research and Applications"
+            }
+        ]
+    },
+    {
+        "title": "Technology Data - Energy Transport",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020] - Energy Plants for Electricity and District heating generation",
+        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Danish Energy Agency"
+            }
+        ]
+    },
+    {
+        "title": "Informationsportal Erneuerbare Energien - Übersicht Offshore-Netzanbindungen",
+        "description": "[oed-table:scalar],[Bibtexkey:WirtschaftundEnergieTrans] - Information Portal Renewable Energies - Overview Offshore Grid Connections ",
+        "path": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Technologien/Windenergie-auf-See/Offshore-Projekte/Netzanbindungen/netzanbindungen.html",
+        "licenses": [
+            {
+                "name": "CC BY-ND 3.0 DE",
+                "title": "Attribution-NoDerivs 3.0 Germany",
+                "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
+                "instruction": "You are free: To Share",
+                "attribution": "© german federal ministry for economics and energy"
+            }
+        ]
+    },
+    {
+        "title": "Open energy datamodel",
+        "description": "[oed-table:scalar],[Bibtexkey:DLRSciGrid]DLR Institute of Networked Energy Systems SciGrid Power",
+        "path": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel",
+        "licenses": [
+            {
+                "name": "Apache-2.0",
+                "title": "Apache License, Version 2.0",
+                "path": "https://spdx.org/licenses/Apache-2.0.html",
+                "instruction": "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+                "attribution": "© DLR Institute of Networked Energy Systems"
+            }
+        ]
+    },
+    {
+        "title": "Open Power System Data",
+        "description": "[oed-table:scalar],[Bibtexkey:OPSD] - A free and open platform for power system modelling.",
+        "path": "https://open-power-system-data.org/",
+        "licenses": [
+            {
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "© Danish Energy Agency"
+            }
+        ]
+    },
+    {
+        "title": "Using bias-corrected reanalysis to simulate current and future wind power output",
+        "description": "[oed-table:timeseries],[Bibtexkey:Staffell2016] - Energy, Elsevier BV, 2016, Staffell, I. & Pfenninger, S.",
+        "path": "10.1016/j.energy.2016.08.068",
+        "licenses": [
+            {
+                "name": "CC BY-NC 4.0",
+                "title": "Attribution-NonCommercial 4.0 International",
+                "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "© Renewable Ninja"
+            }
+        ]
+    },
+    {
+        "title": "Long-term patterns of European {PV} output using 30 years of validated hourly reanalysis and satellite data.",
+        "description": "[oed-table:timeseries],[Bibtexkey:Pfenninger2016] - Energy, Elsevier BV, 2016, Pfenninger, S. & Staffell, I.",
+        "path": "10.1016/j.energy.2016.08.060",
+        "licenses": [
+            {
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "© Danish Energy Agency"
+            }
+        ]
+    },
+    {
+        "title": "Chances and barriers for Germany's low carbon transition - Quantifying uncertainties in key influential factors",
+        "description": "[oed-table:timeseries],[Bibtexkey:Löffler2020] - A free and open platform for power system modelling.",
+        "path": "https://open-power-system-data.org/",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": null
+            }
+        ]
+    }],
+"licenses": [
+    {
+        "name": "",
+        "title": "",
+        "path": "",
+        "instruction": "",
+        "attribution": ""
+    } 
+],
+"contributors": [
+    {"title": "jh-RLI", "email": null, "date": "2020-10-15", "object": "metadata", "comment": "Create first draft of complete metadata (as is)."}],
+"resources": [
+    {"profile": "tabular-data-resource",
+    "name": "oed_concrete_scenario",
+    "path": "OEDataModel-concrete_scenario.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "scenario", "description": "Scenario name", "type": "text", "unit": null},
+            {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+            {"name": "year", "description": "Year", "type": "integer", "unit": null},
+            {"name": "source", "description": "Source", "type": "text", "unit": null},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": [null],
+                "reference": {
+                    "resource": null,
+                    "fields": [null] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} },
+
+    {"profile": "tabular-data-resource",
+    "name": "oed_concrete_scalar",
+    "path": "OEDataModel-concrete_scalar.csv",
+    "format": "csv",
+    "encoding" : "UTF-8",
+    "schema": {
+        "fields": [
+            {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+            {"name": "scenario_id", "description": "Scenario name", "type": "bigint", "unit": null},
+            {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+            {"name": "year", "description": "Year", "type": "integer", "unit": null},
+            {"name": "input_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, solar radiation, natural gas, ...) that enters a technology.", "type": "text", "unit": null},
+            {"name": "output_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, hydrogen, LNG, CO2, ...) that exits a technology.", "type": "text", "unit": null},
+            {"name": "parameter_name", "description": "It describes a considered property of an element in the energy system.", "type": "text", "unit": null},
+            {"name": "technology", "description": "It describes an element of the modelled energy system that processes an energy vector.", "type": "text", "unit": null},
+            {"name": "technology_type", "description": "The specification can be technological, or freely user-defined, based on the requirements of the model.", "type": "text", "unit": null},
+            {"name": "value", "description": "Parameter value", "type": "decimal", "unit": "kW"},
+            {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+            {"name": "tags", "description": "Free classification with key-value pairs", "type": "json", "unit": null},
+            {"name": "method", "description": "Method type (sum, mean, median)", "type": "json", "unit": null},
+            {"name": "source", "description": "Source", "type": "text", "unit": null},
+            {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+        "primaryKey": ["id"],
+        "foreignKeys": [{
+                "fields": ["scenario_id"],
+                "reference": {
+                    "resource": "oed_concrete_scenari",
+                    "fields": ["id"] } } ] },
+    "dialect":
+        {"delimiter": ";",
+        "decimalSeparator": "."} },
+        {"profile": "tabular-data-resource",
+            "name": "oed_concrete_timeseries",
+            "path": "OEDataModel-concrete_timeseries.csv",
+            "format": "csv",
+            "encoding" : "UTF-8",
+            "schema": {
+                "fields": [
+                    {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+                    {"name": "scenario_id", "description": "Scenario name", "type": "bigint", "unit": null},
+                    {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+                    {"name": "input_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, solar radiation, natural gas, ...) that enters a technology.", "type": "text", "unit": null},
+                    {"name": "output_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, hydrogen, LNG, CO2, ...) that exits a technology.", "type": "text", "unit": null},
+                    {"name": "parameter_name", "description": "It describes a considered property of an element in the energy system.", "type": "text", "unit": null},
+                    {"name": "technology", "description": "It describes an element of the modelled energy system that processes an energy vector.", "type": "text", "unit": null},
+                    {"name": "technology_type", "description": "The specification can be technological, or freely user-defined, based on the requirements of the model.", "type": "text", "unit": null},
+                    {"name": "timeindex_start", "description": "Start timestemp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_stop", "description": "Stop timestemp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_resolution", "description": "Timesteps", "type": "interval", "unit": null},
+                    {"name": "series", "description": "Timesteps", "type": "float array", "unit": null},
+                    {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+                    {"name": "tags", "description": "Free classification with key-value pairs", "type": "json", "unit": null},
+                    {"name": "method", "description": "Method type (sum, mean, median)", "type": "json", "unit": null},
+                    {"name": "source", "description": "Source", "type": "text", "unit": null},
+                    {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+                "primaryKey": ["id"],
+                "foreignKeys": [{
+                        "fields": ["scenario_id"],
+                        "reference": {
+                            "resource": "oed_concrete_scenari",
+                            "fields": ["id"] } } ] },
+            "dialect":
+                {"delimiter": ";",
+                "decimalSeparator": "."} } ],
+
+"review": {
+    "path": "",
+    "badge": ""},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4.0",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "null": "If not applicable use (null)"} }
