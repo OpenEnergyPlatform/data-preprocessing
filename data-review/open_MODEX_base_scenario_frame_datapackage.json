@@ -1,16 +1,16 @@
-{"name": "open_MODEX_base_scenario_datapackage",
-"title": "Database for the cross modelling and framework comparison in the project open_MODEX.",
+{"name": "open_MODEX_base_scenario_frame_datapackage",
+"title": "Database for the framework comparison in the open_MODEX project (Base Scenario Frame)",
 "id": "http://openenergyplatform.org/dataedit/view/model_draft/open_MODEX_base_scenario_datapackage",
 "description": "datamodel, metadata and examples provided as datapackage",
-"language": ["en-GB"],
+"language": ["en-GB", "de-DE"],
 "keywords": ["datamodel", "datapackage", "open_MODEX", "comparison", "Framework"],
 "publicationDate": "2020-10-15",
 "context":
     {"homepage": "https://reiner-lemoine-institut.de/open_modex/",
     "documentation": "https://github.com/OpenEnergyPlatform/oedatamodel/blob/develop/README.md",
     "sourceCode": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel/latest",
-    "contact": null,
-    "grantNo": null,
+    "contact": "sarah.berendes@rl-institut.de",
+    "grantNo": "03ET4076A",
     "fundingAgency": "german federal ministry for economics and energy",
     "fundingAgencyLogo": "https://www.bmwi.de/SiteGlobals/BMWI/StyleBundles/Bilder/bmwi_logo_en.svgz?__blob=normal&v=10",
     "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"},
@@ -51,7 +51,7 @@
                 "title": "Attribution 4.0 International",
                 "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
-                "attribution": "© Progress in Photovoltaics: Research and Applications"
+                "attribution": "© Vartiainen, E.; Masson, G.; Breyer, C.; Moser, D. & Medina, E. R."
             }
         ]
     },
@@ -145,21 +145,21 @@
         "path": "https://open-power-system-data.org/",
         "licenses": [
             {
-                "name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": null
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "© Danish Energy Agency"
             }
         ]
     }],
 "licenses": [
     {
-        "name": null,
-        "title": null,
-        "path": null,
-        "instruction": null,
-        "attribution": null
+        "name": "tbd_CC-BY-4.0",
+        "title": "tbd_Creative Commons Attribution 4.0 International",
+        "path": "tbd_https://creativecommons.org/licenses/by/4.0/legalcode",
+        "instruction": "tbd_https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+        "attribution": "© open_MODEX"
     } 
 ],
 "contributors": [
