@@ -96,6 +96,34 @@
                 "attribution": "© Umweltbundesamt"
             }
         ]
+    },
+    {
+        "title": "FfE - ToDo",
+        "description": "ToDo",
+        "path": "https://www.ffe.de/",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© Forschungsstelle für Energiewirtschaft e. V."
+            }
+        ]
+    },
+    {
+        "title": "Übertragungsnetzbetreiber (ÜNB) - ToDo",
+        "description": "ToDo",
+        "path": "ToDo",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© ToDo"
+            }
+        ]
     }
     ],
 "licenses": [
@@ -104,7 +132,7 @@
         "title": "Creative Commons Attribution 4.0 International",
         "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
         "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
-        "attribution": "tba"
+        "attribution": "ToDo"
     } 
 ],
 "contributors": [
