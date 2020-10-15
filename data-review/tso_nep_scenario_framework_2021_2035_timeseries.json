@@ -54,7 +54,22 @@
                 "attribution": "© 2020 Bundesministerium für Wirtschaft und Energie (BMWi)"
             }
         ]
-    }],
+    },
+    {
+        "title": "Öko-Insititut - Sektorale Abgrenzung der deutschen Treibhausgasemissionen mit einem Schwerpunkt auf die verbrennungsbedingten CO2-Emissionen - Stand: Oktober 2017",
+        "description": "In diesem Arbeitspapier wird deshalb eine differenzierte Auswertung der Emissionen und Brennstoffe für die einzelnen Sektoren des Klimaschutzplans für die verbrennungsbedingten Emissionen (CRF 1.A) vorgenommen. Dabei ist zu beachten, dass die Ableitung des Brenn- und Kraftstoffeinsatzes in diesen Sektoren gemäß der internationalen Bilanzierungsmethodik der Treibhausgas-Inventare erfolgt. Kernprinzip ist hierbei, dass die Brennstoffeinsätze und Emissionen in den Sektoren bilanziert werden, in denen sie entstehen. Die Emissionen der Stromerzeugung in öffentlichen Kraftwerken werden somit der Energiewirtschaft zugeordnet, unabhängig davon, in welchem Endverbrauchssektor die Stromnachfrage stattfindet.",
+        "path": "https://www.oeko.de/publikationen/p-details/sektorale-abgrenzung-der-deutschen-treibhausgasemissionen-mit-einem-schwerpunkt-auf-die-verbrennungs-1/",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© Öko-Institut e.V."
+            }
+        ]
+    }
+    ],
 "licenses": [
     {
         "name": "CC-BY-4.0",
