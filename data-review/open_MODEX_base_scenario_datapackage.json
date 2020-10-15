@@ -179,11 +179,7 @@
             {"name": "source", "description": "Source", "type": "text", "unit": null},
             {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
         "primaryKey": ["id"],
-        "foreignKeys": [{
-                "fields": [null],
-                "reference": {
-                    "resource": null,
-                    "fields": [null] } } ] },
+        "foreignKeys": [] },
     "dialect":
         {"delimiter": ";",
         "decimalSeparator": "."} },
