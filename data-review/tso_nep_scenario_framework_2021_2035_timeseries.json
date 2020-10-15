@@ -82,6 +82,20 @@
                 "attribution": "© Umweltbundesamt"
             }
         ]
+    },
+    {
+        "title": "BMU - Klimaschutzprogramm 2030 der Bundesregierungzur Umsetzung des Klimaschutzplans 2050",
+        "description": "Deutschland trägt als eine führende Industrienation eine besondere Verantwortung für den weltweiten Klimawandel. Die Bundesregierung hat am 20. September 2019 Eckpunkte für ein Klimaschutzprogramm 2030 vorgelegt, um die Klimaziele zu erreichen. Den ausführlichen Arbeitsplan - das Klimaschutzprogramm 2030 - hat das Kabinett am 9. Oktober 2019 beschlossen. Die einzelnen Maßnahmen werden Schritt für Schritt mit Gesetzen und Förderprogrammen umgesetzt.",
+        "path": "https://www.bundesregierung.de/resource/blob/975226/1679914/e01d6bd855f09bf05cf7498e06d0a3ff/2019-10-09-klima-massnahmen-data.pdf?download=1",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© Umweltbundesamt"
+            }
+        ]
     }
     ],
 "licenses": [
