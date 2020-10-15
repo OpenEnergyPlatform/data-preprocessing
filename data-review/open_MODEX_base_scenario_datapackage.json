@@ -243,15 +243,15 @@
                 "foreignKeys": [{
                         "fields": ["scenario_id"],
                         "reference": {
-                            "resource": "oed_concrete_scenari",
+                            "resource": "oed_concrete_scenario",
                             "fields": ["id"] } } ] },
             "dialect":
                 {"delimiter": ";",
                 "decimalSeparator": "."} } ],
 
 "review": {
-    "path": null,
-    "badge": null},
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/71",
+    "badge": "silver"},
 "metaMetadata":
     {"metadataVersion": "OEP-1.4.0",
     "metadataLicense":
