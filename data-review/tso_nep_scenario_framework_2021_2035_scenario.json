@@ -82,7 +82,7 @@
                    {"name": "year", "description": "Year", "type": "integer", "unit": null},
                    {"name": "source", "description": "Source", "type": "text", "unit": null},
                    {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
-                "primaryKey": ["id"],
+                "primaryKey": [],
                 "foreignKeys": [] },
             "dialect":
                 {"delimiter": ";",
