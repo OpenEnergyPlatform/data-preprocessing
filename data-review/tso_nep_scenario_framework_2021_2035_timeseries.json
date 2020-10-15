@@ -1,0 +1,118 @@
+{"name": "tso_nep_scenario_framework_2021_2035",
+"title": "TSO NEP Scenario Framework 2021-2035",
+"id": "tba",
+"description": "In the draft scenario framework 2021-2035, the transmission system operators outlined four possible scenarios for the likely development of the electricity sector up to the years 2035 and 2040.",
+"language": ["de-DE", "en-GB"],
+"keywords": ["NEP", "Szenariorahmen", "2021-2035"],
+"publicationDate": "2020-09-02",
+"context":
+    {"homepage": "https://www.netzausbau.de/5schritte/szenariorahmen/de.html",
+    "documentation": "https://www.netzausbau.de/bedarfsermittlung/2035_2021/szenariorahmen/de.html",
+    "sourceCode": null,
+    "contact": "tba",
+    "grantNo": "tba",
+    "fundingAgency": "tba",
+    "fundingAgencyLogo": "tba",
+    "publisherLogo": "tba"},
+"spatial":
+    {"location": "null",
+    "extent": "Germany",
+    "resolution": "Federal state"},
+"temporal": 
+    {"referenceDate": "2018",
+    "timeseries": 
+        {"start": "2018",
+        "end": "2040",
+        "resolution": "2020; 2035; 2040",
+        "alignment": "middle",
+        "aggregationType": "tba"} },
+"sources": [
+    {
+        "title": "Open energy datamodel",
+        "description": "oedatamodel for energy model data",
+        "path": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel",
+        "licenses": [
+            {
+                "name": "CC0-1.0",
+                "title": "Creative Commons Zero v1.0 Universal",
+                "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+                "instruction": "You are free: To Share, To Create, To Adapt",
+                "attribution": "© Reiner Lemoine Institut"
+            }
+        ]
+    },
+    {
+        "title": "BMWi Energiedaten Gesamtausgabe - Stand: September 2019",
+        "description": "Woher kommen unsere Energieträger, wie viel Energie verbrauchen wir und wie groß sind die weltweiten Reserven? Die Energiedaten geben umfangreiche Antworten auf aktuelle Fragen zur Energieversorgung. Sie bieten darüber hinaus Informationen zur Energieversorgung aus zuverlässigen Quellen.",
+        "path": "https://www.bmwi.de/Redaktion/DE/Artikel/Energie/energiedaten-gesamtausgabe.html",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© 2020 Bundesministerium für Wirtschaft und Energie (BMWi)"
+            }
+        ]
+    }],
+"licenses": [
+    {
+        "name": "CC-BY-4.0",
+        "title": "Creative Commons Attribution 4.0 International",
+        "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+        "attribution": "tba"
+    } 
+],
+"contributors": [
+    {"title": "TSO", "email": null, "date": "2020-08-11", "object": "data", "comment": "Provide data"},
+    {"title": "Ludee", "email": "null", "date": "2020-08-24", "object": "metadata", "comment": "Create oemetadata"},
+    {"title": "Ludee", "email": "null", "date": "2020-08-24", "object": "data", "comment": "Transform data in oedatamodel"} ],
+"resources": [
+        {"profile": "tabular-data-resource",
+            "name": "tso_nep_scenario_framework_2021_2035_timeseries",
+            "path": "OEDataModel-concrete_timeseries.csv",
+            "format": "csv",
+            "encoding" : "UTF-8",
+            "schema": {
+                "fields": [
+                    {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
+                    {"name": "scenario_id", "description": "Scenario name", "type": "bigint", "unit": null},
+                    {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+                    {"name": "input_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, solar radiation, natural gas, ...) that enters a technology.", "type": "text", "unit": null},
+                    {"name": "output_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, hydrogen, LNG, CO2, ...) that exits a technology.", "type": "text", "unit": null},
+                    {"name": "parameter_name", "description": "It describes a considered property of an element in the energy system.", "type": "text", "unit": null},
+                    {"name": "technology", "description": "It describes an element of the modelled energy system that processes an energy vector.", "type": "text", "unit": null},
+                    {"name": "technology_type", "description": "The specification can be technological, or freely user-defined, based on the requirements of the model.", "type": "text", "unit": null},
+                    {"name": "timeindex_start", "description": "Start timestemp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_stop", "description": "Stop timestemp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_resolution", "description": "Timesteps", "type": "interval", "unit": null},
+                    {"name": "series", "description": "Timesteps", "type": "float array", "unit": null},
+                    {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
+                    {"name": "tags", "description": "Free classification with key-value pairs", "type": "json", "unit": null},
+                    {"name": "method", "description": "Method type (sum, mean, median)", "type": "json", "unit": null},
+                    {"name": "source", "description": "Source", "type": "text", "unit": null},
+                    {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
+                "primaryKey": ["id"],
+                "foreignKeys": [] },
+            "dialect":
+                {"delimiter": ";",
+                "decimalSeparator": "."} } ],
+
+"review": {
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/71",
+    "badge": "silver"},
+"metaMetadata":
+    {"metadataVersion": "OEP-1.4.0",
+    "metadataLicense":
+        {"name": "CC0-1.0",
+        "title": "Creative Commons Zero v1.0 Universal",
+        "path": "https://creativecommons.org/publicdomain/zero/1.0/"} },
+"_comment":
+    {"metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "null": "If not applicable use (null)"} }
