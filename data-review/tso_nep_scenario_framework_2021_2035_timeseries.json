@@ -68,6 +68,20 @@
                 "attribution": "© Öko-Institut e.V."
             }
         ]
+    },
+    {
+        "title": "AGEE-Stat - Zeitreihen zur Entwicklungder erneuerbaren Energienin Deutschland",
+        "description": "Die erneuerbaren Energien in Deutschland haben sich in den vergangenen Jahren weiter entwickelt und sind auf dem Weg, eine wichtige Säule unserer Energieversorgung zu werden. Diese Entwicklung wird in den Zeitreihen ab dem Jahr 1990 dargestellt. Die Daten in den Zeitreihen werden fortlaufend aktualisiert.",
+        "path": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Service/Erneuerbare_Energien_in_Zahlen/Zeitreihen/zeitreihen.html",
+        "licenses": [
+            {
+                "name": "null",
+                "title": "null",
+                "path": "null",
+                "instruction": "null",
+                "attribution": "© Umweltbundesamt"
+            }
+        ]
     }
     ],
 "licenses": [
