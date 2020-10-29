@@ -1,0 +1,6 @@
+scenario_id;scenario;region;year;source;comment
+0;Status-Quo;Germany;2020;;Historie
+1;A 2035;Germany;2035;;Geringe Elektrifizierung, niedrige Netzdienlichkeit
+2;B 2035;Germany;2035;;Mittlere Elektrifizierung, Mittlere Netzdienlichkeit
+3;B 2040;Germany;2040;;Mittlere Elektrifizierung, Mittlere Netzdienlichkeit
+4;C 2035;Germany;2035;;Hohe Elektrifizierung, hohe Netzdienlichkeit
