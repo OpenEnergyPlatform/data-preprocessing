@@ -163,7 +163,8 @@
     } 
 ],
 "contributors": [
-    {"title": "jh-RLI", "email": null, "date": "2020-10-15", "object": "metadata", "comment": "Create first draft of complete metadata (as is)."}],
+    {"title": "jh-RLI", "email": null, "date": "2020-10-15", "object": "metadata", "comment": "Create first draft of complete metadata (as is)."},
+    {"title": "jh-RLI", "email": null, "date": "2020-11-17", "object": "metadata", "comment": "Update Ressources with oedatamodel v1.1.1"}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "oed_concrete_scenario",
@@ -174,7 +175,7 @@
         "fields": [
             {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
             {"name": "scenario", "description": "Scenario name", "type": "text", "unit": null},
-            {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+            {"name": "region", "description": "Country or region, you can add a upper region with sub regions using json syntax", "type": "json", "unit": null},
             {"name": "year", "description": "Year", "type": "integer", "unit": null},
             {"name": "source", "description": "Source", "type": "text", "unit": null},
             {"name": "comment", "description": "Comment", "type": "text", "unit": null} ],
@@ -193,7 +194,7 @@
         "fields": [
             {"name": "id", "description": "Unique identifier", "type": "bigint", "unit": null},
             {"name": "scenario_id", "description": "Scenario name", "type": "bigint", "unit": null},
-            {"name": "region", "description": "Country or region", "type": "text array", "unit": null},
+            {"name": "region", "description": "Country or region, you can add a upper region with sub regions using json syntax", "type": "json", "unit": null},
             {"name": "year", "description": "Year", "type": "integer", "unit": null},
             {"name": "input_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, solar radiation, natural gas, ...) that enters a technology.", "type": "text", "unit": null},
             {"name": "output_energy_vector", "description": "It describes any type of energy or energy carrier (e.g. electricity, heat, hydrogen, LNG, CO2, ...) that exits a technology.", "type": "text", "unit": null},
@@ -230,8 +231,8 @@
                     {"name": "parameter_name", "description": "It describes a considered property of an element in the energy system.", "type": "text", "unit": null},
                     {"name": "technology", "description": "It describes an element of the modelled energy system that processes an energy vector.", "type": "text", "unit": null},
                     {"name": "technology_type", "description": "The specification can be technological, or freely user-defined, based on the requirements of the model.", "type": "text", "unit": null},
-                    {"name": "timeindex_start", "description": "Start timestemp", "type": "timestamp", "unit": null},
-                    {"name": "timeindex_stop", "description": "Stop timestemp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_start", "description": "Start timestamp", "type": "timestamp", "unit": null},
+                    {"name": "timeindex_stop", "description": "Stop timestamp", "type": "timestamp", "unit": null},
                     {"name": "timeindex_resolution", "description": "Timesteps", "type": "interval", "unit": null},
                     {"name": "series", "description": "Timesteps", "type": "float array", "unit": null},
                     {"name": "unit", "description": "Parameter unit", "type": "text", "unit": null},
