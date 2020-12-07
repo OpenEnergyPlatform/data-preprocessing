@@ -1,7 +1,7 @@
 {"name": "open_MODEX_base_scenario_frame_datapackage",
 "title": "Database for the framework comparison in the open_MODEX project (Base Scenario Frame)",
 "id": "http://openenergyplatform.org/dataedit/view/model_draft/open_MODEX_base_scenario_datapackage",
-"description": "datamodel, metadata and examples provided as datapackage",
+"description": "The oedatamodel is a collection of multiple tables that are described in the resources. open_MODEX uses the oedatamodel to store input and output related data in the oedatamodel tables. The tables are used as a shared homogonous data source for the framework comparison.",
 "language": ["en-GB", "de-DE"],
 "keywords": ["datamodel", "datapackage", "open_MODEX", "comparison", "Framework"],
 "publicationDate": "2020-10-15",
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "title": "Technology Data - Energy Transport",
+        "title": "Technology Data - Energy Plants for Electricity and District heating generation",
         "description": "[oed-table:scalar],[Bibtexkey:DEA2020] - Energy Plants for Electricity and District heating generation",
         "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
         "licenses": [
@@ -65,7 +65,35 @@
                 "title": null,
                 "path": null,
                 "instruction": null,
-                "attribution": "© Danish Energy Agency"
+                "attribution": "© Danish Energy Agency and Energinet"
+            }
+        ]
+    },
+    {
+        "title": "Technology Data - Energy Storage",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ET] - Energy Plants for Electricity and District heating generation",
+        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Danish Energy Agency and Energinet"
+            }
+        ]
+    },
+    {
+        "title": "Technology Data - Energy Transport",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ES] - Energy Plants for Electricity and District heating generation",
+        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Danish Energy Agency and Energinet"
             }
         ]
     },
@@ -84,7 +112,7 @@
         ]
     },
     {
-        "title": "Open energy datamodel",
+        "title": "SciGrid Power",
         "description": "[oed-table:scalar],[Bibtexkey:DLRSciGrid]DLR Institute of Networked Energy Systems SciGrid Power",
         "path": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel",
         "licenses": [
@@ -150,6 +178,20 @@
                 "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
                 "attribution": "© Danish Energy Agency"
+            }
+        ]
+    },
+    {
+        "title": "Data for: The Development of Stationary Battery Storage Systems in Germany – A Market Review",
+        "description": "[oed-table:timeseries],[Bibtexkey:Stenzel2020] - Development of Stationary Battery Storage Systems in Germany",
+        "path": "https://data.mendeley.com/datasets/2rjg6v32d8/1",
+        "licenses": [
+            {
+                "name": "CC BY-NC 4.0",
+                "title": "Attribution-NonCommercial 4.0 International",
+                "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "Stenzel, Peter, Mendeley 2020"
             }
         ]
     }],
