@@ -197,16 +197,17 @@
     }],
 "licenses": [
     {
-        "name": "tbd_CC-BY-4.0",
-        "title": "tbd_Creative Commons Attribution 4.0 International",
-        "path": "tbd_https://creativecommons.org/licenses/by/4.0/legalcode",
-        "instruction": "tbd_https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+        "name": "CC-BY-4.0",
+        "title": "Creative Commons Attribution 4.0 International",
+        "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+        "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
         "attribution": "© open_MODEX"
     } 
 ],
 "contributors": [
     {"title": "jh-RLI", "email": null, "date": "2020-10-15", "object": "metadata", "comment": "Create first draft of complete metadata (as is)."},
-    {"title": "jh-RLI", "email": null, "date": "2020-11-17", "object": "metadata", "comment": "Update Ressources with oedatamodel v1.1.1"}],
+    {"title": "jh-RLI", "email": null, "date": "2020-11-17", "object": "metadata", "comment": "Update Ressources with oedatamodel v1.1.1"},
+    {"title": "jh-RLI", "email": null, "date": "2020-12-07", "object": "metadata", "comment": "Update sources and description."}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "oed_concrete_scenario",
