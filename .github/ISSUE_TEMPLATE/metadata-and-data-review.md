@@ -18,7 +18,7 @@ Describe your dataset shortly here.
 
 1. GitHub
 - [x] I have submitted this issue to have metadata and data review documented (Issue #NR)
-- [ ] Create a new review-branch and push OEMetadata to new branch (review/project_nameofdata#NR)
+- [ ] Create a new review-branch and push OEMetadata to new branch (review/project_nameofdata#NR). If this step is too difficult, attach a file with the metadata as a comment in this issue and let the reviewer know.
 
 2. OEP
 - [ ] Upload data to the OEP in schema model_draft (see upload tutorial)
