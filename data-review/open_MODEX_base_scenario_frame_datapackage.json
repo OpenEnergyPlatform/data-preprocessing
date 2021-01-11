@@ -194,6 +194,62 @@
                 "attribution": "Stenzel, Peter, Mendeley 2020"
             }
         ]
+    },
+    {
+        "title": "Agentur für Erneuerbare Energien",
+        "description": "[oed-table:TODO],[Bibtexkey:ErneuerbareEnergien] - Installierte Leistung Biomasse (ohne Abfall) (2015, in MW(el))",
+        "path": "hhttps://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/bioenergie/auswahl/184-installierte_leistun/ordnung/2015/versatz/1/jahr/2015/#goto_184",
+        "licenses": [
+            {
+                "name": "TODO",
+                "title": "TODO",
+                "path": "TODO",
+                "instruction": "TODO",
+                "attribution": "© 2020 - Agentur für Erneuerbare Energien"
+            }
+        ]
+    },
+    {
+        "title": "Agentur für Erneuerbare Energien",
+        "description": "[oed-table:TODO],[Bibtexkey:ErneuerbareEnergiena] - Installierte Leistung (el) Biogas (2018, in MW(el)) ",
+        "path": "https://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/bioenergie/auswahl/270-installierte_leistun/ordnung/2015/#goto_270",
+        "licenses": [
+            {
+                "name": "TODO",
+                "title": "TODO",
+                "path": "TODO",
+                "instruction": "TODO",
+                "attribution": "© 2020 - Agentur für Erneuerbare Energien"
+            }
+        ]
+    },
+    {
+        "title": "Energieerzeugung aus Abfällen - Stand und Potenziale in Deutschland bis 2030",
+        "description": "[oed-table:TODO],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
+        "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-06-26_texte_51-2018_energieerzeugung-abfaelle.pdf",
+        "licenses": [
+            {
+                "name": "CC BY-NC 4.0",
+                "title": "Attribution-NonCommercial 4.0 International",
+                "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "Umweltbundesamt"
+            }
+        ]
+    },
+    {
+        "title": "Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
+        "description": "[oed-table:TODO],[Bibtexkey:UmweltbundesamtEmissions2019] - Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
+        "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_brennstoffe_und_industrie_nir_2020.xlsx",
+        "licenses": [
+            {
+                "name": "CC BY-NC 4.0",
+                "title": "Attribution-NonCommercial 4.0 International",
+                "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "Umweltbundesamt"
+            }
+        ]
     }],
 "licenses": [
     {
@@ -207,7 +263,8 @@
 "contributors": [
     {"title": "jh-RLI", "email": null, "date": "2020-10-15", "object": "metadata", "comment": "Create first draft of complete metadata (as is)."},
     {"title": "jh-RLI", "email": null, "date": "2020-11-17", "object": "metadata", "comment": "Update Ressources with oedatamodel v1.1.1"},
-    {"title": "jh-RLI", "email": null, "date": "2020-12-07", "object": "metadata", "comment": "Update sources and description."}],
+    {"title": "jh-RLI", "email": null, "date": "2020-12-07", "object": "metadata", "comment": "Update sources and description."},
+    {"title": "jh-RLI", "email": null, "date": "2021-01-11", "object": "metadata", "comment": "Add new sources."}],
 "resources": [
     {"profile": "tabular-data-resource",
     "name": "oed_concrete_scenario",
