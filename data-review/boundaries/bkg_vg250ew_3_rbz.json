@@ -1,0 +1,307 @@
+{
+  "name": "bkg_vg250ew_3_rbz",
+  "title": "BKG - Verwaltungsgebiete 1:250 000 mit Einwohnerzahlen (Ebenen) - 3 Regierungsbezirke (RBZ)",
+  "id": "",
+  "description": "Der Datenbestand umfasst sämtliche Verwaltungseinheiten der hierarchischen Verwaltungsebenen vom Staat bis zu den Gemeinden mit ihren Grenzen, statistischen Schlüsselzahlen, Namen der Verwaltungseinheit sowie die spezifische Bezeichnung der Verwaltungsebene des jeweiligen Landes.  Das Produkt VG250-EW enthält zusätzlich Einwohnerzahlen. Die Geometrie der Grenzen ist hinsichtlich Genauigkeit und Auflösung auf das ATKIS®-DLM250 ausgerichtet.",
+  "language": "de-DE",
+  "keywords": [
+    "Verwaltungsgrenzen",
+    "administrative boundaries",
+    "borders"
+  ],
+  "publicationDate": "2018-12-31",
+  "context": {
+    "homepage": "https://gdz.bkg.bund.de/index.php/default/open-data.html",
+    "documentation": "https://www.bkg.bund.de/DE/Ueber-das-BKG/ueber-das-bkg.html",
+    "sourceCode": "none",
+    "contact": "mailbox@bkg.bund.de",
+    "grantNo": "none",
+    "fundingAgency": "Bundesamt für Kartographie und Geodäsie (BKG)",
+    "fundingAgencyLogo": "https://gdz.bkg.bund.de/skin/frontend/bkg/bkg_blau/images/bkg_logo_mobile.svg",
+    "publisherLogo": "https://gdz.bkg.bund.de/skin/frontend/bkg/bkg_blau/images/bkg-footer-image.png"
+  },
+  "spatial": {
+    "location": "none",
+    "extent": "Germany",
+    "resolution": "vector"
+  },
+  "temporal": {
+    "referenceDate": "2018-12-31",
+    "timeseries": {
+      "start": "none",
+      "end": "none",
+      "resolution": "none",
+      "alignment": "none",
+      "aggregationType": "none"
+    }
+  },
+  "sources": [
+    {
+      "title": "Dienstleistungszentrum des Bundes für Geoinformation und Geodäsie (DLZ)",
+      "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+      "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+      "licenses": [
+        {
+          "name": "dl-de/by-2-0",
+          "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+          "path": "https://www.govdata.de/dl-de/by-2-0",
+          "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+          "attribution": "© GeoBasis-DE / BKG - 2020"
+        }
+      ]
+    }
+  ],
+  "licenses": [
+    {
+      "name": "dl-de/by-2-0",
+      "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+      "path": "https://www.govdata.de/dl-de/by-2-0",
+      "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+      "attribution": "© GeoBasis-DE / BKG - 2020"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Ludee",
+      "email": "https://github.com/Ludee",
+      "date": "2016-09-02",
+      "object": "data",
+      "comment": "Create table"
+    },
+    {
+      "title": "Ludee",
+      "email": "https://github.com/Ludee",
+      "date": "2016-11-16",
+      "object": "metadata",
+      "comment": "Add metadata"
+    },
+    {
+      "title": "Ludee",
+      "email": "https://github.com/Ludee",
+      "date": "2017-03-21",
+      "object": "metadata",
+      "comment": "Update metadata to v1.1"
+    },
+    {
+      "title": "Ludee",
+      "email": "https://github.com/Ludee",
+      "date": "2017-06-30",
+      "object": "metadata",
+      "comment": "Update metadata to v1.3"
+    },
+    {
+      "title": "Ludee",
+      "email": "https://github.com/Ludee",
+      "date": "2021-01-26",
+      "object": "metadata",
+      "comment": "Update metadata to 1.4.1"
+    }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "bkg_vg250ew_3_rbz",
+      "path": "none",
+      "format": "shp",
+      "encoding": "none",
+      "schema": {
+        "fields": [
+          {
+            "name": "reference_date",
+            "description": "Reference date",
+            "unit": "none",
+            "type": "date"
+          },
+          {
+            "name": "id",
+            "description": "Unique identifier",
+            "unit": "none",
+            "type": "serial"
+          },
+          {
+            "name": "ade",
+            "description": "Administrative Ebene",
+            "unit": "none",
+            "type": "integer"
+          },
+          {
+            "name": "gf",
+            "description": "Geofaktor",
+            "unit": "none",
+            "type": "integer"
+          },
+          {
+            "name": "bsg",
+            "description": "Besondere Gebiete",
+            "unit": "none",
+            "type": "integer"
+          },
+          {
+            "name": "rs",
+            "description": "Regionalschlüssel",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "ags",
+            "description": "Amtlicher Gemeindeschlüssel",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sdv_rs",
+            "description": "Sitz der Verwaltung (Regionalschlüssel)",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "gen",
+            "description": "Geografischer Name",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "bez",
+            "description": "Bezeichnung der Verwaltungseinheit",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "ibz",
+            "description": "Identifikator",
+            "unit": "none",
+            "type": "integer"
+          },
+          {
+            "name": "bem",
+            "description": "Bemerkung",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "nbd",
+            "description": "Namensbildung",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sn_l",
+            "description": "Land",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sn_r",
+            "description": "Regierungsbezirk",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sn_k",
+            "description": "Kreis",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sn_v1",
+            "description": "Verwaltungsgemeinschaft - vorderer Teil",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sv_v2",
+            "description": "Verwaltungsgemeinschaft - hinterer Teil",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "sn_g",
+            "description": "Gemeinde",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "fk_s3",
+            "description": "Funktion der 3. Schlüsselstelle",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "nuts",
+            "description": "Europäischer Statistikschlüssel",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "rs_0",
+            "description": "aufgefüllter Regionalschlüssel",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "ags_0",
+            "description": "aufgefüllter Amtlicher Gemeindeschlüssel",
+            "unit": "none",
+            "type": "text"
+          },
+          {
+            "name": "wsk",
+            "description": "Wirksamkeit",
+            "unit": "none",
+            "type": "date"
+          },
+          {
+            "name": "ewz",
+            "description": "Einwohnerzahl - Es handelt sich um die Einwohnerzahlen des Statistischen Bundesamtes (www.destatis.de) mit dem Stand des 31.12. des jeweiligen Jahres.",
+            "unit": "none",
+            "type": "integer"
+          },
+          {
+            "name": "kfl",
+            "description": "Katasterfläche in km² - Angabe der Katasterflächen in km² aus der Flächenstatistik des Statistischen Bundesamtes (www.destatis.de) mit dem Stand des 31.12. des jeweiligen Jahres. Durch Addition gerundeter Werte sind geringe Ungenauigkeiten möglich.",
+            "unit": "none",
+            "type": "double precission"
+          },
+          {
+            "name": "debkg_id",
+            "description": "DLM-Identifikator",
+            "type": "text",
+            "unit": "none"
+          },
+          {
+            "name": "geom",
+            "description": "Geometry",
+            "type": "geometry(MultiPolygon, 25832)",
+            "unit": "none"
+          }
+        ],
+        "primaryKey": "id"
+      },
+      "dialect": {
+        "delimiter": "none",
+        "decimalSeparator": ","
+      }
+    }
+  ],
+  "review": {
+    "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/76",
+    "badge": "none"
+  },
+  "metaMetadata": {
+    "metadataVersion": "OEP-1.4.1",
+    "metadataLicense": {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "_comment": {
+    "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata/blob/master/metadata/v141/metadata_key_description.md)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+    "none": "If not applicable use (none)"
+  }
+}
