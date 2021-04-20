@@ -1,0 +1,180 @@
+{
+    "name": "parameters_variation_base",
+    "title": "variation of technical and economical specifications needed for arguments in oemof components",
+    "id": null,
+    "description": null,
+    "language": [
+        "en-US"
+    ],
+    "keywords": [
+        "oemof-thermal"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/oemof_heat/",
+        "documentation": null,
+        "sourceCode": "https://github.com/oemof-heat",
+        "contact": "caroline.moeller@rl-institut.de",
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": "https://reiner-lemoine-institut.de/wp-content/uploads/2015/08/RLI_Logo.png"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Franziska Pleißner",
+            "description": "Self estimated values",
+            "path": "Franziska.Pleissner@beuth-hochschule.de",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Franziska Pleißner",
+            "email": "Franziska.Pleissner@beuth-hochschule.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "parameters_variation_base",
+            "path": null,
+            "format": "csv",
+            "encoding": "us-ascii",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Index",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "var_name",
+                        "description": "Name of variable",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "value",
+                        "description": "Value",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "unit",
+                        "description": "Unit",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "reference",
+                        "description": "Reference",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Comment",
+                        "description": "Comment",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "tag_1",
+                        "description": "Tag 1",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "tag_2",
+                        "description": "Tag 2",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "component",
+                        "description": "",
+                        "type": null,
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": ";",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "name": "Gro_handelspreise_201801010000_201812312359_1.csv",
+    "title": "Time series of electricity price",
+    "id": null,
+    "description": "Electricity price on spot market in 2018",
+    "language": [
+        "de-DE"
+    ],
+    "keywords": [
+        "oemof-thermal"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://www.smard.de/en/5790",
+        "documentation": "https://www.smard.de/en/datennutzung/5808",
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Europe",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": "2018-01-01T00:00",
+            "end": "2018-12-31T23:00",
+            "resolution": "1 h",
+            "alignment": "left",
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen",
+            "description": "The Bundesnetzagentur's electricity market information platform \"SMARD\" is online. SMARD is an abbreviation of the German term “Strommarktdaten”, which translates to electricity market data. Data that is published on SMARD’s website gives an up-to-date and in-depth overview of what is happening on the German electricity market. Articles offering background information explain important electricity market terms and relationships. The appealing design of SMARD’s website, coupled with graphs that are easy to understand, makes it easy for users to access the information on the website.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "CC BY 4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+                    "attribution": "© Bundesnetzagentur 2020"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "",
+            "email": "",
+            "date": "",
+            "object": "",
+            "comment": ""
+        },
+        {
+            "title": "",
+            "email": "",
+            "date": "",
+            "object": "",
+            "comment": ""
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "Gro_handelspreise_201801010000_201812312359_1",
+            "path": null,
+            "format": "csv",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Datum",
+                        "description": "Date",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Uhrzeit",
+                        "description": "Time",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Deutschland/Luxemburg[Euro/MWh]",
+                        "description": "Electricity price Germany/Luxembourg",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Dänemark 1[Euro/MWh]",
+                        "description": "Electricity price Denmark 1",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Dänemark 2[Euro/MWh]",
+                        "description": "Electricity price Denmark 2",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Frankreich[Euro/MWh]",
+                        "description": "Electricity price France",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Italien (Nord)[Euro/MWh]",
+                        "description": "Electricity price Northern Italy",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Niederlande[Euro/MWh]",
+                        "description": "Electricity price Netherlands",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Polen[Euro/MWh]",
+                        "description": "Electricity price Poland",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Schweden 4[Euro/MWh]",
+                        "description": "Electricity price Sweden 4",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Schweiz[Euro/MWh]",
+                        "description": "Electricity price Swiss",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Slowenien[Euro/MWh]",
+                        "description": "Electricity price Slovenia",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Tschechien[Euro/MWh]",
+                        "description": "Electricity price Czech Republic",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Ungarn[Euro/MWh]",
+                        "description": "Electricity price Hungary",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Österreich[Euro/MWh]",
+                        "description": "Electricity price Austria",
+                        "type": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "Deutschland/Österreich/Luxemburg[Euro/MWh]",
+                        "description": "Electricity price Germany/Austria/Luxembourg",
+                        "type": null,
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    null
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": ";",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
