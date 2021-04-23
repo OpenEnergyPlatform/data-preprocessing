@@ -9,7 +9,7 @@
     "keywords": [
         "COSMO-CLM", "hindcast", "MERRA2", "Open Data", "regional modelling", "renewable energy"
     ],
-    "publicationDate": "",
+    "publicationDate": null,
     "context": {
         "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
         "documentation": null,
@@ -31,7 +31,7 @@
             "start": "2002",
             "end": "2018",
             "resolution": "15 min -- 60 min (depending on parameter)",
-            "alignment": "horizontal",
+            "alignment": null,
             "aggregationType": null
         }
     },
@@ -286,7 +286,7 @@
         "badge": null
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.4.0",
+        "metadataVersion": "OEP-1.4.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
