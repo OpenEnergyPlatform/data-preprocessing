@@ -9,12 +9,12 @@
     "keywords": [
         "COSMO-CLM", "hindcast", "MERRA2", "Open Data", "regional modelling", "renewable energy", "timeseries"
     ],
-    "publicationDate": null,
+    "publicationDate": "2020-02-06",
     "context": {
         "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
         "documentation": null,
         "sourceCode": "https://github.com/open-fred",
-        "contact": "ronny.petrik@hzg.de",
+        "contact": "Christian.Hofmann@rl-institut.de",
         "grantNo": "0324006A-C",
         "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
         "fundingAgencyLogo": null,
@@ -223,8 +223,8 @@
                     },
                     {
                         "name": "nut",
-                        "description": "30 min resolution",
-                        "type": "interval",
+                        "description": "Region identifier",
+                        "type": "text",
                         "unit": null
                     },
                     {
@@ -246,7 +246,7 @@
     ],
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
