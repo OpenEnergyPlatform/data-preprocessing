@@ -67,7 +67,7 @@
         {
             "title": "ecjrc_glc2000",
             "description": "Global Land Cover 2000",
-            "path": "'http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "path": "http://www.ngdc.noaa.gov/mgg/topo/globe.html",
             "licenses": [
                 {
                     "name": null,
