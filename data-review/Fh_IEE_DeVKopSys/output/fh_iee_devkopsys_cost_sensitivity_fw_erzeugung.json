@@ -1,0 +1,199 @@
+{
+    "name": "fh_iee_devkopsys_cost_sensitivity_fw_erzeugung",
+    "title": "Overview of the district heating generation in Germany in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (cost sensitivity with higher costs for wind onshore and lower costs for PV and battery storage)",
+    "id": "https://openenergy-platform.org/dataedit/view/model_draft/fh_iee_devkopsys_cost_sensitivity_fw_erzeugung",
+    "description": "This table gives an overview of the district heating generation in Germany in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (cost sensitivity with higher costs for wind onshore and lower costs for PV and battery storage). It contains the conversion of fossil fuels for district heating and the installed capacities of various technologies for heat generation",
+    "language": [
+        "de-DE"
+    ],
+    "keywords": [
+        "Fraunhofer IEE",
+        "BMU",
+        "Investigation of development paths in the transport sector in feedback with other sectors of the energy system",
+        "DeVKopSys",
+        "Weather year 2012",
+        "Scenario year 2050",
+        "Europe",
+        "Germany",
+        "Transport sector",
+        "Sector coupling",
+        "Overall energy supply system",
+        "district heating generation"
+    ],
+    "publicationDate": "2021-03-29",
+    "context": {
+        "homepage": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+        "documentation": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+        "sourceCode": "not available",
+        "contact": "norman.gerhardt@iee.fraunhofer.de",
+        "grantNo": "16EM4005-1",
+        "fundingAgency": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit",
+        "fundingAgencyLogo": "https://de.wikipedia.org/wiki/Datei:BMU_Logo.svg",
+        "publisherLogo": "https://www.iee.fraunhofer.de/content/dam/iee/energiesystemtechnik/fraunhofer-iee.gif"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "EU28 without Malta and Cyprus, but with Norway and Switzerland. Focus on Germany",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2012-01-01",
+        "timeseries": {
+            "start": "2050-01-01",
+            "end": "2050-12-31",
+            "resolution": "Hourly for 2050",
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Own projection",
+            "description": "Details see report provided under URL",
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "dl-de-by-2.0",
+            "title": "Data licence Germany \\u2013 attribution \\u2013 version 2.0",
+            "path": "https://www.govdata.de/dl-de/by-2-0",
+            "instruction": "https://www.govdata.de/dl-de/by-2-0",
+            "attribution": "© Fraunhofer IEE 2021"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Fraunhofer IEE",
+            "email": "richard.schmitz@iee.fraunhofer.de",
+            "date": "2021-03-29",
+            "object": "Metadata",
+            "comment": "Initial version"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.fh_iee_devkopsys_cost_sensitivity_fw_erzeugung",
+            "path": "",
+            "format": "PostgreSQL",
+            "encoding": "ISO-8859-1",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "unit": null
+                    },
+                    {
+                        "name": "Szenario",
+                        "description": "Name of the scenario",
+                        "unit": null
+                    },
+                    {
+                        "name": "Szenariojahr",
+                        "description": "Scenario year",
+                        "unit": null
+                    },
+                    {
+                        "name": "Region",
+                        "description": "Country to which the value applies",
+                        "unit": null
+                    },
+                    {
+                        "name": "Kennwert",
+                        "description": "Top category in the classification of technology",
+                        "unit": null
+                    },
+                    {
+                        "name": "Unterkennwert",
+                        "description": "Middle category in the classification of technology",
+                        "unit": null
+                    },
+                    {
+                        "name": "Sektor",
+                        "description": "Lowest category in the classification of technology",
+                        "unit": null
+                    },
+                    {
+                        "name": "Energietr\u00e4ger",
+                        "description": "Substances whose energy content is used for energy conversion processes",
+                        "unit": null
+                    },
+                    {
+                        "name": "Technologie",
+                        "description": "Technology",
+                        "unit": null
+                    },
+                    {
+                        "name": "Einheit",
+                        "description": "Unit of measure",
+                        "unit": null
+                    },
+                    {
+                        "name": "Wert",
+                        "description": "Value",
+                        "unit": null
+                    },
+                    {
+                        "name": "Kommentar",
+                        "description": "Comment on the value",
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": ","
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss\u00b1hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
