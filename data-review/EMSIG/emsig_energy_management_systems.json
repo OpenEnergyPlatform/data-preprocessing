@@ -104,8 +104,8 @@
         }
     ],
     "review": {
-        "path": "",
-        "badge": ""
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/84",
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "EMSIG-1.0.0",
