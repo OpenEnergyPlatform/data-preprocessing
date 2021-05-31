@@ -18,12 +18,12 @@
         "grantNo": "IUK-1801-0005//IUK553/002",
         "fundingAgency": "https://www.iuk-bayern.de/",
         "fundingAgencyLogo": "https://vdivde-it.de/de",
-        "publisherLogo": "none"
+        "publisherLogo": null
     },
     "spatial": {
         "location": "DACH region",
-        "extent": "none",
-        "resolution": "none"
+        "extent": null,
+        "resolution": null
     },
     "temporal": {
         "referenceDate": "2020"
@@ -70,13 +70,13 @@
                         "name": "id",
                         "description": "Unique identifier.",
                         "type": "integer",
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "ess_id",
                         "description": "Identifier of the ESS",
                         "type": "Text",
-                        "unit": "none"
+                        "unit": null
                     }
 
                 ],
@@ -99,7 +99,7 @@
             },
             "dialect": {
                 "delimiter": ",",
-                "decimalSeparator": "none"
+                "decimalSeparator": null
             }
         }
     ],
