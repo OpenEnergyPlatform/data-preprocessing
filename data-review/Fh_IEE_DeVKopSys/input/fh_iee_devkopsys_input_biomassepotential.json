@@ -103,37 +103,37 @@
                         "unit": null
                     },
                     {
-                        "name": "Szenario",
+                        "name": "szenario",
                         "description": "Name of the scenario",
                         "unit": null
                     },
                     {
-                        "name": "Szenariojahr",
+                        "name": "szenariojahr",
                         "description": "Scenario year",
                         "unit": null
                     },
                     {
-                        "name": "Region",
+                        "name": "region",
                         "description": "Country to which the value applies",
                         "unit": null
                     },
                     {
-                        "name": "Kennwert",
+                        "name": "kennwert",
                         "description": "Top category in the classification of technology",
                         "unit": null
                     },
                     {
-                        "name": "Unterkennwert",
+                        "name": "unterkennwert",
                         "description": "Middle category in the classification of technology",
                         "unit": null
                     },
                     {
-                        "name": "Einheit",
+                        "name": "einheit",
                         "description": "Unit of measure",
                         "unit": null
                     },
                     {
-                        "name": "Wert",
+                        "name": "wert",
                         "description": "Value",
                         "unit": null
                     }
