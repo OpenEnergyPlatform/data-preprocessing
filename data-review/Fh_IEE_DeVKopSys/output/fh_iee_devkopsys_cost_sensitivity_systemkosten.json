@@ -50,28 +50,14 @@
         {
             "title": "Own projection",
             "description": "Details see report provided under URL",
-            "path": null,
+            "path": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
-                    "path": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+                    "path": null,
                     "instruction": null,
                     "attribution": null
-                }
-            ]
-        },
-        {
-            "title": "",
-            "description": "",
-            "path": "",
-            "licenses": [
-                {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
                 }
             ]
         }
@@ -83,6 +69,13 @@
             "path": "https://www.govdata.de/dl-de/by-2-0",
             "instruction": "https://www.govdata.de/dl-de/by-2-0",
             "attribution": "© Fraunhofer IEE 2021"
+        },
+        {
+            "title": "Review Metadata",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-06-03",
+            "object": "review",
+            "comment": "Review metadata and validate oep compatibility"
         }
     ],
     "contributors": [
