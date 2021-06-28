@@ -1,0 +1,139 @@
+{
+    "name": "model_draft.emsig_energy_storage_systems",
+    "title": "Metadata for the table emsig_energy_storage_systems",
+    "id": "https://openenergy-platform.org/dataedit/view/model_draft/emsig_energy_storage_systems",
+    "description": "Energy storage systems with their respective model, vendor, capacity, power and battery type",
+    "language": [
+        "en-US"
+    ],
+    "keywords": [
+        "energy storage system", "battery", "ess"
+    ],
+    "publicationDate": "2021-04-15",
+    "context": {
+        "homepage": "https://openems.io/research/emsig/",
+        "documentation": "https://openems.github.io/openems.io/openems/latest/introduction.html",
+        "sourceCode": "https://github.com/OpenEMS/openems/blob/develop/README.md",
+        "contact": "stefan.feilmeier@fenecon.de, hermann.demeer@uni-passau.de",
+        "grantNo": "IUK-1801-0005//IUK553/002",
+        "fundingAgency": "https://www.iuk-bayern.de/",
+        "fundingAgencyLogo": "https://vdivde-it.de/de",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": "DACH region",
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2020"
+    },
+    "sources": [
+        {
+            "title": "OpenEMS Association e.V.",
+            "description": "Recordings of a productive Energy Management System based on OpenEMS Edge",
+            "path": "https://openems.io/association",
+            "licenses": [
+            ]
+        }
+    ],
+    "licenses":
+        [
+            {
+                "name": "ODbL-1.0",
+                "title": "Open Data Commons Open Database License 1.0",
+                "path": "https://opendatacommons.org/licenses/odbl/1-0/index.html",
+                "instruction": "You are free to share and change, but you must attribute, and share derivations under the same license.",
+                "attribution": "© OpenEMS Association e.V."
+            }
+        ],
+    "contributors": [
+        {
+            "title": "Jan Seidemann",
+            "email": "jan.seidemann@uni-passau.de",
+            "date": "2021-04-12",
+            "object": "Metadata",
+            "comment": "Created metadata file"
+        }
+
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.emsig_energy_storage_systems",
+            "path": "https://openenergy-platform.org/dataedit/view/model_draft/emsig_energy_storage_systems",
+            "format": "csv",
+            "encoding": "UTF8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier.",
+                        "type": "integer",
+                        "unit": null
+                    },
+                    {
+                        "name": "model",
+                        "description": "Model of the ESS",
+                        "type": "Text",
+                        "unit": null
+                    },
+                    {
+                        "name": "vendor",
+                        "description": "Vendor of the ESS",
+                        "type": "Text",
+                        "unit": null
+                    },
+                    {
+                        "name": "capacity",
+                        "description": "Capacity of the battery",
+                        "type": "integer",
+                        "unit": "kWh"
+                    },
+                    {
+                        "name": "power",
+                        "description": "Power rating of the battery",
+                        "type": "integer",
+                        "unit": "kW"
+                    },
+                    {
+                        "name": "battery_type",
+                        "description": "Type of the battery",
+                        "type": "Text",
+                        "unit": null
+                    }
+
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                ]
+            },
+            "dialect": {
+                "delimiter": ",",
+                "decimalSeparator": null
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/84",
+        "badge": "Gold"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata development and documentation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO 8601 standard including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must be an identifier from SPDX License List (https://spdx.org/licenses/)",
+        "review": "Follow the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If any value is not applicable use 'null' without any quotation marks. However, if there are no foreignKeys, drop the entire structure contained and only leave \"foreignKeys\": []"
+    }
+}
