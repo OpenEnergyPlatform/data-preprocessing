@@ -1,13 +1,15 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_ensaves_environmental",
+    "title": "Environmental data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Emission factors of power plants and different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
-        ""
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        ""
+        "power plant",
+        "emission factors"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +39,16 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "CO2-Emissionsfaktoren für fossile Brennstoffe",
+            "description": "2016, urldate = 2021-04-30, institution = UBA - Umweltbundesamt",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1968/publikationen/co2-emissionsfaktoren_fur_fossile_brennstoffe_korrektur.pdf",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
-                }
-            ]
-        },
-        {
-            "title": "",
-            "description": "",
-            "path": "",
-            "licenses": [
-                {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© UBA"
                 }
             ]
         }

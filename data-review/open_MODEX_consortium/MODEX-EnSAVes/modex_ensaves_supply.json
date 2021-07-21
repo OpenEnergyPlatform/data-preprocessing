@@ -1,13 +1,17 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_ensaves_supply",
+    "title": "Supply data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "[Multiple Topics]: Gerneration profiles of variable RES by country based on historical capacity factors from 2016/2012; Power plant availability of installed capacity in the course of year for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
-        ""
+        "en-GB"
     ],
     "keywords": [
-        ""
+        "power plants",
+        "renewable capacities",
+        "capacity facor",
+        "feed in",
+        "availability"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +41,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "OPSD",
+            "description": "2018, Open Power System Data - A free open data platform for power system modelling, urldate = 2019-08-21, Neon Neue Energieökonomik GmbH et al.",
+            "path": "https://data.open-power-system-data.org/renewable_power_plants/",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": "CC BY 4.0",
+                    "title": "Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free to: Share , Adapt ",
+                    "attribution": "© OSPD"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "2013, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© DIW Berlin"
                 }
             ]
         }

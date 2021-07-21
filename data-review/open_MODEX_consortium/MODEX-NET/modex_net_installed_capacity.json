@@ -1,15 +1,16 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_net_installed_capacity",
+    "title": "Installed capacity",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Kuppelkapazitäten zwischen den ENTSO-E ländern für das Jahr 2016, 2025; NEP Zielnetz für das Jahr 2030: 220 kV und 380 kV AC-Leitungen sowie HGÜ-Leitungen (DC-Korridore)",
     "language": [
-        ""
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        ""
+        "Net Transfer Capacities"
     ],
-    "publicationDate": "",
+    "publicationDate": "2019-12-20",
     "context": {
         "homepage": "",
         "documentation": "",
@@ -37,30 +38,44 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "NTC for the year 2016 from ENTSO-E Transparency Plattform",
+            "description": "2018, Maxima_of_Forecasted_Transfer_Capacities_Year_Ahead, , urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2016}",
+            "path": null,
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Mid-term Adequacy Forecast, 2019 edition from ENTSOE",
+            "description": null,
+            "path": "https://www.entsoe.eu/outlooks/midterm/previous-maf-versions/",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Bedarfsermittlung 2019-2030, Bestätigung des Netzentwicklungsplans Strom für das Zieljahr 2030",
+            "description": "2019, bestätigte_Netzausbaumaßnahmen_aus_dem_zweiten_Entwurf_des_NEP_2019_2030_der_Übertragungsnetzbetreiber, urldate = {2021-04-12}, publisher = {BNetzA}",
+            "path": "https://data.netzausbau.de/2030-2019/NEP/NEP2019-2030_Bestaetigung.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
                 }
             ]
         }

@@ -1,13 +1,13 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "flexmex_environmental",
+    "title": "Environmental data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Emission factors for fossile fuels and Historical weather time series",
     "language": [
-        ""
+        "en-GB", "de-DE"
     ],
     "keywords": [
-        ""
+        "co2 emission factor", "generation", "profile", "weather"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +37,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Berichterstattung unter der Klimarahmenkonvention der Vereinten Nationen und dem Kyoto-Protokoll 2019",
+            "description": "2019, Report assessing the German green house gas emissions, urldate = {2021-03-30}, date={2019-05}, institution = {Umweltbundesamt}",
+            "path": "https://www.umweltbundesamt.de/publikationen/berichterstattung-unter-der-klimarahmenkonvention-4",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "UBA"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+            "description": "2017, Weather timeseries, urldate = {2021-03-30}, journaltitle = {Journal of Climate}, date={2017-07-15}, doi={10.1175/JCLI-D-16-0758.1}",
+            "path": "https://journals.ametsoc.org/doi/10.1175/JCLI-D-16-0758.1",
             "licenses": [
                 {
-                    "name": "",
+                    "name": "NASA Data Information Policy",
                     "title": "",
-                    "path": "",
+                    "path": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
                     "instruction": "",
-                    "attribution": ""
+                    "attribution": "Ronald Gelaro, Will McCarty , Max J. Suárez , Ricardo Todling, Andrea Molod, Lawrence Takacs , Cynthia A. Randles, Anton Darmenov, Michael G. Bosilovich, Rolf Reichle, Krzysztof Wargan, Lawrence Coy , Richard Cullathe , Clara Draper , Santha Akella , Virginie Buchard, Austin Conaty, Arlindo M. da Silva, Wei Gu , Gi-Kong Kim 1 , Randal Koster , Robert Lucchesi , Dagmar Merkova  , Jon Eric Nielsen, Gary Partyka, Steven Pawson, William Putman, Michele Rienecker, Siegfried D. Schubert, Meta Sienkiewicz,  Bin Zhao"
                 }
             ]
         }

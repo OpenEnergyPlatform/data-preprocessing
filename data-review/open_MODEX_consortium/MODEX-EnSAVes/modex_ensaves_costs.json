@@ -1,13 +1,22 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_ensaves_costs",
+    "title": "Costs data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "[Multiple Topics]: Wholesale electricity prices; Prices for fuels (oil, lignite, coal, gas, uranium, biomass, bioliquid, biogas); Prices for CO2; Specific investment of power plants for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear; Power plant load change cost (dependent on depreciation and fuel factor) for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear; Variable and fixed operation and maintenance costs of power plants for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear; Power plant start-up cost (dependent on depreciation and fuel factor) for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
-        ""
+        "en-GB"
     ],
     "keywords": [
-        ""
+        "wholesale electricity prices",
+        "price fuels",
+        "energy carrier",
+        "CO2 price",
+        "certificates",
+        "power plant",
+        "specific investment",
+        "load change cost",
+        "cost operation maintenance",
+        "cost start up"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +46,198 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "TYNDP 2018",
+            "description": "2018, Ten-Year Network Development Plan, urldate = 2019-08-21, institution = ENTSO-E",
+            "path": "https://tyndp.entsoe.eu/tyndp2018/",
             "licenses": [
                 {
                     "name": "",
                     "title": "",
                     "path": "",
                     "instruction": "",
-                    "attribution": ""
+                    "attribution": "© ENTSO-E"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "World Energy Outlook 2018",
+            "description": "2018, urldate = 2021-04-30, institution = IEA - International Energy Agency",
+            "path": "https://doi.org/10.1787/weo-2018-en",
             "licenses": [
                 {
                     "name": "",
                     "title": "",
                     "path": "",
                     "instruction": "",
-                    "attribution": ""
+                    "attribution": "© IEA"
+                }
+            ]
+        },
+        {
+            "title": "Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "2013, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© DIW Berlin"
+                }
+            ]
+        },
+        {
+            "title": "Möglichkeiten und Grenzen der Integration verschiedener regenerativer Energiequellen zu einer 100% regenerativen Stromversorgung der Bundesrepublik Deutschland bis zum Jahr 2050.",
+            "description": "2010, urldate =  2012-04-20, institution = DLR - Deutsches Zentrum für Luft- und Raumfahrt et al.",
+            "path": "https://elib.dlr.de/66117/",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© DLR, SRU"
+                }
+            ]
+        },
+        {
+            "title": "Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "2013, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© DIW Berlin"
+                }
+            ]
+        },
+        {
+            "title": "Investment and Operation Cost Figures – Generation Portfolio",
+            "description": "2011, urldate = 2021-04-30, institution = VGB PowerTech",
+            "path": "https://www.vgb.org/vgbmultimedia/LCOE_Final_version_status_09_2012-p-5414.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© VGB PowerTech"
+                }
+            ]
+        },
+        {
+            "title": "Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "2013, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© DIW Berlin"
+                }
+            ]
+        },
+        {
+            "title": "dena-Netzstudie I - Energiewirtschaftliche Planung für die Netzintegration von Windenergie in Deutschland an Land und Offshore bis zum Jahr 2020",
+            "description": "2010, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
+            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9113_dena-Netzstudie_I.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© dena"
+                }
+            ]
+        },
+        {
+            "title": "Verträglichkeit von erneuerbaren Energien und Kernenergie im Erzeugungsportfolio - Technische und ökonomische Aspekte",
+            "description": "2009, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "https://docplayer.org/17930921-Ier-vertraeglichkeit-von-erneuerbaren-energien-und-kernenergie-im-erzeugungsportfolio-technische-und-oekonomische-studie.html",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "Optimierung eines Portfolios mit hydrothermischem Kraftwerkspark im börslichen Strom- und Gasterminmarkt",
+            "description": "2003, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "http://dx.doi.org/10.18419/opus-1597",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "Modellgestützte Bedarfs- und Wirtschaftlichkeitsanalyse von Energiespeichern zur Integration erneuerbarer Energien in Deutschland",
+            "description": "2013, urldate =  2021-04-30, institution = KIT - Karlsruher Institut für Technologie",
+            "path": "https://publikationen.bibliothek.kit.edu/1000034017/2515163",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© KIT"
+                }
+            ]
+        },
+        {
+            "title": "Flexibility Options in Electricity Systems",
+            "description": "2014, urldate = 2021-04-30, institution = ECOFYS",
+            "path": "https://refman.energytransitionmodel.com/publications/1943/download",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© ECOFYS"
+                }
+            ]
+        },
+        {
+            "title": "Konventionelle Kraftwerke - Technologiesteckbrief zur Analyse 'Flexibilitätskonzepte für die Stromversorgung 2050'. Schriftenreihe Energiesysteme der Zukunft",
+            "description": "2016, urldate =  2021-04-30, institution = Universität Duisburg-Essen",
+            "path": "https://www.researchgate.net/profile/Dirk-Sauer-2/publication/301340138_Konventionelle_Kraftwerke_-_Technologiesteckbrief_zur_Analyse_Flexibilitatskonzepte_fur_die_Stromversorgung_2050/links/5712920e08ae39beb87a46e8/Konventionelle-Kraftwerke-Technologiesteckbrief-zur-Analyse-Flexibilitaetskonzepte-fuer-die-Stromversorgung-2050.pdf",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© Universität Duisburg-Essen"
+                }
+            ]
+        },
+        {
+            "title": "Gone with the Wind? – Electricity Market Prices and Incentives to Invest in Thermal Power Plants under Increasing Wind Energy Supply",
+            "description": "2011, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://doi.org/10.1016/j.eneco.2010.07.002",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": "© Elsevier 2010"
                 }
             ]
         }

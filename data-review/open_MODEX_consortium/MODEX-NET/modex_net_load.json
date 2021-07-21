@@ -1,15 +1,18 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_net_load",
+    "title": "Load data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
     "language": [
-        ""
+        "en-GB"
     ],
     "keywords": [
-        ""
+        "nachfrage",
+        "menge",
+        "elektrizität",
+        "lastprofil"
     ],
-    "publicationDate": "",
+    "publicationDate": "2021-07-19",
     "context": {
         "homepage": "",
         "documentation": "",
@@ -37,30 +40,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Total load profile for the year 2016 from ENTSO-E Transparency Platform",
+            "description": "2018, total_load_profiles_for_the_year_2016_from_entsoe_trasparency_plattform, urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2018}",
+            "path": "https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Scaled load profile for the year 2030 based on total load profile 2016 from ENTSO-E Transparency Platform",
+            "description": "2018, total_load_profiles_for_the_year_2016_from_entsoe_trasparency_plattform, urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2018}",
+            "path": "https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
                 }
             ]
         }

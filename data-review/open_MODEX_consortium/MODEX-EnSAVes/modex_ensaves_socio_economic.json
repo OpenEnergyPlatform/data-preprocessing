@@ -1,15 +1,17 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_ensaves_socio_economic",
+    "title": "Socio economic data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Gross domestic product, Population",
     "language": [
-        ""
+        "en-GB"
     ],
     "keywords": [
-        ""
+        "gdp",
+        "gross domestic product",
+        "population"
     ],
-    "publicationDate": "",
+    "publicationDate": "2021-07-19",
     "context": {
         "homepage": "",
         "documentation": "",
@@ -37,30 +39,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "EU Reference Scenario 2016 - Energy, transport and GHG emissions Trends to 2050",
+            "description": "2016,urldate = 2019-08-21, institution = EU - European Union",
+            "path": "https://ec.europa.eu/energy/sites/ener/files/documents/ref2016_report_final-web.pdf",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© European Union"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "EU Reference Scenario 2016 - Energy, transport and GHG emissions Trends to 2050",
+            "description": "2016,urldate = 2019-08-21, institution = EU - European Union",
+            "path": "https://ec.europa.eu/energy/sites/ener/files/documents/ref2016_report_final-web.pdf",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© European Union"
                 }
             ]
         }

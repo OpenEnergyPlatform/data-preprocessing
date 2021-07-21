@@ -1,15 +1,15 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "flexmex_load",
+    "title": "Load data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Demand profiles and volumes: Historical profiles and demand volumes for electricity, heat and hydrogen demand",
     "language": [
-        ""
+        "en-GB", "de-DE"
     ],
     "keywords": [
-        ""
+        "demand", "electricity", "load profile", "heat", "hydrogen"
     ],
-    "publicationDate": "",
+    "publicationDate": "2021-07-19",
     "context": {
         "homepage": "",
         "documentation": "",
@@ -37,30 +37,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Balancing of intermittent renewable power generation by demand response and thermal energy storage",
+            "description": "2015, Analysis of flexibility options using the REMix model, urldate = {2021-03-30}, institution = {University of Stuttgart}",
+            "path": "https://elib.uni-stuttgart.de/handle/11682/6905",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "DLR, Hans Christian Gils"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "e-Highway2050: Database per country",
+            "description": "2016, Database for energy demands and capacities in Europe, urldate = {2021-03-30}, institution={ENTSO-E, e-Highway}, date = {2016}",
+            "path": "https://docs.entsoe.eu/baltic-conf/bites/www.e-highway2050.eu/fileadmin/documents/Results/e-Highway_database_per_country-08022016.xlsx",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "ENTSO-E"
                 }
             ]
         }

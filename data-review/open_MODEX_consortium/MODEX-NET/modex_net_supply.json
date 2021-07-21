@@ -1,13 +1,16 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_net_supply",
+    "title": "Supply data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "description": "Fluktuierende EE-Stromerzeugung: Historische Profile und Erzeugungsmengen für EE-Strom; Skaliertee Profile und Erzeugungsmengen für EE-Strom basierend auf dem Wetter- und Basisjahr 2016",
     "language": [
-        ""
+        "en-GB"
     ],
     "keywords": [
-        ""
+        "erneuerbare",
+        "menge",
+        "elektrizität",
+        "profil"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +40,30 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Renewable profiles for the year 2016 from European Power System Data",
+            "description": "2020, Feed_in_profiles_for_solar_PV_wind_onshore_and_offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
+            "path": "https://data.open-power-system-data.org",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": "CC BY 4.0",
+                    "title": "Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free to: Share , Adapt ",
+                    "attribution": "Neon Neue Energieökonomik, Technical University of Berlin, ETH Zürich"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Scaled renewable Profiles for the year 2030 based on European Power System Data for the year 2016",
+            "description": "2020, Feed_in_profiles_for_solar_PV_wind_onshore_and_offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
+            "path": "https://data.open-power-system-data.org",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": "CC BY 4.0",
+                    "title": "Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free to: Share , Adapt ",
+                    "attribution": "Neon Neue Energieökonomik, Technical University of Berlin, ETH Zürich"
                 }
             ]
         }

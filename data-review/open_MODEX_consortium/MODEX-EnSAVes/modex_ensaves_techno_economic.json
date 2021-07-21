@@ -1,13 +1,17 @@
 {
-    "name": "",
-    "title": "",
-    "id": "",
-    "description": "",
+    "name": "modex_ensaves_techno_economic",
+    "title": "Techno economic data",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/reference/",
+    "description": "[Multiple Topics]: Lifetime of investment for heating systems and power plants for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear; Power plant efficiency for electricity production for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
-        ""
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        ""
+        "lifetime of investment",
+        "heating systems",
+        "power plants",
+        "efficiency"
     ],
     "publicationDate": "",
     "context": {
@@ -37,30 +41,240 @@
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Projected Costs of Generating Electricity",
+            "description": "2010, urldate = 2019-08-21, institution = IEA - International Energy Agency, Nuclear Energy Agency, Organisation for Economic Cooperation and Development",
+            "path": "https://doi.org/10.1787/9789264084315-en",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© OECD"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Technologischer Überblick zur Speicherung von Elektrizität - Überblick zum Potenzial und zu Perspektiven des Einsatzes elektrischer Speichertechnologien.",
+            "description": "2012, urldate =  2021-04-30, institution = RTWH Aachen",
+            "path": "https://www.researchgate.net/publication/322478141_Technologischer_Uberblick_zur_Speicherung_von_Elektrizitat",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© RTWH Aachen"
+                }
+            ]
+        },
+        {
+            "title": "Verträglichkeit von erneuerbaren Energien und Kernenergie im Erzeugungsportfolio - Technische und ökonomische Aspekte",
+            "description": "2009, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "https://docplayer.org/17930921-Ier-vertraeglichkeit-von-erneuerbaren-energien-und-kernenergie-im-erzeugungsportfolio-technische-und-oekonomische-studie.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "Modellgestützte Bedarfs- und Wirtschaftlichkeitsanalyse von Energiespeichern zur Integration erneuerbarer Energien in Deutschland",
+            "description": "2013, urldate =  2021-04-30, institution = KIT - Karlsruher Institut für Technologie",
+            "path": "https://publikationen.bibliothek.kit.edu/1000034017/2515163",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© KIT"
+                }
+            ]
+        },
+        {
+            "title": "Optimierung eines Portfolios mit hydrothermischem Kraftwerkspark im börslichen Strom- und Gasterminmarkt",
+            "description": "2003, urldate =  2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "http://dx.doi.org/10.18419/opus-1597",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "dena-Leitstudie. Integrierte Energiewende. Impulse für die Gestaltung des Energiesystems bis 2050",
+            "description": "2018, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
+            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9261_dena-Leitstudie_Integrierte_Energiewende_lang.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© dena"
+                }
+            ]
+        },
+        {
+            "title": "dena-Netzstudie I - Energiewirtschaftliche Planung für die Netzintegration von Windenergie in Deutschland an Land und Offshore bis zum Jahr 2020",
+            "description": "2010, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
+            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9113_dena-Netzstudie_I.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© dena"
+                }
+            ]
+        },
+        {
+            "title": "Stromspeicher in der Energiewende. Untersuchung zum Bedarf an neuen Stromspeichern in Deutschland für den Erzeugungsausgleich, Systemdienstleistungen und im Verteilnetz.",
+            "description": "2014, urldate =  2021-04-30, institution = Agora Energiewende",
+            "path": "https://www.researchgate.net/profile/Martin-Thema/publication/311577007_Stromspeicher_in_der_Energiewende_-_Untersuchung_zum_Bedarf_an_neuen_Stromspeichern_in_Deutschland_fur_den_Erzeugungsausgleich_Systemdienstleistungen_und_im_Verteilnetz/links/584e946908aed95c25093289/Stromspeicher-in-der-Energiewende-Untersuchung-zum-Bedarf-an-neuen-Stromspeichern-in-Deutschland-fuer-den-Erzeugungsausgleich-Systemdienstleistungen-und-im-Verteilnetz.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Agora Energiewende"
+                }
+            ]
+        },
+        {
+            "title": "Entwicklung von modularen Konzepten zur Erzeugung, Speicherung und Einspeisung von Wasserstoff und Methan ins Erdgasnetz",
+            "description": "2013, urldate = 2021-04-301, institution = DVGW - Deutscher Verein des Gas- und Wasserfaches e.V.",
+            "path": "https://www.dvgw.de/medien/dvgw/forschung/berichte/g1_07_10.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© DVGW"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global. Leitstudie 2010.",
+            "description": "2012, urldate = 2021-04-301, institution = DLR - Deutsches Zentrum für Luft- und Raumfahrt et al.",
+            "path": "https://www.dlr.de/tt/Portaldata/41/Resources/dokumente/institut/system/publications/Leitstudie_2011_Datenanhang-II.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© DLR, IWES, IFNE"
+                }
+            ]
+        },
+        {
+            "title": "Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "2013, urldate = 2021-04-30, institution = DIW - Deutsches Institut für Wirtschaftsforschung",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© DIW Berlin"
+                }
+            ]
+        },
+        {
+            "title": "World Energy Outlook 2016",
+            "description": "2016, urldate =  2021-04-30, institution = IEA - International Energy Agency",
+            "path": "https://doi.org/10.1787/weo-2016-en",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© IEA"
+                }
+            ]
+        },
+        {
+            "title": "dena-Netzstudie I - Energiewirtschaftliche Planung für die Netzintegration von Windenergie in Deutschland an Land und Offshore bis zum Jahr 2020",
+            "description": "2010, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
+            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9113_dena-Netzstudie_I.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© dena"
+                }
+            ]
+        },
+        {
+            "title": "Verträglichkeit von erneuerbaren Energien und Kernenergie im Erzeugungsportfolio - Technische und ökonomische Aspekte",
+            "description": "2009, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "https://docplayer.org/17930921-Ier-vertraeglichkeit-von-erneuerbaren-energien-und-kernenergie-im-erzeugungsportfolio-technische-und-oekonomische-studie.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "Optimierung eines Portfolios mit hydrothermischem Kraftwerkspark im börslichen Strom- und Gasterminmarkt",
+            "description": "2003, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
+            "path": "http://dx.doi.org/10.18419/opus-1597",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Uni Stuttgart"
+                }
+            ]
+        },
+        {
+            "title": "Flexibility Options in Electricity Systems",
+            "description": "2014, urldate = 2021-04-30, institution = ECOFYS",
+            "path": "https://refman.energytransitionmodel.com/publications/1943/download",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© ECOFYS"
+                }
+            ]
+        },
+        {
+            "title": "Konventionelle Kraftwerke - Technologiesteckbrief zur Analyse 'Flexibilitätskonzepte für die Stromversorgung 2050'. Schriftenreihe Energiesysteme der Zukunft",
+            "description": "2016, urldate =  2021-04-30, institution = Universität Duisburg-Essen",
+            "path": "https://www.researchgate.net/profile/Dirk-Sauer-2/publication/301340138_Konventionelle_Kraftwerke_-_Technologiesteckbrief_zur_Analyse_Flexibilitatskonzepte_fur_die_Stromversorgung_2050/links/5712920e08ae39beb87a46e8/Konventionelle-Kraftwerke-Technologiesteckbrief-zur-Analyse-Flexibilitaetskonzepte-fuer-die-Stromversorgung-2050.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Universität Duisburg-Essen"
                 }
             ]
         }
