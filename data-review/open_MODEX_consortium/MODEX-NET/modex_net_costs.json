@@ -1,7 +1,7 @@
 {
     "name": "modex_net_costs",
     "title": "Costs data",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_net_costs",
     "description": "Preise für Brennstoffe",
     "language": [
         "en-GB",
@@ -13,28 +13,28 @@
     ],
     "publicationDate": "2018-11-01",
     "context": {
-        "homepage": "",
-        "documentation": "",
-        "sourceCode": "",
-        "contact": "",
-        "grantNo": "",
-        "fundingAgency": "",
-        "fundingAgencyLogo": "",
-        "publisherLogo": ""
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
     },
     "spatial": {
-        "location": "",
-        "extent": "",
-        "resolution": ""
+        "location": null,
+        "extent": null,
+        "resolution": null
     },
     "temporal": {
-        "referenceDate": "",
+        "referenceDate": null,
         "timeseries": {
-            "start": "",
-            "end": "",
-            "resolution": "",
-            "alignment": "",
-            "aggregationType": ""
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
         }
     },
     "sources": [
@@ -78,18 +78,11 @@
     ],
     "contributors": [
         {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
-        },
-        {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
         }
     ],
     "resources": [

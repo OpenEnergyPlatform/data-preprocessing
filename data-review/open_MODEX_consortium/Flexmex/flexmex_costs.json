@@ -1,38 +1,42 @@
 {
     "name": "flexmex_costs",
     "title": "Costs data",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/flexmex_costs",
     "description": "Prices for fuels and CO2-emission-certificates",
     "language": [
-        "en-GB", "de-DE"
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        "price", "fuel", "co2", "certificate"
+        "price",
+        "fuel",
+        "co2",
+        "certificate"
     ],
-    "publicationDate": "",
+    "publicationDate": "2021-07-19",
     "context": {
-        "homepage": "",
-        "documentation": "",
-        "sourceCode": "",
-        "contact": "",
-        "grantNo": "",
-        "fundingAgency": "",
-        "fundingAgencyLogo": "",
-        "publisherLogo": ""
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
     },
     "spatial": {
-        "location": "",
-        "extent": "",
-        "resolution": ""
+        "location": null,
+        "extent": null,
+        "resolution": null
     },
     "temporal": {
-        "referenceDate": "",
+        "referenceDate": null,
         "timeseries": {
-            "start": "",
-            "end": "",
-            "resolution": "",
-            "alignment": "",
-            "aggregationType": ""
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
         }
     },
     "sources": [
@@ -76,63 +80,11 @@
     ],
     "contributors": [
         {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
-        },
-        {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
-        }
-    ],
-    "resources": [
-        {
-            "profile": "",
-            "name": "",
-            "path": "",
-            "format": "",
-            "encoding": "",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
-                    },
-                    {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
-                    }
-                ],
-                "primaryKey": [
-                    ""
-                ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            ""
-                        ],
-                        "reference": {
-                            "resource": "",
-                            "fields": [
-                                ""
-                            ]
-                        }
-                    }
-                ]
-            },
-            "dialect": {
-                "delimiter": "",
-                "decimalSeparator": "."
-            }
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
         }
     ],
     "review": {

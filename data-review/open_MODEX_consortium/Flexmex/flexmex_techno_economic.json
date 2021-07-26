@@ -1,13 +1,23 @@
 {
     "name": "flexmex_techno_economic",
     "title": "Techno economic data",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/flexmex_techno_economic",
     "description": "Technical data and costs (e.g. efficiencies, losses, lifetimes, investment costs) and Capacitie data for generation plants, energy converters, storages, infrastructure and demand response technologies",
     "language": [
-        "en-GB", "de-DE"
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        "techno-economic parameter", "efficiency", "cost", "power plant", "renewables", "storages", "generation", "capacity", "storage", "infrastructure"
+        "techno-economic parameter",
+        "efficiency",
+        "cost",
+        "power plant",
+        "renewables",
+        "storages",
+        "generation",
+        "capacity",
+        "storage",
+        "infrastructure"
     ],
     "publicationDate": "2021-08-19",
     "context": {
