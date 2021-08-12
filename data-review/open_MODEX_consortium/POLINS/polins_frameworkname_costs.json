@@ -93,54 +93,10 @@
             "comment": ""
         }
     ],
-    "resources": [
-        {
-            "profile": "",
-            "name": "",
-            "path": "",
-            "format": "",
-            "encoding": "",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
-                    },
-                    {
-                        "name": "",
-                        "description": "",
-                        "type": "",
-                        "unit": ""
-                    }
-                ],
-                "primaryKey": [
-                    ""
-                ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            ""
-                        ],
-                        "reference": {
-                            "resource": "",
-                            "fields": [
-                                ""
-                            ]
-                        }
-                    }
-                ]
-            },
-            "dialect": {
-                "delimiter": "",
-                "decimalSeparator": "."
-            }
-        }
-    ],
+    "resources": null,
     "review": {
-        "path": "",
-        "badge": ""
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": null
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
