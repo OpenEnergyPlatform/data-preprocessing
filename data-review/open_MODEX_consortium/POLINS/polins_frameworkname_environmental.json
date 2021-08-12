@@ -1,52 +1,56 @@
 {
-    "name": "",
-    "title": "",
-    "id": "http://openenergyplatform.org/dataedit/view/",
-    "description": "",
+    "name": "polins_frameworkname_environmental",
+    "title": "Umweltbezogene Daten; Potenzialdaten",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_environmental",
+    "description": "Emissionsfaktoren je Brennstoff/Technologie; (Input) Potenziale für Erneuerbarenausbau",
     "language": [
-        ""
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
-        ""
+        "co2_faktoren",
+        "erzeugung",
+        "erneuerbare",
+        "potenziale"
     ],
-    "publicationDate": "",
+    "publicationDate": "2021-07-19",
     "context": {
-        "homepage": "",
-        "documentation": "",
-        "sourceCode": "",
-        "contact": "",
-        "grantNo": "",
-        "fundingAgency": "",
-        "fundingAgencyLogo": "",
-        "publisherLogo": ""
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
     },
     "spatial": {
-        "location": "",
-        "extent": "",
-        "resolution": ""
+        "location": null,
+        "extent": null,
+        "resolution": null
     },
     "temporal": {
-        "referenceDate": "",
+        "referenceDate": null,
         "timeseries": {
-            "start": "",
-            "end": "",
-            "resolution": "",
-            "alignment": "",
-            "aggregationType": ""
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
         }
     },
     "sources": [
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Szenariorahmen Für Den Netzentwicklungsplan Strom 2030 (Version 2019) - Entwurf Der Übertragungsnetzbetreiber",
+            "description": "2019, CO2 factors, urldate = {2021-04-30}",
+            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/%C3%9CNB-Entwurf_Szenariorahmen_2030_V2019.pdf",
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH"
                 }
             ]
         },
@@ -67,27 +71,20 @@
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
         }
     ],
     "contributors": [
         {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
-        },
-        {
-            "title": "",
-            "email": "",
-            "date": "",
-            "object": "",
-            "comment": ""
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
         }
     ],
     "resources": [

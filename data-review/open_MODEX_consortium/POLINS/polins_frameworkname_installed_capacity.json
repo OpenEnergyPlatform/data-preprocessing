@@ -1,0 +1,184 @@
+{
+    "name": "polins_frameworkname_installed_capacity",
+    "title": "Installierte Leistungen",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_installed_capacity",
+    "description": "Kapazitäten für hydro-thermische und fluktuierende Erneuerbarenanlagen",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "erzeugung",
+        "kapazität",
+        "kraftwerk",
+        "erneuerbare"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "European Power System Data",
+            "description": "2020, Feed-in profiles for solar PV, wind onshore and offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
+            "path": "https://data.open-power-system-data.org",
+            "licenses": [
+                {
+                    "name": "CC-BY 4.0",
+                    "title": "Attribution 4.0 International (CC BY 4.0)",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.de",
+                    "instruction": "Free to: Share, Adapt ",
+                    "attribution": "Open Power System"
+                }
+            ]
+        },
+        {
+            "title": "Historic Weather Data",
+            "description": "2020, Hydropower inflow per country , urldate = {2021-04-30}, institution = {European Centre for Medium-Range Weather Forecasts}, date = {2020}",
+            "path": "https://www.ecmwf.int/",
+            "licenses": [
+                {
+                    "name": "CC BY-NC-ND 4.0",
+                    "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                    "instruction": "Free to: Share",
+                    "attribution": "European Centre for Medium-Range Weather Forecasts"
+                }
+            ]
+        },
+        {
+            "title": "Ten Year Network Development Plan 2018",
+            "description": "2018, capacities of fossil power plants , urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2018}",
+            "path": "https://tyndp.entsoe.eu/maps-data/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "Aggregation Methods for Modelling Hydropower and Its Implications for a Highly Decarbonised Energy System in Europe",
+            "description": "2017, hydropower capacities of already realised and currently planned projects , urldate = {2021-04-30}, journaltitle = {Energies 10, no. 11: 1841}, date = {2017}",
+            "path": "https://doi.org/10.3390/en10111841",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Härtel, Philipp, and Magnus Korpås"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "",
+            "name": "",
+            "path": "",
+            "format": "",
+            "encoding": "",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    },
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    }
+                ],
+                "primaryKey": [
+                    ""
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            ""
+                        ],
+                        "reference": {
+                            "resource": "",
+                            "fields": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
