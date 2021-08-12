@@ -1,0 +1,142 @@
+{
+    "name": "meo_frameworkname_installed_capacity",
+    "title": "Installierte Leistungen",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/meo_frameworkname_installed_capacity",
+    "description": "Kapazitäten für hydro-thermische und fluktuierende Erneuerbarenanlagen",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "erzeugung",
+        "kapazität",
+        "kraftwerk",
+        "erneuerbare"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "SimBench---A Benchmark Dataset of Electric Power Systems to Compare Innovative Solutions based on Power Flow Analysis",
+            "description": "2020, SimBench---A Benchmark Dataset of Electric Power Systems to Compare Innovative Solutions based on Power Flow Analysis, urldate= {2021-04-19},publisher = {SimBench}",
+            "path": "https://simbench.de/de/datensaetze/",
+            "licenses": [
+                {
+                    "name": "ODbL",
+                    "title": "Open Data Commons Open Database License (ODbL) v1.0",
+                    "path": "https://opendatacommons.org/licenses/odbl/1-0/",
+                    "instruction": null,
+                    "attribution": "Steffen Meinecke"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "",
+            "name": "",
+            "path": "",
+            "format": "",
+            "encoding": "",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    },
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    }
+                ],
+                "primaryKey": [
+                    ""
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            ""
+                        ],
+                        "reference": {
+                            "resource": "",
+                            "fields": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

@@ -1,0 +1,138 @@
+{
+    "name": "meo_frameworkname_environmental",
+    "title": "Umweltdaten",
+    "id": "http://openenergyplatform.org/dataedit/reference/view/meo_frameworkname_environmental",
+    "description": "Einsatz/Nutzung Infrastruktur (inkl. Potentiale)",
+    "language": [
+        "de-DE"
+    ],
+    "keywords": [
+        "environmental"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "",
+            "description": "",
+            "path": "",
+            "licenses": [
+                {
+                    "name": "",
+                    "title": "",
+                    "path": "",
+                    "instruction": "",
+                    "attribution": ""
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "",
+            "name": "",
+            "path": "",
+            "format": "",
+            "encoding": "",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    },
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": ""
+                    }
+                ],
+                "primaryKey": [
+                    ""
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            ""
+                        ],
+                        "reference": {
+                            "resource": "",
+                            "fields": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
