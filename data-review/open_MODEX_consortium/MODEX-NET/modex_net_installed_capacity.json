@@ -78,15 +78,29 @@
                     "attribution": null
                 }
             ]
+        },
+        {
+            "title": "energy-modelling-toolkit/hydro-power-database: JRC Hydro-power database - release 05 (Version v5)",
+            "description": "2020, JRC_Hydro_power_plants_database, urldate={2021-04-30}, author={Matteo De Felice, & Konstantinos Kavvadias}",
+            "path": "https://zenodo.org/record/3862722",
+            "licenses": [
+                {
+                    "name": "CC-BY 4.0",
+                    "title": "Attribution 4.0 International (CC BY 4.0)",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.de",
+                    "instruction": "Free to: Share, Adapt ",
+                    "attribution": "Matteo De Felice, & Konstantinos Kavvadias"
+                }
+            ]
         }
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
         }
     ],
     "contributors": [

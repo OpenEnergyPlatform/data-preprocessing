@@ -129,11 +129,11 @@
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
         }
     ],
     "contributors": [

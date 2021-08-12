@@ -71,11 +71,11 @@
     ],
     "licenses": [
         {
-            "name": "",
-            "title": "",
-            "path": "",
-            "instruction": "",
-            "attribution": ""
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
         }
     ],
     "contributors": [
@@ -87,9 +87,10 @@
             "comment": "Create metadata"
         }
     ],
+    "resources": null,
     "review": {
-        "path": "",
-        "badge": ""
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": null
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
