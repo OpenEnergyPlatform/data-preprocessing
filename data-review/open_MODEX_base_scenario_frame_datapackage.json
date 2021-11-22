@@ -267,7 +267,7 @@
     },
     {
         "title": "2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
-        "description": "[oed-table:scalar],[Bibtexkey:UBA2010]",
+        "description": "[oed-table:scalar],[Bibtexkey:UBA2010] - 2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
         "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/energieziel_2050.pdf",
         "licenses": [
             {
@@ -280,16 +280,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "",
-        "path": "",
+        "title": "Netzentwicklungsplan Strom 2030, Version 2019",
+        "description": "[oed-table:scalar],[Bibtexkey:Strom2019] - Netzentwicklungsplan Strom 2030, Version 2019",
+        "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_V2019_2_Entwurf_Teil1.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
             }
         ]
     },
