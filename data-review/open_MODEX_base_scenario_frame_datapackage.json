@@ -57,21 +57,7 @@
     },
     {
         "title": "Technology Data - Energy Plants for Electricity and District heating generation",
-        "description": "[oed-table:scalar],[Bibtexkey:DEA2020] - Energy Plants for Electricity and District heating generation",
-        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
-        "licenses": [
-            {
-                "name": null,
-                "title": null,
-                "path": null,
-                "instruction": null,
-                "attribution": "© Danish Energy Agency and Energinet"
-            }
-        ]
-    },
-    {
-        "title": "Technology Data - Energy Storage",
-        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ET] - Energy Plants for Electricity and District heating generation",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020] - Energy Plants for Electricity and District heating generation, v_0009",
         "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
         "licenses": [
             {
@@ -85,7 +71,21 @@
     },
     {
         "title": "Technology Data - Energy Transport",
-        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ES] - Energy Plants for Electricity and District heating generation",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ET] - Technology Data - Energy Transport, v_0001",
+        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Danish Energy Agency and Energinet"
+            }
+        ]
+    },
+    {
+        "title": "Technology Data - Energy Storage",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020ES] - Technology Data - Energy Storage, v_0007",
         "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
         "licenses": [
             {
@@ -518,16 +518,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Technology Data - Renewable Fuels",
+        "description": "[oed-table:scalar],[Bibtexkey:DEA2020RF] - Technology Data - Renewable Fuels, v_0004",
+        "path": "https://ens.dk/en/our-services/projections-and-models/technology-data/technology-data-renewable-fuels",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Danish Energy Agency and Energinet"
             }
         ]
     },
