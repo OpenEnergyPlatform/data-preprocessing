@@ -294,16 +294,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "",
-        "path": "",
+        "title": "Informationsportal Erneuerbare Energien - Offshore-Windparks mit Netzeinspeisung",
+        "description": "[oed-table:scalar],[Bibtexkey:WirtschaftundEnergieCap] - Informationsportal Erneuerbare Energien - Offshore-Windparks mit Netzeinspeisung",
+        "path": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Technologien/Windenergie-auf-See/Offshore-Projekte/Windparks-in-Betrieb/windparks-in-betrieb.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY-ND 3.0 DE",
+                "title": "Namensnennung-Keine Bearbeitung 3.0 Deutschland",
+                "path": "https://creativecommons.org/licenses/by-nd/3.0/de/",
+                "instruction": "You are free: To Share",
+                "attribution": "Bundesministerium für Wirtschaft und Energie"
             }
         ]
     }
