@@ -392,16 +392,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "World Energy Outlook 2018",
+        "description": "[oed-table:scalar],[Bibtexkey:IEA2018] - Fuel costs",
+        "path": "https://www.iea.org/reports/world-energy-outlook-2018",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© OECD/IEA"
             }
         ]
     },
