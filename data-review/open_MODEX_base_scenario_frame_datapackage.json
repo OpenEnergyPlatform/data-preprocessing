@@ -463,8 +463,8 @@
     },
     {
         "title": "ETRI 2014 - Energy Technology Reference Indicator projections for 2010-2050",
-        "description": "[oed-table:scalar],[Bibtexkey:ETRI2014] - Technology sheet",
-        "path": "https://setis.ec.europa.eu/system/files/ETRI_2014.pdf",
+        "description": "[oed-table:scalar],[Bibtexkey:ETRI2014] - Technology data",
+        "path": "10.2790/057687",
         "licenses": [
             {
                 "name": "CC BY 4.0",
