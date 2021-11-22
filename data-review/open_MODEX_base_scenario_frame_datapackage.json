@@ -630,16 +630,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Klimaschutzprogramm 2030 der Bundesregierung zur Umsetzung des Klimaschutzplans 2050",
+        "description": "[oed-table:scalar],[Bibtexkey:BMU2019] - Renewable share 2050",
+        "path": "https://www.bmu.de/fileadmin/Daten_BMU/Pools/Broschueren/klimaschutzprogramm_2030_bf.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit"
             }
         ]
     },
