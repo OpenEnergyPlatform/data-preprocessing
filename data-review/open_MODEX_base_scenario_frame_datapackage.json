@@ -504,16 +504,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Braunkohle in Deutschland - Sicherheit für die Stromversorgung",
+        "description": "[oed-table:scalar],[Bibtexkey:DEBRRIV2017] - Natural resource potential lignite",
+        "path": "https://braunkohle.de/wp-content/uploads/2019/01/debriv_izb_20171005_web.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© DEBRIV"
             }
         ]
     },
