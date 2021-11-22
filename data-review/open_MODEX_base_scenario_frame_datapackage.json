@@ -378,16 +378,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "MaStR - Marktstammdatenregister",
+        "description": "[oed-table:scalar],[Bibtexkey:MaStR2021] - Installed power plant capacities for Germany",
+        "path": "https://www.marktstammdatenregister.de/MaStR",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "DL-DE->BY-2.0",
+                "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                "path": "https://www.govdata.de/dl-de/by-2-0",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen"
             }
         ]
     },
