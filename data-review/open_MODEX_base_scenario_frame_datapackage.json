@@ -434,16 +434,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "The development of stationary battery storage systems in Germany - A market review",
+        "description": "[oed-table:scalar],[Bibtexkey:Figgener2020] - E2P ratio energy storages",
+        "path": "10.1016/j.est.2019.101153",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY-NC-ND 4.0",
+                "title": "Attribution-NonCommercial-NoDerivatives 4.0 International",
+                "path": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+                "instruction": "You are free: To Share",
+                "attribution": "Figgener, J.; Stenzel, P.; Kairies, K.-P.; Linßen, J.; Haberschusz, D.; Wessels, O.; Angenendt, G.; Robinius, M.; Stolten, D. & Sauer, D. U."
             }
         ]
     },
