@@ -252,16 +252,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "",
-        "path": "",
+        "title": "Cross-Border Physical Flow, Physical Flows [12.1.G]",
+        "description": "[oed-table:timeseries],[Bibtexkey:ENTSOE2021] - Cross-Border Physical Flow, Physical Flows [12.1.G]",
+        "path": "https://transparency.entsoe.eu/transmission-domain/physicalFlow/show?name=&defaultValue=false&viewType=TABLE&areaType=BORDER_CTY&atch=false&dateTime.dateTime=01.01.2016%2000:00|CET|DAY&border.values=CTY|10Y1001A1001A83F!CTY_CTY|10Y1001A1001A83F_CTY_CTY|10YAT-APG------L&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET%20(UTC%201)%20/%20CEST%20(UTC%202)",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": "https://transparency.entsoe.eu/content/static_content/download?path=/Static%20content/terms%20and%20conditions/201030_TP%20list%20of%20data.pdf",
+                "instruction": "Pursuant to Article 5 of the General Terms and Conditions of Use of ENTSO-E Transparency Platform, ENTSO-\nE below publishes the list of data which can be freely re-used by the Data Users with no need to seek for \nthe  prior  agreement  of  the  respective  Primary  Owner  of  Data  (Transmission  System  Operators  and \nTransmission Capacity Allocators).",
+                "attribution": "© ENTSO-E"
             }
         ]
     },
