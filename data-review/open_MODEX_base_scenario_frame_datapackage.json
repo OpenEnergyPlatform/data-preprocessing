@@ -149,7 +149,7 @@
                 "title": "Attribution 4.0 International",
                 "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
-                "attribution": "© Danish Energy Agency"
+                "attribution": "© Renewable Ninja"
             }
         ]
     },
@@ -163,7 +163,7 @@
                 "title": "Attribution 4.0 International",
                 "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
-                "attribution": "© Danish Energy Agency"
+                "attribution": "todo"
             }
         ]
     },
@@ -236,7 +236,50 @@
                 "attribution": "Umweltbundesamt"
             }
         ]
-    }],
+    },
+    {
+        "title": "The future cost of electrical energy storage based on experience rates",
+        "description": "[oed-table:scalar],[Bibtexkey:Schmidt2017] - The future cost of electrical energy storage based on experience rates",
+        "path": "10.1038/nenergy.2017.110",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Schmidt, O.; Hawkes, A.; Gambhir, A. & Staffell, I."
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    }
+    ],
 "licenses": [
     {
         "name": "CC-BY-4.0",
