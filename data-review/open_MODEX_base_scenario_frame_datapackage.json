@@ -266,6 +266,34 @@
         ]
     },
     {
+        "title": "2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
+        "description": "[oed-table:scalar],[Bibtexkey:UBA2010]",
+        "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/energieziel_2050.pdf",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Klaus, T.; Vollmer, C.; Lehmann, K. W. & Müschen, K."
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
         "title": "",
         "description": "",
         "path": "",
