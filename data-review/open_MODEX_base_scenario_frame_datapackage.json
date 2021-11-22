@@ -574,22 +574,22 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Bundesnetzagentur legt ersten Abschnitt der Trassenkorridore des SuedLink",
+        "description": "[oed-table:scalar],[Bibtexkey:Bundesnetzagentur2020] - DC transmission data",
+        "path": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2020/20200203_Vorhaben3u4.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY-ND 3.0 DE",
+                "title": "Attribution-NoDerivs 3.0 Germany",
+                "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
+                "instruction": "You are free: To Share",
+                "attribution": "Bundesnetzagentur"
             }
         ]
     },
     {
         "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "description": "[oed-table:scalar],[Bibtexkey:] - ",
         "path": "",
         "licenses": [
             {
