@@ -420,16 +420,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland",
+        "description": "[oed-table:scalar],[Bibtexkey:FraunhoferISI2017] - Fuel costs",
+        "path": "http://publica.fraunhofer.de/eprints/urn_nbn_de_0011-n-4810894.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Fraunhofer ISI; Consentec GmbH; ifeu"
             }
         ]
     },
