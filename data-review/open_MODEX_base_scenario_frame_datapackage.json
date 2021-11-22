@@ -350,16 +350,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Kostenschätzungen (NEP 2030 (2019), 1. Entwurf)",
+        "description": "[oed-table:scalar],[Bibtexkey:NetzPlan19] - Costs for power transmission",
+        "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_2019_1_Entwurf_Kostenschaetzungen.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
             }
         ]
     },
