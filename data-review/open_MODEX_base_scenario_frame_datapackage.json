@@ -658,16 +658,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Klimaneutrales Deutschland 2045. Wie Deutschland seine Klimaziele schon vor 2050 erreichen kann \nZusammenfassung im Auftrag von Stiftung Klimaneutralität,  \nAgora Energiewende und  Agora Verkehrswende ",
+        "description": "[oed-table:scalar],[Bibtexkey:Agora2020] - Emission limit",
+        "path": "https://static.agora-energiewende.de/fileadmin/Projekte/2021/2021_04_KNDE45/A-EW_209_KNDE2045_Zusammenfassung_DE_WEB.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Agora Energiewende; Prognos; Öko-Institut; Wuppertal-Institut"
             }
         ]
     },
