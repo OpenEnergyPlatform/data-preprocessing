@@ -364,16 +364,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Comparison of the Effects of Industrial Demand Side Management and Other Flexibilities on the Performance of the Energy System",
+        "description": "[oed-table:scalar],[Bibtexkey:Nebel2020] - E2P ratio for storage technologies",
+        "path": "10.3390/en13174448",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+               "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "MDPI"
             }
         ]
     },
