@@ -602,16 +602,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Kernkraftwerke in Deutschland",
+        "description": "[oed-table:scalar],[Bibtexkey:BMU2020a] - Installed power plant capacities Germany",
+        "path": "https://www.bmu.de/themen/atomenergie-strahlenschutz/nukleare-sicherheit/aufsicht-ueber-kernkraftwerke/kernkraftwerke-in-deutschland",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit"
             }
         ]
     },
