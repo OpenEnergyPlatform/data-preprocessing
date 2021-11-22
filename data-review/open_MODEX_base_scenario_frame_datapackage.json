@@ -532,16 +532,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "BBPIG, Vorhaben 2: Osterath - Phillippsburg (Ultranet)",
+        "description": "[oed-table:scalar],[Bibtexkey:Bundesnetzagentur2020c] - DC transmission data",
+        "path": "https://www.netzausbau.de/leitungsvorhaben/bbplg/02/de.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY-ND 3.0 DE",
+                "title": "Attribution-NoDerivs 3.0 Germany",
+                "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
+                "instruction": "You are free: To Share",
+                "attribution": "Bundesnetzagentur"
             }
         ]
     },
