@@ -294,6 +294,20 @@
         ]
     },
     {
+        "title": "Umweltgutachten 2020: Für eine entschlossene Umweltpolitik in Deutschland und Europa",
+        "description": "[oed-table:scalar],[Bibtexkey:SRU2020] - 2: Pariser Klimaziele erreichen mit dem CO2-Budget",
+        "path": "https://www.umweltrat.de/SharedDocs/Downloads/DE/01_Umweltgutachten/2016_2020/2020_Umweltgutachten_Entschlossene_Umweltpolitik.pdf;jsessionid=A382E5937DEB3471E1480E3E54A7D9B7.1_cid292?__blob=publicationFile&v=31",
+        "licenses": [
+            {
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Sachverständigenrat für Umweltfragen"
+            }
+        ]
+    },
+    {
         "title": "Informationsportal Erneuerbare Energien - Offshore-Windparks mit Netzeinspeisung",
         "description": "[oed-table:scalar],[Bibtexkey:WirtschaftundEnergieCap] - Informationsportal Erneuerbare Energien - Offshore-Windparks mit Netzeinspeisung",
         "path": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Technologien/Windenergie-auf-See/Offshore-Projekte/Windparks-in-Betrieb/windparks-in-betrieb.html",
@@ -304,6 +318,20 @@
                 "path": "https://creativecommons.org/licenses/by-nd/3.0/de/",
                 "instruction": "You are free: To Share",
                 "attribution": "Bundesministerium für Wirtschaft und Energie"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
             }
         ]
     }
