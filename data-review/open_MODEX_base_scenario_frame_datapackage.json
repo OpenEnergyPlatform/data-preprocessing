@@ -490,16 +490,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Gesetz für den Ausbau erneuerbarer Energien",
+        "description": "[oed-table:scalar],[Bibtexkey:EEG2017] - Gesetz für den Ausbau erneuerbarer Energien",
+        "path": "https://www.gesetze-im-internet.de/eeg_2014/",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Bundesamt für Justiz"
             }
         ]
     },
