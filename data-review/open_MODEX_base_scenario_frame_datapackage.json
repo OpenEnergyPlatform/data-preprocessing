@@ -114,7 +114,7 @@
     {
         "title": "SciGrid Power",
         "description": "[oed-table:scalar],[Bibtexkey:DLRSciGrid]DLR Institute of Networked Energy Systems SciGrid Power",
-        "path": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel",
+        "path": "https://www.power.scigrid.de/",
         "licenses": [
             {
                 "name": "Apache-2.0",
@@ -156,7 +156,7 @@
     {
         "title": "Chances and barriers for Germany's low carbon transition - Quantifying uncertainties in key influential factors",
         "description": "[oed-table:timeseries],[Bibtexkey:Löffler2020] - A free and open platform for power system modelling.",
-        "path": "https://open-power-system-data.org/",
+        "path": "todo",
         "licenses": [
             {
                 "name": "CC BY 4.0",
@@ -169,11 +169,11 @@
     },
     {
         "title": "Data for: The Development of Stationary Battery Storage Systems in Germany – A Market Review",
-        "description": "[oed-table:timeseries],[Bibtexkey:Stenzel2020] - Development of Stationary Battery Storage Systems in Germany",
+        "description": "[oed-table:scalar],[Bibtexkey:Stenzel2020] - Development of Stationary Battery Storage Systems in Germany",
         "path": "https://data.mendeley.com/datasets/2rjg6v32d8/1",
         "licenses": [
             {
-                "name": "CC BY-NC 4.0",
+                "name": "CC BY-NC 3.0",
                 "title": "Attribution-NonCommercial 4.0 International",
                 "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
