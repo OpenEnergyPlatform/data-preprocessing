@@ -560,16 +560,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "BBPIG, Vorhaben 5: Wolmirstedt-Isar (SuedOstLink)",
+        "description": "[oed-table:scalar],[Bibtexkey:Bundesnetzagentur2020a] - DC transmission data",
+        "path": "https://www.netzausbau.de/leitungsvorhaben/bbplg/05/de.html?cms_vhTab=1",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY-ND 3.0 DE",
+                "title": "Attribution-NoDerivs 3.0 Germany",
+                "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
+                "instruction": "You are free: To Share",
+                "attribution": "Bundesnetzagentur"
             }
         ]
     },
