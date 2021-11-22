@@ -183,35 +183,35 @@
     },
     {
         "title": "Agentur für Erneuerbare Energien",
-        "description": "[oed-table:TODO],[Bibtexkey:ErneuerbareEnergien] - Installierte Leistung Biomasse (ohne Abfall) (2015, in MW(el))",
-        "path": "hhttps://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/bioenergie/auswahl/184-installierte_leistun/ordnung/2015/versatz/1/jahr/2015/#goto_184",
+        "description": "[oed-table:scalar],[Bibtexkey:ErneuerbareEnergien] - Installierte Leistung Biomasse (ohne Abfall) (2015, in MW(el))",
+        "path": "https://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/bioenergie/auswahl/184-installierte_leistun/ordnung/2015/versatz/1/jahr/2015/#goto_184",
         "licenses": [
             {
-                "name": "TODO",
-                "title": "TODO",
-                "path": "TODO",
-                "instruction": "TODO",
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
                 "attribution": "© 2020 - Agentur für Erneuerbare Energien"
             }
         ]
     },
     {
         "title": "Agentur für Erneuerbare Energien",
-        "description": "[oed-table:TODO],[Bibtexkey:ErneuerbareEnergiena] - Installierte Leistung (el) Biogas (2018, in MW(el)) ",
+        "description": "[oed-table:scalar],[Bibtexkey:ErneuerbareEnergiena] - Installierte Leistung (el) Biogas (2018, in MW(el)) ",
         "path": "https://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/bioenergie/auswahl/270-installierte_leistun/ordnung/2015/#goto_270",
         "licenses": [
             {
-                "name": "TODO",
-                "title": "TODO",
-                "path": "TODO",
-                "instruction": "TODO",
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
                 "attribution": "© 2020 - Agentur für Erneuerbare Energien"
             }
         ]
     },
     {
         "title": "Energieerzeugung aus Abfällen - Stand und Potenziale in Deutschland bis 2030",
-        "description": "[oed-table:TODO],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
+        "description": "[oed-table:scalar],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
         "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-06-26_texte_51-2018_energieerzeugung-abfaelle.pdf",
         "licenses": [
             {
@@ -225,7 +225,7 @@
     },
     {
         "title": "Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
-        "description": "[oed-table:TODO],[Bibtexkey:UmweltbundesamtEmissions2019] - Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
+        "description": "[oed-table:scalar],[Bibtexkey:UmweltbundesamtEmissions2019] - Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
         "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_brennstoffe_und_industrie_nir_2020.xlsx",
         "licenses": [
             {
