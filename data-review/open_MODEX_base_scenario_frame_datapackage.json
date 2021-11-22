@@ -700,16 +700,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Gewässerkundliches Informationssystem der Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
+        "description": "[oed-table:scalar],[Bibtexkey:IZT2020] - Water levels in German rivers in hourly resolution",
+        "path": "https://www.pegelonline.wsv.de/gast/start",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV) im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur."
             }
         ]
     },
