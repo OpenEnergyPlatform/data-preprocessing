@@ -322,6 +322,426 @@
         ]
     },
     {
+        "title": "ENSPRESO - an open, EU-28 wide, transparent and coherent database of wind, solar and biomass energy potentials",
+        "description": "[oed-table:scalar],[Bibtexkey:Ruiz2019] - Energy potential data",
+        "path": "https://data.jrc.ec.europa.eu/collection/id-00138",
+        "licenses": [
+            {
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "European Commission"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
+        "title": "",
+        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
+        "path": "",
+        "licenses": [
+            {
+                "name": "",
+                "title": "",
+                "path": "",
+                "instruction": "",
+                "attribution": ""
+            }
+        ]
+    },
+    {
         "title": "",
         "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
         "path": "",
