@@ -448,16 +448,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Potenzialatlas Bioenergie in den Bundesländern",
+        "description": "[oed-table:scalar],[Bibtexkey:FNR2013] - Biogas potential",
+        "path": "https://mediathek.fnr.de/broschuren/bioenergie/bioenergie-potenzialatlas.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© FNR - Fachagentur Nachwachsende Rohstoffe e. V."
             }
         ]
     },
