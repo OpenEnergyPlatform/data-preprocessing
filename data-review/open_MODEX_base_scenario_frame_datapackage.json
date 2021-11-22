@@ -589,7 +589,7 @@
     },
     {
         "title": "Kraftwerksliste Bundesnetzagentur (bundesweit; alle Netz- und Umspannebenen) Stand 19.01.2021",
-        "description": "[oed-table:scalar],[Bibtexkey:BNAKWL2021] - ",
+        "description": "[oed-table:scalar],[Bibtexkey:BNAKWL2021] - Installed power plant capacities Germany",
         "path": "https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html",
         "licenses": [
             {
