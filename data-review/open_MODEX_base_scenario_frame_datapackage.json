@@ -588,16 +588,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:] - ",
-        "path": "",
+        "title": "Kraftwerksliste Bundesnetzagentur (bundesweit; alle Netz- und Umspannebenen) Stand 19.01.2021",
+        "description": "[oed-table:scalar],[Bibtexkey:BNAKWL2021] - ",
+        "path": "https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "DL-DE->BY-2.0",
+                "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                "path": "https://www.govdata.de/dl-de/by-2-0",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen"
             }
         ]
     },
