@@ -369,7 +369,7 @@
         "path": "10.3390/en13174448",
         "licenses": [
             {
-               "name": "CC BY 4.0",
+                "name": "CC BY 4.0",
                 "title": "Attribution 4.0 International",
                 "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                 "instruction": "You are free: To Share, To Adapt",
@@ -462,16 +462,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "ETRI 2014 - Energy Technology Reference Indicator projections for 2010-2050",
+        "description": "[oed-table:scalar],[Bibtexkey:ETRI2014] - Technology sheet",
+        "path": "https://setis.ec.europa.eu/system/files/ETRI_2014.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "CC BY 4.0",
+                "title": "Attribution 4.0 International",
+                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                "instruction": "You are free: To Share, To Adapt",
+                "attribution": "European Commission"
             }
         ]
     },
