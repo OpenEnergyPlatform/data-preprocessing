@@ -126,20 +126,6 @@
         ]
     },
     {
-        "title": "Open Power System Data",
-        "description": "[oed-table:scalar],[Bibtexkey:OPSD] - A free and open platform for power system modelling.",
-        "path": "https://open-power-system-data.org/",
-        "licenses": [
-            {
-                "name": "CC BY 4.0",
-                "title": "Attribution 4.0 International",
-                "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
-                "instruction": "You are free: To Share, To Adapt",
-                "attribution": "© Danish Energy Agency"
-            }
-        ]
-    },
-    {
         "title": "Using bias-corrected reanalysis to simulate current and future wind power output",
         "description": "[oed-table:timeseries],[Bibtexkey:Staffell2016] - Energy, Elsevier BV, 2016, Staffell, I. & Pfenninger, S.",
         "path": "10.1016/j.energy.2016.08.068",
