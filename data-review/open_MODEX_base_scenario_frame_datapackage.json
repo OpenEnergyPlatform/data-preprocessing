@@ -672,16 +672,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Gesetz über die friedliche Verwendung der Kernenergie und den Schutz gegen ihre Gefahren (Atomgesetz)§ 7 Genehmigung von Anlagen",
+        "description": "[oed-table:scalar],[Bibtexkey:ATG2020] - ",
+        "path": "https://www.gesetze-im-internet.de/atg/__7.html",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Bundesamt für Justiz"
             }
         ]
     },
