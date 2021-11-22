@@ -686,16 +686,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "tum-ens/pyGRETA: python Generator of REnewable Time series and mAps",
+        "description": "[oed-table:scalar],[Bibtexkey:Siala2020] - Expansion limit",
+        "path": "10.5281/ZENODO.3872068",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": "GPL-3.0-only",
+                "title": "GNU General Public License version 3",
+                "path": "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                "instruction": "You are free: To Share",
+                "attribution": "Siala, K.; Houmy, H."
             }
         ]
     },
