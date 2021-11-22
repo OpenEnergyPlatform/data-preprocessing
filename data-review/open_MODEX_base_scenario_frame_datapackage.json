@@ -476,16 +476,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "TYNDP 2018 - Scenario Report",
+        "description": "[oed-table:scalar],[Bibtexkey:ENTSOE2018] - Fuel costs",
+        "path": "https://eepublicdownloads.entsoe.eu/clean-documents/tyndp-documents/TYNDP2018/Scenario_Report_2018_Final.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© ENTSO-E"
             }
         ]
     },
