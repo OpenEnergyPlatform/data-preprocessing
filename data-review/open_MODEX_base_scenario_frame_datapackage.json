@@ -336,16 +336,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Platts PowerVision",
+        "description": "[oed-table:scalar],[Bibtexkey:Platts2020]",
+        "path": "https://www.spglobal.com/platts/en/products-services/electric-power/powervision",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© S&P Global Platts"
             }
         ]
     },
