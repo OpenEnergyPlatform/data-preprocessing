@@ -406,16 +406,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Klimapfade für Deutschland",
+        "description": "[oed-table:scalar],[Bibtexkey:Gerbert2018] - Fuel costs, biogas",
+        "path": "https://www.vci.de/vci/downloads-vci/media-weitere-downloads/2018-01-18-bdi-studie-klimapfade-fuer-deutschland.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Gerbert, P.; Herhold, P.; Burchardt, J.; Schönberger, S.; Rechenmacher, F.; Kirchner, A.; Kemmler, A. & Wünsch, M."
             }
         ]
     },
