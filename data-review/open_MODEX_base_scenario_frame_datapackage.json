@@ -644,16 +644,16 @@
         ]
     },
     {
-        "title": "",
-        "description": "[oed-table:scalar],[Bibtexkey:xxx] - ",
-        "path": "",
+        "title": "Data Documentation - Current and Prospective Costs of Electricity Generation until 2050",
+        "description": "[oed-table:scalar],[Bibtexkey:AndreasSchroeder2013] - Fuel costs",
+        "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
         "licenses": [
             {
-                "name": "",
-                "title": "",
-                "path": "",
-                "instruction": "",
-                "attribution": ""
+                "name": null,
+                "title": null,
+                "path": null,
+                "instruction": null,
+                "attribution": "© Deutsches Institut für Wirtschaftsforschung"
             }
         ]
     },
