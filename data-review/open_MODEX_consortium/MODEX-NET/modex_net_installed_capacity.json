@@ -1,6 +1,6 @@
 {
-    "name": "modex_net_installed_capacity",
-    "title": "Installed capacity",
+    "name": "modex_modexnet_installed_capacity",
+    "title": "MODEX - MODEX-NET - Installed capacity",
     "id": "http://openenergyplatform.org/dataedit/view/reference/modex_net_installed_capacity",
     "description": "Kuppelkapazitäten zwischen den ENTSO-E ländern für das Jahr 2016, 2025; NEP Zielnetz für das Jahr 2030: 220 kV und 380 kV AC-Leitungen sowie HGÜ-Leitungen (DC-Korridore)",
     "language": [
@@ -12,13 +12,13 @@
     ],
     "publicationDate": "2019-12-20",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-net",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4074",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -40,7 +40,7 @@
         {
             "title": "NTC for the year 2016 from ENTSO-E Transparency Plattform",
             "description": "2018, Maxima_of_Forecasted_Transfer_Capacities_Year_Ahead, , urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2016}",
-            "path": null,
+            "path": "https://transparency.entsoe.eu/",
             "licenses": [
                 {
                     "name": null,
@@ -110,12 +110,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",

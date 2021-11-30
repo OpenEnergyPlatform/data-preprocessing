@@ -1,10 +1,11 @@
 {
-    "name": "modex_net_supply",
-    "title": "Supply data",
+    "name": "modex_modexnet_supply",
+    "title": "MODEX - MODEX-NET - Supply",
     "id": "http://openenergyplatform.org/dataedit/view/reference/modex_net_supply",
     "description": "Fluktuierende EE-Stromerzeugung: Historische Profile und Erzeugungsmengen für EE-Strom; Skaliertee Profile und Erzeugungsmengen für EE-Strom basierend auf dem Wetter- und Basisjahr 2016",
     "language": [
-        "en-GB"
+        "en-GB",
+        "de-DE"
     ],
     "keywords": [
         "erneuerbare",
@@ -14,13 +15,13 @@
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-net",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4074",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -40,16 +41,16 @@
     },
     "sources": [
         {
-            "title": "Renewable profiles for the year 2016 from European Power System Data",
+            "title": "Renewables.ninja PV and Wind Profiles - Renewable profiles for the year 2016 from European Power System Data",
             "description": "2020, Feed_in_profiles_for_solar_PV_wind_onshore_and_offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
-            "path": "https://data.open-power-system-data.org",
+            "path": "https://data.open-power-system-data.org/ninja_pv_wind_profiles/2020-09-16",
             "licenses": [
                 {
-                    "name": "CC BY 4.0",
-                    "title": "Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/",
-                    "instruction": "You are free to: Share , Adapt ",
-                    "attribution": "Neon Neue Energieökonomik, Technical University of Berlin, ETH Zürich"
+                    "name": "CC-BY-NC-4.0",
+                    "title": "Creative Commons Attribution-NonCommercial 4.0 International ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+                    "instruction": null,
+                    "attribution": "For academic and professional use (presentations, journal articles, trade publications, etc): Please cite the papers describing our methods [1, 2] and, if possible, link to www.renewables.ninja."
                 }
             ]
         },
@@ -59,11 +60,11 @@
             "path": "https://data.open-power-system-data.org",
             "licenses": [
                 {
-                    "name": "CC BY 4.0",
-                    "title": "Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/",
-                    "instruction": "You are free to: Share , Adapt ",
-                    "attribution": "Neon Neue Energieökonomik, Technical University of Berlin, ETH Zürich"
+                    "name": "CC-BY-NC-4.0",
+                    "title": "Creative Commons Attribution-NonCommercial 4.0 International ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+                    "instruction": null,
+                    "attribution": "For academic and professional use (presentations, journal articles, trade publications, etc): Please cite the papers describing our methods [1, 2] and, if possible, link to www.renewables.ninja."
                 }
             ]
         }
@@ -84,12 +85,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
