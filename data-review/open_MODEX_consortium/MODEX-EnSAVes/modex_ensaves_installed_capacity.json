@@ -1,6 +1,6 @@
 {
-    "name": "modex_ensaves_installed_capacity",
-    "title": "Installed capacity",
+    "name": "modex_modexensaves_installed_capacity",
+    "title": "MODEX - MODEX-EnSAVes - Installed capacity",
     "id": "http://openenergyplatform.org/dataedit/view/reference/modex_ensaves_installed_capacity",
     "description": "European net transfer capacities",
     "language": [
@@ -13,13 +13,13 @@
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-ensaves",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4079",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -48,7 +48,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© ENTSO-E"
+                    "attribution": "ENTSO-E"
                 }
             ]
         },
@@ -62,7 +62,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© 50Hertz Transmission GmbH, Amprion GmbH,TenneT TSO GmbH, TransnetBW GmbH"
+                    "attribution": "50Hertz Transmission GmbH, Amprion GmbH,TenneT TSO GmbH, TransnetBW GmbH"
                 }
             ]
         },
@@ -76,7 +76,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© IEA"
+                    "attribution": "IEA"
                 }
             ]
         },
@@ -90,7 +90,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© ENTSO-E"
+                    "attribution": "ENTSO-E"
                 }
             ]
         }
@@ -111,12 +111,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",

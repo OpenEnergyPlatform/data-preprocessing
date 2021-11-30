@@ -1,6 +1,6 @@
 {
-    "name": "modex_ensaves_techno_economic",
-    "title": "Techno economic data",
+    "name": "modex_modexensaves_techno_economic",
+    "title": "MODEX - MODEX-EnSAVes - Techno economic data",
     "id": "http://openenergyplatform.org/dataedit/view/reference/reference/modex_ensaves_techno_economic",
     "description": "[Multiple Topics]: Lifetime of investment for heating systems and power plants for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear; Power plant efficiency for electricity production for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
@@ -15,13 +15,13 @@
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-ensaves",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4079",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -50,7 +50,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© OECD"
+                    "attribution": "OECD"
                 }
             ]
         },
@@ -64,7 +64,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© RTWH Aachen"
+                    "attribution": "RTWH Aachen"
                 }
             ]
         },
@@ -78,7 +78,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© Uni Stuttgart"
+                    "attribution": "Uni Stuttgart"
                 }
             ]
         },
@@ -92,7 +92,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© KIT"
+                    "attribution": "KIT"
                 }
             ]
         },
@@ -106,7 +106,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© Uni Stuttgart"
+                    "attribution": "Uni Stuttgart"
                 }
             ]
         },
@@ -120,7 +120,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© dena"
+                    "attribution": "dena"
                 }
             ]
         },
@@ -134,7 +134,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© dena"
+                    "attribution": "dena"
                 }
             ]
         },
@@ -148,7 +148,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© Agora Energiewende"
+                    "attribution": "Agora Energiewende"
                 }
             ]
         },
@@ -162,7 +162,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© DVGW"
+                    "attribution": "DVGW"
                 }
             ]
         },
@@ -176,7 +176,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© DLR, IWES, IFNE"
+                    "attribution": "DLR, IWES, IFNE"
                 }
             ]
         },
@@ -190,7 +190,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© DIW Berlin"
+                    "attribution": "DIW Berlin"
                 }
             ]
         },
@@ -204,49 +204,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© IEA"
-                }
-            ]
-        },
-        {
-            "title": "dena-Netzstudie I - Energiewirtschaftliche Planung für die Netzintegration von Windenergie in Deutschland an Land und Offshore bis zum Jahr 2020",
-            "description": "2010, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
-            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9113_dena-Netzstudie_I.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© dena"
-                }
-            ]
-        },
-        {
-            "title": "Verträglichkeit von erneuerbaren Energien und Kernenergie im Erzeugungsportfolio - Technische und ökonomische Aspekte",
-            "description": "2009, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
-            "path": "https://docplayer.org/17930921-Ier-vertraeglichkeit-von-erneuerbaren-energien-und-kernenergie-im-erzeugungsportfolio-technische-und-oekonomische-studie.html",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Uni Stuttgart"
-                }
-            ]
-        },
-        {
-            "title": "Optimierung eines Portfolios mit hydrothermischem Kraftwerkspark im börslichen Strom- und Gasterminmarkt",
-            "description": "2003, urldate = 2021-04-30, institution = IER - Institut für Energiewirtschaft und Rationelle Energieanwendung, Universität Stuttgart",
-            "path": "http://dx.doi.org/10.18419/opus-1597",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Uni Stuttgart"
+                    "attribution": "IEA"
                 }
             ]
         },
@@ -260,7 +218,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© ECOFYS"
+                    "attribution": "ECOFYS"
                 }
             ]
         },
@@ -274,7 +232,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© Universität Duisburg-Essen"
+                    "attribution": "Universität Duisburg-Essen"
                 }
             ]
         }
@@ -295,12 +253,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",

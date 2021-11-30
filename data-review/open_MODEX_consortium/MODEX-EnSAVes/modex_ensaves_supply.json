@@ -1,6 +1,6 @@
 {
-    "name": "modex_ensaves_supply",
-    "title": "Supply data",
+    "name": "modex_modexensaves_supply",
+    "title": "MODEX - MODEX-EnSAVes - Supply data",
     "id": "http://openenergyplatform.org/dataedit/view/reference/modex_ensaves_supply",
     "description": "[Multiple Topics]: Gerneration profiles of variable RES by country based on historical capacity factors from 2016/2012; Power plant availability of installed capacity in the course of year for different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
@@ -15,13 +15,13 @@
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-ensaves",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4079",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -41,16 +41,16 @@
     },
     "sources": [
         {
-            "title": "OPSD",
+            "title": "OPSD - Renewable power plants",
             "description": "2018, Open Power System Data - A free open data platform for power system modelling, urldate = 2019-08-21, Neon Neue Energieökonomik GmbH et al.",
             "path": "https://data.open-power-system-data.org/renewable_power_plants/",
             "licenses": [
                 {
-                    "name": "CC BY 4.0",
-                    "title": "Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/",
-                    "instruction": "You are free to: Share , Adapt ",
-                    "attribution": "© OSPD"
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "OSPD"
                 }
             ]
         },
@@ -64,7 +64,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "© DIW Berlin"
+                    "attribution": "DIW Berlin"
                 }
             ]
         }
@@ -85,12 +85,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
