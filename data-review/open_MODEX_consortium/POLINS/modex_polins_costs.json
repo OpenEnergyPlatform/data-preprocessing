@@ -1,27 +1,26 @@
 {
-    "name": "polins_frameworkname_environmental",
-    "title": "Umweltbezogene Daten; Potenzialdaten",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_environmental",
-    "description": "Emissionsfaktoren je Brennstoff/Technologie; (Input) Potenziale für Erneuerbarenausbau",
+    "name": "modex_polins_costs",
+    "title": "MODEX - POLINS - Costs",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_costs",
+    "description": "Preise für Brennstoffe und CO2-Zertifikate",
     "language": [
         "en-GB",
         "de-DE"
     ],
     "keywords": [
-        "co2_faktoren",
-        "erzeugung",
-        "erneuerbare",
-        "potenziale"
+        "preise",
+        "brennstoffe",
+        "co2"
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/foerdern/projekte/modex-polins/",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4075",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -41,30 +40,30 @@
     },
     "sources": [
         {
-            "title": "Szenariorahmen Für Den Netzentwicklungsplan Strom 2030 (Version 2019) - Entwurf Der Übertragungsnetzbetreiber",
-            "description": "2019, CO2 factors, urldate = {2021-04-30}",
-            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/%C3%9CNB-Entwurf_Szenariorahmen_2030_V2019.pdf",
+            "title": "World Energy Outlook 2018",
+            "description": "2018, Prices for fossil fuels and CO2-certificates, urldate = {2021-04-30}, date = {2018-11-13}, isbn = {9789264306776}",
+            "path": "https://doi.org/10.1787/weo-2018-en",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "50Hertz Transmission GmbH, Amprion GmbH, TenneT TSO GmbH, TransnetBW GmbH"
+                    "attribution": "International Energy Agency"
                 }
             ]
         },
         {
-            "title": "",
-            "description": "",
-            "path": "",
+            "title": "Carbon Price Floor (CPF) and the Price Support Mechanism",
+            "description": "2018, a carbon support price implemented in the UK , urldate = {2021-04-30}, date = {2018-01-26}",
+            "path": null,
             "licenses": [
                 {
-                    "name": "",
-                    "title": "",
-                    "path": "",
-                    "instruction": "",
-                    "attribution": ""
+                    "name": null,
+                    "title": null,
+                    "path": "https://researchbriefings.files.parliament.uk/documents/SN05927/SN05927.pdf",
+                    "instruction": null,
+                    "attribution": "Hirst, David, and Matthew Keep"
                 }
             ]
         }
@@ -85,12 +84,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
