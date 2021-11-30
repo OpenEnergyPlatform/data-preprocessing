@@ -1,7 +1,7 @@
 {
-    "name": "flexmex_load",
-    "title": "Load data",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/flexmex_load",
+    "name": "modex_flexmex_load",
+    "title": "MODEX - FlexMex - Load",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_flexmex_load",
     "description": "Demand profiles and volumes: Historical profiles and demand volumes for electricity, heat and hydrogen demand",
     "language": [
         "en-GB",

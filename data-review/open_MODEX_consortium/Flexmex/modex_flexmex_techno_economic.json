@@ -1,7 +1,7 @@
 {
-    "name": "flexmex_techno_economic",
-    "title": "Techno economic data",
-    "id": "http://openenergyplatform.org/dataedit/view/reference/flexmex_techno_economic",
+    "name": "modex_flexmex_techno_economic",
+    "title": "MODEX - FlexMex - Techno economic",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_flexmex_techno_economic",
     "description": "Technical data and costs (e.g. efficiencies, losses, lifetimes, investment costs) and Capacitie data for generation plants, energy converters, storages, infrastructure and demand response technologies",
     "language": [
         "en-GB",
