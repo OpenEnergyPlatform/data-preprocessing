@@ -16,13 +16,13 @@
     ],
     "publicationDate": "2021-07-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/flexmex",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4077",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -44,26 +44,26 @@
         {
             "title": "Balancing of intermittent renewable power generation by demand response and thermal energy storage",
             "description": "2015, Analysis of flexibility options using the REMix model, urldate = {2021-03-30}, institution = {University of Stuttgart}",
-            "path": "https://elib.uni-stuttgart.de/handle/11682/6905",
+            "path": "http://dx.doi.org/10.18419/opus-6888",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Hans Christian Gils"
+                    "attribution": "Hans Christian Gils (DLR)"
                 }
             ]
         },
         {
-            "title": "e-Highway2050: Database per country",
-            "description": "2016, Database for energy demands and capacities in Europe, urldate = {2021-03-30}, institution={ENTSO-E, e-Highway}, date = {2016}",
+            "title": "Modular Development Plan of the Pan-European Transmission System 2050 - e-Highway2050: Database per country",
+            "description": "2016, Database for energy demands and capacities in Europe, urldate = {2021-03-30}, institution={ENTSO-E, e-Highway2050}, date = {2016}",
             "path": "https://docs.entsoe.eu/baltic-conf/bites/www.e-highway2050.eu/fileadmin/documents/Results/e-Highway_database_per_country-08022016.xlsx",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://docs.entsoe.eu/baltic-conf/bites/www.e-highway2050.eu/e-highway2050/",
                     "instruction": null,
                     "attribution": "ENTSO-E"
                 }
@@ -86,12 +86,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",

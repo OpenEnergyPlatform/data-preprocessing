@@ -21,13 +21,13 @@
     ],
     "publicationDate": "2021-08-19",
     "context": {
-        "homepage": null,
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/flexmex",
         "documentation": null,
         "sourceCode": null,
         "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
+        "grantNo": "03ET4077",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": null
     },
     "spatial": {
@@ -61,44 +61,44 @@
             ]
         },
         {
-            "title": "Storage demand in highly renewable energy scenarios for Europe: The influence of methodology and data assumptions in model-based assessments",
+            "title": "Storage demand in highly renewable energy scenarios for Europe: the influence of methodology and data assumptions in model-based assessments",
             "description": "2017, REMix model calculations for future storage demand in Europe, urldate = {2021-03-30}, institution = {University of Stuttgart}",
-            "path": "https://elib.uni-stuttgart.de/handle/11682/9778",
+            "path": "http://dx.doi.org/10.18419/opus-9761",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Felix Cebulla"
+                    "attribution": "Felix Cebulla (DLR)"
                 }
             ]
         },
         {
-            "title": "Technology Data for Individual Heating",
+            "title": "Technology Data for Individual Heating Plants",
             "description": "2016, Data collection for individual heating plants, urldate = {2021-03-30},  institution = {Danish Energy Agency and Energinet}, version = {2}",
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_individual_heating_installations.pdf",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
                     "instruction": null,
-                    "attribution": "Danish energy agency"
+                    "attribution": "Danish Energy Agency and Energinet"
                 }
             ]
         },
         {
-            "title": "Technology Data for Generation of Electricity and District heating",
+            "title": "Technology Data for Generation of Electricity and District Heating",
             "description": "2016, Data collection for electricity generation and district heating plants, urldate = {2021-03-30},  institution = {Danish Energy Agency and Energinet}, version = {9}",
             "path": "https://ens.dk/sites/ens.dk/files/Statistik/technology_data_catalogue_for_el_and_dh_-_0009.pdf",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
                     "instruction": null,
-                    "attribution": "Danish energy agency"
+                    "attribution": "Danish Energy Agency and Energinet"
                 }
             ]
         },
@@ -110,9 +110,9 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
                     "instruction": null,
-                    "attribution": "Danish energy agency"
+                    "attribution": "Danish Energy Agency and Energinet"
                 }
             ]
         },
@@ -124,14 +124,14 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://ens.dk/en/our-services/projections-and-models/technology-data",
                     "instruction": null,
-                    "attribution": "Danish energy agency"
+                    "attribution": "Danish Energy Agency and Energinet"
                 }
             ]
         },
         {
-            "title": "Kurzanalyse der Kraftwerks und Netzplanung in Deutschland bis 2020 (mit Ausblick auf 2030)",
+            "title": "Kurzanalyse der Kraftwerks- und Netzplanung in Deutschland bis 2020 (mit Ausblick auf 2030)",
             "description": "2008, Analysis of the power plant and grid development plans in Germany, urldate = {2021-03-30},  institution = {Deutsche Energie-Agentur GmbH}, version = { 1}",
             "path": "https://www.clearingstelle-eeg-kwkg.de/sites/default/files/private/active/0/Kurzanalyse_KuN_Planung_D_2020_2030_Kurzfassung.pdf",
             "licenses": [
@@ -168,12 +168,12 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DIW, Andreas Schröder, Friedrich Kunz, Jan Meiss, Roman Mendelevitch, Christian  von Hirschhausen "
+                    "attribution": "Andreas Schröder, Friedrich Kunz, Jan Meiss, Roman Mendelevitch, Christian  von Hirschhausen (DIW)"
                 }
             ]
         },
         {
-            "title": "Roadmap 2050 - A Practical Guide to a Prosperous Low-Carbon Europe European Climate Foundation",
+            "title": "Roadmap 2050 - A Practical Guide to a Prosperous, Low-Carbon Europe - European Climate Foundation",
             "description": "2010, Data collection for future techno-economic parameters of energy generation plants, urldate = {2021-03-30},  institution = {ECF}, version = {1}",
             "path": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.468.1526&rep=rep1&type=pdf",
             "licenses": [
@@ -182,27 +182,27 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "ECF"
+                    "attribution": "European Climate Foundation (ECF)"
                 }
             ]
         },
         {
             "title": "Perspective of the Energy Transition: Technology Development and Investments under Uncertainty",
-            "description": "2015, Development of techno-econimic parameters for electricity generation plants, urldate  = {2021-03-30}, institution = {Technische Universität München}",
+            "description": "2015, Development of techno-econimic parameters for electricity generation plants, urldate = {2021-03-30}, institution = {Technische Universität München}",
             "path": "https://elib.dlr.de/101495/",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
-                    "instruction": null,
+                    "instruction": "Nur DLR-intern zugänglich",
                     "attribution": "Anna Garcia Teruel"
                 }
             ]
         },
         {
             "title": "Assessment of the theoretical demand response potential in Europe",
-            "description": "2014, Study for assessing the DR potential in Europe with a collection of DR parameters, urldate = {2021-03-30}, journaltitle = {Energy}, date = {2014.04.01}",
+            "description": "2014, Study for assessing the DR potential in Europe with a collection of parameters, urldate = {2021-03-30}, journaltitle = {Energy}, date = {2014.04.01}",
             "path": "https://www.sciencedirect.com/science/article/pii/S0360544214001534",
             "licenses": [
                 {
@@ -210,28 +210,28 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Hans Christian Gils"
+                    "attribution": "Hans Christian Gils (DLR)"
                 }
             ]
         },
         {
             "title": "Balancing of intermittent renewable power generation by demand response and thermal energy storage",
             "description": "2015, Analysis of flexibility options using the REMix model, urldate = {2021-03-30}, institution = {University of Stuttgart}",
-            "path": "https://elib.uni-stuttgart.de/handle/11682/6905",
+            "path": "http://dx.doi.org/10.18419/opus-6888",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Hans Christian Gils"
+                    "attribution": "Hans Christian Gils (DLR)"
                 }
             ]
         },
         {
-            "title": "Investitionsplanung unter unsicheren Einflussgrößen",
+            "title": "Investitionsplanung unter unsicheren Einflussgrößen - Thermische Kraftwerke als Realoptionen",
             "description": "2015, Investment planning in the electricity sector, urldate = {2021-03-30}, date = {2015}, isbn = {978-3-658-08337-3}, publisher = {Springer}",
-            "path": "https://books.google.com.au/books?hl=de&lr=&id=yfCbBQAAQBAJ&oi=fnd&pg=PR5&dq=Investitionsplanung+unter+unsicheren+Einflussgr%C3%B6%C3%9Fen&ots=v4zDNn8cu4&sig=Styx3e43gkaBp7rN5GMCUUtC9No#v=onepage&q=Investitionsplanung%20unter%20unsicheren%20Einflussgr%C3%B6%C3%9Fen&f=false",
+            "path": "https://link.springer.com/book/10.1007%2F978-3-658-08338-0",
             "licenses": [
                 {
                     "name": null,
@@ -252,7 +252,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Nikil Kumar,  Philip Besuner, Steven Lefton,  Dwight Agan, Douglas Hilleman"
+                    "attribution": "Nikil Kumar, Philip Besuner, Steven Lefton, Dwight Agan, Douglas Hilleman"
                 }
             ]
         },
@@ -266,13 +266,13 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Diego Luca de Tena, Thomas Pregger"
+                    "attribution": "Diego Luca de Tena, Thomas Pregger (DLR)"
                 }
             ]
         },
         {
             "title": "Langfristszenarien und Strategien für den Ausbau der erneuerbaren Energien in Deutschland bei Berücksichtigung der Entwicklung in Europa und global",
-            "description": "2012, Scenario and strategy study for future renewable energy, urldate = {2021-03-30}, date={2012-03-29}, institution = {Fraunhofer IEE, DLR, IfnE}",
+            "description": "2012, Scenario and strategy study for future renewable energy, urldate = {2021-03-30}, date={2012-03-29}, institution = {Fraunhofer IWES, DLR, IFNE}",
             "path": "https://elib.dlr.de/76043/",
             "licenses": [
                 {
@@ -280,13 +280,13 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Joachim Nitsch, Thomas Pregger,Tobias Naegler,  et al."
+                    "attribution": "Joachim Nitsch, Thomas Pregger, Tobias Naegler, Dominik Heide, Diego Luca de Tena, Franz Trieb, Yvonne Scholz, Kristina Nienhaus, Norman Gerhardt, Michael Sterner, Tobias Trost, Amany von Oehsen, Rainer Schwinn, Carsten Pape, Henning Hahn, Manuel Wickert, Bernd Wenzel"
                 }
             ]
         },
         {
             "title": "Studie über die Planung einer Demonstrationsanlage zur Wasserstoff-Kraftstoffgewinnung durch Elektrolyse mit Zwischenspeicherung in Salzkavernen unter Druck",
-            "description": "2015, Study for demonstrating hydrogen production for future fuels , urldate = {2021-03-30}, institution = {DLR, Ludwig-Bölkow-Systemtechnik GmbH(LBST), Fraunhofer ISE, KBB Underground Technologies GmbH}, date = {2014-11-28}",
+            "description": "2015, Study for demonstrating hydrogen production for future fuels , urldate = {2021-03-30}, institution = {DLR, Ludwig-Bölkow-Systemtechnik GmbH (LBST), Fraunhofer ISE, KBB Underground Technologies GmbH}, date = {2014-11-28}",
             "path": "https://elib.dlr.de/94979/",
             "licenses": [
                 {
@@ -294,7 +294,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Christoph Noack, Fabian Burggraf, Seyed Schwan Hosseiny, "
+                    "attribution": "Christoph Noack and Fabian Burggraf and Seyed Schwan Hosseiny and Philipp Lettenmeier and Svenja Kolb and Stefan Belz and Josef Kallo and K. Andreas Friedrich and Thomas Pregger and Karl-Kiên Cao and Dominik Heide and Tobias Naegler and Frieder Borggrefe and Ulrich Bünger and Jan Michalski and Tetyana Raksha and Christopher Voglstätter and Tom Smolinka and Fritz Crotogino and Sabine Donadei and Peter-Laszlo Horvath and Gregor-Sönke Schneider"
                 }
             ]
         },
@@ -307,8 +307,8 @@
                     "name": null,
                     "title": null,
                     "path": null,
-                    "instruction": null,
-                    "attribution": "RWTH Aachen, Denis vom Stein"
+                    "instruction": "Nicht verfügbar",
+                    "attribution": "Denis vom Stein (RWTH Aachen)"
                 }
             ]
         },
@@ -322,21 +322,21 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Klaus Stolzenburg"
+                    "attribution": "Klaus Stolzenburg (PLANET)"
                 }
             ]
         },
         {
             "title": "Balancing of intermittent renewable power generation by demand response and thermal energy storage",
             "description": "2015, Analysis of flexibility options using the REMix model, urldate = {2021-03-30}, institution = {University of Stuttgart}",
-            "path": "https://elib.uni-stuttgart.de/handle/11682/6905",
+            "path": "http://dx.doi.org/10.18419/opus-6888",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "DLR, Hans Christian Gils"
+                    "attribution": "Hans Christian Gils (DLR)"
                 }
             ]
         },
@@ -348,7 +348,7 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
+                    "path": "https://tyndp.entsoe.eu/",
                     "instruction": null,
                     "attribution": "ENTSO-E"
                 }
@@ -371,12 +371,19 @@
             "date": "2021-07-19",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
-        "badge": null
+        "badge": "Bronze"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.4.1",
