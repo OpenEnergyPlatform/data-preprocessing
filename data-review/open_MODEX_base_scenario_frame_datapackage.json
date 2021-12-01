@@ -1,6 +1,6 @@
 {
-    "name": "open_MODEX_base_scenario_frame_datapackage",
-    "title": "Database for the framework comparison in the open_MODEX project (Base Scenario Frame)",
+    "name": "modex_openmodex_base_scenario_frame_datapackage",
+    "title": "MODEX - open_MODEX - Database for the framework comparison in the open_MODEX project (Base Scenario Frame)",
     "id": "https://openenergy-platform.org/dataedit/view/model_draft?query=modex",
     "description": "The oedatamodel is a collection of multiple tables that are described in the resources. open_MODEX uses the oedatamodel to store input and output related data in the oedatamodel tables. The tables are used as a shared homogonous data source for the framework comparison.",
     "language": [
@@ -16,13 +16,13 @@
     ],
     "publicationDate": "2020-10-15",
     "context": {
-        "homepage": "https://reiner-lemoine-institut.de/open_modex/",
-        "documentation": "https://github.com/OpenEnergyPlatform/oedatamodel/blob/develop/README.md",
-        "sourceCode": "https://github.com/OpenEnergyPlatform/oedatamodel/tree/develop/oedatamodel/latest",
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
+        "documentation": "https://github.com/open-modex/models",
+        "sourceCode": "https://github.com/open-modex",
         "contact": "sarah.berendes@rl-institut.de",
-        "grantNo": "03ET4076A",
-        "fundingAgency": "german federal ministry for economics and energy",
-        "fundingAgencyLogo": "https://www.bmwi.de/SiteGlobals/BMWI/StyleBundles/Bilder/bmwi_logo_en.svgz?__blob=normal&v=10",
+        "grantNo": "03ET4076",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
         "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"
     },
     "spatial": {
