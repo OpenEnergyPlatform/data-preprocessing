@@ -2,7 +2,7 @@
     "name": "modex_polins_load",
     "title": "MODEX - POLINS - Load",
     "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_load",
-    "description": "Historische Profile und Nachfragemengen für Strom- & Wärmenachfrage, Reservebedarf",
+    "description": "Historische Profile und Nachfragemengen für Strom- und Wärmenachfrage, Reservebedarf",
     "language": [
         "en-GB",
         "de-DE"

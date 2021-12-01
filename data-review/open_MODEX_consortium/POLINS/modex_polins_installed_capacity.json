@@ -1,6 +1,6 @@
 {
     "name": "modex_polins_installed_capacity",
-    "title": "MODEX - POLINS - Installed capacity,
+    "title": "MODEX - POLINS - Installed capacity",
     "id": "http://openenergyplatform.org/dataedit/view/reference/polins_frameworkname_installed_capacity",
     "description": "Kapazitäten für hydro-thermische und fluktuierende Erneuerbarenanlagen",
     "language": [
