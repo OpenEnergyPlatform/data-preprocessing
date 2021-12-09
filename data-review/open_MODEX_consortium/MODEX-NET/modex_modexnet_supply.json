@@ -1,0 +1,119 @@
+{
+    "name": "modex_modexnet_supply",
+    "title": "MODEX - MODEX-NET - Supply",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_net_supply",
+    "description": "Fluktuierende EE-Stromerzeugung: Historische Profile und Erzeugungsmengen für EE-Strom; Skaliertee Profile und Erzeugungsmengen für EE-Strom basierend auf dem Wetter- und Basisjahr 2016",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "erneuerbare",
+        "menge",
+        "elektrizität",
+        "profil"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-net",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4074",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Renewables.ninja PV and Wind Profiles - Renewable profiles for the year 2016 from European Power System Data",
+            "description": "2020, Feed_in_profiles_for_solar_PV_wind_onshore_and_offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
+            "path": "https://data.open-power-system-data.org/ninja_pv_wind_profiles/2020-09-16",
+            "licenses": [
+                {
+                    "name": "CC-BY-NC-4.0",
+                    "title": "Creative Commons Attribution-NonCommercial 4.0 International ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+                    "instruction": null,
+                    "attribution": "For academic and professional use (presentations, journal articles, trade publications, etc): Please cite the papers describing our methods [1, 2] and, if possible, link to www.renewables.ninja."
+                }
+            ]
+        },
+        {
+            "title": "Scaled renewable Profiles for the year 2030 based on European Power System Data for the year 2016",
+            "description": "2020, Feed_in_profiles_for_solar_PV_wind_onshore_and_offshore, urldate = {2021-04-30}, institution = {Open Power System}, date = {2020}",
+            "path": "https://data.open-power-system-data.org",
+            "licenses": [
+                {
+                    "name": "CC-BY-NC-4.0",
+                    "title": "Creative Commons Attribution-NonCommercial 4.0 International ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/",
+                    "instruction": null,
+                    "attribution": "For academic and professional use (presentations, journal articles, trade publications, etc): Please cite the papers describing our methods [1, 2] and, if possible, link to www.renewables.ninja."
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

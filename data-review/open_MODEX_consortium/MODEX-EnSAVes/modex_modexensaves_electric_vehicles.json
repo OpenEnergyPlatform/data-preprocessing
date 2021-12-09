@@ -1,0 +1,115 @@
+{
+    "name": "modex_modexensaves_electric_vehicles",
+    "title": "MODEX - MODEX-EnSAVes - Electric vehicles",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_ensaves_electric_vehicles",
+    "description": "Electric vehicle fleet ",
+    "language": [
+        "en-GB"
+    ],
+    "keywords": [
+        "Electric vehicle fleet"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/foerdern/projekte/modex-ensaves/",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4079",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "name": "TYNDP 2018 - Market modelling data",
+            "title": "2018, Ten-Year Network Development Plan, urldate = 2019-08-21, institution = ENTSO-E",
+            "path": "https://tyndp.entsoe.eu/tyndp2018/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "World Energy Outlook 2018",
+            "description": "2018,urldate = 2019-08-21, institution = IEA -International Energy Agency",
+            "path": "https://doi.org/10.1787/weo-2018-en",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "IEA"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

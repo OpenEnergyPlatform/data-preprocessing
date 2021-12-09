@@ -1,0 +1,163 @@
+{
+    "name": "modex_modexensaves_load",
+    "title": "MODEX - MODEX-EnSAVes - Load",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_ensaves_load",
+    "description": "[Multipble topics]: Hourly load profiles by EU country; Yearly electricity demand; Yearly district heat demand Germany; Demand for load-frequency control and reserves by EU country and reserve type 2016; ",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "electricity demand",
+        "load",
+        "district heat",
+        "dh",
+        "Fernwärme",
+        "demand control reserve"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/foerdern/projekte/modex-ensaves/",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4079",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "ENTSO-E Transparency Platform",
+            "description": "2018, Central collection and publication of electricity generation, transportation and consumption data and information for the pan-European market., urldate = 2019-08-21, institution = ENTSO-E",
+            "path": "https://transparency.entsoe.eu/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "World Energy Outlook 2018",
+            "description": "2018,urldate = 2019-08-21, institution = IEA -International Energy Agency",
+            "path": "https://doi.org/10.1787/weo-2018-en",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "IEA"
+                }
+            ]
+        },
+        {
+            "title": "TYNDP 2018 - Market modelling data",
+            "description": "2018, Ten-Year Network Development Plan, urldate = 2019-08-21, institution = ENTSO-E",
+            "path": "https://tyndp.entsoe.eu/tyndp2018/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "Auswertungstabellen zur Energiebilanz für die Bundesrepublik Deutschland 1990 bis 2017",
+            "description": "2018,urldate = 2019-08-21, institution = AGEB - Arbeitsgemeinschaft Energiebilanzen e. V.",
+            "path": "https://ag-energiebilanzen.de/10-0-Auswertungstabellen.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "AGEB e. V."
+                }
+            ]
+        },
+        {
+            "title": "dena-Leitstudie. Integrierte Energiewende. Impulse für die Gestaltung des Energiesystems bis 2050",
+            "description": "2018, urldate =  2021-04-30, institution = dena - Deutsche Energie-Agentur",
+            "path": "https://www.dena.de/fileadmin/dena/Dokumente/Pdf/9261_dena-Leitstudie_Integrierte_Energiewende_lang.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "dena"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

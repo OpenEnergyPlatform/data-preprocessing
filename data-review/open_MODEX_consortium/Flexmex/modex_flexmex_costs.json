@@ -1,0 +1,119 @@
+{
+    "name": "modex_flexmex_costs",
+    "title": "MODEX - FlexMex - Costs",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_flexmex_costs",
+    "description": "Prices for fuels and CO2-emission-certificates",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "price",
+        "fuel",
+        "co2",
+        "certificate"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/flexmex",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4077",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland",
+            "description": "2017, Scenario study of the future energy system development, urldate = {2021-03-30}, institution = {Fraunhofer ISI, Consentec GmbH, IFEU, Technische Universität Wien, M-Five, TEP Energy GmbH}, date = {2017-09}",
+            "path": "https://www.bmwi.de/Redaktion/DE/Downloads/B/berichtsmodul-3-referenzszenario-und-basisszenario.pdf?__blob=publicationFile&v=4",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Christiane Bernath,  et al."
+                }
+            ]
+        },
+        {
+            "title": "Current and prospective costs of electricity generation until 2050",
+            "description": "2013, Data collection for electricity generation costs, urldate = {2021-03-30}, institution = {DIW}, version = {Corrected Version}",
+            "path": "https://www.econstor.eu/bitstream/10419/80348/1/757528015.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Andreas Schröder, Friedrich Kunz, Jan Meiss, Roman Mendelevitch, Christian von Hirschhausen (DIW)"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

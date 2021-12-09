@@ -1,0 +1,119 @@
+{
+    "name": "modex_flexmex_environmental",
+    "title": "MODEX - FlexMex - Environmental",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_flexmex_environmental",
+    "description": "Emission factors for fossile fuels and historical weather time series",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "co2 emission factor",
+        "generation",
+        "profile",
+        "weather"
+    ],
+    "publicationDate": "2021-07-19",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/flexmex",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4077",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Berichterstattung unter der Klimarahmenkonvention der Vereinten Nationen und dem Kyoto-Protokoll 2019",
+            "description": "2019, Report assessing the German green house gas emissions, urldate = {2021-03-30}, date={2019-05}, institution = {Umweltbundesamt}",
+            "path": "https://www.umweltbundesamt.de/publikationen/berichterstattung-unter-der-klimarahmenkonvention-4",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Umweltbundesamt (UBA)"
+                }
+            ]
+        },
+        {
+            "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+            "description": "2017, Weather timeseries, urldate = {2021-03-30}, journaltitle = {Journal of Climate}, date={2017-07-15}, doi={10.1175/JCLI-D-16-0758.1}",
+            "path": "https://journals.ametsoc.org/doi/10.1175/JCLI-D-16-0758.1",
+            "licenses": [
+                {
+                    "name": "NASA Data and Information Policy",
+                    "title": null,
+                    "path": "https://science.nasa.gov/earth-science/earth-science-data/data-information-policy",
+                    "instruction": "© 2017 American Meteorological Society. For information regarding reuse of this content and general copyright information, consult the AMS Copyright Policy (www.ametsoc.org/PUBSReuseLicenses)",
+                    "attribution": "Ronald Gelaro, Will McCarty , Max J. Suárez , Ricardo Todling, Andrea Molod, Lawrence Takacs , Cynthia A. Randles, Anton Darmenov, Michael G. Bosilovich, Rolf Reichle, Krzysztof Wargan, Lawrence Coy, Richard Cullathe, Clara Draper, Santha Akella, Virginie Buchard, Austin Conaty, Arlindo M. da Silva, Wei Gu, Gi-Kong Kim, Randal Koster, Robert Lucchesi, Dagmar Merkova, Jon Eric Nielsen, Gary Partyka, Steven Pawson, William Putman, Michele Rienecker, Siegfried D. Schubert, Meta Sienkiewicz, Bin Zhao"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

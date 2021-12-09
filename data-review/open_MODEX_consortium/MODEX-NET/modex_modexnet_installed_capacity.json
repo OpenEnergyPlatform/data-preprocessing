@@ -1,0 +1,144 @@
+{
+    "name": "modex_modexnet_installed_capacity",
+    "title": "MODEX - MODEX-NET - Installed capacity",
+    "id": "http://openenergyplatform.org/dataedit/view/reference/modex_net_installed_capacity",
+    "description": "Kuppelkapazitäten zwischen den ENTSO-E ländern für das Jahr 2016, 2025; NEP Zielnetz für das Jahr 2030: 220 kV und 380 kV AC-Leitungen sowie HGÜ-Leitungen (DC-Korridore)",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "Net Transfer Capacities"
+    ],
+    "publicationDate": "2019-12-20",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/modex-net",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03ET4074",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "NTC for the year 2016 from ENTSO-E Transparency Plattform",
+            "description": "2018, Maxima_of_Forecasted_Transfer_Capacities_Year_Ahead, , urldate = {2021-04-30}, institution = {ENTSO-E}, date = {2016}",
+            "path": "https://transparency.entsoe.eu/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Mid-term Adequacy Forecast, 2019 edition from ENTSOE",
+            "description": null,
+            "path": "https://www.entsoe.eu/outlooks/midterm/previous-maf-versions/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Bedarfsermittlung 2019-2030, Bestätigung des Netzentwicklungsplans Strom für das Zieljahr 2030",
+            "description": "2019, bestätigte_Netzausbaumaßnahmen_aus_dem_zweiten_Entwurf_des_NEP_2019_2030_der_Übertragungsnetzbetreiber, urldate = {2021-04-12}, publisher = {BNetzA}",
+            "path": "https://data.netzausbau.de/2030-2019/NEP/NEP2019-2030_Bestaetigung.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "energy-modelling-toolkit/hydro-power-database: JRC Hydro-power database - release 05 (Version v5)",
+            "description": "2020, JRC_Hydro_power_plants_database, urldate={2021-04-30}, author={Matteo De Felice, & Konstantinos Kavvadias}",
+            "path": "https://zenodo.org/record/3862722",
+            "licenses": [
+                {
+                    "name": "CC-BY 4.0",
+                    "title": "Attribution 4.0 International (CC BY 4.0)",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.de",
+                    "instruction": "Free to: Share, Adapt ",
+                    "attribution": "Matteo De Felice, & Konstantinos Kavvadias"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-07-19",
+            "object": "Metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "ludwig.huelk@rl-institut.de",
+            "date": "2021-11-30",
+            "object": "Metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/88",
+        "badge": "Bronze"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
