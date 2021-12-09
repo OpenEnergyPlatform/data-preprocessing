@@ -1,6 +1,6 @@
 {
     "name": "modex_modexensaves_environmental",
-    "title": "MODEX - MODEX-EnSAVes - Environmental data",
+    "title": "MODEX - MODEX-EnSAVes - Environmental",
     "id": "http://openenergyplatform.org/dataedit/view/reference/modex_ensaves_environmental",
     "description": "Emission factors of power plants and different generation technologies, i.e. gas, lignite, hard coal, oil and nuclear",
     "language": [
