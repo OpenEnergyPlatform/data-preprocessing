@@ -715,7 +715,7 @@
         },
         {
             "title": "Gewässerkundliches Informationssystem der Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
-            "description": "[oed-table:scalar],[Bibtexkey:IZT2020] - Water levels in German rivers in hourly resolution",
+            "description": "[oed-table:timeseries],[Bibtexkey:IZT2020] - Water levels in German rivers in hourly resolution",
             "path": "https://www.pegelonline.wsv.de/gast/start",
             "licenses": [
                 {
@@ -724,6 +724,20 @@
                     "path": null,
                     "instruction": null,
                     "attribution": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV) im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur."
+                }
+            ]
+        },
+        {
+            "title": "Szenarien für die bayrische Stromversorgung bis 2040",
+            "description": "[oed-table:timeseries],[Bibtexkey:Gawlick2020] - Hourly electricity trade and price data",
+            "path": "https://mediatum.ub.tum.de/doc/1544410/337152716379.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© IHK München und Oberbayern; ifo Institut; Technical University Munich."
                 }
             ]
         }
