@@ -35,7 +35,7 @@
  "language": [],
  "sources": [
   {
-   "title": "Common Data Repository on Eionet",
+   "title": "European Environment Agency - Central Data Repository on Eionet",
    "description": "The CDR holds data reported under various European legislation",
    "path": "https://cdr.eionet.europa.eu/",
    "licenses": [
