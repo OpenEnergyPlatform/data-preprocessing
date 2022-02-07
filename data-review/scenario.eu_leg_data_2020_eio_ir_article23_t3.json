@@ -61,8 +61,15 @@
    "title": "Öko-Institut",
    "email": "oedb@oeko.de",
    "object": "data, metadata",
-   "comment": "initial version",
+   "comment": "Initial version",
    "date": "2021-09-09"
+  },
+  {
+   "title": "steull",
+   "email": "datenzentrum@rl-institut.de",
+   "object": "metadata",
+   "comment": "Review and update metadata",
+   "date": "2022-02-07"
   }
  ],
  "resources": [
