@@ -1,44 +1,42 @@
 {
-    "name": null,
-    "title": null,
-    "id": null,
-    "description": null,
+    "name": "eu_leg_data_2020_eio_ir_article23_t3",
+    "title": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation",
+    "id": "scenario.eea_eionet_eu_legislation_data_2020",
+    "description": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
     "subject": null,
     "language": [
-        null
+    "en-GB"
     ],
     "keywords": [
-        null
+    "2020",
+    "parameters",
+    "Öko-Institut",
+    "EU-legislation",
+    "SIROP",
+    "CC-BY-4.0"
     ],
-    "publicationDate": null,
+    "publicationDate": "todo",
     "context": {
-        "homepage": null,
+        "homepage": "oeko.de",
         "documentation": null,
         "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
+        "contact": "oedb@oeko.de",
+        "grantNo": "03EI1035B",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:BMWi_Logo.svg",
+        "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
     },
     "spatial": {
         "location": null,
-        "extent": null,
-        "resolution": null
+        "extent": "EU-27",
+        "resolution": "country"
     },
     "temporal": {
-        "referenceDate": null,
+        "referenceDate": "2020",
         "timeseries": [{
-            "start": null,
-            "end": null,
-            "resolution": null,
-            "alignment": null,
-            "aggregationType": null
-        },
-        {
-            "start": null,
-            "end": null,
-            "resolution": null,
+            "start": "2015",
+            "end": "2040",
+            "resolution": "year",
             "alignment": null,
             "aggregationType": null
         }
@@ -46,83 +44,133 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "European Environment Agency - Central Data Repository on Eionet",
+            "description": "The CDR holds data reported under various European legislation",
+            "path": "https://cdr.eionet.europa.eu/",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
+                    "name": "CC-BY-2.5-DK",
+                    "title":  "Creative Commons Attribution 2.5 Denmark",
+                    "path": "https://creativecommons.org/licenses/by/2.5/dk/legalcode",
                     "instruction": null,
-                    "attribution": null
-                }
-            ]
-        },
-        {
-            "title": null,
-            "description": null,
-            "path": null,
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "attribution": "© European Environment Agency"
                 }
             ]
         }
     ],
     "licenses": [
         {
-            "name": null,
-            "title": null,
-            "path": null,
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": null
+            "attribution": "© Öko-Institut"
         }
     ],
     "contributors": [
         {
-            "title": null,
-            "email": null,
-            "date": null,
-            "object": null,
-            "comment": null
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2021-09-09",
+            "object": "data, metadata",
+            "comment": "Initial version"
         },
         {
-            "title": null,
-            "email": null,
-            "date": null,
-            "object": null,
-            "comment": null
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-02-07",
+            "object": "metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resource",
+            "name": "scenario.eea_eionet_eu_legislation_data_2020",
+            "path": "todo",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
-                        "name": null,
-                        "description": null,
-                        "type": null,
+                        "name": "id",
+                        "description": "unique id",
+                        "type": "bigint",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": null
+                        "unit": "none"
                     },
                     {
-                        "name": null,
-                        "description": null,
-                        "type": null,
+                        "name": "country_code",
+                        "description": "country code",
+                        "type": "varchar(8)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": null
+                        "unit": "none"
+                    },
+                    {
+                        "name": "parameter",
+                        "description": "",
+                        "type": "varchar(128)",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "scenario",
+                        "description": "the scenario for which data is reported",
+                        "type": "char(3)",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "year",
+                        "description": "year for which data is reported",
+                        "type": "smallint",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "base_year",
+                        "description": "",
+                        "type": "smallint",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "default_unit",
+                        "description": "the unit in which the data should be reported",
+                        "type": "varchar(128)",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "additional_unit",
+                        "description": "the unit in which the data is reported",
+                        "type": "varchar(128)",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "notation",
+                        "description": "notation key",
+                        "type": "varchar(64)",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "none"
+                    },
+                    {
+                        "name": "value",
+                        "description": "value reported",
+                        "type": "float",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "unit is given in clolumn 'unit'"
                     }
                 ],
                 "primaryKey": [
@@ -151,8 +199,8 @@
     "@id": null,
     "@context": null,
     "review": {
-        "path": null,
-        "badge": null
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/89",
+        "badge": "todo"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
