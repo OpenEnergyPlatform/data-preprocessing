@@ -786,6 +786,13 @@
             "date": "2021-11-30",
             "object": "metadata",
             "comment": "Fix ressources: adapt oed-concrete to oed-normalization format"
+        },
+        {
+            "title": "chrwm",
+            "email": null,
+            "date": "2021-11-30",
+            "object": "metadata",
+            "comment": "Add sources"
         }
     ],
     "resources": [
