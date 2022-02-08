@@ -188,17 +188,17 @@
                     }
                 ],
                 "primaryKey": [
-                    null
+                    "id"
                 ],
                 "foreignKeys": [
                     {
                         "fields": [
-                            null
+                            "parameter"
                         ],
                         "reference": {
-                            "resource": null,
+                            "resource": "scenario.eea_eionet_eu_legislation_data_parameter",
                             "fields": [
-                                null
+                                "parameter"
                             ]
                         }
                     }
