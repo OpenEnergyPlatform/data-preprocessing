@@ -112,7 +112,7 @@
                         "type": "bigint",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "country_code",
@@ -120,7 +120,7 @@
                         "type": "varchar(8)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "parameter",
@@ -128,7 +128,7 @@
                         "type": "varchar(128)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "scenario",
@@ -136,7 +136,7 @@
                         "type": "char(3)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "year",
@@ -144,7 +144,7 @@
                         "type": "smallint",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "base_year",
@@ -152,7 +152,7 @@
                         "type": "smallint",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "default_unit",
@@ -160,7 +160,7 @@
                         "type": "varchar(128)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "additional_unit",
@@ -168,7 +168,7 @@
                         "type": "varchar(128)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "notation",
@@ -176,7 +176,7 @@
                         "type": "varchar(64)",
                         "is_about": null,
                         "value_reference": null,
-                        "unit": "none"
+                        "unit": null
                     },
                     {
                         "name": "value",
