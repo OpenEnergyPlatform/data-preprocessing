@@ -1,7 +1,7 @@
 {
-    "name": "eu_leg_data_2020_eio_ir_article23_t3",
-    "title": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation",
-    "id": "scenario.eea_eionet_eu_legislation_data_2020",
+    "name": "oekoinstitut_eea_eionet_eu_emissions_per_country_2020",
+    "title": "Öko-Institut - Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - 2020",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/oekoinstitut_eea_eionet_eu_emissions_per_country_2020",
     "description": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
     "subject": null,
     "language": [
