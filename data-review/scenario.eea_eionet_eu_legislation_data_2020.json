@@ -100,8 +100,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "scenario.eea_eionet_eu_legislation_data_2020",
-            "path": "todo",
+            "name": "eea_eionet_eu_legislation_data_2020",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eea_eionet_eu_legislation_data_2020",
             "format": "PostgresSQL",
             "encoding": "UTF-8",
             "schema": {
