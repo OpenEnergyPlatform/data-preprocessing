@@ -56,6 +56,20 @@
                     "attribution": "© European Environment Agency"
                 }
             ]
+        },
+        {
+            "title": "Commission Implementing Regulation (EU) No 749/2014 of 30 June 2014",
+            "description": "Commission Implementing Regulation (EU) No 749/2014 of 30 June 2014 on structure, format, submission processes and review of information reported by Member States pursuant to Regulation (EU) No 525/2013 of the European Parliament and of the Council. Note: No longer in force, Date of end of validity: 31/12/2020; Repealed by 32020R1208",
+            "path": "http://data.europa.eu/eli/reg_impl/2014/749/oj",
+            "licenses": [
+                {
+                    "name": null,
+                    "title":  null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Official Journal of the European Union"
+                }
+            ]
         }
     ],
     "licenses": [
