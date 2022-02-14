@@ -1,7 +1,7 @@
 {
-    "name": "rli_dea_technology_data_generation_wind_turbine",
-    "title": "RLI - Danish Energy Agency - Technology Data for Generation of Electricity and District Heating - Technology Data Catalogue for Electricity and district heating production - Updated April 2020 - Wind Turbine (Selected Parameters)",
-    "id": "todo",
+    "name": "rli_dea_technology_data_generation_wind_turbine_selected_parameter",
+    "title": "RLI - Danish Energy Agency - Technology Data for Generation of Electricity and District Heating - Technology Data Catalogue for Electricity and district heating production - Updated April 2020 - Wind Turbine (Selected Parameter)",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/rli_dea_technology_data_generation_wind_turbine_selected_parameter",
     "description": "This is the first dataset to test the technology data prototype",
     "subject": null,
     "language": [
