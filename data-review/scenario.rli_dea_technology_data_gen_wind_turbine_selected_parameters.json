@@ -238,8 +238,10 @@
                         "type": "decimal",
                         "unit": "MW",
                         "isAbout": [
-                            {"name" : "quantity value",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"}
+                            {"name" : "wind energy converting unit",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
+                            {"name" : "declared net capacity",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00230002"}
                         ],
                         "valueReference": [
                             {"value": null,
@@ -253,8 +255,10 @@
                         "type": "decimal",
                         "unit": "h",
                         "isAbout": [
-                            {"name" : "quantity value",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"}
+                            {"name" : "wind energy converting unit",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
+                            {"name" : "full load hours",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00140144"}
                         ],
                         "valueReference": [
                             {"value": null,
@@ -268,8 +272,10 @@
                         "type": "decimal",
                         "unit": "M€/MW",
                         "isAbout": [
-                            {"name" : "quantity value",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"}
+                            {"name" : "wind energy converting unit",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
+                            {"name" : "investment cost",
+                            "path": "todo"}
                         ],
                         "valueReference": [
                             {"value": null,
@@ -283,8 +289,10 @@
                         "type": "decimal",
                         "unit": "m",
                         "isAbout": [
-                            {"name" : "quantity value",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"}
+                            {"name" : "wind energy converting unit",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
+                            {"name" : "wind rotor",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000448"}
                         ],
                         "valueReference": [
                             {"value": null,
@@ -298,8 +306,10 @@
                         "type": "decimal",
                         "unit": "m",
                         "isAbout": [
-                            {"name" : "quantity value",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000350"}
+                            {"name" : "wind energy converting unit",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
+                            {"name" : "hub height",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00140000"}
                         ],
                         "valueReference": [
                             {"value": null,
