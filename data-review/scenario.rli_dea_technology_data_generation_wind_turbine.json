@@ -2,7 +2,7 @@
     "name": "rli_dea_technology_data_generation_wind_turbine_selected_parameter",
     "title": "RLI - Danish Energy Agency - Technology Data for Generation of Electricity and District Heating - Technology Data Catalogue for Electricity and district heating production - Updated April 2020 - Wind Turbine (Selected Parameter)",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/rli_dea_technology_data_generation_wind_turbine_selected_parameter",
-    "description": "This is the first dataset to test the technology data prototype",
+    "description": "This Technology Data catalogue includes technology data for technologies for centralized and decentralized production of electricity and district heat. Technology data concerns more or less mature technologies. There is currently one combined Technology Data catalogue concerning generation of electricity and district heating.  The catalogue was first published in August 2016, and is updated continuously. Technology descriptions in the previous catalogue from May 2012 have now been included in the catalogue from 2016 although some are not updated since 2015. It is mentioned in the beginning of the specific chapters, when each technology has been updated the last time. Index: 20 Wind turbines on-shore (updated May 2019) On-shore turbines and Domestic turbines. 21 Wind turbines off-shore (updated May 2019) Off-shore turbines and Near shore turbines (minor adjustment September 2019).",
     "subject": null,
     "language": [
         "en-GB"
