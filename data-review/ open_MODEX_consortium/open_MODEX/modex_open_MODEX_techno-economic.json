@@ -82,20 +82,6 @@
             ]
         },
         {
-            "title": "Energieerzeugung aus Abfällen - Stand und Potenziale in Deutschland bis 2030",
-            "description": "[oed-table:scalar],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
-            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-06-26_texte_51-2018_energieerzeugung-abfaelle.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "Umweltbundesamt"
-                }
-            ]
-        },
-        {
             "title": "2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
             "description": "[oed-table:scalar],[Bibtexkey:UBA2010] - 2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/energieziel_2050.pdf",
@@ -109,35 +95,6 @@
                 }
             ]
         },
-        {
-            "title": "Netzentwicklungsplan Strom 2030, Version 2019",
-            "description": "[oed-table:scalar],[Bibtexkey:Strom2019] - Netzentwicklungsplan Strom 2030, Version 2019",
-            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_V2019_2_Entwurf_Teil1.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
-                }
-            ]
-        },
-        {
-            "title": "ENSPRESO - an open, EU-28 wide, transparent and coherent database of wind, solar and biomass energy potentials",
-            "description": "[oed-table:scalar],[Bibtexkey:Ruiz2019] - Energy potential data",
-            "path": "https://data.jrc.ec.europa.eu/collection/id-00138",
-            "licenses": [
-                {
-                    "name": "CC-BY-4.0",
-                    "title": "Creative Commons Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
-                    "instruction": "You are free: To Share, To Adapt",
-                    "attribution": "European Commission"
-                }
-            ]
-        },
-
         {
             "title": "Comparison of the Effects of Industrial Demand Side Management and Other Flexibilities on the Performance of the Energy System",
             "description": "[oed-table:scalar],[Bibtexkey:Nebel2020] - E2P ratio for storage technologies",
@@ -163,20 +120,6 @@
                     "path": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
                     "instruction": "You are free: To Share",
                     "attribution": "Figgener, J.; Stenzel, P.; Kairies, K.-P.; Linßen, J.; Haberschusz, D.; Wessels, O.; Angenendt, G.; Robinius, M.; Stolten, D. & Sauer, D. U."
-                }
-            ]
-        },
-        {
-            "title": "Potenzialatlas Bioenergie in den Bundesländern",
-            "description": "[oed-table:scalar],[Bibtexkey:FNR2013] - Biogas potential",
-            "path": "https://mediathek.fnr.de/broschuren/bioenergie/bioenergie-potenzialatlas.html",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© FNR - Fachagentur Nachwachsende Rohstoffe e. V."
                 }
             ]
         },

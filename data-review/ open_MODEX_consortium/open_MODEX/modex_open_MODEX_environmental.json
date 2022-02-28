@@ -68,6 +68,20 @@
             ]
         },
         {
+            "title": "Potenzialatlas Bioenergie in den Bundesländern",
+            "description": "[oed-table:scalar],[Bibtexkey:FNR2013] - Biogas potential",
+            "path": "https://mediathek.fnr.de/broschuren/bioenergie/bioenergie-potenzialatlas.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© FNR - Fachagentur Nachwachsende Rohstoffe e. V."
+                }
+            ]
+        },
+        {
             "title": "Braunkohle in Deutschland - Sicherheit für die Stromversorgung",
             "description": "[oed-table:scalar],[Bibtexkey:DEBRRIV2017] - Natural resource potential lignite",
             "path": "https://braunkohle.de/wp-content/uploads/2019/01/debriv_izb_20171005_web.pdf",
@@ -78,6 +92,34 @@
                     "path": null,
                     "instruction": null,
                     "attribution": "© DEBRIV"
+                }
+            ]
+        },
+        {
+            "title": "ENSPRESO - an open, EU-28 wide, transparent and coherent database of wind, solar and biomass energy potentials",
+            "description": "[oed-table:scalar],[Bibtexkey:Ruiz2019] - Energy potential data",
+            "path": "https://data.jrc.ec.europa.eu/collection/id-00138",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "European Commission"
+                }
+            ]
+        },
+        {
+            "title": "Energieerzeugung aus Abfällen - Stand und Potenziale in Deutschland bis 2030",
+            "description": "[oed-table:scalar],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-06-26_texte_51-2018_energieerzeugung-abfaelle.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Umweltbundesamt"
                 }
             ]
         }
