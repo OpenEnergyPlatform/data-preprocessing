@@ -1,6 +1,6 @@
 {
-    "name": "modex_open_MODEX_load",
-    "title": "MODEX - open_MODEX - Load",
+    "name": "modex_open_MODEX_environmental",
+    "title": "MODEX - open_MODEX - environmental",
     "id": "",
     "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
     "language": [
