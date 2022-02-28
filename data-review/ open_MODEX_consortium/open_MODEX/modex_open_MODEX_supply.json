@@ -2,7 +2,7 @@
     "name": "modex_open_MODEX_supply",
     "title": "MODEX - open_MODEX - Supply",
     "id": "",
-    "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
+    "description": "[Multiple Topics]: Generation profiles of variable RES by country based on historical capacity factors from 2016/2012; Water levels in German rivers in hourly resolution",
     "language": [
         "en-GB",
         "de-DE"

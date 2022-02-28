@@ -2,7 +2,7 @@
     "name": "modex_open_MODEX_techno_economic",
     "title": "MODEX - open_MODEX - Techno-economic",
     "id": "",
-    "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
+    "description": "[Multiple Topics]: E2P ratios; Lifetime of investment for power plants for different generation technologies; Power plant efficiency for electricity production for different generation technologies",
     "language": [
         "en-GB",
         "de-DE"
@@ -10,7 +10,7 @@
     "keywords": [
         "lifetime of investment",
         "power plants",
-        "efficiency",
+        "efficiency"
     ],
     "publicationDate": "",
     "context": {

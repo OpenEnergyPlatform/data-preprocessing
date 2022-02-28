@@ -2,7 +2,7 @@
     "name": "modex_open_MODEX_installed_capacity",
     "title": "MODEX - open_MODEX - Installed Capacity",
     "id": "",
-    "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
+    "description": "Installed capacities of power plants, storages, transmission lines",
     "language": [
         "en-GB",
         "de-DE"
