@@ -1,13 +1,18 @@
 {
     "name": "modex_open_MODEX_load",
     "title": "MODEX - open_MODEX - Load",
-    "id": "", #TODO
+    "id": "",
     "description": "Historische Profile und Nachfragemengen für Strom und Skalierte Profile basierend auf dem Wetter- und Basisjahr 2016",
     "language": [
         "en-GB",
         "de-DE"
     ],
-    "keywords": [], #TODO
+    "keywords": [
+        "lifetime of investment",
+        "power plants",
+        "efficiency",
+        ""
+    ],
     "publicationDate": "",
     "context": {
         "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
@@ -35,20 +40,6 @@
         }
     },
     "sources": [
-        {
-            "title": "Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale {PV} levelised cost of electricity",
-            "description": "[oed-table:scalar],[Bibtexkey:Vartiainen2019] - Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale PV levelised cost of electricity Progress in Photovoltaics: Research and Applications",
-            "path": "https://doi.org/10.1002/pip.3189",
-            "licenses": [
-                {
-                    "name": "CC-BY-4.0",
-                    "title": "Creative Commons Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
-                    "instruction": "You are free: To Share, To Adapt",
-                    "attribution": "Eero Vartiainen, Gaëtan Masson, Christian Breyer, David Moser, Eduardo Román Medina © 2019 The Authors. Progress in Photovoltaics: Research and Applications published by John Wiley & Sons Ltd"
-                }
-            ]
-        },
         {
             "title": "Technology Data - Energy Plants for Electricity and District heating generation",
             "description": "[oed-table:scalar],[Bibtexkey:DEA2020] - Energy Plants for Electricity and District heating generation, v_0009",
@@ -106,20 +97,6 @@
             ]
         },
         {
-            "title": "The future cost of electrical energy storage based on experience rates",
-            "description": "[oed-table:scalar],[Bibtexkey:Schmidt2017] - The future cost of electrical energy storage based on experience rates",
-            "path": "https://doi.org/10.1038/nenergy.2017.110",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Schmidt, O.; Hawkes, A.; Gambhir, A. & Staffell, I."
-                }
-            ]
-        },
-        {
             "title": "2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
             "description": "[oed-table:scalar],[Bibtexkey:UBA2010] - 2050: 100% Energieziel 2050: 100% Strom aus erneuerbaren Quellen",
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/energieziel_2050.pdf",
@@ -161,20 +138,7 @@
                 }
             ]
         },
-        {
-            "title": "Kostenschätzungen (NEP 2030 (2019), 1. Entwurf)",
-            "description": "[oed-table:scalar],[Bibtexkey:NetzPlan19] - Costs for power transmission",
-            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_2019_1_Entwurf_Kostenschaetzungen.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
-                }
-            ]
-        },
+
         {
             "title": "Comparison of the Effects of Industrial Demand Side Management and Other Flexibilities on the Performance of the Energy System",
             "description": "[oed-table:scalar],[Bibtexkey:Nebel2020] - E2P ratio for storage technologies",
@@ -186,48 +150,6 @@
                     "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
                     "instruction": "You are free: To Share, To Adapt",
                     "attribution": "MDPI"
-                }
-            ]
-        },
-        {
-            "title": "World Energy Outlook 2018",
-            "description": "[oed-table:scalar],[Bibtexkey:IEA2018] - Fuel costs",
-            "path": "https://www.iea.org/reports/world-energy-outlook-2018",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© OECD/IEA"
-                }
-            ]
-        },
-        {
-            "title": "Klimapfade für Deutschland",
-            "description": "[oed-table:scalar],[Bibtexkey:Gerbert2018] - Fuel costs, biogas",
-            "path": "https://www.vci.de/vci/downloads-vci/media-weitere-downloads/2018-01-18-bdi-studie-klimapfade-fuer-deutschland.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Gerbert, P.; Herhold, P.; Burchardt, J.; Schönberger, S.; Rechenmacher, F.; Kirchner, A.; Kemmler, A. & Wünsch, M."
-                }
-            ]
-        },
-        {
-            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland",
-            "description": "[oed-table:scalar],[Bibtexkey:FraunhoferISI2017] - Fuel costs",
-            "path": "http://publica.fraunhofer.de/eprints/urn_nbn_de_0011-n-4810894.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Fraunhofer ISI; Consentec GmbH; ifeu"
                 }
             ]
         },
@@ -274,20 +196,6 @@
             ]
         },
         {
-            "title": "TYNDP 2018 - Scenario Report",
-            "description": "[oed-table:scalar],[Bibtexkey:ENTSOE2018] - Fuel costs",
-            "path": "https://eepublicdownloads.entsoe.eu/clean-documents/tyndp-documents/TYNDP2018/Scenario_Report_2018_Final.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© ENTSO-E"
-                }
-            ]
-        },
-        {
             "title": "Gesetz für den Ausbau erneuerbarer Energien",
             "description": "[oed-table:scalar],[Bibtexkey:EEG2017] - Gesetz für den Ausbau erneuerbarer Energien",
             "path": "https://www.gesetze-im-internet.de/eeg_2014/",
@@ -326,20 +234,6 @@
                     "path": null,
                     "instruction": null,
                     "attribution": "© Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit"
-                }
-            ]
-        },
-        {
-            "title": "Data Documentation - Current and Prospective Costs of Electricity Generation until 2050",
-            "description": "[oed-table:scalar],[Bibtexkey:AndreasSchroeder2013] - Fuel costs",
-            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "© Deutsches Institut für Wirtschaftsforschung"
                 }
             ]
         },
