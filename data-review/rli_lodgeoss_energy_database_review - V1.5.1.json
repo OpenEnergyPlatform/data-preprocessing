@@ -107,7 +107,7 @@
                     },
                     {
                         "name": "project_name",
-                        "description": "name of the project",
+                        "description": "Name of the project",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -283,7 +283,7 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.1",
