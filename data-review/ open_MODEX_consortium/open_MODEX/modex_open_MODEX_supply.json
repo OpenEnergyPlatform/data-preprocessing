@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_supply",
+    "name": "modex_open_modex_supply",
     "title": "MODEX - open_MODEX - Supply",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_supply",
     "description": "[Multiple Topics]: Generation profiles of variable RES by country based on historical capacity factors from 2016/2012; Water levels in German rivers in hourly resolution",
     "language": [
         "en-GB",
