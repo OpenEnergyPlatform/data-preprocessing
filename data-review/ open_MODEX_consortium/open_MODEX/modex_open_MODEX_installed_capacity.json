@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_installed_capacity",
+    "name": "modex_open_modex_installed_capacity",
     "title": "MODEX - open_MODEX - Installed Capacity",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_installed_capacity",
     "description": "Installed capacities of power plants, storages, transmission lines",
     "language": [
         "en-GB",
