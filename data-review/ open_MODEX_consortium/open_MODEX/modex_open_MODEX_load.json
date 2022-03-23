@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_load",
+    "name": "modex_open_modex_load",
     "title": "MODEX - open_MODEX - Load",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_load",
     "description": "[Multipble topics]: Electricity demand Germany; Hourly electricity trade with Germany's neighbouring countries;",
     "language": [
         "en-GB",
