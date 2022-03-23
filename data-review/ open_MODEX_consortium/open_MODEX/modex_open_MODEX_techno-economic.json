@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_techno_economic",
+    "name": "modex_open_modex_techno_economic",
     "title": "MODEX - open_MODEX - Techno-economic",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_techno_economic",
     "description": "[Multiple Topics]: E2P ratios; Lifetime of investment for power plants for different generation technologies; Power plant efficiency for electricity production for different generation technologies",
     "language": [
         "en-GB",
