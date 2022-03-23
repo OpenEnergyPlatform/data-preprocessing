@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_costs",
+    "name": "modex_open_modex_costs",
     "title": "MODEX - open_MODEX - Costs",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_costs",
     "description": "[Multiple Topics]: Fuel costs; Storage costs; Power plant costs; Transmission costs",
     "language": [
         "en-GB",
