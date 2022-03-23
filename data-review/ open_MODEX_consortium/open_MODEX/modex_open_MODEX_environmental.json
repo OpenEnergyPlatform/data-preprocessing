@@ -1,7 +1,7 @@
 {
-    "name": "modex_open_MODEX_environmental",
+    "name": "modex_open_modex_environmental",
     "title": "MODEX - open_MODEX - environmental",
-    "id": "",
+    "id": "https://openenergy-platform.org/dataedit/wizard/reference/modex_open_modex_environmental",
     "description": "Emission factors of power plants and fuels and different generation technologies",
     "language": [
         "en-GB",
