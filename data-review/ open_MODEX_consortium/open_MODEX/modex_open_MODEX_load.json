@@ -1,0 +1,140 @@
+{
+    "name": "modex_open_modex_load",
+    "title": "MODEX - open_MODEX - Load",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/modex_open_modex_load",
+    "description": "[Multipble topics]: Electricity demand Germany; Hourly electricity trade with Germany's neighbouring countries;",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "demand",
+        "electricity",
+        "load profile",
+        "Germany"
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
+        "documentation": "https://github.com/open-modex/models",
+        "sourceCode": "https://github.com/open-modex",
+        "contact": "sarah.berendes@rl-institut.de",
+        "grantNo": "03ET4076",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Chances and barriers for Germany's low carbon transition - Quantifying uncertainties in key influential factors",
+            "description": "[oed-table:timeseries],[Bibtexkey:Löffler2022] - A free and open platform for power system modelling.",
+            "path": "https://doi.org/10.1016/j.energy.2021.121901",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "© 2021 The Author(s). Published by Elsevier Ltd."
+                }
+            ]
+        },
+        {
+            "title": "Cross-Border Physical Flow, Physical Flows [12.1.G]",
+            "description": "[oed-table:timeseries],[Bibtexkey:ENTSOE2021] - Cross-Border Physical Flow, Physical Flows [12.1.G]",
+            "path": "https://transparency.entsoe.eu/transmission-domain/physicalFlow/show?name=&defaultValue=false&viewType=TABLE&areaType=BORDER_CTY&atch=false&dateTime.dateTime=01.01.2016%2000:00|CET|DAY&border.values=CTY|10Y1001A1001A83F!CTY_CTY|10Y1001A1001A83F_CTY_CTY|10YAT-APG------L&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET%20(UTC%201)%20/%20CEST%20(UTC%202)",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": "https://transparency.entsoe.eu/content/static_content/download?path=/Static%20content/terms%20and%20conditions/201030_TP%20list%20of%20data.pdf",
+                    "instruction": "Pursuant to Article 5 of the General Terms and Conditions of Use of ENTSO-E Transparency Platform, ENTSO-\nE below publishes the list of data which can be freely re-used by the Data Users with no need to seek for \nthe  prior  agreement  of  the  respective  Primary  Owner  of  Data  (Transmission  System  Operators  and \nTransmission Capacity Allocators).",
+                    "attribution": "© ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "Gewässerkundliches Informationssystem der Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
+            "description": "[oed-table:timeseries],[Bibtexkey:IZT2020] - Water levels in German rivers in hourly resolution",
+            "path": "https://www.pegelonline.wsv.de/gast/start",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV) im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur."
+                }
+            ]
+        },
+        {
+            "title": "Szenarien für die bayrische Stromversorgung bis 2040",
+            "description": "[oed-table:timeseries],[Bibtexkey:Gawlick2020] - Hourly electricity trade and price data",
+            "path": "https://mediatum.ub.tum.de/doc/1544410/337152716379.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© IHK München und Oberbayern; ifo Institut; Technical University Munich."
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Christoph",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-01-09",
+            "object": "Metadata",
+            "comment": "Create metadata and group sources"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
