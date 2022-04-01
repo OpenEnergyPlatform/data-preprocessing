@@ -1,8 +1,8 @@
 {
-    "name": "scenario.eea_eionet_eu_legislation_data_parameter",
-    "title": "Öko-Institut - Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - Parameter",
-    "id": "https://openenergy-platform.org/dataedit/view/scenario/scenario.eea_eionet_eu_legislation_data_parameter",
-    "description": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States. This table matches parameters for greenhouse gas emission projections submitted under EU legislation to default units and to a parameter group according to the parameter template. It also takes into account parameters added by Member States and which were not originally listed in the parameter template.",
+    "name": "oekoinstitut_eea_eionet_eu_emissions_per_country_2019",
+    "title": "Öko-Institut - Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - 2019",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/oekoinstitut_eea_eionet_eu_emissions_per_country_2019",
+    "description": "Parameters for 2019 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
     "language": [
         "en-GB"
     ],
@@ -11,6 +11,7 @@
         "path": null}
     ],
     "keywords": [
+    "2019",
     "parameters",
     "Öko-Institut",
     "EU-legislation",
@@ -30,22 +31,15 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
-        "resolution": null
+        "extent": "EU-27",
+        "resolution": "country"
     },
     "temporal": {
-        "referenceDate": null,
+        "referenceDate": "2019",
         "timeseries": [{
-            "start": null,
-            "end": null,
-            "resolution": null,
-            "alignment": null,
-            "aggregationType": null
-        },
-        {
-            "start": null,
-            "end": null,
-            "resolution": null,
+            "start": "2015",
+            "end": "2040",
+            "resolution": "year",
             "alignment": null,
             "aggregationType": null
         }
@@ -79,20 +73,6 @@
                     "attribution": "© Official Journal of the European Union"
                 }
             ]
-        },
-        {
-            "title": "Reportnet 3 - National projections of anthropogenic greenhouse gas emissions – Reporting year 2021",
-            "description": "National projections provided by European Member States, pursuant to Governance Regulation Art.18 (1)(b) / Implementing Regulation Art.38",
-            "path": "https://reportnet.europa.eu/public/dataflow/113",
-            "licenses": [
-                {
-                    "name": "European Environment Agency (EEA) Data Policy",
-                    "title":  null,
-                    "path": https://www.eea.europa.eu/legal/eea-data-policy#toc-6,
-                    "instruction": "This policy provides guidelines about EEA’s handling of data. The policy will ensure that data is handled in a consistent and transparent manner. EEA aspires to promote the sharing of environmental data. In agreeing to share, data providers need to have assurance that their data are properly handled, disseminated and acknowledged following similar principles and rules across countries and stakeholders.",
-                    "attribution": "© European Environment Agency"
-                }
-            ]
         }
     ],
     "licenses": [
@@ -115,7 +95,7 @@
         {
             "title": "steull",
             "email": "datenzentrum@rl-institut.de",
-            "date": "2022-02-18",
+            "date": "2022-02-21",
             "object": "metadata",
             "comment": "Review and update metadata"
         }
@@ -123,15 +103,15 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "eea_eionet_eu_legislation_data_parameter",
-            "path": "https://openenergy-platform.org/dataedit/view/scenario/eea_eionet_eu_legislation_data_parameter",
+            "name": "eea_eionet_eu_legislation_data_2019",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eea_eionet_eu_legislation_data_2019",
             "format": "PostgresSQL",
             "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
                         "name": "id",
-                        "description": "Unique id",
+                        "description": "unique id",
                         "type": "bigint",
                         "unit": null,
                         "isAbout": [
@@ -145,8 +125,23 @@
                         ]
                     },
                     {
+                        "name": "country_code",
+                        "description": "country code",
+                        "type": "varchar(8)",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
                         "name": "parameter",
-                        "description": "Parameter name",
+                        "description": "",
                         "type": "varchar(128)",
                         "unit": null,
                         "isAbout": [
@@ -160,9 +155,39 @@
                         ]
                     },
                     {
-                        "name": "is_user_defined",
-                        "description": "Parameter was not originally listed in the parameter template",
-                        "type": "boolean",
+                        "name": "scenario",
+                        "description": "the scenario for which data is reported",
+                        "type": "char(3)",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "year",
+                        "description": "year for which data is reported",
+                        "type": "smallint",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "base_year",
+                        "description": "",
+                        "type": "smallint",
                         "unit": null,
                         "isAbout": [
                             {"name" : null,
@@ -176,9 +201,9 @@
                     },
                     {
                         "name": "default_unit",
-                        "description": "Unit in which the data should be reported",
+                        "description": "the unit in which the data should be reported",
                         "type": "varchar(128)",
-                        "unit": "none",
+                        "unit": null,
                         "isAbout": [
                             {"name" : null,
                             "path": null}
@@ -190,10 +215,70 @@
                         ]
                     },
                     {
-                        "name": "parameter_group",
-                        "description": "todo",
+                        "name": "additional_unit",
+                        "description": "the unit in which the data is reported",
                         "type": "varchar(128)",
-                        "unit": "none",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "notation",
+                        "description": "notation key",
+                        "type": "varchar(64)",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "value",
+                        "description": "value reported",
+                        "type": "float",
+                        "unit": "unit is given in clolumn 'unit'",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "source_original",
+                        "description": null,
+                        "type": "varchar(128)",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "comment",
+                        "description": null,
+                        "type": "varchar(128)",
+                        "unit": null,
                         "isAbout": [
                             {"name" : null,
                             "path": null}
@@ -211,12 +296,12 @@
                 "foreignKeys": [
                     {
                         "fields": [
-                            null
+                            "parameter"
                         ],
                         "reference": {
-                            "resource": null,
+                            "resource": "scenario.eea_eionet_eu_legislation_data_parameter",
                             "fields": [
-                                null
+                                "parameter"
                             ]
                         }
                     }
@@ -232,7 +317,7 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.1",

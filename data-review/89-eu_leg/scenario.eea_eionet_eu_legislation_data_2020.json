@@ -317,7 +317,7 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.1",
