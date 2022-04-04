@@ -1,0 +1,306 @@
+{
+    "name": "rli_lodgeoss_energy_database_review",
+    "title": "RLI - LOD-GEOSS - Energy Database Review",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/rli_lodgeoss_energy_database_review",
+    "description": "A collection and review of existing energy databases. Focus on database technologies, licenses and metadata.",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {"name" : null,
+        "path": null}
+    ],
+    "keywords": [
+        "database",
+        "energy"
+    ],
+    "publicationDate": "2022-02-08",
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/lod-geoss/",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": "03EI1005D",
+        "fundingAgency": "BMWK",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [{
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+        ]
+    },
+    "sources": [
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "ODbL-1.0",
+            "title": "Open Data Commons Open Database License 1.0",
+            "path": "https://opendatacommons.org/licenses/odbl/1-0/index.html",
+            "instruction": "You are free to share and change, but you must attribute, and share derivations under the same license.",
+            "attribution": "© Reiner Lemoine Institut"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee",
+            "email": null,
+            "date": "2022-02-08",
+            "object": "data, metadata",
+            "comment": "Upload data and create metadata"
+        },{
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-03-04",
+            "object": "metadata",
+            "comment": "Review and update metadata to v1.5.1"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "rli_lodgeoss_energy_database_review",
+            "path": "https://openenergy-platform.org/dataedit/view/reference/rli_lodgeoss_energy_database_review",,
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "project_name",
+                        "description": "Name of the project",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    ,
+                    {
+                        "name": "project_homepage",
+                        "description": "Source of the project",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "database_name",
+                        "description": "Name of the database",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "database_link",
+                        "description": "Source of the database",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "database_technology",
+                        "description": "Program or data format in which the data are stored"
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "data_license",
+                        "description": "Show the licence for the data",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "licence",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020015"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "metadata",
+                        "description": "Chosen file format for metadata",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "metadata_link",
+                        "description": "Link to the metadata",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "data_structure_levels",
+                        "description": null,
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "status",
+                        "description": "Status, which can be online or offline",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": "Silver"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
