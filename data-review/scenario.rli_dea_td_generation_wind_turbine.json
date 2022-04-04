@@ -273,9 +273,7 @@
                         "unit": "M€/MW",
                         "isAbout": [
                             {"name" : "wind energy converting unit",
-                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"},
-                            {"name" : "investment cost",
-                            "path": "todo"}
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000044"}
                         ],
                         "valueReference": [
                             {"value": null,
