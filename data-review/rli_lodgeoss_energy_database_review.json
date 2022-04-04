@@ -1,7 +1,7 @@
 {
     "name": "rli_lodgeoss_energy_database_review",
     "title": "RLI - LOD-GEOSS - Energy Database Review",
-    "id": "rli_lodgeoss_energy_database_review",
+    "id": "https://openenergy-platform.org/dataedit/view/reference/rli_lodgeoss_energy_database_review",
     "description": "A collection and review of existing energy databases. Focus on database technologies, licenses and metadata.",
     "language": [
         "de-DE"
@@ -85,9 +85,9 @@
         {
             "profile": "tabular-data-resource",
             "name": "rli_lodgeoss_energy_database_review",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/reference/rli_lodgeoss_energy_database_review",,
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
