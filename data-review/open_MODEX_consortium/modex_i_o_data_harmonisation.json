@@ -280,7 +280,7 @@
                         ]
                     },
                     {
-                        "name": "genesys-2",
+                        "name": "genesys_2",
                         "description": "https://openenergy-platform.org/factsheets/frameworks/65",
                         "type": "string",
                         "unit": null,
@@ -565,7 +565,7 @@
                         ]
                     },
                     {
-                        "name": "µgrids",
+                        "name": "mu_grids",
                         "description": "https://openenergy-platform.org/factsheets/models/256",
                         "type": "string",
                         "unit": null,
@@ -737,7 +737,7 @@
                     },
                     {
                         "name": "forecast",
-                        "description": "",
+                        "description": null,
                         "type": "string",
                         "unit": null,
                         "isAbout": [
