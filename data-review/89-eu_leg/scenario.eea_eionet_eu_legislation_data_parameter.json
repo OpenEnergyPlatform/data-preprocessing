@@ -160,21 +160,6 @@
                         ]
                     },
                     {
-                        "name": "is_user_defined",
-                        "description": "Parameter was not originally listed in the parameter template",
-                        "type": "boolean",
-                        "unit": null,
-                        "isAbout": [
-                            {"name" : null,
-                            "path": null}
-                        ],
-                        "valueReference": [
-                            {"value": null,
-                            "name": null,
-                            "path" : null}
-                        ]
-                    },
-                    {
                         "name": "default_unit",
                         "description": "Unit in which the data should be reported",
                         "type": "varchar(128)",
@@ -190,7 +175,82 @@
                         ]
                     },
                     {
-                        "name": "parameter_group",
+                        "name": "default_unit_base_year",
+                        "description": "Year in which the data should be reported",
+                        "type": "integer",
+                        "unit": "none",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "parameter_reportnet_2021a",
+                        "description": "todo",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "parameter_reportnet_2021b",
+                        "description": "todo",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "default_unit_reportnet_2021",
+                        "description": "todo",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "parameter_eionet",
+                        "description": "todo",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "default_unit_eionet",
                         "description": "todo",
                         "type": "varchar(128)",
                         "unit": "none",
