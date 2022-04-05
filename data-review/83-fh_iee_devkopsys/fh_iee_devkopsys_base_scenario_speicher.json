@@ -1,7 +1,7 @@
 {
     "name": "fh_iee_devkopsys_base_scenario_speicher",
     "title": "Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik Dekarbonierung Verkehr - Rückkopplung Energiesystem(DeVKopSys) - storage technologies",
-    "id": "https://openenergy-platform.org/dataedit/view/model_draft/fh_iee_devkopsys_base_scenario_speicher",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_base_scenario_speicher",
     "description": "This table gives an overview of different storage technologies in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (base scenario). It contains the installed capacities and converted amounts of electricity from battery storages, pump storages, electric cars and district heating storages",
     "language": [
         "de-DE"
@@ -19,9 +19,6 @@
         "Transport",
         "Europe",
         "Germany",
-        "Transport sector",
-        "Sector coupling",
-        "energy system",
         "2012",
         "2050",
         "Storage"
@@ -105,9 +102,9 @@
         {
             "profile": "tabular-data-resource",
             "name": null,
-            "path": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_base_scenario_speicher",
             "format": "PostgreSQL",
-            "encoding": "ASCII",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -310,7 +307,7 @@
             },
             "dialect": {
                 "delimiter": null,
-                "decimalSeparator": ","
+                "decimalSeparator": "."
             }
         }
     ],

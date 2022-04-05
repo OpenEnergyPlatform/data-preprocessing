@@ -1,7 +1,7 @@
 {
     "name": "fh_iee_devkopsys_input_technologieparameter",
     "title": "Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik Dekarbonierung Verkehr - Rückkopplung Energiesystem (DeVKopSys) - technologieparameter",
-    "id": "https://openenergy-platform.org/dataedit/view/model_draft/fh_iee_devkopsys_input_technologieparameter",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_input_technologieparameter",
     "description": "This table gives an overview of the technology parameters in all scenarios from project \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\"). It contains parameters relating to wind energy, photovoltaics, conventional power plants, storage systems, heat pumps, boilers, technologies in traffic and electrolysis in Germany",
     "language": [
         "de-DE"
@@ -15,15 +15,11 @@
     "keywords": [
         "Fraunhofer IEE",
         "Fh IEE DeVKopSys",
-        "fh_iee_devkopsys_base_scenario",
         "BMU",
         "emissions",
         "Transport",
         "Europe",
         "Germany",
-        "Transport sector",
-        "Sector coupling",
-        "energy system",
         "2012",
         "2050",
         "Input-data"
@@ -108,9 +104,9 @@
         {
             "profile": "tabular-data-resource",
             "name": null,
-            "path": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_input_technologieparameter",
             "format": "PostgreSQL",
-            "encoding": "ASCII",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -361,7 +357,7 @@
             },
             "dialect": {
                 "delimiter": null,
-                "decimalSeparator": ","
+                "decimalSeparator": "."
             }
         }
     ],

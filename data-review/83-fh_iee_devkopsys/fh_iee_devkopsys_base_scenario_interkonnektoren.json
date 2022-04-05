@@ -1,7 +1,7 @@
 {
     "name": "fh_iee_devkopsys_base_scenario_interkonnektoren",
     "title": "Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik Dekarbonierung Verkehr - Rückkopplung Energiesystem(DeVKopSys) - interconnectors",
-    "id": "https://openenergy-platform.org/dataedit/view/model_draft/fh_iee_devkopsys_base_scenario_interkonnektoren",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_base_scenario_interkonnektoren",
     "description": "This table gives an overview of the European interconnectors in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (base scenario). For each country, it contains the capacities of the interconnectors as well as their average full load hours for import and export",
     "language": [
         "de-DE"
@@ -19,9 +19,6 @@
         "Transport",
         "Europe",
         "Germany",
-        "Transport sector",
-        "Sector coupling",
-        "energy system",
         "2012",
         "2050"
     ],
@@ -104,9 +101,9 @@
         {
             "profile": "tabular-data-resource",
             "name": null,
-            "path": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_base_scenario_interkonnektoren",
             "format": "PostgreSQL",
-            "encoding": "ASCII",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -309,7 +306,7 @@
             },
             "dialect": {
                 "delimiter": null,
-                "decimalSeparator": ","
+                "decimalSeparator": "."
             }
         }
     ],

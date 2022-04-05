@@ -1,7 +1,7 @@
 {
     "name": "fh_iee_devkopsys_cost_sensitivity_emissionen",
     "title": "Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik Dekarbonierung Verkehr - Rückkopplung Energiesystem(DeVKopSys) - cost sensitivity emissions",
-    "id": "https://openenergy-platform.org/dataedit/view/model_draft/fh_iee_devkopsys_cost_sensitivity_emissionen",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_cost_sensitivity_emissionen",
     "description": "This table gives an overview of the emissions in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (cost sensitivity with higher costs for wind onshore and lower costs for PV and battery storage). It contains the total amount of greenhouse gas emissions in Germany",
     "language": [
         "de-DE"
@@ -15,15 +15,12 @@
     "keywords": [
         "Fraunhofer IEE",
         "Fh IEE DeVKopSys",
-        "fh_iee_devkopsys_base_scenario",
+        "fh_iee_devkopsys_cost_sensitivity",
         "BMU",
         "emissions",
         "Transport",
         "Europe",
         "Germany",
-        "Transport sector",
-        "Sector coupling",
-        "energy system",
         "2012",
         "2050"
     ],
@@ -113,9 +110,9 @@
         {
             "profile": "tabular-data-resource",
             "name": null,
-            "path": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/fh_iee_devkopsys_cost_sensitivity_emissionen",
             "format": "PostgreSQL",
-            "encoding": "ASCII",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -318,7 +315,7 @@
             },
             "dialect": {
                 "delimiter": null,
-                "decimalSeparator": ","
+                "decimalSeparator": "."
             }
         }
     ],
