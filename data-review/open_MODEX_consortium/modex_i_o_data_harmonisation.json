@@ -109,6 +109,25 @@
             "schema": {
                 "fields": [
                     {
+                        "name": "id",
+                        "description": "Decribes identifier of row values",
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "identifier",
+                                "path": "http://purl.org/dc/elements/1.1/identifier"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
                         "name": "key",
                         "description": "Describes the symbols used in the table",
                         "type": "string",
