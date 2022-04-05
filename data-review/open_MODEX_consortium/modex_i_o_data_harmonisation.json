@@ -775,7 +775,7 @@
                     },
                     {
                         "name": "gpm",
-                        "description": null,
+                        "description": "https://openenergy-platform.org/factsheets/models/80",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
