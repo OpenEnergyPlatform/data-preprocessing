@@ -16,7 +16,7 @@
     "keywords": [
         "MODEX"
     ],
-    "publicationDate": null,
+    "publicationDate": "2022-05-03",
     "context": {
         "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
         "documentation": "https://github.com/open-modex/models",
@@ -97,15 +97,22 @@
             "date": "2022-04-04",
             "object": "Metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-05-03",
+            "object": "review",
+            "comment": "review metadata"
         }
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
+            "profile": "tabular-data-resource",
+            "name": "modex_data_publication_i_o_table",
             "path": null,
-            "format": null,
-            "encoding": null,
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -527,7 +534,7 @@
                         ]
                     },
                     {
-                        "name": "powerflex",
+                        "name": "powerflex_grid_eu",
                         "description": "https://openenergy-platform.org/factsheets/models/120",
                         "type": "string",
                         "unit": null,
@@ -794,7 +801,7 @@
                     },
                     {
                         "name": "heatsim",
-                        "description": "",
+                        "description": null,
                         "type": "string",
                         "unit": null,
                         "isAbout": [
@@ -984,7 +991,7 @@
                     }
                 ],
                 "primaryKey": [
-                    null
+                    "id"
                 ],
                 "foreignKeys": [
                     {
@@ -1013,7 +1020,7 @@
         "badge": null
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
