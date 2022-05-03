@@ -83,11 +83,11 @@
     ],
     "licenses": [
         {
-            "name": null,
-            "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute! See: https://tldrlegal.com/license/creative-commons-cc0-1.0-universal",
+            "attribution": "© Reiner Lemoine Institut"
         }
     ],
     "contributors": [
