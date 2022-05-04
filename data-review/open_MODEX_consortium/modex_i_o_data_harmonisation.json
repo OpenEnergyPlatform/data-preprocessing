@@ -917,7 +917,7 @@
                                 "path": null
                             }
                         ]
-                    }
+                    },
                     {
                         "name": "perseus",
                         "description": "https://openenergy-platform.org/factsheets/models/117",
@@ -1003,7 +1003,7 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.1",
