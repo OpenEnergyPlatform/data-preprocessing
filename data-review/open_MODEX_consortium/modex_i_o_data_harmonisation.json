@@ -34,22 +34,7 @@
     },
     "temporal": {
         "referenceDate": null,
-        "timeseries": [
-            {
-                "start": null,
-                "end": null,
-                "resolution": null,
-                "alignment": null,
-                "aggregationType": null
-            },
-            {
-                "start": null,
-                "end": null,
-                "resolution": null,
-                "alignment": null,
-                "aggregationType": null
-            }
-        ]
+        "timeseries": []
     },
     "sources": [
         {
@@ -1002,7 +987,7 @@
     "@id": null,
     "@context": null,
     "review": {
-        "path": null,
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/96",
         "badge": "Silver"
     },
     "metaMetadata": {
