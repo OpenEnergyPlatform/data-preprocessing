@@ -1,0 +1,340 @@
+{
+    "name": "fh_iee_devkopsys_base_scenario_fw_bilanz",
+    "title": "Fraunhofer-Institut für Energiewirtschaft und Energiesystemtechnik Dekarbonierung Verkehr - Rückkopplung Energiesystem(DeVKopSys) - District heating balance",
+    "id": "https://openenergy-platform.org/dataedit/scenario/fh_iee_devkopsys_base_scenario_fw_bilanz",
+    "description": "This table gives an overview of the district heating balance in Germany in scenario \"Fh IEE DeVKopSys\" (\"Investigation of development paths in the transport sector in feedback with other sectors of the energy system\") (base scenario). It contains the consumption of all district heating networks as well as the net heat generation of various technologies",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {"name" : "district heating",
+        "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000132"},
+        {"name" : "transport sector",
+        "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000422"}
+    ],
+    "keywords": [
+        "Fraunhofer IEE",
+        "Fh IEE DeVKopSys",
+        "fh_iee_devkopsys_base_scenario",
+        "BMU",
+        "emissions",
+        "Transport",
+        "Europe",
+        "Germany",
+        "2012",
+        "2050",
+        "district heating"
+    ],
+    "publicationDate": "2021-03-29",
+    "context": {
+        "homepage": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+        "documentation": "https://www.iee.fraunhofer.de/de/projekte/suche/laufende/DeVKopSys.html",
+        "sourceCode": null,
+        "contact": "norman.gerhardt@iee.fraunhofer.de",
+        "grantNo": "16EM4005-1",
+        "fundingAgency": "Bundesministerium für Umwelt, Naturschutz und nukleare Sicherheit",
+        "fundingAgencyLogo": "https://de.wikipedia.org/wiki/Datei:BMU_Logo.svg",
+        "publisherLogo": "https://www.iee.fraunhofer.de/content/dam/iee/energiesystemtechnik/fraunhofer-iee.gif"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Europe (EU28 without Malta and Cyprus, including Norway and Switzerland)",
+        "resolution": "country"
+    },
+    "temporal": {
+        "referenceDate": "2012-01-01",
+        "timeseries": [{
+            "start": "2050-01-01",
+            "end": "2050-12-31",
+            "resolution": "hour",
+            "alignment": null,
+            "aggregationType": null
+        }
+        ]
+    },
+    "sources": [
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "DL-DE-BY-2.0",
+            "title": "Data licence Germany – attribution – version 2.0",
+            "path": "https://www.govdata.de/dl-de/by-2-0",
+            "instruction": "Die bereitgestellten Daten und Metadaten dürfen für die kommerzielle und nicht kommerzielle Nutzung übermittelt werden",
+            "attribution": "© Fraunhofer IEE 2021"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Fraunhofer IEE",
+            "email": "richard.schmitz@iee.fraunhofer.de",
+            "date": "2021-03-29",
+            "object": "Metadata",
+            "comment": "Initial version"
+        },
+        {
+            "title": "jh-RLI",
+            "email": "jonas.huber@rl-institut.de",
+            "date": "2021-06-03",
+            "object": "review",
+            "comment": "Review metadata and validate oep compatibility"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-03-14",
+            "object": "review and update",
+            "comment": "review metadata and update to v1.5.1"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "https://openenergy-platform.org/dataedit/scenario/fh_iee_devkopsys_base_scenario_fw_bilanz",
+            "path": null,
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "serial",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Szenario",
+                        "description": "Name of the scenario",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "scenario",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000364"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Szenariojahr",
+                        "description": "Scenario year",
+                        "type": "integer",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "scenario year",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020097"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Region",
+                        "description": "Country to which the value applies",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "considered region",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020035"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Kennwert",
+                        "description": "Top category in the classification of technology",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Unterkennwert",
+                        "description": "Middle category in the classification of technology",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Sektor",
+                        "description": "Lowest category in the classification of technology",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "sector",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000367"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Energieträger",
+                        "description": "Substances whose energy content is used for energy conversion processes",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Technologie",
+                        "description": "Technology",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "technology",
+                            "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000407"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Einheit",
+                        "description": "Unit of measure",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : "unit of measurement",
+                            "path": "https://openenergy-platform.org/ontology/oeo/UO_0000000"}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Wert",
+                        "description": "Value",
+                        "type": "integer",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    },
+                    {
+                        "name": "Kommentar",
+                        "description": "Comment on the value",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {"name" : null,
+                            "path": null}
+                        ],
+                        "valueReference": [
+                            {"value": null,
+                            "name": null,
+                            "path" : null}
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/wiki",
+        "badge": "Silver"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
