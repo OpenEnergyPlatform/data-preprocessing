@@ -227,7 +227,7 @@
                     },
                     {
                         "name": "application",
-                        "description": "Application",
+                        "description": "Application ",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
