@@ -244,8 +244,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "sector",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000367"
                             }
                         ],
                         "valueReference": [
