@@ -314,8 +314,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "scenario year",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020097"
                             }
                         ],
                         "valueReference": [
