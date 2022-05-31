@@ -151,8 +151,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "has source",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000528"
                             }
                         ],
                         "valueReference": [
