@@ -113,8 +113,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "dc:identifier",
+                                "path": "http://purl.org/dc/elements/1.1/identifier"
                             }
                         ],
                         "valueReference": [
