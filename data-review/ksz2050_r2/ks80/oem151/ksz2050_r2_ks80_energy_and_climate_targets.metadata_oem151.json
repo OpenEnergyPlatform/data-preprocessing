@@ -257,8 +257,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "target description",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020093"
                             }
                         ],
                         "valueReference": [
