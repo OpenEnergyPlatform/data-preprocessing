@@ -91,6 +91,20 @@
             "date": "2021-02-17",
             "object": "tags",
             "comment": "add further tags"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-05-26",
+            "object": "metadata",
+            "comment": "Transfrom from oem141 to oem151 using new omi feature"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-06-03",
+            "object": "metadata",,
+            "comment": "Fill isAbout and valueReference keys if applicable"
         }
     ],
     "resources": [
