@@ -348,8 +348,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "quantity value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000350"
                             }
                         ],
                         "valueReference": [
