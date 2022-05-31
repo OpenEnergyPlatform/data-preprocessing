@@ -237,8 +237,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "greenhouse gas",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000020"
                             }
                         ],
                         "valueReference": [
