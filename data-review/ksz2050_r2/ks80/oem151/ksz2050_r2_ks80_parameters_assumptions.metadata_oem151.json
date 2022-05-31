@@ -128,7 +128,7 @@
                     },
                     {
                         "name": "parameter",
-                        "description": "Parameter",
+                        "description": "Parameter ",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
