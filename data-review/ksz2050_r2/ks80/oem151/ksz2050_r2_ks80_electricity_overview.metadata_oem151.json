@@ -199,8 +199,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unit of measurement",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000000"
                             }
                         ],
                         "valueReference": [

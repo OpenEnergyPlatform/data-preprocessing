@@ -299,7 +299,7 @@
                         "name": "value",
                         "description": "Value",
                         "type": "float",
-                        "unit": "Mt CO2e",
+                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
