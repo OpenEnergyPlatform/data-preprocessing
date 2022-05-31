@@ -130,8 +130,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "fuel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000173"
                             }
                         ],
                         "valueReference": [
