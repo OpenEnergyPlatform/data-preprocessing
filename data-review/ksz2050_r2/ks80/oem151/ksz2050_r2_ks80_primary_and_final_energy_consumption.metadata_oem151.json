@@ -179,8 +179,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "portion of matter",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000331"
                             }
                         ],
                         "valueReference": [
