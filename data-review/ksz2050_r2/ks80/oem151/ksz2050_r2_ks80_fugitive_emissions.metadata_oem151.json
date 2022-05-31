@@ -125,7 +125,7 @@
                     },
                     {
                         "name": "emission_source",
-                        "description": "Emission source",
+                        "description": "Emission source ",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
