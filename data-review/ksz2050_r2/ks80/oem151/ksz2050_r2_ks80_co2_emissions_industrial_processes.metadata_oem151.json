@@ -240,7 +240,7 @@
                     },
                     {
                         "name": "crf",
-                        "description": "Code of the source category in the Common Reporting Format (CRF)",
+                        "description": "Code of the source category in the Common Reporting Format (CRF) ",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
