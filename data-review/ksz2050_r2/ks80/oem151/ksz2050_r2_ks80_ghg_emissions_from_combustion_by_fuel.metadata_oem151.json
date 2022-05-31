@@ -181,8 +181,8 @@
                             },
 							{
                                 "value": "Electricity generated fuels",
-                                "name": null,
-                                "path": null
+                                "name": "synthetic fuel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010017"
                             },
 							{
                                 "value": "Total",
