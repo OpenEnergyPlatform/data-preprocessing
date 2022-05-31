@@ -166,8 +166,8 @@
                             },
 							{
                                 "value": "Final energy consumption",
-                                "name": null,
-                                "path": null
+                                "name": "final energy consumption",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00050016"
                             },
 							{
                                 "value": "Gross final energy consumption",
