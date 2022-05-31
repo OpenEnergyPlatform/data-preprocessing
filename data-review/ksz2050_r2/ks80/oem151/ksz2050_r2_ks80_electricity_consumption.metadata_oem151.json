@@ -135,7 +135,47 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Final electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity export-import-saldo",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Relative change of Final electricity consumption, compared to 2008",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Share of Final electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Share of Gross electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity export-import-saldo share of Gross electricity consumption",
                                 "name": null,
                                 "path": null
                             }
@@ -154,7 +194,32 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Industry",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Commercial",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Households",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Transport",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "CCS",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Transformation sector",
                                 "name": null,
                                 "path": null
                             }
@@ -173,7 +238,62 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Heat pumps",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Railway transport",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Road vehicles",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Air separation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Classic applications",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "New applications",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Classic conversions (refineries, mining, coking plants etc.)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Power-to-gas/-liquid for final energy use",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Power-to-heat in district heating grids",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Transmission losses",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Pumping / storage input",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Own consumption of power plants",
                                 "name": null,
                                 "path": null
                             }
@@ -192,7 +312,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "TWh",
                                 "name": null,
                                 "path": null
                             }

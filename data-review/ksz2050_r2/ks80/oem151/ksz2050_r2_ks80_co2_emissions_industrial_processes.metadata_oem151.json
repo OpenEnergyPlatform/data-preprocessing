@@ -138,7 +138,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "CO2 emission",
                                 "name": null,
                                 "path": null
                             }
@@ -157,7 +157,82 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Cement production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Lime production and use",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Glass production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Ceramic production",
+                                "name": null,
+                                "path": null
+                            }
+							{
+                                "value": "Soda ash production and use",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Ammonia production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Carbide production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Catalytic burning",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Conversion loss",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Methanol production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Carbon black production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Iron and Steel production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Ferroalloys production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Primary aluminium production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Total",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Flue gas desulphurisation",
                                 "name": null,
                                 "path": null
                             }
@@ -195,7 +270,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "kt",
                                 "name": null,
                                 "path": null
                             }

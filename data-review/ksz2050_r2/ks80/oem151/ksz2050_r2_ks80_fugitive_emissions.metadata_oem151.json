@@ -136,7 +136,82 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Hard coal underground mines",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Hard coal treatment",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Lignite surface mines",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Coal transformation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Abandoned mines",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil exploration",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil transport",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil storage",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Distribution of oil products",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas production",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas transport",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas distribution",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Other natural gas leakage",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Flaring",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "all fugitive",
                                 "name": null,
                                 "path": null
                             }
@@ -155,7 +230,17 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "CH4",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "CO2",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "N2O",
                                 "name": null,
                                 "path": null
                             }
@@ -174,7 +259,12 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "kt",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "kt CO2",
                                 "name": null,
                                 "path": null
                             }
@@ -193,7 +283,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "2020",
                                 "name": null,
                                 "path": null
                             }

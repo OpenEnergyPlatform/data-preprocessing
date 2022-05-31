@@ -139,7 +139,32 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Real gross domestic product (base year 2010)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "ETS certificate price (real prices, base year 2010)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil price (real prices, base year 2010)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas price (real prices, base year 2010)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Coal price (real prices, base year 2010)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Lignite price (real prices, base year 2010)",
                                 "name": null,
                                 "path": null
                             }
@@ -158,7 +183,17 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Billion Euro",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Euro / EUA",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Euro / GJ",
                                 "name": null,
                                 "path": null
                             }
@@ -176,8 +211,23 @@
                             }
                         ],
                         "valueReference": [
-                            {
-                                "value": null,
+                             {
+                                "value": "2020",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2030",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2040",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2050",
                                 "name": null,
                                 "path": null
                             }

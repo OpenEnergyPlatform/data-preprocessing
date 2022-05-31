@@ -135,7 +135,17 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Emission",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Relative emission change compared to 1990",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Relative emission change compared to 2005",
                                 "name": null,
                                 "path": null
                             }
@@ -154,7 +164,67 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Households",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Industry (without autogeneration)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Commercial",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Transport (including international and special transport)",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Fugitive emissions",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Energy industries without power plants",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Power plants",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "All combustions",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Industrial processes",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Agriculture",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "LULUCF",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Waste",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Total (excl. LULUCF & international transport)",
                                 "name": null,
                                 "path": null
                             }
@@ -173,7 +243,42 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "CO2",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "CH4",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "NO2",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "CO2, CH4, N2O",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "HFC",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "PFC",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "SF6",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "HFC, PFC, SF6",
                                 "name": null,
                                 "path": null
                             }
@@ -192,7 +297,12 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "kt CO2e",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "percent",
                                 "name": null,
                                 "path": null
                             }
@@ -211,7 +321,27 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "1990",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2020",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2030",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2040",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2050",
                                 "name": null,
                                 "path": null
                             }

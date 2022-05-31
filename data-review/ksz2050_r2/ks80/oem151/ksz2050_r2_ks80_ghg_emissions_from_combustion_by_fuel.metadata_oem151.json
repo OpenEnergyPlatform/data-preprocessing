@@ -136,7 +136,102 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Lignite",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Hard coal",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Oil",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Waste",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Biomass",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity generated fuels",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Total",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Flue-gas desulfurization",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Total with flue-gas desulfurization",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Refinery gas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Blast-furnace gas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Coal gas and coke oven gas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Other gases",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Biogas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "(Solid) Biomass",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Liquid biomass",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Waste heat",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity generated methane",
+                                "name": null,
+                                "path": null
+                            },							,
+							{
+                                "value": "",
                                 "name": null,
                                 "path": null
                             }
@@ -155,7 +250,12 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "all sectors",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "power plants",
                                 "name": null,
                                 "path": null
                             }
@@ -174,10 +274,25 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "2020",
                                 "name": null,
                                 "path": null
-                            }
+                            },
+							{
+                                "value": "2030",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2040",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2050",
+                                "name": null,
+                                "path": null
+                            }							
                         ]
                     },
                     {

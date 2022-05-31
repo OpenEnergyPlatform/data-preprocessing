@@ -136,7 +136,57 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Conventional electricity generation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable electricity generation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity generation of storages",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity generation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity generation relative to 2008",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable share of gross electricity generation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Export import balance",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Export share of gross electricity generation",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross electricity consumption relative to 2008",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable share of gross electricity consumption",
                                 "name": null,
                                 "path": null
                             }
@@ -155,7 +205,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "TWh",
                                 "name": null,
                                 "path": null
                             }
@@ -174,7 +224,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "2020",
                                 "name": null,
                                 "path": null
                             }

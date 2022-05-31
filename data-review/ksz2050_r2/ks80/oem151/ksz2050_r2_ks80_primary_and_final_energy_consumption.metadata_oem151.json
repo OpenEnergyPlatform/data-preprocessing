@@ -136,7 +136,37 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Primary energy consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Relative change primary energy consumption compared to 2008",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable share of primary energy consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Final energy consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Gross final energy consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable share of gross final energy consumption",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Renewable share of gross final energy consumption with aviation cap",
                                 "name": null,
                                 "path": null
                             }
@@ -155,7 +185,87 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "Nuclear",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Lignite",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Hard coal",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Mineral oil",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Natural gas",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Waste and other",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Biofuels",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Hydro",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Wind",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Solar",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Geothermal and ambient heat",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Synthetic fuels",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Electricity",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "fossil_gases",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Solar_Geothermal and ambient heat",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "Derived heat",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "renewable",
                                 "name": null,
                                 "path": null
                             }
@@ -174,7 +284,7 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "PJ",
                                 "name": null,
                                 "path": null
                             }
@@ -193,7 +303,22 @@
                         ],
                         "valueReference": [
                             {
-                                "value": null,
+                                "value": "2020",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2030",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2040",
+                                "name": null,
+                                "path": null
+                            },
+							{
+                                "value": "2050",
                                 "name": null,
                                 "path": null
                             }
