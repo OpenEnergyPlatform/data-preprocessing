@@ -130,8 +130,8 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
                             }
                         ],
                         "valueReference": [
