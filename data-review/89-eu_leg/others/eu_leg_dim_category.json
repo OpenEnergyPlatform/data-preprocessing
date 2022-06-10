@@ -1,9 +1,11 @@
 {
     "name": "eu_leg_dim_category",
     "title": "Harmonised nomenclature for sectoral divisions of greenhouse gas emission projections submitted under EU legislation. ",
-    "id": "eu_leg_dim_category",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_category",
     "description": "This table holds harmonised sector codes and names of the sectors used in greenhouse gas emission projections submitted under EU legislation. They follow the so called \"Common Reporting Format\" (CRF) according to the IPCC 2006 Guidelines. The harmonisation was required as sector names across different submission years varied data comparisons across sectors and different submission years was not possible straight-fowardly with the original data.",
-    "language": [],
+    "language": [
+        "en-GB"
+    ],
     "subject": [
         {
             "name": null,
@@ -21,7 +23,7 @@
     ],
     "publicationDate": null,
     "context": {
-        "homepage": null,
+        "homepage": "https://oeko.de/",
         "documentation": null,
         "sourceCode": null,
         "contact": "oedb@oeko.de",
@@ -39,8 +41,8 @@
         "referenceDate": null,
         "timeseries": [
             {
-                "start": "2015-09-09T0",
-                "end": "2040-09-09T0",
+                "start": null,
+                "end": null,
                 "resolution": null,
                 "alignment": null,
                 "aggregationType": null
@@ -58,7 +60,7 @@
                     "title": "Attribution 2.5 Denmark",
                     "path": "https://cdr.eionet.europa.eu/legalnotice",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         },
@@ -68,11 +70,11 @@
             "path": "https://reportnet.europa.eu/public/dataflow/113",
             "licenses": [
                 {
-                    "name": "ODC-by license or similar",
-                    "title": "Open Data Commons Attribution License - or similar",
+                    "name": "ODC-By-1.0",
+                    "title": "Open Data Commons Attribution License v1.0",
                     "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         },
@@ -82,11 +84,11 @@
             "path": "https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-7",
             "licenses": [
                 {
-                    "name": "ODC-by license or similar",
-                    "title": "Open Data Commons Attribution License - or similar",
+                    "name": "ODC-By-1.0",
+                    "title": "Open Data Commons Attribution License v1.0",
                     "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         }
@@ -97,17 +99,32 @@
             "title": "Creative Commons Attribution 4.0 International",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": "(c) Öko-Institut"
+            "attribution": "© Öko-Institut"
         }
     ],
-    "contributors": [],
+    "contributors": [
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": null,
+            "object": "data, metadata",
+            "comment": "Initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
     "resources": [
         {
-            "profile": null,
+            "profile": "tabular-data-resource",
             "name": "eu_leg_dim_category",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_category",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -320,7 +337,9 @@
                         ]
                     }
                 ],
-                "primaryKey": [],
+                "primaryKey": [
+                    "id"
+                ],
                 "foreignKeys": []
             },
             "dialect": {
@@ -333,10 +352,10 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

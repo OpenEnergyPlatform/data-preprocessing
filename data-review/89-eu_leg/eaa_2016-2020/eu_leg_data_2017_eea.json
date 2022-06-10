@@ -1,10 +1,10 @@
 {
     "name": "eu_leg_data_2017_eea",
     "title": "2017 greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation, quality checked by EEA",
-    "id": "eu_leg_data_2017_eea",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2017_eea",
     "description": "Compilation and sector notation-harmonisation (see https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_category)  of 2017 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014, quality checked and compiled by the European Environment Agency and its Topic Center on Air Pollution an Climate Change Mitigation. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
     "language": [
-        "en"
+        "en-GB"
     ],
     "subject": [
         {
@@ -25,7 +25,7 @@
     ],
     "publicationDate": null,
     "context": {
-        "homepage": null,
+        "homepage": "https://oeko.de/",
         "documentation": null,
         "sourceCode": null,
         "contact": "oedb@oeko.de",
@@ -35,17 +35,17 @@
         "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
     },
     "spatial": {
-        "location": "EU",
-        "extent": null,
+        "location": null,
+        "extent": "EU-27",
         "resolution": "national"
     },
     "temporal": {
         "referenceDate": null,
         "timeseries": [
             {
-                "start": "2015-09-09T00:",
-                "end": "2040-09-09T00:",
-                "resolution": null,
+                "start": "2015-09-09",
+                "end": "2040-09-09",
+                "resolution": "year",
                 "alignment": null,
                 "aggregationType": null
             }
@@ -58,11 +58,11 @@
             "path": "https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-7",
             "licenses": [
                 {
-                    "name": "ODC-by license or similar",
-                    "title": "Open Data Commons Attribution License - or similar",
+                    "name": "ODC-By-1.0",
+                    "title": "Open Data Commons Attribution License v1.0",
                     "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         }
@@ -73,7 +73,7 @@
             "title": "Creative Commons Attribution 4.0 International",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": "(c) Öko-Institut"
+            "attribution": "© Öko-Institut"
         }
     ],
     "contributors": [
@@ -83,15 +83,22 @@
             "date": "2021-09-09",
             "object": "data, metadata",
             "comment": "initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata to v151"
         }
     ],
     "resources": [
         {
-            "profile": null,
+            "profile": "tabular-data-resource",
             "name": "eu_leg_data_2017_eea",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2017_eea",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -304,7 +311,9 @@
                         ]
                     }
                 ],
-                "primaryKey": [],
+                "primaryKey": [
+                    "id"
+                ],
                 "foreignKeys": []
             },
             "dialect": {
@@ -317,10 +326,10 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

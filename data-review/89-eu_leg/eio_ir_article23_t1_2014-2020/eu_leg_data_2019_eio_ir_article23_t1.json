@@ -1,9 +1,11 @@
 {
     "name": "eu_leg_data_2019_eio_ir_article23_t1",
     "title": "2019 greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation",
-    "id": "eu_leg_data_2019_eio_ir_article23_t1",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2019_eio_ir_article23_t1",
     "description": "Compilation and notation-normalisation of 2019 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
-    "language": [],
+    "language": [
+        "en-GB"
+    ],
     "subject": [
         {
             "name": null,
@@ -23,7 +25,7 @@
     ],
     "publicationDate": null,
     "context": {
-        "homepage": null,
+        "homepage": "https://oeko.de/",
         "documentation": null,
         "sourceCode": null,
         "contact": "oedb@oeko.de",
@@ -33,17 +35,17 @@
         "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
     },
     "spatial": {
-        "location": "EU-27",
-        "extent": null,
+        "location": null,
+        "extent": "EU-27",
         "resolution": "national"
     },
     "temporal": {
-        "referenceDate": null,
+        "referenceDate": "2014",
         "timeseries": [
             {
                 "start": "2015-09-09",
                 "end": "2040-09-09",
-                "resolution": null,
+                "resolution": "year",
                 "alignment": null,
                 "aggregationType": null
             }
@@ -51,16 +53,16 @@
     },
     "sources": [
         {
-            "title": "Common Data Repository on Eionet",
+            "title": "European Environment Agency - Central Data Repository on Eionet",
             "description": "The CDR holds data reported under various European legislation",
             "path": "https://cdr.eionet.europa.eu/",
             "licenses": [
                 {
                     "name": "CC BY 2.5 DK",
-                    "title": "Attribution 2.5 Denmark",
-                    "path": "https://cdr.eionet.europa.eu/legalnotice",
+                    "title": "Creative Commons Attribution 2.5 Denmark",
+                    "path": "https://creativecommons.org/licenses/by/2.5/dk/legalcode",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         }
@@ -71,7 +73,7 @@
             "title": "Creative Commons Attribution 4.0 International",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": "(c) Öko-Institut"
+            "attribution": "© Öko-Institut"
         }
     ],
     "contributors": [
@@ -81,15 +83,22 @@
             "date": "2021-09-09",
             "object": "data, metadata",
             "comment": "initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata to v151"
         }
     ],
     "resources": [
         {
-            "profile": null,
+            "profile": "tabular-data-resource",
             "name": "eu_leg_data_2019_eio_ir_article23_t1",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2019_eio_ir_article23_t1",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -283,7 +292,9 @@
                         ]
                     }
                 ],
-                "primaryKey": [],
+                "primaryKey": [
+                    "id"
+                ],
                 "foreignKeys": []
             },
             "dialect": {
@@ -296,10 +307,10 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

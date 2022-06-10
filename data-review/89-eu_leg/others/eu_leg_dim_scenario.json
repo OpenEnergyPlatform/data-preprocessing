@@ -1,10 +1,10 @@
 {
     "name": "eu_leg_dim_scenario",
     "title": "Scenario abbreviations of greenhouse gas emission projections submitted under EU legislation",
-    "id": "eu_leg_dim_scenario",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_scenario",
     "description": "European Member States submit greenhouse gas emission projections as required by EU legislation. This table holds typically used abbreviations of scenarios (also labelled projections in this context) and matches these with full names.  Example usages: WEM = \"projections with existing measures\" / \"with existing measures scenario\" / 'scenario with existing measures\". Definitions on what the different projections/scenarios comprise of are available in the linked source under 'Definitions'.",
     "language": [
-        "en"
+        "en-GB"
     ],
     "subject": [
         {
@@ -23,7 +23,7 @@
     ],
     "publicationDate": null,
     "context": {
-        "homepage": null,
+        "homepage": "https://oeko.de/",
         "documentation": null,
         "sourceCode": null,
         "contact": "oedb@oeko.de",
@@ -41,8 +41,8 @@
         "referenceDate": null,
         "timeseries": [
             {
-                "start": "2015-09-09T0",
-                "end": "2040-09-09T0",
+                "start": null,
+                "end": null,
                 "resolution": null,
                 "alignment": null,
                 "aggregationType": null
@@ -71,7 +71,7 @@
             "title": "Creative Commons Attribution 4.0 International",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": "(c) Öko-Institut"
+            "attribution": "© Öko-Institut"
         }
     ],
     "contributors": [
@@ -81,15 +81,22 @@
             "date": "2021-09-08",
             "object": "data, metadata",
             "comment": "initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": [
         {
-            "profile": null,
+            "profile": "tabular-data-resource",
             "name": "eu_leg_dim_scenario",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_scenario",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -151,7 +158,7 @@
                     }
                 ],
                 "primaryKey": [
-                    null
+                    "id"
                 ],
                 "foreignKeys": []
             },
@@ -165,10 +172,10 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

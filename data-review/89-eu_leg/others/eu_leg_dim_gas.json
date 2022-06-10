@@ -1,10 +1,10 @@
 {
     "name": "eu_leg_dim_gas",
     "title": "List of gases used in greenhouse gas emission projections submitted under EU legislation",
-    "id": "eu_leg_dim_gas",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_gas",
     "description": "Greenhouse gas emission projections reported under EU legislation cover specific gases and these are listed here. Note that this list also includes elements that are not 'gases' as such but a separation of total greenhouse gases into their respective areas, namely total greenhouse gases under the Effort Sharing Decision (total ESD GHGs), total greenhouse gases under the Effort Sharing Regulation (total ESR GHGs) and total greenhouse gases under the European Emission Trading Scheme (total ETS GHGs). The information was brought together from different sources (see below). ",
     "language": [
-        "en"
+        "en-GB"
     ],
     "subject": [
         {
@@ -22,7 +22,7 @@
     ],
     "publicationDate": null,
     "context": {
-        "homepage": null,
+        "homepage": "https://oeko.de/",
         "documentation": null,
         "sourceCode": null,
         "contact": "oedb@oeko.de",
@@ -40,8 +40,8 @@
         "referenceDate": null,
         "timeseries": [
             {
-                "start": "2015-09-09T0",
-                "end": "2040-09-09T0",
+                "start": null,
+                "end": null,
                 "resolution": null,
                 "alignment": null,
                 "aggregationType": null
@@ -59,7 +59,7 @@
                     "title": "Attribution 2.5 Denmark",
                     "path": "https://cdr.eionet.europa.eu/legalnotice",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         },
@@ -69,11 +69,11 @@
             "path": "https://reportnet.europa.eu/public/dataflow/113",
             "licenses": [
                 {
-                    "name": "ODC-by license or similar",
-                    "title": "Open Data Commons Attribution License - or similar",
+                    "name": "ODC-By-1.0",
+                    "title": "Open Data Commons Attribution License v1.0",
                     "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         },
@@ -83,11 +83,11 @@
             "path": "https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-7",
             "licenses": [
                 {
-                    "name": "ODC-by license or similar",
-                    "title": "Open Data Commons Attribution License - or similar",
+                    "name": "ODC-By-1.0",
+                    "title": "Open Data Commons Attribution License v1.0",
                     "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
                     "instruction": null,
-                    "attribution": "(c) European Environment Agency"
+                    "attribution": "© European Environment Agency"
                 }
             ]
         }
@@ -98,7 +98,7 @@
             "title": "Creative Commons Attribution 4.0 International",
             "path": "https://creativecommons.org/licenses/by/4.0/",
             "instruction": null,
-            "attribution": "(c) Öko-Institut"
+            "attribution": "© Öko-Institut"
         }
     ],
     "contributors": [
@@ -108,15 +108,22 @@
             "date": "2021-09-08",
             "object": "data, metadata",
             "comment": "initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata"
         }
     ],
     "resources": [
         {
-            "profile": null,
+            "profile": "tabular-data-resource",
             "name": "eu_leg_dim_gas",
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_gas",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
@@ -159,7 +166,7 @@
                     }
                 ],
                 "primaryKey": [
-                    null
+                    "id"
                 ],
                 "foreignKeys": []
             },
@@ -173,10 +180,10 @@
     "@context": null,
     "review": {
         "path": null,
-        "badge": null
+        "badge": "Silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
