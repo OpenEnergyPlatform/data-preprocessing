@@ -1,0 +1,319 @@
+{
+    "name": "eu_leg_data_2017_eio_ir_article23_t1",
+    "title": "2017 greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation",
+    "id": "eu_leg_data_2017_eio_ir_article23_t1",
+    "description": "Compilation and notation-normalisation of 2017 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
+    "language": [],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "european_environment_agency",
+        "european_member_states",
+        "sirop",
+        "cc_by_4_0",
+        "eu_legislation",
+        "ko_institut",
+        "eu",
+        "emission_projection",
+        "2017"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": "oedb@oeko.de",
+        "grantNo": "03EI1035B",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:BMWi_Logo.svg",
+        "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
+    },
+    "spatial": {
+        "location": "EU-27",
+        "extent": null,
+        "resolution": "national"
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": "2015-09-09",
+                "end": "2040-09-09",
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Common Data Repository on Eionet",
+            "description": "The CDR holds data reported under various European legislation",
+            "path": "https://cdr.eionet.europa.eu/",
+            "licenses": [
+                {
+                    "name": "CC BY 2.5 DK",
+                    "title": "Attribution 2.5 Denmark",
+                    "path": "https://cdr.eionet.europa.eu/legalnotice",
+                    "instruction": null,
+                    "attribution": "(c) European Environment Agency"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": null,
+            "attribution": "(c) Öko-Institut"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2021-09-09",
+            "object": "data, metadata",
+            "comment": "initial version"
+        }
+    ],
+    "resources": [
+        {
+            "profile": null,
+            "name": "eu_leg_data_2017_eio_ir_article23_t1",
+            "path": null,
+            "format": null,
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "unique id",
+                        "type": "bigint",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "country_code",
+                        "description": "country code",
+                        "type": "varchar(8)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "category",
+                        "description": "CRF reporting category",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "year",
+                        "description": "year for which data is reported",
+                        "type": "smallint",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "gas",
+                        "description": "the gas for which data is reported",
+                        "type": "varchar(64)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "scenario",
+                        "description": "the scenario for which data is reported",
+                        "type": "char(3)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "unit",
+                        "description": "the unit in which the data is reported",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "notation",
+                        "description": "notation key",
+                        "type": "varchar(64)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ry",
+                        "description": null,
+                        "type": "boolean",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "value",
+                        "description": "value reported",
+                        "type": "float",
+                        "unit": "unit is given in clolumn 'unit'",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}

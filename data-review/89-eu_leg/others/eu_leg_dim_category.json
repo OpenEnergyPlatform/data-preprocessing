@@ -1,0 +1,356 @@
+{
+    "name": "eu_leg_dim_category",
+    "title": "Harmonised nomenclature for sectoral divisions of greenhouse gas emission projections submitted under EU legislation. ",
+    "id": "eu_leg_dim_category",
+    "description": "This table holds harmonised sector codes and names of the sectors used in greenhouse gas emission projections submitted under EU legislation. They follow the so called \"Common Reporting Format\" (CRF) according to the IPCC 2006 Guidelines. The harmonisation was required as sector names across different submission years varied data comparisons across sectors and different submission years was not possible straight-fowardly with the original data.",
+    "language": [],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "european_environment_agency",
+        "sirop",
+        "sector_division",
+        "crf",
+        "cc_by_4_0",
+        "ko_institut",
+        "eu_legislation"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": "oedb@oeko.de",
+        "grantNo": "03EI1035B",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:BMWi_Logo.svg",
+        "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": "2015-09-09T0",
+                "end": "2040-09-09T0",
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Common Data Repository on Eionet",
+            "description": "The CDR holds data reported under various European legislation.",
+            "path": "https://cdr.eionet.europa.eu/",
+            "licenses": [
+                {
+                    "name": "CC BY 2.5 DK",
+                    "title": "Attribution 2.5 Denmark",
+                    "path": "https://cdr.eionet.europa.eu/legalnotice",
+                    "instruction": null,
+                    "attribution": "(c) European Environment Agency"
+                }
+            ]
+        },
+        {
+            "title": "Reportnet 3 - National projections of anthropogenic greenhouse gas emissions – Reporting year 2021",
+            "description": "National projections provided by European Member States, pursuant to Governance Regulation Art.18 (1)(b) / Implementing Regulation Art.38",
+            "path": "https://reportnet.europa.eu/public/dataflow/113",
+            "licenses": [
+                {
+                    "name": "ODC-by license or similar",
+                    "title": "Open Data Commons Attribution License - or similar",
+                    "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
+                    "instruction": null,
+                    "attribution": "(c) European Environment Agency"
+                }
+            ]
+        },
+        {
+            "title": "Member States' greenhouse gas (GHG) emission projections",
+            "description": "Member State's greenhouse gas emission projections compiled by the EEA",
+            "path": "https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-7",
+            "licenses": [
+                {
+                    "name": "ODC-by license or similar",
+                    "title": "Open Data Commons Attribution License - or similar",
+                    "path": "https://www.eea.europa.eu/legal/eea-data-policy#toc-6",
+                    "instruction": null,
+                    "attribution": "(c) European Environment Agency"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": null,
+            "attribution": "(c) Öko-Institut"
+        }
+    ],
+    "contributors": [],
+    "resources": [
+        {
+            "profile": null,
+            "name": "eu_leg_dim_category",
+            "path": null,
+            "format": null,
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "unique ID",
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "category",
+                        "description": "the sector name including the CRF code",
+                        "type": "varchar(128)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "category_code",
+                        "description": "the CRF sector code  (CRF = common reporting format)",
+                        "type": "varchar(128)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "category_lulucf",
+                        "description": "the LULUCF accounting category ",
+                        "type": "varchar(32)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "category_parent",
+                        "description": "the parent sector",
+                        "type": "varchar(128)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "level",
+                        "description": "the level of the sector in the sector hierarchy",
+                        "type": "smallint",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "is_user_defined",
+                        "description": "indicates with true, if the sector was defined by a user and is not included by default in legislation",
+                        "type": "boolean",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "in_cir_2020_1208_annex_xxv_art_38_tab_1a",
+                        "description": "indicates with true if the sector is listed in Annex XXV in Commission Implementing Regulation (EU) 2020/1208",
+                        "type": "boolean",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "in_cir_749_2014_annex_xii_art_23_tab_1",
+                        "description": "indicates with true if the sector is listed in Annex XII in Commission Implementing Regulation (EU)  No 749/2014",
+                        "type": "boolean",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "crf_code",
+                        "description": "the CRF code (CRF = common reporting format)",
+                        "type": "varchar(128)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "oeo_id",
+                        "description": "the instance id in the OEO (Open Energy Ontology)",
+                        "type": "CHAR(12)",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
