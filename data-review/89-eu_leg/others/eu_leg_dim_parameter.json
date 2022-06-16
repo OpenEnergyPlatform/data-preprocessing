@@ -1,6 +1,6 @@
 {
     "name": "eu_leg_dim_parameter",
-    "title": "Öko-Institut - Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - Parameter",
+    "title": "Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - Parameter",
     "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_parameter",
     "description": "Parameters for 2020 greenhouse gas emission projections submitted by European Member States. This table matches parameters for greenhouse gas emission projections submitted under EU legislation to default units and to a parameter group according to the parameter template. It also takes into account parameters added by Member States and which were not originally listed in the parameter template.",
     "language": [
