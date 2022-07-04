@@ -1,0 +1,203 @@
+{
+    "name": "pac_scenario_development",
+    "title": "Paris Agreement Compatible Scenarios for Energy Infrastructure",
+    "id": null,
+    "description": "The PAC scenario was developed by CAN Europe and the EEB under the banner of the PAC project. At its core, the Scenario is an attempt to construct a European-wide energy scenario which is aligned with the Paris Agreement’s objective to limit global warming to 1.5°C and which embodies the policy demands of civil society. In doing this, it suggests a trajectory with: - 100% renewable energy supply by 2040 - At least 65% greenhouse gas emissions (GHGs) reductions by the year 2030 - Net-zero emissions by 2040.",
+    "language": [
+        "en-GB"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        ""
+    ],
+    "publicationDate": "2020-06-30",
+    "context": {
+        "homepage": "https://www.pac-scenarios.eu",
+        "documentation": "https://www.pac-scenarios.eu/fileadmin/user_upload/PAC_scenario_technical_summary_fin.pdf",
+        "sourceCode": null,
+        "contact": "info@pac-scenarios.eu",
+        "grantNo": null,
+        "fundingAgency": "German Federal Ministry for Economic Affairs and Energy",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Europe",
+        "resolution": "country"
+    },
+    "temporal": {
+        "referenceDate": "2015",
+        "timeseries": [
+            {
+                "start": "2015",
+                "end": "2050",
+                "resolution": "5 years",
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "PAC_scenario_data_web_30June2020-2.xlsx",
+            "description": "This file compiles the scenario datasets as published int the PAC scenario technical summary of key elements. Version 1.0, as of 30 June 2020",
+            "path": "https://www.pac-scenarios.eu/fileadmin/user_upload/PAC_scenario_data_web_30June2020-2.xlsx",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                    "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+                    "attribution": "© Paris Agreement Compatible Scenarios for Energy Infrastructure"
+                }
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "instruction": "https://tldrlegal.com/license/creative-commons-attribution-4.0-international-(cc-by-4)",
+            "attribution": "© Paris Agreement Compatible Scenarios for Energy Infrastructure"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Jörg Mühlenhoff",
+            "email": "joerg@caneurope.org",
+            "date": "2020-06-30",
+            "object": "data",
+            "comment": "Energy Scenarios Policy Coordinator"
+        },
+        {
+            "title": "Jonathan Bonadio",
+            "email": "jonathan.bonadio@eeb.org",
+            "date": "2020-06-30",
+            "object": "data",
+            "comment": "Policy Officer on Renewables, Climate and Grids"
+        },
+        {
+            "title": "Ludee",
+            "email": null,
+            "date": "2020-07-07",
+            "object": "metadata",
+            "comment": "Create oemetadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": null,
+            "name": null,
+            "path": null,
+            "format": null,
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": "",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "",
+                        "description": "",
+                        "type": "",
+                        "unit": "",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    ""
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            ""
+                        ],
+                        "reference": {
+                            "resource": "",
+                            "fields": [
+                                ""
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/63",
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
