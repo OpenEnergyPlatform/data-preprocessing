@@ -1,0 +1,212 @@
+{
+    "name": "modex_open_MODEX_costs",
+    "title": "MODEX - open_MODEX - Costs",
+    "id": "",
+    "description": "[Multiple Topics]: Fuel costs; Storage costs; Power plant costs; Transmission costs",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "price fuels",
+        "energy carrier",
+        "power plant",
+        "specific investment",
+        "cost operation maintenance",
+        "investment costs"
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
+        "documentation": "https://github.com/open-modex/models",
+        "sourceCode": "https://github.com/open-modex",
+        "contact": "sarah.berendes@rl-institut.de",
+        "grantNo": "03ET4076",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Data Documentation - Current and Prospective Costs of Electricity Generation until 2050",
+            "description": "[oed-table:scalar],[Bibtexkey:AndreasSchroeder2013] - Fuel costs",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Deutsches Institut für Wirtschaftsforschung"
+                }
+            ]
+        },
+        {
+            "title": "World Energy Outlook 2018",
+            "description": "[oed-table:scalar],[Bibtexkey:IEA2018] - Fuel costs",
+            "path": "https://www.iea.org/reports/world-energy-outlook-2018",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© OECD/IEA"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland",
+            "description": "[oed-table:scalar],[Bibtexkey:FraunhoferISI2017] - Fuel costs",
+            "path": "http://publica.fraunhofer.de/eprints/urn_nbn_de_0011-n-4810894.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Fraunhofer ISI; Consentec GmbH; ifeu"
+                }
+            ]
+        },
+        {
+            "title": "Netzentwicklungsplan Strom 2030, Version 2019",
+            "description": "[oed-table:scalar],[Bibtexkey:Strom2019] - Netzentwicklungsplan Strom 2030, Version 2019",
+            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_V2019_2_Entwurf_Teil1.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
+                }
+            ]
+        },
+        {
+            "title": "TYNDP 2018 - Scenario Report",
+            "description": "[oed-table:scalar],[Bibtexkey:ENTSOE2018] - Fuel costs",
+            "path": "https://eepublicdownloads.entsoe.eu/clean-documents/tyndp-documents/TYNDP2018/Scenario_Report_2018_Final.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© ENTSO-E"
+                }
+            ]
+        },
+        {
+            "title": "The future cost of electrical energy storage based on experience rates",
+            "description": "[oed-table:scalar],[Bibtexkey:Schmidt2017] - The future cost of electrical energy storage based on experience rates",
+            "path": "https://doi.org/10.1038/nenergy.2017.110",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Schmidt, O.; Hawkes, A.; Gambhir, A. & Staffell, I."
+                }
+            ]
+        },
+        {
+            "title": "Kostenschätzungen (NEP 2030 (2019), 1. Entwurf)",
+            "description": "[oed-table:scalar],[Bibtexkey:NetzPlan19] - Costs for power transmission",
+            "path": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/NEP_2030_2019_1_Entwurf_Kostenschaetzungen.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© 50Hertz Transmission GmbH; Amprion GmbH; TenneT TSO GmbH; TransnetBW GmbH"
+                }
+            ]
+        },
+        {
+            "title": "Klimapfade für Deutschland",
+            "description": "[oed-table:scalar],[Bibtexkey:Gerbert2018] - Fuel costs, biogas",
+            "path": "https://www.vci.de/vci/downloads-vci/media-weitere-downloads/2018-01-18-bdi-studie-klimapfade-fuer-deutschland.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Gerbert, P.; Herhold, P.; Burchardt, J.; Schönberger, S.; Rechenmacher, F.; Kirchner, A.; Kemmler, A. & Wünsch, M."
+                }
+            ]
+        },
+        {
+            "title": "Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale {PV} levelised cost of electricity",
+            "description": "[oed-table:scalar],[Bibtexkey:Vartiainen2019] - Impact of weighted average cost of capital, capital expenditure, and other parameters on future utility-scale PV levelised cost of electricity Progress in Photovoltaics: Research and Applications",
+            "path": "https://doi.org/10.1002/pip.3189",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "Eero Vartiainen, Gaëtan Masson, Christian Breyer, David Moser, Eduardo Román Medina © 2019 The Authors. Progress in Photovoltaics: Research and Applications published by John Wiley & Sons Ltd"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Christoph",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-01-09",
+            "object": "Metadata",
+            "comment": "Create metadata and group sources"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}

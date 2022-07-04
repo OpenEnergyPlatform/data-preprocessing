@@ -1,0 +1,167 @@
+{
+    "name": "modex_open_MODEX_environmental",
+    "title": "MODEX - open_MODEX - environmental",
+    "id": "",
+    "description": "Emission factors of power plants and fuels and different generation technologies",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "resource potential",
+        "CO2-budget",
+        "emission factors"
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
+        "documentation": "https://github.com/open-modex/models",
+        "sourceCode": "https://github.com/open-modex",
+        "contact": "sarah.berendes@rl-institut.de",
+        "grantNo": "03ET4076",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
+            "description": "[oed-table:scalar],[Bibtexkey:UmweltbundesamtEmissions2019] - Kohlendioxid-Emissionsfaktoren für die deutsche Berichterstattung atmosphärischer Emissionen 1990 - 2017",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/361/dokumente/co2_ef_brennstoffe_und_industrie_nir_2020.xlsx",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Umweltbundesamt"
+                }
+            ]
+        },
+        {
+            "title": "Umweltgutachten 2020: Für eine entschlossene Umweltpolitik in Deutschland und Europa",
+            "description": "[oed-table:scalar],[Bibtexkey:SRU2020] - 2: Pariser Klimaziele erreichen mit dem CO2-Budget",
+            "path": "https://www.umweltrat.de/SharedDocs/Downloads/DE/01_Umweltgutachten/2016_2020/2020_Umweltgutachten_Entschlossene_Umweltpolitik.pdf;jsessionid=A382E5937DEB3471E1480E3E54A7D9B7.1_cid292?__blob=publicationFile&v=31",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Sachverständigenrat für Umweltfragen"
+                }
+            ]
+        },
+        {
+            "title": "Potenzialatlas Bioenergie in den Bundesländern",
+            "description": "[oed-table:scalar],[Bibtexkey:FNR2013] - Biogas potential",
+            "path": "https://mediathek.fnr.de/broschuren/bioenergie/bioenergie-potenzialatlas.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© FNR - Fachagentur Nachwachsende Rohstoffe e. V."
+                }
+            ]
+        },
+        {
+            "title": "Braunkohle in Deutschland - Sicherheit für die Stromversorgung",
+            "description": "[oed-table:scalar],[Bibtexkey:DEBRRIV2017] - Natural resource potential lignite",
+            "path": "https://braunkohle.de/wp-content/uploads/2019/01/debriv_izb_20171005_web.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© DEBRIV"
+                }
+            ]
+        },
+        {
+            "title": "ENSPRESO - an open, EU-28 wide, transparent and coherent database of wind, solar and biomass energy potentials",
+            "description": "[oed-table:scalar],[Bibtexkey:Ruiz2019] - Energy potential data",
+            "path": "https://data.jrc.ec.europa.eu/collection/id-00138",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "European Commission"
+                }
+            ]
+        },
+        {
+            "title": "Energieerzeugung aus Abfällen - Stand und Potenziale in Deutschland bis 2030",
+            "description": "[oed-table:scalar],[Bibtexkey:UmweltBundesamtAbfall2018] - Stand und Potenziale in Deutschland bis 2030",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2018-06-26_texte_51-2018_energieerzeugung-abfaelle.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Umweltbundesamt"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Christoph",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-01-09",
+            "object": "Metadata",
+            "comment": "Create metadata and group sources"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
