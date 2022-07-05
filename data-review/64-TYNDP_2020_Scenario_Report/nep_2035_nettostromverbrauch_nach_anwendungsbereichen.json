@@ -1,0 +1,269 @@
+{
+    "name": "nep_2035_nettostromverbrauch_nach_anwendungsbereichen",
+    "title": "Nettostromverbrauch nach Sektoren/Anwendungsbereichen",
+    "id": "nep_2035_nettostromverbrauch_nach_anwendungsbereichen",
+    "description": "The NEP 2035 presents the conversion and expansion requirements in the German onshore and offshore electricity transmission grid against the background of the legal requirements of the Energy Industry Act (Energiewirtschaftsgesetz). The TSOs are planning, developing and building the grid of the future. With the NEP, they show how the transformation of the generation landscape in Germany and the integration of renewable energies can succeed by 2035 or 2040. This table covers net electricity consumption in TWh.",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "NEP",
+        "Netzentwicklungsplan",
+        "Szenariorahmen"
+    ],
+    "publicationDate": "2021-06-24",
+    "context": {
+        "homepage": "https://www.netzentwicklungsplan.de/de/netzentwicklungsplaene/netzentwicklungsplan-2035-2021",
+        "documentation": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/Kapitel_2_Daten_NEP_2035_V2021_2_Entwurf.xlsx",
+        "sourceCode": null,
+        "contact": "info@netzentwicklungsplan.de",
+        "grantNo": null,
+        "fundingAgency": "Bundesnetzagentur",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:Bundesnetzagentur-Logo.svg",
+        "publisherLogo": "https://www.yumpu.com/de/document/view/56805956/netzentwicklungsplan-strom-2030-version-2017-1-entwurf-teil-1"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Deutschland",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2018-01-01",
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "instruction": null,
+            "attribution": "Netzentwicklungsplan Strom 2035 (2021), zweiter Entwurf | Übertragungsnetzbetreiber (M) CC-BY-4.0"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "mjazimm",
+            "email": "maja.zimmermann@rl-institut.de",
+            "date": "2021-08-11",
+            "object": "Upload of files and metadata",
+            "comment": null
+        },
+        {
+            "title": "christian-rli",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2021-10-12",
+            "object": "Metadata Review",
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": null,
+            "name": "nep_2035_nettostromverbrauch_nach_anwendungsbereichen",
+            "path": null,
+            "format": null,
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kategorie",
+                        "description": "Net electricity consumption sector",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sektor",
+                        "description": "Net electricity consumer",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "referenz_2018",
+                        "description": "Reference year 2018",
+                        "type": "float",
+                        "unit": "TWh",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "a_2035",
+                        "description": "Projected Value A 2035",
+                        "type": "float",
+                        "unit": "TWh",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "b_2035",
+                        "description": "Projected Value B 2035",
+                        "type": "float",
+                        "unit": "TWh",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "c_2035",
+                        "description": "Projected Value C 2035",
+                        "type": "float",
+                        "unit": "TWh",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "b_2040",
+                        "description": "Projected Value B 2040",
+                        "type": "float",
+                        "unit": "TWh",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}

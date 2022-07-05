@@ -1,0 +1,535 @@
+{
+    "name": "nep_2035_installierte_leistungen_je_szenario",
+    "title": "Installierte Leistungen je Szenario im Szenario A 2035 / B 2035 / C 2035 / B 2040",
+    "id": "nep_2035_installierte_leistungen_je_szenario",
+    "description": "\tThe NEP 2035 presents the conversion and expansion requirements in the German onshore and offshore electricity transmission grid against the background of the legal requirements of the Energy Industry Act (Energiewirtschaftsgesetz). The TSOs are planning, developing and building the grid of the future. With the NEP, they show how the transformation of the generation landscape in Germany and the integration of renewable energies can succeed by 2035 or 2040. Installed Power in GW.",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "NEP",
+        "Netzentwicklungsplan",
+        "Szenariorahmen"
+    ],
+    "publicationDate": "2021-04-06",
+    "context": {
+        "homepage": "https://www.netzentwicklungsplan.de/de/netzentwicklungsplaene/netzentwicklungsplan-2035-2021",
+        "documentation": "https://www.netzentwicklungsplan.de/sites/default/files/paragraphs-files/Kapitel_2_Daten_NEP_2035_V2021_2_Entwurf.xlsx",
+        "sourceCode": null,
+        "contact": "info@netzentwicklungsplan.de",
+        "grantNo": null,
+        "fundingAgency": "Bundesnetzagentur",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:Bundesnetzagentur-Logo.svg",
+        "publisherLogo": "https://www.yumpu.com/de/document/view/56805956/netzentwicklungsplan-strom-2030-version-2017-1-entwurf-teil-1"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Deutschland",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2020-01-10",
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [],
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+            "instruction": null,
+            "attribution": "Netzentwicklungsplan Strom 2035 (2021), zweiter Entwurf | Übertragungsnetzbetreiber (M) CC-BY-4.0"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "mjazimm",
+            "email": "maja.zimmermann@rl-institut.de",
+            "date": "2021-08-11",
+            "object": "Upload of files and metadata",
+            "comment": null
+        },
+        {
+            "title": "christian-rli",
+            "email": "christian.hofmann@rl-institut.de",
+            "date": "2021-10-12",
+            "object": "Metadata Review",
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": null,
+            "name": "nep_2035_installierte_leistungen_je_szenario",
+            "path": null,
+            "format": null,
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "bigint",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "bundesland",
+                        "description": "Federal State of Germany or Country",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "szenario",
+                        "description": "Scenario",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "braunkohle",
+                        "description": "Lignite",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "erdgas",
+                        "description": "Natural Gas",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kuppelgas",
+                        "description": "Dome Gas",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "oel",
+                        "description": "Oil",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "abfall",
+                        "description": "Waste",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sonstige_konventionelle",
+                        "description": "Other Conventional",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "kwk_kleiner_10mw",
+                        "description": "Combined heat and power under 10 MW",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "pumpspeicher",
+                        "description": "Pumped Storage Power Plant",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "lauf_und_wasserspeicher",
+                        "description": "Running Storage and Water Storage",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "wind_onshore",
+                        "description": "Onshore Wind",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "wind_offshore",
+                        "description": "Offshore Wind",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "photovoltaik",
+                        "description": "Photovoltaics",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "biomasse",
+                        "description": "Biomass",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "sonstige_ee",
+                        "description": "Other Renewable Energies",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "band_des_stromverbrauchs_von",
+                        "description": "Band of Electricity Consumption from",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "band_des_stromverbrauchs_bis",
+                        "description": "Band of Electricity Consumption until",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "dsm",
+                        "description": "Demand-Side-Management",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "power_to_heat",
+                        "description": "Power to Heat",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "power_to_gas",
+                        "description": "Power to Gas",
+                        "type": "float",
+                        "unit": "GW",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
