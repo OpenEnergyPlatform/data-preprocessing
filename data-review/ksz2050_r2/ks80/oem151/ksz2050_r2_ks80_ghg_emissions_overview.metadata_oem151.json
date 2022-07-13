@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_ghg_emissions_overview",
     "title": "Overview of GHG emission projections of scenario KS80 by gases and sectors",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_ghg_emissions_overview",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_ghg_emissions_overview",
     "description": "This table holds GHG emissions projections of the KS80 scenario split by gases and sectors. The data corresponds to the data in tables 7-3 and 7-4 of the report.",
     "language": [
         "en-GB"

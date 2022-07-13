@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_energy_and_climate_targets",
     "title": "Projections of the fulfillment of energy and climate targets of KS80",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_energy_and_climate_targets",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_energy_and_climate_targets",
     "description": "This table holds projections of the fulfillment of the energy and climate targets the KS80 scenario. The data corresponds to the data in table 9-1 of the report.",
     "language": [
         "en-GB"

@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_ghg_emissions_from_combustion_by_fuel",
     "title": "GHG emission projections of fuel combustion of scenario KS80",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_ghg_emissions_from_combustion_by_fuel",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_ghg_emissions_from_combustion_by_fuel",
     "description": "This table holds projections of GHG emissions from combustion of the KS80 scenario. The data corresponds to the data in tables 5-98 and 5-131 of the report.",
     "language": [
         "en-GB"

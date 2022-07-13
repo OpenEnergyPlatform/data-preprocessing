@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_parameters_assumptions",
     "title": "Key parameters and assumptions of scenario KS80",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_parameters_assumptions",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_parameters_assumptions",
     "description": "This table holds key parameters and assumptions used as inputs for the models which were used to project the scenario KS80. Data of this table corresponds to information provided in chapter 4 of the report, especially tables 4-5, 4-11, 4-12 and 4-15.",
     "language": [
         "en-GB"

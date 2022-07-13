@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_electricity_overview",
     "title": "Overview of electricity generation and consumption of scenario KS80",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_electricity_overview",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_electricity_overview",
     "description": "This table gives an overview of electricity generation and consumption of the KS80 scenario. The data corresponds to the data in table 5-96 of the report.",
     "language": [
         "en-GB"

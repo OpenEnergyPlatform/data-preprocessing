@@ -1,7 +1,7 @@
 {
     "name": "ksz2050_r2_ks80_primary_and_final_energy_consumption",
     "title": "Projections of primary and final energy consumption of scenario KS80",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ksz2050_r2_KS80_primary_and_final_energy_consumption",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_primary_and_final_energy_consumption",
     "description": "This table holds projections of primary and final energy consumption of the KS80 scenario. The data corresponds to the data in tables 5-116, 5-120, 5-121 and 5-124 of the report.",
     "language": [
         "en-GB"
