@@ -8,8 +8,8 @@
     ],
     "subject": [
         {
-            "name": null,
-            "path": null
+            "name": null
+            
         }
     ],
     "keywords": [
@@ -56,7 +56,6 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
                     "instruction": null,
                     "attribution": null
                 }
@@ -132,8 +131,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -151,58 +150,58 @@
                         "valueReference": [
                             {
                                 "value": "Conventional electricity generation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Renewable electricity generation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Electricity generation of storages",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Gross electricity generation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Gross electricity generation relative to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Renewable share of gross electricity generation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Export import balance",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Export share of gross electricity generation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Gross electricity consumption",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Gross electricity consumption relative to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Renewable share of gross electricity consumption",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -220,8 +219,8 @@
                         "valueReference": [
                             {
                                 "value": "TWh",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -239,8 +238,8 @@
                         "valueReference": [
                             {
                                 "value": "2020",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -258,8 +257,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     }

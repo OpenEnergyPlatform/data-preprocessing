@@ -8,8 +8,8 @@
     ],
     "subject": [
         {
-            "name": null,
-            "path": null
+            "name": null
+            
         }
     ],
     "keywords": [
@@ -58,7 +58,6 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
                     "instruction": null,
                     "attribution": null
                 }
@@ -135,8 +134,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -154,8 +153,8 @@
                         "valueReference": [
                             {
                                 "value": "CO2 emission",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -178,78 +177,78 @@
                             },
 							{
                                 "value": "Lime production and use",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Glass production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Ceramic production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
 							{
                                 "value": "Soda ash production and use",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Ammonia production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Carbide production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Catalytic burning",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Conversion loss",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Methanol production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Carbon black production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Iron and Steel production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Ferroalloys production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Primary aluminium production",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Total",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Flue gas desulphurisation",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -260,15 +259,15 @@
                         "unit": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ],
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -286,8 +285,8 @@
                         "valueReference": [
                             {
                                 "value": "kt",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -305,8 +304,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -324,8 +323,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     }

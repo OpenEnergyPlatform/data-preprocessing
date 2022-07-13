@@ -8,8 +8,8 @@
     ],
     "subject": [
         {
-            "name": null,
-            "path": null
+            "name": null
+            
         }
     ],
     "keywords": [
@@ -56,7 +56,6 @@
                 {
                     "name": null,
                     "title": null,
-                    "path": null,
                     "instruction": null,
                     "attribution": null
                 }
@@ -132,8 +131,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -151,58 +150,58 @@
                         "valueReference": [
                             {
                                 "value": "Relative change of GHG emissions excluding LULUCF and international transport compared to 1990",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Relative change of GHG emissions including LULUCF and international transport compared to 1990",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Renewable share of gross final energy consumption",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Renewable share of gross electricity consumption",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of primary energy consumption compared to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of final energy consumption of buildings compared to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of primary energy demand of buildings compared to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of final energy consumption in transport compared to 2005",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of gross electricity consumption of classic consumers compared to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Reduction of gross electricity consumption of all consumers compared to 2008",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             },
 							{
                                 "value": "Increase of energy productivity",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                         ]
@@ -221,8 +220,8 @@
                         "valueReference": [
                             {
                                 "value": "per year",
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -240,8 +239,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -259,8 +258,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     },
@@ -278,8 +277,8 @@
                         "valueReference": [
                             {
                                 "value": null,
-                                "name": null,
-                                "path": null
+                                "name": null
+                                
                             }
                         ]
                     }
