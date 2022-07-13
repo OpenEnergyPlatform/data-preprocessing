@@ -112,7 +112,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "ksz2050_r2_ks80_electricity_consumption",
-            "path": "https://github.com/OpenEnergyPlatform/examples/tree/master/metadata",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_electricity_consumption",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
