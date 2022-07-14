@@ -15,8 +15,7 @@
     ],
     "keywords": [
         "open-energy-datamodel",
-        "open_MODEX",
-
+        "open_MODEX"
     ],
     "publicationDate": "2020-10-15",
     "context": {
@@ -403,7 +402,7 @@
             "path": "https://www.marktstammdatenregister.de/MaStR",
             "licenses": [
                 {
-                    "name": "dl-de/by-2-0",
+                    "name": "DL-DE-BY-2.0",
                     "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
                     "path": "https://www.govdata.de/dl-de/by-2-0",
                     "instruction": "You are free: To Share, To Adapt",
@@ -557,7 +556,7 @@
             "path": "https://www.netzausbau.de/Vorhaben/ansicht/de.html?cms_nummer=2&cms_gruppe=bbplg",
             "licenses": [
                 {
-                    "name": "CC BY-ND 3.0 DE",
+                    "name": "CC-BY-ND-3.0-DE",
                     "title": "Attribution-NoDerivs 3.0 Germany",
                     "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
                     "instruction": "You are free: To Share",
@@ -571,7 +570,7 @@
             "path": "https://www.netzausbau.de/Vorhaben/ansicht/de.html?cms_nummer=1&cms_gruppe=bbplg",
             "licenses": [
                 {
-                    "name": "CC BY-ND 3.0 DE",
+                    "name": "CC-BY-ND-3.0-DE",
                     "title": "Attribution-NoDerivs 3.0 Germany",
                     "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
                     "instruction": "You are free: To Share",
@@ -585,7 +584,7 @@
             "path": "https://www.netzausbau.de/leitungsvorhaben/bbplg/05/de.html?cms_vhTab=1",
             "licenses": [
                 {
-                    "name": "CC BY-ND 3.0 DE",
+                    "name": "CC-BY-ND-3.0-DE",
                     "title": "Attribution-NoDerivs 3.0 Germany",
                     "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
                     "instruction": "You are free: To Share",
@@ -599,7 +598,7 @@
             "path": "https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2020/20200203_Vorhaben3u4.html",
             "licenses": [
                 {
-                    "name": "CC BY-ND 3.0 DE",
+                    "name": "CC-BY-ND-3.0-DE",
                     "title": "Attribution-NoDerivs 3.0 Germany",
                     "path": "https://creativecommons.org/licenses/by-nd/3.0/de/deed.en",
                     "instruction": "You are free: To Share",
@@ -613,7 +612,7 @@
             "path": "https://www.bundesnetzagentur.de/DE/Sachgebiete/ElektrizitaetundGas/Unternehmen_Institutionen/Versorgungssicherheit/Erzeugungskapazitaeten/Kraftwerksliste/kraftwerksliste-node.html",
             "licenses": [
                 {
-                    "name": "DL-DE->BY-2.0",
+                    "name": "DL-DE-BY-2.0",
                     "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
                     "path": "https://www.govdata.de/dl-de/by-2-0",
                     "instruction": "You are free: To Share, To Adapt",
@@ -799,6 +798,13 @@
             "date": "2021-11-30",
             "object": "metadata",
             "comment": "Add sources"
+        },
+        {
+            "title": "steull",
+            "email": null,
+            "date": "2022-07-14",
+            "object": "metadata",
+            "comment": "Update metadata to v1.5.1"
         }
     ],
     "resources": [
