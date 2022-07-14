@@ -990,7 +990,7 @@
                     {
                         "name": "region",
                         "description": "Country or region, add a flow from region a -> b: ['a', 'b']",
-                        "type": "text array",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -1413,7 +1413,7 @@
                     {
                         "name": "series",
                         "description": "Timesteps",
-                        "type": "float array",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -1460,7 +1460,7 @@
         "badge": "silver"
     },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
