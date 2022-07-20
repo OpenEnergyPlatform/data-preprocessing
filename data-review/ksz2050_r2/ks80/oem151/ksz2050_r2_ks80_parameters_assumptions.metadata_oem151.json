@@ -109,6 +109,13 @@
             "date": "2022-06-03",
             "object": "metadata",,
             "comment": "Fill isAbout and valueReference keys if applicable"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-07-20",
+            "object": "metadata",,
+            "comment": "Delete key path if it is null. Needed for current MOSS sparql query implementation."
         }
     ],
     "resources": [
