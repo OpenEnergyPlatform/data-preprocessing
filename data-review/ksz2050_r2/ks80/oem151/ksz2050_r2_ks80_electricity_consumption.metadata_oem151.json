@@ -16,13 +16,13 @@
         "Öko-Institut",
         "KSz 2050",
         "Germany",
-        "Electricity consumption"
+        "Electricity"
     ],
     "publicationDate": null,
     "context": {
         "homepage": "https://www.klimaschutzszenario2050.de",
         "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
-        "sourceCode": "not available",
+        "sourceCode": null,
         "contact": "oedb@oeko.de",
         "grantNo": "03KSE031",
         "fundingAgency": "Diese Daten wurden im Auftrag des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit erstellt",
@@ -159,42 +159,42 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Electricity consumption",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity consumption",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Electricity export-import-saldo",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Relative change of Final electricity consumption, compared to 2008",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Share of Final electricity consumption",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Share of Gross electricity consumption",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Electricity export-import-saldo share of Gross electricity consumption",
                                 "name": null
                                 
@@ -218,27 +218,27 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Commercial",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Households",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Transport",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "CCS",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Transformation sector",
                                 "name": null
                                 
@@ -262,57 +262,57 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Railway transport",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Road vehicles",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Air separation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Classic applications",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "New applications",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Classic conversions (refineries, mining, coking plants etc.)",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Power-to-gas/-liquid for final energy use",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Power-to-heat in district heating grids",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Transmission losses",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Pumping / storage input",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Own consumption of power plants",
                                 "name": null
                                 

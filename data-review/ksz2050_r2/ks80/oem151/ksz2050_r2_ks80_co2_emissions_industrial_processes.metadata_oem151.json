@@ -9,7 +9,6 @@
     "subject": [
         {
             "name": null
-            
         }
     ],
     "keywords": [
@@ -147,7 +146,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -166,7 +164,6 @@
                             {
                                 "value": "CO2 emission",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -190,77 +187,62 @@
                             {
                                 "value": "Lime production and use",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Glass production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Ceramic production",
                                 "name": null
-                                
-                            }
+                            },
                             {
                                 "value": "Soda ash production and use",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Ammonia production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Carbide production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Catalytic burning",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Conversion loss",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Methanol production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Carbon black production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Iron and Steel production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Ferroalloys production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Primary aluminium production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Total",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Flue gas desulphurisation",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -272,14 +254,12 @@
                         "isAbout": [
                             {
                                 "name": null
-                                
                             }
                         ],
                         "valueReference": [
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -298,7 +278,6 @@
                             {
                                 "value": "kt",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -317,7 +296,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -336,7 +314,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
