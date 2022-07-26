@@ -166,77 +166,77 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Hard coal treatment",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Lignite surface mines",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Coal transformation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Abandoned mines",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Oil exploration",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Oil production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Oil transport",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Oil storage",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Distribution of oil products",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Natural gas production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Natural gas transport",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Natural gas distribution",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Other natural gas leakage",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Flaring",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "all fugitive",
                                 "name": null
                                 
@@ -260,12 +260,12 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "CO2",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "N2O",
                                 "name": null
                                 
@@ -289,7 +289,7 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "kt CO2",
                                 "name": null
                                 
@@ -362,7 +362,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
