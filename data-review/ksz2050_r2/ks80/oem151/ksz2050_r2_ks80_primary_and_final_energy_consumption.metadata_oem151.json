@@ -166,28 +166,28 @@
                                 "value": "Primary energy consumption",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Relative change primary energy consumption compared to 2008",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Renewable share of primary energy consumption",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Final energy consumption",
                                 "name": "final energy consumption",
                                 "path": "http://openenergy-platform.org/ontology/oeo/OEO_00050016"
                             },
-							{
+                            {
                                 "value": "Gross final energy consumption",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Renewable share of gross final energy consumption",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Renewable share of gross final energy consumption with aviation cap",
                                 "name": null
                             }
@@ -209,67 +209,67 @@
                                 "value": "Nuclear",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Lignite",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Hard coal",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Mineral oil",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Natural gas",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Waste and other",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Biofuels",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Hydro",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Wind",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Solar",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Geothermal and ambient heat",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Synthetic fuels",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Electricity",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "fossil_gases",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Solar_Geothermal and ambient heat",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "Derived heat",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "renewable",
                                 "name": null
                             }
@@ -309,15 +309,15 @@
                                 "value": "2020",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "2030",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "2040",
                                 "name": null
                             },
-							{
+                            {
                                 "value": "2050",
                                 "name": null
                             }
@@ -369,7 +369,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Badge"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
