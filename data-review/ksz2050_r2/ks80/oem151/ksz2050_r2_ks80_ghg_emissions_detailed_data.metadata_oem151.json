@@ -169,12 +169,12 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Relative emission change compared to 1990",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Relative emission change compared to 2005",
                                 "name": null
                                 
@@ -198,62 +198,62 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Industry (without autogeneration)",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Commercial",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Transport (including international and special transport)",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Fugitive emissions",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Energy industries without power plants",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Power plants",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "All combustions",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Industrial processes",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Agriculture",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "LULUCF",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Waste",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Total (excl. LULUCF & international transport)",
                                 "name": null
                                 
@@ -277,37 +277,37 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "CH4",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "NO2",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "CO2, CH4, N2O",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "HFC",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "PFC",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "SF6",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "HFC, PFC, SF6",
                                 "name": null
                                 
@@ -331,7 +331,7 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "percent",
                                 "name": null
                                 
@@ -355,22 +355,22 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "2020",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "2030",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "2040",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "2050",
                                 "name": null
                                 
@@ -424,7 +424,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
