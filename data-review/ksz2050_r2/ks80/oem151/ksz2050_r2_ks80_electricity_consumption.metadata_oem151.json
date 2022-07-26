@@ -9,7 +9,6 @@
     "subject": [
         {
             "name": null
-            
         }
     ],
     "keywords": [
@@ -51,7 +50,7 @@
     },
     "sources": [
         {
-            "title": "Own projection",
+            "title": "todo",
             "description": "Details see report provided under URL",
             "path": "https://www.oeko.de/publikationen/p-details/klimaschutzszenario-2050-2-endbericht",
             "licenses": [
@@ -116,6 +115,7 @@
             "object": "metadata",
             "comment": "Delete key path if it is null. Needed for current MOSS sparql query implementation."
         },
+        {
             "title": "steull",
             "email": "datenzentrum@rl-institut.de",
             "date": "2022-07-26",
@@ -147,7 +147,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -166,47 +165,38 @@
                             {
                                 "value": "Final electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Gross electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Electricity export-import-saldo",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Gross electricity production",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Relative change of Final electricity consumption, compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Share of Final electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Share of Gross electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Electricity export-import-saldo share of Gross electricity consumption",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -225,32 +215,26 @@
                             {
                                 "value": "Industry",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Commercial",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Households",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Transport",
                                 "name": null
-                                
                             },
                             {
                                 "value": "CCS",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Transformation sector",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -262,69 +246,56 @@
                         "isAbout": [
                             {
                                 "name": null
-                                
                             }
                         ],
                         "valueReference": [
                             {
                                 "value": "Heat pumps",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Railway transport",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Road vehicles",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Air separation",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Classic applications",
                                 "name": null
-                                
                             },
                             {
                                 "value": "New applications",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Classic conversions (refineries, mining, coking plants etc.)",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Power-to-gas/-liquid for final energy use",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Power-to-heat in district heating grids",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Transmission losses",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Pumping / storage input",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Own consumption of power plants",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -343,7 +314,6 @@
                             {
                                 "value": "TWh",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -362,7 +332,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -381,7 +350,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
