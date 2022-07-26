@@ -67,7 +67,7 @@
     ],
     "licenses": [
         {
-            "name": "dl-de-by-2.0",
+            "name": "DL-DE-BY-2.0",
             "title": "Data licence Germany – attribution – version 2.0",
             "path": "https://www.govdata.de/dl-de/by-2-0",
             "instruction": "https://www.govdata.de/dl-de/by-2-0",
@@ -116,6 +116,13 @@
             "date": "2022-07-20",
             "object": "metadata",,
             "comment": "Delete key path if it is null. Needed for current MOSS sparql query implementation."
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-07-26",
+            "object": "metadata",
+            "comment": "Metadata review"
         }
     ],
     "resources": [
