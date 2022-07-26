@@ -34,7 +34,7 @@
     "spatial": {
         "location": null,
         "extent": "Germany",
-        "resolution": null
+        "resolution": "Country"
     },
     "temporal": {
         "referenceDate": null,
