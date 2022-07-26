@@ -149,7 +149,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -161,39 +160,32 @@
                         "isAbout": [
                             {
                                 "name": null
-                                
                             }
                         ],
                         "valueReference": [
                             {
                                 "value": "Real gross domestic product (base year 2010)",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "ETS certificate price (real prices, base year 2010)",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Oil price (real prices, base year 2010)",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Natural gas price (real prices, base year 2010)",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Coal price (real prices, base year 2010)",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Lignite price (real prices, base year 2010)",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -212,17 +204,14 @@
                             {
                                 "value": "Billion Euro",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Euro / EUA",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Euro / GJ",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -241,22 +230,18 @@
                             {
                                 "value": "2020",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2030",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2040",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2050",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -275,7 +260,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
@@ -307,7 +291,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
