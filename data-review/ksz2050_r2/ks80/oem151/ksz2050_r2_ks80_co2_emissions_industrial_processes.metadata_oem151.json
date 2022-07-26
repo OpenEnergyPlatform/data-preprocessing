@@ -24,7 +24,7 @@
     "context": {
         "homepage": "https://www.klimaschutzszenario2050.de",
         "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
-        "sourceCode": "not available",
+        "sourceCode": null,
         "contact": "oedb@oeko.de",
         "grantNo": "03KSE031",
         "fundingAgency": "Diese Daten wurden im Auftrag des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit erstellt",
@@ -42,7 +42,7 @@
             {
                 "start": "2020-01-01T00:00+01",
                 "end": "2050-01-01T00:00+01",
-                "resolution": "10 a",
+                "resolution": "10 years",
                 "alignment": "left",
                 "aggregationType": null
             }
