@@ -34,7 +34,7 @@
     "spatial": {
         "location": null,
         "extent": "Germany",
-        "resolution": null
+        "resolution": "Country"
     },
     "temporal": {
         "referenceDate": null,
@@ -42,7 +42,7 @@
             {
                 "start": "2020-01-01T00:00+01",
                 "end": "2050-01-01T00:00+01",
-                "resolution": "10 a",
+                "resolution": "10 years",
                 "alignment": "left",
                 "aggregationType": null
             }
