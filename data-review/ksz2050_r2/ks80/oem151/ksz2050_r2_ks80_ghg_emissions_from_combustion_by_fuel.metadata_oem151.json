@@ -9,7 +9,6 @@
     "subject": [
         {
             "name": null
-            
         }
     ],
     "keywords": [
@@ -148,7 +147,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -167,102 +165,83 @@
                             {
                                 "value": "Lignite",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Hard coal",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Oil",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Natural gas",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Waste",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Biomass",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Electricity generated fuels",
                                 "name": "synthetic fuel",
                                 "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010017"
                             },
-							{
+                            {
                                 "value": "Total",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Flue-gas desulfurization",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Total with flue-gas desulfurization",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Refinery gas",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Blast-furnace gas",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Coal gas and coke oven gas",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Other gases",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Biogas",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "(Solid) Biomass",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Liquid biomass",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Waste heat",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Electricity generated methane",
                                 "name": null
-                                
-                            },							,
-							{
+                            },
+                            {
                                 "value": "",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -281,12 +260,10 @@
                             {
                                 "value": "all sectors",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "power plants",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -305,23 +282,19 @@
                             {
                                 "value": "2020",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2030",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2040",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2050",
                                 "name": null
-                                
-                            }							
+                            }
                         ]
                     },
                     {
@@ -339,7 +312,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
@@ -371,7 +343,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
