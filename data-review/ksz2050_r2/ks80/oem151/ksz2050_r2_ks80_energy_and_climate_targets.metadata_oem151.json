@@ -9,7 +9,6 @@
     "subject": [
         {
             "name": null
-            
         }
     ],
     "keywords": [
@@ -107,14 +106,14 @@
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
             "date": "2022-06-03",
-            "object": "metadata",,
+            "object": "metadata",
             "comment": "Fill isAbout and valueReference keys if applicable"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
             "date": "2022-07-20",
-            "object": "metadata",,
+            "object": "metadata",
             "comment": "Delete key path if it is null. Needed for current MOSS sparql query implementation."
         },
         {
@@ -143,13 +142,12 @@
                             {
                                 "name": "dc:identifier",
                                 "path": "http://purl.org/dc/elements/1.1/identifier"
-                            }	
+                            }
                         ],
                         "valueReference": [
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -168,59 +166,47 @@
                             {
                                 "value": "Relative change of GHG emissions excluding LULUCF and international transport compared to 1990",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Relative change of GHG emissions including LULUCF and international transport compared to 1990",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Renewable share of gross final energy consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Renewable share of gross electricity consumption",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of primary energy consumption compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of final energy consumption of buildings compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of primary energy demand of buildings compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of final energy consumption in transport compared to 2005",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of gross electricity consumption of classic consumers compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Reduction of gross electricity consumption of all consumers compared to 2008",
                                 "name": null
-                                
                             },
                             {
                                 "value": "Increase of energy productivity",
                                 "name": null
-                                
                             }
-                        ]
                         ]
                     },
                     {
@@ -238,7 +224,6 @@
                             {
                                 "value": "per year",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -257,7 +242,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -276,7 +260,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -295,7 +278,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
