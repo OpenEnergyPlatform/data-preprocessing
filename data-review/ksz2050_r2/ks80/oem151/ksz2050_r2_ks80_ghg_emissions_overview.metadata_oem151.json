@@ -9,7 +9,6 @@
     "subject": [
         {
             "name": null
-            
         }
     ],
     "keywords": [
@@ -147,7 +146,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -163,25 +161,22 @@
                             }
                         ],
                         "valueReference": [
-							{
+                            {
                                 "value": "GHG emission",
                                 "name": "greenhouse gas",
                                 "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000020"
                             },
-							{
+                            {
                                 "value": "Relative emission change compared to 2005",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Relative emission change compared to 1990",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Relative emission change compared to base year",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -200,77 +195,62 @@
                             {
                                 "value": "Total excluding LULUCF and international Transport",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Energy industries",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Industry",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Commercial and institutional",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Households",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Transport",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Fugitive emissions from fuels",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Industrial processes",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Product use",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Agriculture",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Waste",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "International air and maritime transport",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "LULUCF",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Total including LULUCF and international transport",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "Carbon captured",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -286,35 +266,29 @@
                             }
                         ],
                         "valueReference": [
-							{
+                            {
                                 "value": "CO2",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "CH4",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "N2O",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "HFC",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "PFC",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "SF6",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -333,7 +307,6 @@
                             {
                                 "value": "Mt CO2e",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -352,22 +325,18 @@
                             {
                                 "value": "2020",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2030",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2040",
                                 "name": null
-                                
                             },
-							{
+                            {
                                 "value": "2050",
                                 "name": null
-                                
                             }
                         ]
                     },
@@ -386,7 +355,6 @@
                             {
                                 "value": null,
                                 "name": null
-                                
                             }
                         ]
                     }
@@ -418,7 +386,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
