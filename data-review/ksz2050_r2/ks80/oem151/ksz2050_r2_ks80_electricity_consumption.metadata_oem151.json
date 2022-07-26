@@ -14,9 +14,12 @@
     ],
     "keywords": [
         "Öko-Institut",
-        "KSz 2050",
+        "KSz-2050-R2",
+        "KS80",
         "Germany",
-        "Electricity"
+        "Electricity",
+        "2020",
+        "2050"
     ],
     "publicationDate": null,
     "context": {
@@ -32,7 +35,7 @@
     "spatial": {
         "location": null,
         "extent": "Germany",
-        "resolution": null
+        "resolution": "Country"
     },
     "temporal": {
         "referenceDate": null,
