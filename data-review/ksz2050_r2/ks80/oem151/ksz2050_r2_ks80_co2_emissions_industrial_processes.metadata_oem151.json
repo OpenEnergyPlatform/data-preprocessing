@@ -187,77 +187,77 @@
                                 "name": "CRF sector (IPCC 2006): cement production",
                                 "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010165"
                             },
-							{
+                            {
                                 "value": "Lime production and use",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Glass production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Ceramic production",
                                 "name": null
                                 
                             }
-							{
+                            {
                                 "value": "Soda ash production and use",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Ammonia production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Carbide production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Catalytic burning",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Conversion loss",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Methanol production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Carbon black production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Iron and Steel production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Ferroalloys production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Primary aluminium production",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Total",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Flue gas desulphurisation",
                                 "name": null
                                 
@@ -368,7 +368,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
