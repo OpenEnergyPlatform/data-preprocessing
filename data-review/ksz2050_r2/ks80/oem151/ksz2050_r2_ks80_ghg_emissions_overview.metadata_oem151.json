@@ -13,15 +13,18 @@
         }
     ],
     "keywords": [
-        "KSz 2050",
-        "GHG emissions",
-        "Öko-Institut"
+        "Öko-Institut",
+        "KSz-2050-R2",
+        "KS80",
+        "emissions",
+        "2020",
+        "2050"
     ],
     "publicationDate": null,
     "context": {
         "homepage": "https://www.klimaschutzszenario2050.de",
         "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
-        "sourceCode": "not available",
+        "sourceCode": null,
         "contact": "oedb@oeko.de",
         "grantNo": "03KSE031",
         "fundingAgency": "Diese Daten wurden im Auftrag des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit erstellt",
