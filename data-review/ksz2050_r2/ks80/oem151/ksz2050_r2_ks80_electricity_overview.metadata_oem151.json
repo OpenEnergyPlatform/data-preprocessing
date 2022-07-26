@@ -168,52 +168,52 @@
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Renewable electricity generation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Electricity generation of storages",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity generation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity generation relative to 2008",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Renewable share of gross electricity generation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Export import balance",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Export share of gross electricity generation",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity consumption",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Gross electricity consumption relative to 2008",
                                 "name": null
                                 
                             },
-							{
+                            {
                                 "value": "Renewable share of gross electricity consumption",
                                 "name": null
                                 
@@ -305,7 +305,7 @@
     "@context": null,
     "review": {
         "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
-        "badge": null
+        "badge": "Gold"
     },
     "metaMetadata": {
         "metadataVersion": "OEP-1.5.0",
