@@ -54,7 +54,7 @@
         {
             "title": "Berlin Paris Konform machen",
             "description": "Eine Aktualisierung der Machbarkeitsstudie „Klimaneutrales Berlin 2050“ mit Blick auf die Anforderungen aus dem UN-Abkommen von Paris Abschlussbericht",
-            "path": "https://www.berlin.de/sen/uvk/_assets/klimaschutz/klimaschutzpolitik-in-berlin/berlin-paris-konform/studie-berlin-paris-konform-endbericht.pdf",,
+            "path": "https://www.berlin.de/sen/uvk/_assets/klimaschutz/klimaschutzpolitik-in-berlin/berlin-paris-konform/studie-berlin-paris-konform-endbericht.pdf",
             "licenses": [
                 {
                     "name": null,
@@ -65,6 +65,20 @@
                 }
             ]
         },
+        {
+            "title": "Gutachten zur Energiestrategie 2040",
+            "description": "Aktualisierung und Weiterentwicklung der\nEnergiestrategie 2030 des Landes Brandenburg",
+            "path": "https://mwae.brandenburg.de/media/bb1.a.3814.de/Prognos-Gutachten_Fortschreibung_Energiestratgie%20Bbg_2040.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution":"prognos"
+                }
+            ]
+        }
     ],
     "licenses": [
         {
@@ -77,8 +91,8 @@
     ],
     "contributors": [
         {
-            "title": hedwiglieselotte,
-            "email": hedwig.bartels@rl-institut.de,
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
@@ -149,9 +163,9 @@
                             }
                         ]
                     },{
-                        "name": "var_name"
+                        "name": "var_name",
                         "description": "amount",
-                        "type": "text"
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -187,7 +201,7 @@
                     },{
                         "name": "region",
                         "description": "which regions are covered",
-                        "type": "text"
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -221,7 +235,7 @@
                             }
                         ]
                     },{
-                        "name": "type"
+                        "name": "type",
                         "description": "load",
                         "type": "text",
                         "unit": null,
@@ -239,7 +253,7 @@
                             }
                         ]
                     },{
-                        "name": "var_value"
+                        "name": "var_value",
                         "description": "var_value in numbers",
                         "type": "int",
                         "unit": null,
