@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Berlin Paris-konform machen",
+            "description": "Eine Aktualisierung der Machbarkeitsstudie „Klimaneutrales Berlin 2050“ mit Blick auf die Anforderungen aus dem UN-Abkommen von Paris, Abschlussbericht, Studie im Auftrag des Landes Berlin, vertreten durch die Senatsverwaltung für Umwelt, Verkehr und Klimaschutz",
+            "path": "https://www.berlin.de/sen/uvk/_assets/klimaschutz/klimaschutzpolitik-in-berlin/berlin-paris-konform/studie-berlin-paris-konform-endbericht.pdf",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": null
+                    "attribution": "Institut für ökologische Wirtschaftsforschung mit BLS, RLI, IFOK, LUP"
                 }
             ]
         },
