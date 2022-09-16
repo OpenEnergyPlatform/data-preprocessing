@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Gesetzliche Feiertage in Deutschland",
+            "description": "the public holidays in germany",
+            "path": "https://de.wikipedia.org/wiki/Gesetzliche_Feiertage_in_Deutschland",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "name": "CC-by-sa-3.0",
+                    "title": "Creative Commons ShareAlike 3.0",
+                    "path": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute, ShareAlike",
+                    "attribution": "@Wikipedia"
                 }
             ]
         },
