@@ -156,8 +156,8 @@
     ],
     "contributors": [
         {
-            "title": hedwiglieselotte,
-            "email": hedwig.bartels@rl-institut.de,
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
@@ -390,7 +390,7 @@
                                 "path": null
                             }
                         ]
-                    },
+                    }
                 ],
                 "primaryKey": [
                     null
