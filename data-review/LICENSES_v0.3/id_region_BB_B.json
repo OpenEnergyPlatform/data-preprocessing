@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Regionaldatenbank Deutschland",
+            "description": "german database of statistical offices",
+            "path": "https://www.regionalstatistik.de/genesis/online?operation=variable&levelindex=0&levelid=1629199727321&code=KREISE&option=value#abreadcrumb",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "name": "DL-DE->BY-2.0",
+                    "title": "Data licence Germany – attribution – version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute",
+                    "attribution": "@Statistische Ämter des Bundes und der Länder"
                 }
             ]
         },
