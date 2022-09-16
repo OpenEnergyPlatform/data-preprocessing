@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "renewables.ninja",
+            "description": "a database for renewable energies",
+            "path": "https://www.renewables.ninja/country_downloads/DE/ninja_wind_country_DE_current_merra-2_nuts-2_corrected.csv\n",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "name": "CC BY-NC 4.0",
+                    "title": "Creative Commons NonCommercial 4.0 ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "@renewables.ninja"
                 }
             ]
         },
