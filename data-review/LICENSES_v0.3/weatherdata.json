@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Climate Data Store",
+            "description": "climate related data base",
+            "path": "https://cds.climate.copernicus.eu",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "name": "CC BY 4.0",
+                    "title": "Creative Commons 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute",
+                    "attribution": "@Copernicus Climate Change Service"
                 }
             ]
         },
