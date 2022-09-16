@@ -53,7 +53,7 @@
     "sources": [
         {
             "title": "Der Photovoltaik- und Windflächenrechner - Geodaten Potenzialflächen",
-            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application "Photovoltaik- und Windflächenrechner". Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
+            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application  Photovoltaik- und Windflächenrechner. Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
             "path": "https://zenodo.org/record/6728382#.YyHUyVrP2V4",
             "licenses": [
                 {
@@ -67,7 +67,8 @@
         },
         {
     ],
-    "contributors": [
+            [
+    "contributors":
         {
             "title": "hedwiglieselotte",
             "email": null,

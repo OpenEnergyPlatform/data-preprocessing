@@ -53,7 +53,7 @@
     "sources": [
         {
             "title": "Der Photovoltaik- und Windflächenrechner - Geodaten Potenzialflächen",
-            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application "Photovoltaik- und Windflächenrechner". Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
+            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application Photovoltaik- und Windflächenrechner. Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
             "path": "https://zenodo.org/record/6728382#.YyHUyVrP2V4",
             "licenses": [
                 {
@@ -64,7 +64,7 @@
                     "attribution": "© Reiner Lemoine Institut"
                 }
             ]
-        },
+        }
     ],
     "licenses": [
         {
@@ -77,8 +77,8 @@
     ],
     "contributors": [
         {
-            "title": hedwiglieselotte,
-            "email": hedwig.bartels@rl-institut.de,
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
             "date": "2022-09-14",
             "object": "metadata",
             "comment": "create metadata"
@@ -130,7 +130,7 @@
                                 "path": null
                             }
                         ]
-                    }
+                    },
                     {
                         "name": "fid_2",
                         "description": "id for each case" ,
@@ -736,7 +736,7 @@
                                 "path": null
                             }
                         ]
-                    },
+                    }
                 ],
                 "primaryKey": [
                     null
@@ -782,7 +782,7 @@
         "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
-        "null": "If not applicable use: null",
+        "null": "If not applicable use: null"
 
     }
 }
