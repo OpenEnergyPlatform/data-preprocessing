@@ -52,7 +52,7 @@
     },
     "sources": [
         {
-            "title": "renewables.ninja",
+            "title": "PV (NUTS-2, MERRA-2)",
             "description": "a database for renewable energies",
             "path": "https://www.renewables.ninja/country_downloads/DE/ninja_pv_country_DE_merra-2_nuts-2_corrected.csv",
             "licenses": [
