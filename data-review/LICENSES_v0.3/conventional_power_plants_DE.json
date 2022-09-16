@@ -52,16 +52,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Data Platform",
+            "description": "Conventional power plants",
+            "path": "https://data.open-power-system-data.org/conventional_power_plants/2020-10-01",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "name": "CC BY 4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/",
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute",
+                    "attribution": "@Open Power System Data"
                 }
             ]
         },
