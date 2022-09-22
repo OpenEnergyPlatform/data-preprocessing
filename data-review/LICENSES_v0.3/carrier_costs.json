@@ -2,9 +2,9 @@
     "name": "carrier_costs",
     "title": null,
     "id": null,
-    "description": null,
+    "description": "costs of energy carriers are set to imports",
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -28,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -109,8 +109,8 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
-                        "type": "serial",
+                        "description": "unique identifier of scalar",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -128,8 +128,8 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "specific name for distinct energy per year scenarios",
-                        "type": "text",
+                        "description": "type of scenario and referenced year as key",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -165,8 +165,8 @@
                         ]
                     },{
                         "name": "var_name",
-                        "description": "name carrier_cost",
-                        "type": "text",
+                        "description": "variable name",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -184,7 +184,7 @@
                     },{
                         "name": "carrier",
                         "description": "type of carrier",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -201,8 +201,8 @@
                         ]
                     },{
                         "name": "region",
-                        "description": "which regions are chosen",
-                        "type": "text",
+                        "description": "indicator for region",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -219,8 +219,8 @@
                         ]
                     },{
                         "name": "tech",
-                        "description": "type of tech used",
-                        "type": "text",
+                        "description": "type of transformer",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -237,8 +237,8 @@
                         ]
                     },{
                         "name": "type",
-                        "description": "type of type (conversion or backpressure)",
-                        "type": "text",
+                        "description": "type of component",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -255,7 +255,7 @@
                         ]
                     },{
                         "name":"var_value",
-                        "description": "var value number",
+                        "description": "variable value",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -273,8 +273,8 @@
                         ]
                     },{
                         "name": "var_unit",
-                        "description": "unit type",
-                        "type": "text",
+                        "description": "variable unit",
+                        "type": "string",
                         "unit": "Eur/MWh",
                         "isAbout": [
                             {
@@ -309,7 +309,7 @@
                         ]
                     },{
                         "name": "comment",
-                        "description": "comment on data type",
+                        "description": "general comments on data and data type",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
