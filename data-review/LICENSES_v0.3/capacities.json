@@ -4,7 +4,7 @@
     "id": null,
     "description": null,
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -164,7 +164,7 @@
                         ]
                     }, {
                         "name": "var_name",
-                        "description": "capacity of conversion tech",
+                        "description": "variable name",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
