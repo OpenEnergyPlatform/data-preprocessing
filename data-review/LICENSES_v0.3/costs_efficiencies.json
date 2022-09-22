@@ -2,9 +2,9 @@
     "name":"costs efficiencies",
     "title": null,
     "id": null,
-    "description": null,
+    "description": "cost range of various transformer for the years 2040 and 2050",
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -52,9 +52,9 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Danish Energy Agency",
+            "description": "Technology Data for Electricity and District heating generation",
+            "path": "https://ens.dk/sites/ens.dk/files/Statistik/technology_data_catalogue_for_el_and_dh_-_0009.pdf",
             "licenses": [
                 {
                     "name": null,
@@ -66,9 +66,9 @@
             ]
         },
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Danish Energy Agency",
+            "description": "Technology Data for Electricity and District heating generation Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_el_and_dh.xlsx",
             "licenses": [
                 {
                     "name": null,
@@ -76,6 +76,161 @@
                     "path": null,
                     "instruction": null,
                     "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Heating Installations Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_heating_installations_-_0003.xlsx",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Renewable Fuels",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_renewable_fuels.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Storage Table ",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.xlsx",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Storage Document",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Storage Demand in Highly Renewable Energy Scenarios for Europe : The Influence of Methodology and Data Assumptions in Model-Based Assessments ",
+            "description": null,
+            "path": "http://dx.doi.org/10.18419/opus-9761",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Transport Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/energy_transport_datasheet.xlsx",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution":null
+                }
+            ]
+        },
+        {
+            "title": "Produkte 2g BHKW",
+            "description": "Liste von Blockheizkrafterken unterschiedlicher Brennstoffarten",
+            "path": "https://www.2-g.com/de/wasserstoff-bhkw/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution":null
+                }
+            ]
+        },
+        {
+            "title": "Frauenhofer ISE",
+            "description": "Wege zu einem klimaneutralen Energiesystem - Anhang zur Studie",
+            "path": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/wege-zu-einem-klimaneutralen-energiesystem.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution":null
+                }
+            ]
+        },
+        {
+            "title": "Model Input and Output Data of the FlexMex Model Comparison",
+            "description": "This data collection includes the input and output data of the FlexMex model experiment (grant number: 03ET4077A-H) funded by the German Federal Ministry for Economic Affairs and Energy (BMWi). The aim of the FlexMex project is to better understand the interrelationships of modelling approaches and model results in the mapping and analysis of technical-structural flexibilities in future electricity systems.",
+            "path": "10.5281/zenodo.5802178",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
+                    "instruction": null,
+                    "attribution":null
+                }
+            ]
+        },
+        {
+            "title": "DIW Data Documentation",
+            "description": "Current and Prospective Costs of Electricity Generation until 2050 ",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright by Deutsches Institut für Wirtschaftsforschung",
+                    "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+                    "instruction": "All rights reserved. Reproduction and distribution in any form, also in parts, requires the express written permission of DIW Berlin.",
+                    "attribution":"© DIW Berlin, 2013"
+                }
+            ]
+        },
+
+        {
+            "title": "windnode",
+            "description": "unpublished",
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution":null
                 }
             ]
         }
@@ -109,8 +264,8 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
-                        "type": "serial",
+                        "description": "unique identifier of scalar",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -128,8 +283,8 @@
                     },
                     {
                         "name":"scenario_key",
-                        "description": "type of scenario key",
-                        "type":"text",
+                        "description": "type of scenario and referenced year as key",
+                        "type":"string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -144,7 +299,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "name",
                         "description": null,
                         "type": null,
@@ -165,8 +321,8 @@
                     },
                     {
                         "name":"var_name",
-                        "description": "descriptive name",
-                        "type": "text",
+                        "description": "variable name",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -181,10 +337,11 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name":"carrier",
                         "description":"type of carrier",
-                        "type": null,
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -202,8 +359,8 @@
                     },
                     {
                         "name": "region",
-                        "description": "type of region chosen",
-                        "type": "text",
+                        "description": "indicator for region",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -218,10 +375,49 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
+                        "name": "tech",
+                        "description": "type of transformer",
+                        "type": "string",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "type",
+                        "description": "type of component",
+                        "type": "string",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
                         "name": "var_value",
-                        "description": "type of var value",
-                        "type": "int",
+                        "description": "type of variable value",
+                        "type": "float, bool, int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -239,9 +435,9 @@
                     },
                     {
                         "name": "var_unit",
-                        "description": "type of unit e.g. EUR/MV",
-                        "type": "text",
-                        "unit": null,
+                        "description": "variable unit",
+                        "type": "string",
+                        "unit": "Eur/MW, Eur/MWh,Eur/MW/a, Eur/MWh/a, Eur/MW/km/a",
                         "isAbout": [
                             {
                                 "name": null,
@@ -258,7 +454,7 @@
                     }, {
                         "name": "source",
                         "description": "type of source",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -276,8 +472,8 @@
                     },
                     {
                         "name": "comment",
-                        "description": "additional information",
-                        "type": "text",
+                        "description": "general comments on data and data type",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
