@@ -1,10 +1,10 @@
 {
     "name": "demands",
-    "title": null,
+    "title": "Demands of energy carriers for regions Berlin and Brandenburg",
     "id": null,
-    "description": null,
+    "description": "Demand of energy carriers or heat demand of scenario EL-EFF, GAS and gas_lessCH4 for the years 2040 and 2050",
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -16,7 +16,7 @@
         null
     ],
     "publicationDate": null,
-    "context": {
+    "constring": {
         "homepage": null,
         "documentation": null,
         "sourceCode": null,
@@ -28,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -52,7 +52,7 @@
     },
     "sources": [
         {
-            "title": "Berlin Paris Konform machen",
+            "title": "Berlin Paris-konform machen",
             "description": "Eine Aktualisierung der Machbarkeitsstudie „Klimaneutrales Berlin 2050“ mit Blick auf die Anforderungen aus dem UN-Abkommen von Paris Abschlussbericht",
             "path": "https://www.berlin.de/sen/uvk/_assets/klimaschutz/klimaschutzpolitik-in-berlin/berlin-paris-konform/studie-berlin-paris-konform-endbericht.pdf",
             "licenses": [
@@ -67,7 +67,7 @@
         },
         {
             "title": "Gutachten zur Energiestrategie 2040",
-            "description": "Aktualisierung und Weiterentwicklung der\nEnergiestrategie 2030 des Landes Brandenburg",
+            "description": "Aktualisierung und Weiterentwicklung der Energiestrategie 2030 des Landes Brandenburg",
             "path": "https://mwae.brandenburg.de/media/bb1.a.3814.de/Prognos-Gutachten_Fortschreibung_Energiestratgie%20Bbg_2040.pdf",
             "licenses": [
                 {
@@ -75,7 +75,91 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution":"prognos"
+                    "attribution":null
+                }
+            ]
+        },
+        {
+            "title": "Anwendungsbilanzen zur Energiebilanz Deutschland",
+            "description": "Detaillierte Anwendungsbilanzen der Endenergiesektoren für 2018 und 2019 sowie zusammenfassende Zeitreihen zum Endenergieverbrauch nach Energieträgern und Anwendungszwecken für Jahre von 2009 bis 2019",
+            "path": "https://ag-energiebilanzen.de/index.php?article_id=8&archiv=5&year=2020",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright AG Energiebilanzen e. V.",
+                    "path": "https://ag-energiebilanzen.de/impressum/",
+                    "instruction": "Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+                    "attribution":"© AG Energiebilanzen e. V."
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland. Treibhausgasneutrale Hauptszenarien Modul GHD und Geräte",
+            "description": "Treibhausgasneutrale Hauptszenarien Modul GHD und Geräte",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Bericht_TN_Szenarien_Modul_GHD_und_Geraete_final.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Bericht_TN_Szenarien_Modul_GHD_und_Geraete_final.pdf",
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland 3. Treibhausgasneutrale Hauptszenarien Modul Industrie",
+            "description": "Treibhausgasneutrale Hauptszenarien Modul Industrie",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/Modul_TN_Hauptszenarien_Industrie.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": null,
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland. Treibhausgasneutrale Hauptszenarien Modul Verkehr",
+            "description": "Treibhausgasneutrale Hauptszenarien Modul Verkehr",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Langbericht_Verkehr_final.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Langbericht_Verkehr_final.pdf",
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland. Treibhausgasneutrale Hauptszenarien Modul Gebäude",
+            "description": "Treibhausgasneutrale Hauptszenarien Modul Gebäude",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien 3 – Bericht Energieangebot",
+            "description": "In dieser Rubrik stellen wir für Sie eine Vielzahl von Informationen zu den Langfristzenarien bereit.Sie können hier folgende Inhalte finden: Videowebinare, foliensätze und Berichtsmodule.",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-de/dokumente/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-de/impressum/",
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
                 }
             ]
         }
@@ -109,7 +193,7 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
+                        "description": "unique identifier of scalar",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -129,7 +213,7 @@
                     {
                         "name": "scenario_key",
                         "description": "type of scenario as key",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -146,8 +230,8 @@
                         ]
                     },{
                         "name": "name",
-                        "description": "specific name",
-                        "type": "text",
+                        "description": "name of region and type of demand",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -164,8 +248,8 @@
                         ]
                     },{
                         "name": "var_name",
-                        "description": "amount",
-                        "type": "text",
+                        "description": "variable name",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -183,7 +267,7 @@
                     },{
                         "name":"carrier",
                         "description": "type of carrier",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -200,8 +284,8 @@
                         ]
                     },{
                         "name": "region",
-                        "description": "which regions are covered",
-                        "type": "text",
+                        "description": "indicator for region",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -218,8 +302,8 @@
                         ]
                     },{
                         "name":"tech",
-                        "description": "type of tech",
-                        "type": "text",
+                        "description": "type of demand for different sectors",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -236,8 +320,8 @@
                         ]
                     },{
                         "name": "type",
-                        "description": "load",
-                        "type": "text",
+                        "description": "type of demand",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -254,7 +338,7 @@
                         ]
                     },{
                         "name": "var_value",
-                        "description": "var_value in numbers",
+                        "description": "variable value",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -272,8 +356,8 @@
                         ]
                     },{
                         "name": "var_unit",
-                        "description": "unit",
-                        "type": "text",
+                        "description": "variable unit",
+                        "type": "string",
                         "unit": "MWh/a",
                         "isAbout": [
                             {
@@ -291,7 +375,7 @@
                     },{
                         "name": "source",
                         "description": "type of sources used",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -309,7 +393,7 @@
                     },{
                         "name":"comment",
                         "description": "general comments on data and data type",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -350,7 +434,7 @@
         }
     ],
     "@id": null,
-    "@context": null,
+    "@constring": null,
     "review": {
         "path": null,
         "badge": null
