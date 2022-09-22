@@ -28,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -109,8 +109,8 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
-                        "type": "serial",
+                        "description": "unique identifier of scalar",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -128,8 +128,8 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "which scenario keys used",
-                        "type": "text",
+                        "description": "type of scenario as key",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -146,8 +146,8 @@
                         ]
                     }, {
                         "name": "name",
-                        "description": "detailed name",
-                        "type": "text",
+                        "description": "name of region, carrier and type of conversion tech",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -164,8 +164,8 @@
                         ]
                     }, {
                         "name": "var_name",
-                        "description": "capacity",
-                        "type": "text",
+                        "description": "capacity of conversion tech",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -183,7 +183,7 @@
                     }, {
                         "name": "carrier",
                         "description": "type of carrier",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -201,7 +201,7 @@
                     }, {
                         "name": "region",
                         "description": "indicator for region",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -218,8 +218,8 @@
                         ]
                     }, {
                         "name": "tech",
-                        "description": "tech type",
-                        "type": "text",
+                        "description": "type of transformer",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -236,8 +236,8 @@
                         ]
                     }, {
                         "name": "type",
-                        "description": "type of type",
-                        "type": "text",
+                        "description": "type of component",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -254,8 +254,8 @@
                         ]
                     }, {
                         "name": "var_value",
-                        "description": "type of var value",
-                        "type": "text",
+                        "description": "variable value",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -272,9 +272,9 @@
                         ]
                     }, {
                         "name": "var_unit",
-                        "description": "type of unit",
-                        "type": "text",
-                        "unit": "MW",
+                        "description": "variable unit",
+                        "type": "string",
+                        "unit": "MW, MWh",
                         "isAbout": [
                             {
                                 "name": null,
@@ -290,7 +290,7 @@
                         ]
                     }, {
                         "name":"source",
-                        "description": null,
+                        "description": "type of sources used",
                         "type": null,
                         "unit": null,
                         "isAbout": [
@@ -308,8 +308,8 @@
                         ]
                     }, {
                         "name": "comment",
-                        "description": "comment on source of data",
-                        "type": "text",
+                        "description": "general comments on data and data type",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
