@@ -92,7 +92,7 @@
     "contributors": [
         {
             "title": "Oskar",
-            "email": null,
+            "email": "oskar.oetken@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
@@ -110,7 +110,7 @@
                     {
                         "name": "region",
                         "description": "states in germany",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
