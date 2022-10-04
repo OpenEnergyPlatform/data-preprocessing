@@ -92,7 +92,7 @@
     "contributors": [
         {
             "title": "Oskar",
-            "email": null,
+            "email": "oskar.oetken@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
@@ -129,7 +129,7 @@
                     {
                         "name": "latitude",
                         "description": "column shows the latitude of the measuring station",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "longitude",
                         "description": "column shows the longitude of the measuring station",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -224,7 +224,7 @@
                     {
                         "name": "precipitable_water",
                         "description": "column shows the amount of precipitable water",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
