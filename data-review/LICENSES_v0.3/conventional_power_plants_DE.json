@@ -92,7 +92,7 @@
     "contributors": [
         {
             "title": "Oskar",
-            "email": null,
+            "email": "oskar.oetken@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
@@ -129,7 +129,7 @@
                     {
                         "name": "name_bnetza",
                         "description": "column shows the name given by bundesnetzagentur ",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "block_bnetza",
                         "description": "column shows the block of power plant given by bundesnetzagentur",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "name_uba",
                         "description": "column shows the name given by umweltbundesamt",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -186,7 +186,7 @@
                     {
                         "name": "company",
                         "description": "column shows the company which runs the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -205,7 +205,7 @@
                     {
                         "name": "street",
                         "description": "column shows the street of power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -243,7 +243,7 @@
                     {
                         "name": "city",
                         "description": "column shows the city where the power plant is located",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -262,7 +262,7 @@
                     {
                         "name": "state",
                         "description": "column shows the state in which the power plant is located",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -281,7 +281,7 @@
                     {
                         "name": "country",
                         "description": "column shows the country of the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -338,7 +338,7 @@
                     {
                         "name": "energy_source",
                         "description": "column shows the source of the energy",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -357,7 +357,7 @@
                     {
                         "name": "technology",
                         "description": "column shows the technology used in the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -376,7 +376,7 @@
                     {
                         "name": "chp",
                         "description": "column shows if the power plant produces heat and electricity",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -490,7 +490,7 @@
                     {
                         "name": "status",
                         "description": "column shows the status of activity",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -509,7 +509,7 @@
                     {
                         "name": "type",
                         "description": "column shows the type of the power plant (CHP/IPP)",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -566,7 +566,7 @@
                     {
                         "name": "eic_code_plant",
                         "description": "column shows the code of the power plant given by european innovation council",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -585,7 +585,7 @@
                     {
                         "name": "eic_code_block",
                         "description": "column shows the code of the block given by european innovation council",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -623,7 +623,7 @@
                     {
                         "name": "efficiency_source",
                         "description": "column shows the source of the column efficiency_data",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -661,7 +661,7 @@
                     {
                         "name": "energy_source_level_1",
                         "description": "column shows general energy source of the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -680,7 +680,7 @@
                     {
                         "name": "energy_source_level_2",
                         "description": "column shows the specific energy source",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -699,7 +699,7 @@
                     {
                         "name": "energy_source_level_3",
                         "description": "column shows the energy source very differentiated",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -718,7 +718,7 @@
                     {
                         "name": "eeg",
                         "description": "column shows if the power plant is part of the renewable energy sources act",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -737,7 +737,7 @@
                     {
                         "name": "network_node",
                         "description": "column shows the network node of the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -756,7 +756,7 @@
                     {
                         "name": "voltage",
                         "description": "column shows the voltage of the power plant",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -775,7 +775,7 @@
                     {
                         "name": "network_operator",
                         "description": "column shows the company operating the network",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -794,7 +794,7 @@
                     {
                         "name": "merge_comment",
                         "description": "column for comments on merging",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -813,7 +813,7 @@
                     {
                         "name": "comment",
                         "description": "column for comments",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
