@@ -92,7 +92,7 @@
     "contributors": [
         {
             "title": "Oskar",
-            "email": null,
+            "email": "oskar.oetken@rl-institut.de",
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
@@ -129,7 +129,7 @@
                     {
                         "name": "scenario_key",
                         "description": "column shows the specific key of the scenarion",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "region",
                         "description": "column shows the abbreviated state in germany",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "var_name",
                         "description": "column shows the name of the variable",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -205,7 +205,7 @@
                      {
                         "name": "timeindex_stop",
                         "description": "column shows the the time of the stop",
-                        "type": null,
+                        "type": "integer",
                         "unit": null,
                         "isAbout": [
                             {
@@ -224,7 +224,7 @@
                      {
                         "name": "timeindex_resolution",
                         "description": "column shows the resolution of the timeindex",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -243,7 +243,7 @@
                      {
                         "name": "series",
                         "description": "column shows the series",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -262,7 +262,7 @@
                      {
                         "name": "var_unit",
                         "description": "column shows the unit of the variable",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -281,7 +281,7 @@
                      {
                         "name": "source",
                         "description": "column shows the source",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -300,7 +300,7 @@
                      {
                         "name": "comment",
                         "description": "a column for comments",
-                        "type": "text",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
