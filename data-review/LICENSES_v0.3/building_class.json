@@ -1,7 +1,7 @@
 {
-    "name": null,
-    "title": null,
-    "id": null,
+    "name": "building_class",
+    "title": "building_class",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/building_class",
     "description": null,
     "language": [
         null
