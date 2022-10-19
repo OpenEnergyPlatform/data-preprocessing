@@ -1,10 +1,10 @@
 {
     "name": "emissions_constraints",
-    "title": null,
+    "title": "List of emission factors for energy carriers for different scenarios, total emissions in base year and emission reduction factors.",
     "id": null,
     "description": null,
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -28,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -61,7 +61,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Greenpeace Energy"
+                    "attribution": null
                 }
             ]
         },
@@ -75,25 +75,27 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Linde"
+                    "attribution": null
                 }
             ]
-        },{
-            "title": "EIB Project Carbon Footprint\nMethodologies",
+        },
+        {
+            "title": "EIB Project Carbon Footprint Methodologies",
             "description": "Methodologies for the assessment of project greenhouse gas emissions and emission variations Version 11.2 February 2022",
             "path": "https://www.eib.org/attachments/publications/eib_project_carbon_footprint_methodologies_2022_en.pdf",
             "licenses": [
                 {
                     "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "European Investment Bank"
+                    "title": "Copyright European Investment Bank",
+                    "path": "https://www.eib.org/attachments/publications/eib_project_carbon_footprint_methodologies_2022_en.pdf",
+                    "instruction": "All rights reserved. All questions on rights and licensing should be addressed to publications@eib.org.",
+                    "attribution": "© European Investment Bank, 2022"
                 }
             ]
-        },{
+        },
+        {
             "title": "Heiz- und Brennwerte",
-            "description": "Die Verwechslung von Heiz- und Brennwert kann zu Missverständnissen führen. Diese Dokument zeigt auf, wie die Werte zustande kommen und welchen Einfluss sie auf die Berechnung eines Wirkungsgrades haben.",
+            "description": "Factsheet 10 von Erneuerbares Methan für Transport und Mobilität. Diese Dokument zeigt auf, wie die Werte zustande kommen und welchen Einfluss sie auf die Berechnung eines Wirkungsgrades haben.",
             "path": "https://www.iet.hsr.ch/fileadmin/user_upload/iet.hsr.ch/Power-to-Gas/Kurzberichte/10_Heiz-_und_Brennwerte.pdf",
             "licenses": [
                 {
@@ -101,12 +103,13 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "HSRC Hochschule für Technik Rapperswil"
+                    "attribution": null
                 }
             ]
-        },{
+        },
+        {
             "title": "Emissionsfaktoren Brennstoffe",
-            "description": "Emissionsfaktoren nach Emissionsbilanz in DE",
+            "description": "Emissionsfaktoren nach Emissionsbilanz in Deutschland",
             "path": "https://enertile-explorer.isi.fraunhofer.de:8443/open-view/10277/f9a716ac8221de8599bbdd5f340421ae",
             "licenses": [
                 {
@@ -114,33 +117,63 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Fraunhofer"
+                    "attribution": null
                 }
             ]
-        },{
-            "title": "Rechnen Sie mit Wasserstoff",
-            "description": "Die Datentabelle zu Wasserstoff",
-            "path": "https://www.linde-gas.at/de/images/1007_rechnen_sie_mit_wasserstoff_v110_tcm550-169419.pdf",
+        },
+        {
+            "title": "Statistischer Bericht",
+            "description": "Energie- und CO₂-Bilanz im Land Brandenburg 2018",
+            "path": "https://download.statistik-berlin-brandenburg.de/a55e41345076fc3a/3131a11bf647/SB_E04-04-00_2018j01_BB.pdf",
+            "licenses": [
+                {
+                    "name": "CC BY 3.0 DE",
+                    "title": "Attribution 3.0 Germany",
+                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
+                    "attribution": "CC BY 3.0 DE"
+                }
+            ]
+        },
+        {
+            "title": "Statistischer Bericht",
+            "description": "Energie- und CO₂-Bilanz in Berlin 2018",
+            "path": "https://download.statistik-berlin-brandenburg.de/fc700d859bd0decc/4fabc08d4580/SB_E04-04-00_2018j01_BE.pdf",
+            "licenses": [
+                {
+                    "name": "CC BY 3.0 DE",
+                    "title": "Attribution 3.0 Germany",
+                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
+                    "attribution": "CC BY 3.0 DE"
+                }
+            ]
+        },
+        {
+            "title": "Nationale Trendtabellen in der Abgrenzung der Sektoren des Klimaschutzgesetzes (KSG)",
+            "description": "Daten der Treibhausgasemissionen des Jahres 2020 nach KSG",
+            "path": "https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#nationale-und-europaische-klimaziele",
             "licenses": [
                 {
                     "name": null,
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Linde"
+                    "attribution": null
                 }
             ]
-        },{
-            "title": "Rechnen Sie mit Wasserstoff",
-            "description": "Die Datentabelle zu Wasserstoff",
-            "path": "https://www.linde-gas.at/de/images/1007_rechnen_sie_mit_wasserstoff_v110_tcm550-169419.pdf",
+        },
+        {
+            "title": "Nationale Trendtabellen in der Abgrenzung der Sektoren des Klimaschutzgesetzes (KSG)",
+            "description": "Daten der Treibhausgasemissionen des Jahres 2020 nach KSG",
+            "path": "https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#nationale-und-europaische-klimaziele",
             "licenses": [
                 {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "Linde"
+                    "name": "dl-de/by-2-0",
+                    "title": "Data licence Germany – attribution – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free to copy, print, present, alter, process and transmit to third parties; merge with your own or other data; integrate in internal and external business processes, products and applications in public and non-public electronic networks, but you must provide the name, the annotation referring to the license and reference the dataset.Changes, editing, new designs or other amendments must be marked as such in the source note. ",
+                    "attribution": "dl-de/by-2-0"
                 }
             ]
         }
@@ -161,6 +194,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": "data referring to total emissions"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": "data referring to the emission factor and total emissions"
         }
     ],
     "resources": [
@@ -174,7 +221,7 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
+                        "description": "unique identifier of scalar",
                         "type": "serial",
                         "unit": null,
                         "isAbout": [
@@ -193,7 +240,7 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "type of scenario",
+                        "description": "type of scenario as key",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -212,7 +259,7 @@
                     },
                   {
                         "name": "name",
-                        "description": "type of export/import",
+                        "description": "name of region and type of carrier imported or exported",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -230,7 +277,7 @@
                         ]
                     },{
                         "name": "var_name",
-                        "description": "type of parameters used",
+                        "description": "variable name",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -266,7 +313,7 @@
                         ]
                     },{
                         "name": "region",
-                        "description": "which regions are chosen",
+                        "description": "indicator for region",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -284,7 +331,7 @@
                         ]
                     },{
                         "name": "tech",
-                        "description": "type of tech",
+                        "description": "type of transmission",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -302,7 +349,7 @@
                         ]
                     },{
                         "name": "type",
-                        "description": "excess, shortage or limit",
+                        "description": "type of tech",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -320,7 +367,7 @@
                         ]
                     },{
                         "name": "var_value",
-                        "description": "emission factor as a number",
+                        "description": "variable value",
                         "type": "text amd int",
                         "unit": null,
                         "isAbout": [
@@ -338,9 +385,9 @@
                         ]
                     },{
                         "name": "var_unit",
-                        "description": "unit type",
+                        "description": "variable unit",
                         "type": "text",
-                        "unit": null,
+                        "unit": "kg_CO2_eq/MWh",
                         "isAbout": [
                             {
                                 "name": null,
@@ -356,7 +403,7 @@
                         ]
                     },{
                         "name": "sources",
-                        "description": "sources used per line",
+                        "description": "type of sources used",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -374,7 +421,7 @@
                         ]
                     },{
                         "name": "comment",
-                        "description": "additional notes",
+                        "description": "general comments on data and data type",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
