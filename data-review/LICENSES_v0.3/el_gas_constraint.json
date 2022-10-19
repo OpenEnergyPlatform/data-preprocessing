@@ -110,6 +110,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": null
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": null
         }
     ],
     "resources": [
