@@ -100,11 +100,11 @@
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resource",
+            "name": "building_class",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/building_class",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
