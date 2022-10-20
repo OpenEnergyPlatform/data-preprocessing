@@ -1,7 +1,7 @@
 {
-    "name": null,
-    "title": null,
-    "id": null,
+    "name": "ts_load_ch4",
+    "title": "ts_load_ch4",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/ts_load_ch4",
     "description": null,
     "language": [
         null
@@ -100,11 +100,11 @@
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resource",
+            "name": "ts_load_ch4",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/ts_load_ch4",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
