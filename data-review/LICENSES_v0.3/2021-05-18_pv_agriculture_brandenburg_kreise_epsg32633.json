@@ -29,7 +29,7 @@
     "spatial": {
         "location": null,
         "extent": "Brandenburg",
-        "resolution": "regional"
+        "resolution": null
     },
     "temporal": {
         "referenceDate": null,
@@ -142,7 +142,7 @@
                     },
                     {
                         "name": "id",
-                        "description": "id for each case per line",
+                        "description": null,
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -161,7 +161,7 @@
                     }
                     {
                         "name": "fid_2",
-                        "description": "id for each case",
+                        "description": null,
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -237,7 +237,7 @@
                     },
                     {
                         "name": "ARS",
-                        "description": "Amtlicher Regionalschlüssel",
+                        "description": "Amtlicher Regionalschlüssel, formerly RS",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -295,7 +295,7 @@
                     {
                         "name": "GEN",
                         "description": "Geografischer Name",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -314,7 +314,7 @@
                     {
                         "name": "BEZ",
                         "description": "Bezeichnung der Verwaltungseinheit",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -371,7 +371,7 @@
                     {
                         "name": "NBD",
                         "description": "Namensbildung",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -465,7 +465,7 @@
                     },
                     {
                         "name": "SN_V2",
-                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil" ,
+                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -504,7 +504,7 @@
                     {
                         "name": "FK_S3",
                         "description": "Funktion der 3. Schlüsselstelle",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -523,7 +523,7 @@
                     {
                         "name": "NUTS",
                         "description": "Europäischer Statistikschlüssel",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -580,7 +580,7 @@
                     {
                         "name": "WSK",
                         "description": "Wirksamkeit",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -599,7 +599,7 @@
                     {
                         "name": "DEBKG_ID",
                         "description": "Digitaler Landschaftsmodell Indikator",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -617,7 +617,7 @@
                     },
                     {
                         "name": "RS",
-                        "description": "five-digit numbers",
+                        "description": "Regionalschlüssel",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -655,7 +655,7 @@
                     },
                     {
                         "name": "RS_0",
-                        "description": "Aufgefüllter Amtlicher Regionalschlüssel" ,
+                        "description": "Aufgefüllter Amtlicher Regionalschlüssel",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
