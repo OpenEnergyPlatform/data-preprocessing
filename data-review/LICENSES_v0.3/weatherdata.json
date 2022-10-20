@@ -110,7 +110,7 @@
                     {
                         "name": "time",
                         "description": "column shows the time when the measurements were carried out",
-                        "type": "integer",
+                        "type": "series",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "ghi",
                         "description": "column shows the global horizontal irradiance",
-                        "type": "integer",
+                        "type": "float",
                         "unit": "W/m²",
                         "isAbout": [
                             {
@@ -186,7 +186,7 @@
                     {
                         "name": "wind_speed",
                         "description": "column shows the speed of the wind",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -205,7 +205,7 @@
                     {
                         "name": "temp_air",
                         "description": "column shows the temperature of the air",
-                        "type": "integer",
+                        "type": "float",
                         "unit": null,
                         "isAbout": [
                             {
@@ -262,7 +262,7 @@
                     {
                         "name": "dhi",
                         "description": "column shows the diffuse horizontal irradiance",
-                        "type": "integer",
+                        "type": "float",
                         "unit": "W/m²",
                         "isAbout": [
                             {
