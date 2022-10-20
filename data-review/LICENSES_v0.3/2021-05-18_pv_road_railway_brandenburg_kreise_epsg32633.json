@@ -111,7 +111,7 @@
                     {
                         "name": "fid",
                         "description": "unique identifier" ,
-                        "type": "serial",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {

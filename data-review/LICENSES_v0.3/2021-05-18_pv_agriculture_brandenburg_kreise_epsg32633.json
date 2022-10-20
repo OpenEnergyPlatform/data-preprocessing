@@ -64,20 +64,6 @@
                     "attribution": "© Reiner Lemoine Institut"
                 }
             ]
-        },
-        {
-            "title": null,
-            "description": null,
-            "path": null,
-            "licenses": [
-                {
-                    "name": null,
-                    "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
-                }
-            ]
         }
     ],
     "licenses": [
@@ -636,7 +622,7 @@
                     },
                     {
                         "name": "SDV_RS",
-                        "description": "Sitz der Verwaltung (ARS)" ,
+                        "description": "Sitz der Verwaltung (ARS)",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
