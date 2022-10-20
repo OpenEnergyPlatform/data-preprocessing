@@ -1,7 +1,7 @@
 {
-    "name": null,
-    "title": null,
-    "id": null,
+    "name": "res_SimBEV_Berln_2019",
+    "title": "res_SimBEV_Berlin_2019",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/res_SimBEV_Berlin_2019",
     "description": null,
     "language": [
         null
@@ -100,11 +100,11 @@
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resources",
+            "name": "res_SimBEV_Berlin_2019",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/res_SimBEV_Berlin_2019",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
