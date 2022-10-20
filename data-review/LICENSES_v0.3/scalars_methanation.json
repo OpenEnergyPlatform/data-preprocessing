@@ -110,7 +110,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique indentifier",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "scenario_key",
                         "description": "determines the scenario",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "name",
                         "description": "general name ",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "var_name",
                         "description": "name of the variable",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -186,7 +186,7 @@
                     {
                         "name": "carrier",
                         "description": "type of the carrier of the energy",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -205,7 +205,7 @@
                     {
                         "name": "region",
                         "description": "region in germany",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -224,7 +224,7 @@
                     {
                         "name": "tech",
                         "description": "the used technology",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -243,7 +243,7 @@
                     {
                         "name": "type",
                         "description": "the type of the technology",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -281,7 +281,45 @@
                     {
                         "name": "var_unit",
                         "description": "the units belonging to the values of the variables",
-                        "type": "string",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "source",
+                        "description": "the column shows the source",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "commment",
+                        "description": "a column for comments",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
