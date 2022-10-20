@@ -53,7 +53,7 @@
     "sources": [
         {
             "title": "PV (NUTS-2, MERRA-2)",
-            "description": "a database for renewable energies",
+            "description": "hourly data PV",
             "path": "https://www.renewables.ninja/country_downloads/DE/ninja_pv_country_DE_merra-2_nuts-2_corrected.csv",
             "licenses": [
                 {
@@ -61,7 +61,7 @@
                     "title": "Creative Commons NonCommercial 4.0 ",
                     "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en",
                     "instruction": "You are free: To Share, To Adapt; As long as you: Attribute, Don't use it for commercial purposes",
-                    "attribution": "@renewables.ninja"
+                    "attribution": "CC BY-NC 4.0"
                 }
             ]
         },
@@ -96,6 +96,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data",
+            "comment": null
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "metadata",
+            "comment": null
         }
     ],
     "resources": [
@@ -109,9 +123,9 @@
                 "fields": [
                     {
                         "name": "time",
-                        "description": "column shows the time when values got measured",
+                        "description": "hourly time series",
                         "type": "integer",
-                        "unit": "time in UTC",
+                        "unit": "UTC",
                         "isAbout": [
                             {
                                 "name": null,
@@ -128,7 +142,7 @@
                     },
                     {
                         "name": "DE11",
-                        "description": "column shows the values for DE11",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -147,7 +161,7 @@
                     },
                     {
                         "name": "DE12",
-                        "description": "column shows the values for DE12",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -166,7 +180,7 @@
                     },
                     {
                         "name": "DE13",
-                        "description": "column shows the values for DE13",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -185,7 +199,7 @@
                     },
                     {
                         "name": "DE14",
-                        "description": "column shows the values for DE14",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -204,7 +218,7 @@
                     },
                     {
                         "name": "DE21",
-                        "description": "column shows the values for DE21",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -223,7 +237,7 @@
                     },
                     {
                         "name": "DE22",
-                        "description": "column shows the values for DE22",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -242,7 +256,7 @@
                     },
                     {
                         "name": "DE23",
-                        "description": "column shows the values for DE23",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -261,7 +275,7 @@
                     },
                     {
                         "name": "DE24",
-                        "description": "column shows the values for DE24",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -280,7 +294,7 @@
                     },
                     {
                         "name": "DE25",
-                        "description": "column shows the values for DE25",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -299,7 +313,7 @@
                     },
                     {
                         "name": "DE26",
-                        "description": "column shows the values for DE26",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -318,7 +332,7 @@
                     },
                     {
                         "name": "DE27",
-                        "description": "column shows the values for DE27",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -337,7 +351,7 @@
                     },
                     {
                         "name": "DE30",
-                        "description": "column shows the values for DE30",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -356,7 +370,7 @@
                     },
                     {
                         "name": "DE40",
-                        "description": "column shows the values for DE40",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -375,7 +389,7 @@
                     },
                     {
                         "name": "DE50",
-                        "description": "column shows the values for DE50",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -394,7 +408,7 @@
                     },
                     {
                         "name": "DE60",
-                        "description": "column shows the values for DE60",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -413,7 +427,7 @@
                     },
                     {
                         "name": "DE71",
-                        "description": "column shows the values for DE71",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -432,7 +446,7 @@
                     },
                     {
                         "name": "DE72",
-                        "description": "column shows the values for DE72",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -451,7 +465,7 @@
                     },
                     {
                         "name": "DE73",
-                        "description": "column shows the values for DE73",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -470,7 +484,7 @@
                     },
                     {
                         "name": "DE80",
-                        "description": "column shows the values for DE80",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -489,7 +503,7 @@
                     },
                     {
                         "name": "DE91",
-                        "description": "column shows the values for DE91",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -508,7 +522,7 @@
                     },
                     {
                         "name": "DE92",
-                        "description": "column shows the values for DE92",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -527,7 +541,7 @@
                     },
                     {
                         "name": "DE93",
-                        "description": "column shows the values for DE93",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -546,7 +560,7 @@
                     },
                     {
                         "name": "DE94",
-                        "description": "column shows the values for DE94",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -565,7 +579,7 @@
                     },
                     {
                         "name": "DEA1",
-                        "description": "column shows the values for DEA1",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -584,7 +598,7 @@
                     },
                     {
                         "name": "DEA2",
-                        "description": "column shows the values for DEA2"
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -603,7 +617,7 @@
                     },
                     {
                         "name": "DEA3",
-                        "description": "column shows the values for DEA3",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -622,7 +636,7 @@
                     },
                     {
                         "name": "DEA4",
-                        "description": "column shows the values for DEA4",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -641,7 +655,7 @@
                     },
                     {
                         "name": "DEA5",
-                        "description": "column shows the values for DEA5",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -660,7 +674,7 @@
                     },
                     {
                         "name": "DEB1",
-                        "description": "column shows the values for DEB1",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -679,7 +693,7 @@
                     },
                     {
                         "name": "DEB2",
-                        "description": "column shows the values for DEB2",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -698,7 +712,7 @@
                     },
                     {
                         "name": "DEB3",
-                        "description": "column shows the values for DEB2",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -717,7 +731,7 @@
                     },
                     {
                         "name": "DEC0",
-                        "description": "column shows the values for DEC0",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -736,7 +750,7 @@
                     },
                     {
                         "name": "DED2",
-                        "description": "column shows the values for DED2",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -755,7 +769,7 @@
                     },
                     {
                         "name": "DED4",
-                        "description": "column shows the values for DED4",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -774,7 +788,7 @@
                     },
                     {
                         "name": "DED5",
-                        "description": "column shows the values for DED5",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -793,7 +807,7 @@
                     },
                     {
                         "name": "DEE0",
-                        "description": "column shows the values for DEE0",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -812,7 +826,7 @@
                     },
                     {
                         "name": "DEF0",
-                        "description": "column shows the values for DEF0",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [
@@ -831,7 +845,7 @@
                     },
                     {
                         "name": "DEG0",
-                        "description": "column shows the values for DEG0",
+                        "description": null,
                         "type": "float",
                         "unit": null,
                         "isAbout": [

@@ -4,7 +4,7 @@
     "id": null,
     "description": null,
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -16,13 +16,13 @@
         null
     ],
     "publicationDate": null,
-    "context": {
-        "homepage": null,
-        "documentation": null,
-        "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "fundingAgency": null,
+    "constring": {
+        "homepage": "https://reiner-lemoine-institut.de/umas/",
+        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
+        "sourceCode": "https://github.com/rl-institut/oemof-B3",
+        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
+        "grantNo": "03EI1005D",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
         "fundingAgencyLogo": null,
         "publisherLogo": null
     },
@@ -61,7 +61,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Agentur für Erneuerbqare Energien"
+                    "attribution": null
                 }
             ]
         },
@@ -75,7 +75,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Regionale Plannungsgemeinschaft Oderland-Spree"
+                    "attribution": null
                 }
             ]
         },
@@ -89,7 +89,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Agentur für Erneuerbqare Energien"
+                    "attribution": null
                 }
             ]
         },
@@ -103,7 +103,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Büro Knoblich"
+                    "attribution": null
                 }
             ]
         },
@@ -117,7 +117,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Umweltbundesamt"
+                    "attribution": null
                 }
             ]
         }
@@ -138,6 +138,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data",
+            "comment": null
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "metadata",
+            "comment": null
         }
     ],
     "resources": [
@@ -150,8 +164,8 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "id_scale",
-                        "description": "unique number",
+                        "name": "id_scal",
+                        "description": "unique identifier of scalar",
                         "type": "serial",
                         "unit": null,
                         "isAbout": [
@@ -170,7 +184,7 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "All",
+                        "description": "type of scenario as key",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -189,7 +203,7 @@
                     },
                   {
                         "name": "name",
-                        "description": "specifies electricity storage type",
+                        "description": "name of region, energy carrier and transformer",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -207,7 +221,7 @@
                         ]
                     },{
                         "name": "var_name",
-                        "description": "specifies potential",
+                        "description": "variable name",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -243,7 +257,7 @@
                         ]
                     },{
                         "name": "region",
-                        "description": "which regions are chosen",
+                        "description": "indicator for region",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -261,7 +275,7 @@
                         ]
                     },{
                         "name": "tech",
-                        "description": "type of tech",
+                        "description": "type of tech used",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -279,7 +293,7 @@
                         ]
                     },{
                         "name": "type",
-                        "description": "conversion, storage or volatile",
+                        "description": null,
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -297,7 +311,7 @@
                         ]
                     },{
                         "name": "var_value",
-                        "description": "var_value in numbers",
+                        "description": "variable value",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -315,7 +329,7 @@
                         ]
                     },{
                         "name": "var_unit",
-                        "description": "type of unit",
+                        "description": "variable unit",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -333,7 +347,26 @@
                         ]
                     },{
                         "name":"source",
-                        "description": "details about the source per line",
+                        "description": "type of sources used",
+                        "type": "text",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "comment",
+                        "description": "general comments on data and data type",
                         "type": "text",
                         "unit": null,
                         "isAbout": [

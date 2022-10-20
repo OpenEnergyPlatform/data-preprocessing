@@ -334,7 +334,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "text",

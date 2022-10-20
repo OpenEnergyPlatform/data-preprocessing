@@ -96,6 +96,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data",
+            "comment": null
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "metadata",
+            "comment": null
         }
     ],
     "resources": [
@@ -109,7 +123,7 @@
                 "fields": [
                     {
                         "name": null,
-                        "description": "column numerates the rows",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -128,7 +142,7 @@
                     },
                     {
                         "name": "time",
-                        "description": "column shows the time",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -147,7 +161,7 @@
                     },
                     {
                         "name": "sum CS power",
-                        "description": "column shows the sum of the CS power",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -166,7 +180,7 @@
                     },
                     {
                         "name": "sum UC work",
-                        "description": "column shows the sum of the UC work",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -185,7 +199,7 @@
                     },
                     {
                         "name": "sum UC business",
-                        "description": "column shows the sum of the UC business",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -204,7 +218,7 @@
                     },
                     {
                         "name": "sum UC school",
-                        "description": "column shows the sum of the UC school",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -223,7 +237,7 @@
                     },
                     {
                         "name": "sum UC shopping",
-                        "description": "column shows the sum of the UC shopping",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -242,7 +256,7 @@
                     },
                     {
                         "name": "sum UC private/ridesharing",
-                        "description": "column shows the sum of the UC private/ridesharing",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -261,7 +275,7 @@
                     },
                     {
                         "name": "sum UC leisure",
-                        "description": "column shows the sum of the UC leisure",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -280,7 +294,7 @@
                     },
                     {
                         "name": "sum UC home",
-                        "description": "column shows the sum of the UC home",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
@@ -299,7 +313,7 @@
                     },
                     {
                         "name": "sum UC hub",
-                        "description": "column shows the sum of the UC hub",
+                        "description": null,
                         "type": "integer",
                         "unit": null,
                         "isAbout": [

@@ -1,10 +1,10 @@
 {
-    "name": null,
+    "name": "lookup_table_brandenburg_kreise",
     "title": null,
     "id": null,
     "description": null,
     "language": [
-        null
+        "de-DE"
     ],
     "subject": [
         {
@@ -96,6 +96,13 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data",
+            "comment": null
         }
     ],
     "resources": [
@@ -109,7 +116,7 @@
                 "fields": [
                     {
                         "name": "NUTS",
-                        "description": "unique number",
+                        "description": "Nomenclature of territorial units for statistics",
                         "type": "string",
                         "unit": null,
                         "isAbout": [
@@ -128,7 +135,7 @@
                     },
                     {
                         "name": "region",
-                        "description": "shows the region in Brandenburg",
+                        "description": "name of the region",
                         "type": "string",
                         "unit": null,
                         "isAbout": [

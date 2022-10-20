@@ -4,7 +4,7 @@
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/id_region_BB_B",
     "description": null,
     "language": [
-        null
+        "de-DE"
     ],
     "subject": [
         {
@@ -57,11 +57,11 @@
             "path": "https://www.regionalstatistik.de/genesis/online?operation=variable&levelindex=0&levelid=1629199727321&code=KREISE&option=value#abreadcrumb",
             "licenses": [
                 {
-                    "name": "DL-DE->BY-2.0",
+                    "name": "dl-de/by-2-0",
                     "title": "Data licence Germany – attribution – version 2.0",
                     "path": "https://www.govdata.de/dl-de/by-2-0",
                     "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute",
-                    "attribution": "@Statistische Ämter des Bundes und der Länder"
+                    "attribution": "dl-de/by-2-0"
                 }
             ]
         },
@@ -109,7 +109,7 @@
                 "fields": [
                     {
                         "name": "id_region",
-                        "description": "specific number for regions",
+                        "description": "unique identifier for region",
                         "type": "integer",
                         "unit": null,
                         "isAbout": [
