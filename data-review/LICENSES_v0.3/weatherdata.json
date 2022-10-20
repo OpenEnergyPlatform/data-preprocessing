@@ -243,7 +243,7 @@
                     {
                         "name": "dni",
                         "description": "column shows the direct normal irradiance",
-                        "type": "integer",
+                        "type": "int",
                         "unit": "W/m²",
                         "isAbout": [
                             {
