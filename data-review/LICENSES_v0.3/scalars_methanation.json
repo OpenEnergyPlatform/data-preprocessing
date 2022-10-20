@@ -1,7 +1,7 @@
 {
-    "name": "scalars_methanation.csv",
-    "title": null,
-    "id": null,
+    "name": "scalars_methanation",
+    "title": "scalar_methanation",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/scalars_methanation",
     "description": null,
     "language": [
         null
@@ -100,11 +100,11 @@
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resource",
+            "name": "scalars_methanation",
+            "path": "scalars_methanation",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
