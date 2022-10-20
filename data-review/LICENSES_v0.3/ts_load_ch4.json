@@ -110,7 +110,7 @@
                     {
                         "name": "id_ts",
                         "description": "column shows the specific id of the time series",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "scenario_key",
                         "description": "column shows the specific key of the scenarion",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "region",
                         "description": "column shows the abbreviated state in germany",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "var_name",
                         "description": "column shows the name of the variable",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -186,7 +186,7 @@
                     {
                         "name": "timeindex_start",
                         "description": "column shows the time of the start",
-                        "type": "integer",
+                        "type": "timestamp",
                         "unit": null,
                         "isAbout": [
                             {
@@ -205,7 +205,7 @@
                      {
                         "name": "timeindex_stop",
                         "description": "column shows the the time of the stop",
-                        "type": "integer",
+                        "type": "timestamp",
                         "unit": null,
                         "isAbout": [
                             {
@@ -224,7 +224,7 @@
                      {
                         "name": "timeindex_resolution",
                         "description": "column shows the resolution of the timeindex",
-                        "type": "string",
+                        "type": "interval",
                         "unit": null,
                         "isAbout": [
                             {
@@ -262,7 +262,7 @@
                      {
                         "name": "var_unit",
                         "description": "column shows the unit of the variable",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -281,7 +281,7 @@
                      {
                         "name": "source",
                         "description": "column shows the source",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -300,7 +300,7 @@
                      {
                         "name": "comment",
                         "description": "a column for comments",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
