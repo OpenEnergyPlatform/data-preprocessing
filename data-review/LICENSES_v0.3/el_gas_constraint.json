@@ -1,10 +1,10 @@
 {
     "name": "el_gas_constraint",
-    "title": null,
+    "title": "Depicts the electricity and gas relation for central and decentral heat. Output factors for transformers are given as well.",
     "id": null,
     "description": null,
     "language": [
-        null
+        "en-GB"
     ],
     "subject": [
         {
@@ -28,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -61,7 +61,7 @@
                     "title": null,
                     "path": null,
                     "instruction": null,
-                    "attribution": "Institut für ökologische Wirtschaftsforschung mit BLS, RLI, IFOK, LUP"
+                    "attribution": null
                 }
             ]
         },
@@ -76,6 +76,20 @@
                     "path": null,
                     "instruction": null,
                     "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Langfristszenarien für die Transformation des Energiesystems in Deutschland. Treibhausgasneutrale Hauptszenarien Modul Gebäude",
+            "description": "Treibhausgasneutrale Hauptszenarien Modul Gebäude",
+            "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": "Copyright © by Fraunhofer-Gesellschaft",
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft"
                 }
             ]
         }
@@ -96,6 +110,20 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "create metadata"
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": null
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data and metadata",
+            "comment": null
         }
     ],
     "resources": [
@@ -109,7 +137,7 @@
                 "fields": [
                     {
                         "name": "id_scal",
-                        "description": "unique identifier",
+                        "description": "unique identifier of scalar",
                         "type": "serial",
                         "unit": null,
                         "isAbout": [
@@ -127,8 +155,8 @@
                         ]
                     },
                     {
-                        "name": "scenariokey",
-                        "description": "name of specific scanrio used",
+                        "name": "scenario_key",
+                        "description": "type of scenario as key",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -146,7 +174,7 @@
                         ]
                     },{
                         "name": "name",
-                        "description": "name of heating type and size",
+                        "description": "name of region, heating type and size of transformer",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -164,7 +192,7 @@
                         ]
                     },{
                         "name": "var_name",
-                        "description": "specific name",
+                        "description": "variable name",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -200,7 +228,7 @@
                         ]
                     },{
                         "name": "region",
-                        "description": "which regions are covered",
+                        "description": "indicator for region",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -236,7 +264,7 @@
                         ]
                     },{
                         "name": "type",
-                        "description": "conversion, backpressure or realtion type",
+                        "description": "type of specification of all entries",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -254,7 +282,7 @@
                         ]
                     },{
                         "name": "var_value",
-                        "description": "var value in numbers" ,
+                        "description": "variable value" ,
                         "type": "int and text",
                         "unit": null,
                         "isAbout": [
@@ -272,7 +300,7 @@
                         ]
                     },{
                         "name": "var_unit",
-                        "description": null,
+                        "description": "variable unit",
                         "type": null,
                         "unit": null,
                         "isAbout": [
@@ -290,7 +318,7 @@
                         ]
                     },{
                         "name": "source",
-                        "description": null,
+                        "description": "type of sources used",
                         "type": null,
                         "unit": null,
                         "isAbout": [
@@ -308,7 +336,7 @@
                         ]
                     },{
                         "name": "comment",
-                        "description": "comment on SN-factor",
+                        "description": "general comments on data and data type",
                         "type": "text",
                         "unit": null,
                         "isAbout": [

@@ -1,10 +1,10 @@
-
-    "name":"2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
+{
+    "name": "2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
     "title": null,
     "id": null,
     "description": null,
     "language": [
-        null
+        "de-DE"
     ],
     "subject": [
         {
@@ -28,8 +28,8 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
-        "resolution": null
+        "extent": "Brandenburg",
+        "resolution": "regional"
     },
     "temporal": {
         "referenceDate": null,
@@ -53,7 +53,7 @@
     "sources": [
         {
             "title": "Der Photovoltaik- und Windflächenrechner - Geodaten Potenzialflächen",
-            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application "Photovoltaik- und Windflächenrechner". Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
+            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application 'Photovoltaik- und Windflächenrechner'. Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
             "path": "https://zenodo.org/record/6728382#.YyHSrFrP2V4",
             "licenses": [
                 {
@@ -92,10 +92,24 @@
     "contributors": [
         {
             "title": "hedwiglieselotte",
-            "email": null,
+            "email": "hedwig.bartels@rl-institut.de",
             "date": "2022-09-14",
             "object": "metadata",
             "comment": "create metadata"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "data",
+            "comment": null
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "date": "2022-10-19",
+            "object": "metadata",
+            "comment": null
         }
     ],
     "resources": [
@@ -109,8 +123,8 @@
                 "fields": [
                     {
                         "name": "fid",
-                        "description": "unique identifier" ,
-                        "type": "serial",
+                        "description": "unique identifier",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -147,7 +161,7 @@
                     }
                     {
                         "name": "fid_2",
-                        "description": "id for each case" ,
+                        "description": "id for each case",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -166,7 +180,7 @@
                     },
                     {
                         "name": "ADE",
-                        "description": "ADE is number four" ,
+                        "description": "Adminstrative Fläche",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -185,7 +199,7 @@
                     },
                     {
                         "name": "GF",
-                        "description": "GF is number four" ,
+                        "description": "Geofaktor",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -204,7 +218,7 @@
                     },
                     {
                         "name": "BSG",
-                        "description": "BSG is number one" ,
+                        "description": "Besondere Gebiete",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -223,7 +237,7 @@
                     },
                     {
                         "name": "ARS",
-                        "description": "ARS are five-digit numbers" ,
+                        "description": "Amtlicher Regionalschlüssel",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -242,7 +256,7 @@
                     },
                     {
                         "name": "AGS",
-                        "description": "AGS are five-digit numbers" ,
+                        "description": "Amtlicher Gemeindeschlüssel",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -260,8 +274,8 @@
                         ]
                     },
                     {
-                        "name": "SDV ARS",
-                        "description": "12-digit descriptive numbers " ,
+                        "name": "SDV_ARS",
+                        "description": "Sitz der Verwaltung (ARS), formerly SDV_RS",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -280,8 +294,8 @@
                     },
                     {
                         "name": "GEN",
-                        "description": "district names" ,
-                        "type": "text",
+                        "description": "Geografischer Name",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -299,8 +313,8 @@
                     },
                     {
                         "name": "BEZ",
-                        "description": "descriptive name 'Landkreis'" ,
-                        "type": "text",
+                        "description": "Bezeichnung der Verwaltungseinheit",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -318,26 +332,7 @@
                     },
                     {
                         "name": "IBZ",
-                        "description": "description 43 or 'Stadt'" ,
-                        "type": "int or text",
-                        "unit": null,
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ]
-                    },
-                    {
-                        "name": "BEM",
-                        "description": "decriptive numbers" ,
+                        "description": "Identifikator",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -355,9 +350,28 @@
                         ]
                     },
                     {
+                        "name": "BEM",
+                        "description": "Bemerkung",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
                         "name": "NBD",
-                        "description": "the word yes" ,
-                        "type": "text",
+                        "description": "Namensbildung",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -375,8 +389,8 @@
                     },
                     {
                         "name": "SN_L",
-                        "description": "descriptive number or text" ,
-                        "type": "int and text",
+                        "description": "structural components of ARS or AGS: Land",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -394,8 +408,8 @@
                     },
                     {
                         "name": "SN_R",
-                        "description": "descriptive numbers or text" ,
-                        "type": "int and text",
+                        "description": "structural components of ARS or AGS: Regierungsbezirk",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -413,7 +427,7 @@
                     },
                     {
                         "name": "SN_K",
-                        "description": "SN_K are two-digit numbers" ,
+                        "description": "structural components of ARS or AGS: Kreis",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -432,8 +446,8 @@
                     },
                     {
                         "name": "SN_V1",
-                        "description": "descriptive number zero or the word yes" ,
-                        "type": "int and text",
+                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - vorderer Teil",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -450,8 +464,8 @@
                         ]
                     },
                     {
-                        "name": "fSN_V2",
-                        "description": "descriptive numbers" ,
+                        "name": "SN_V2",
+                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil" ,
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -470,7 +484,7 @@
                     },
                     {
                         "name": "SN_G",
-                        "description": "SN_G is the number zero" ,
+                        "description": "structural components of ARS or AGS: Gemeinde",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -489,8 +503,8 @@
                     },
                     {
                         "name": "FK_S3",
-                        "description": "the letter R or text" ,
-                        "type": "text",
+                        "description": "Funktion der 3. Schlüsselstelle",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -508,8 +522,8 @@
                     },
                     {
                         "name": "NUTS",
-                        "description": "code for regions" ,
-                        "type": "int and text",
+                        "description": "Europäischer Statistikschlüssel",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -527,7 +541,7 @@
                     },
                     {
                         "name": "ARS_0",
-                        "description": "numbers" ,
+                        "description": "Aufgefüllter Amtlicher Regionalschlüssel, formerly RS_0",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -546,7 +560,7 @@
                     },
                     {
                         "name": "AGS_0",
-                        "description": "numbers" ,
+                        "description": "Aufgefüllter Amtlicher Gemeindeschlüssel",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -565,8 +579,8 @@
                     },
                     {
                         "name": "WSK",
-                        "description": "dates" ,
-                        "type": "int",
+                        "description": "Wirksamkeit",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -584,8 +598,8 @@
                     },
                     {
                         "name": "DEBKG_ID",
-                        "description": "regional id" ,
-                        "type": "int and numbers",
+                        "description": "Digitaler Landschaftsmodell Indikator",
+                        "type": "string",
                         "unit": null,
                         "isAbout": [
                             {
@@ -603,7 +617,7 @@
                     },
                     {
                         "name": "RS",
-                        "description": "five-digit numbers" ,
+                        "description": "five-digit numbers",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -622,7 +636,7 @@
                     },
                     {
                         "name": "SDV_RS",
-                        "description": "numbers" ,
+                        "description": "Sitz der Verwaltung (ARS)" ,
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -641,7 +655,7 @@
                     },
                     {
                         "name": "RS_0",
-                        "description": "numbers" ,
+                        "description": "Aufgefüllter Amtlicher Regionalschlüssel" ,
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -660,9 +674,9 @@
                     },
                     {
                         "name": "area",
-                        "description": "numbers" ,
+                        "description": "potential area",
                         "type": "int",
-                        "unit": null,
+                        "unit": "m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -676,11 +690,12 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_pv_road_railway_area",
-                        "description": "the overlap ov pv in road and railway area" ,
-                        "type": "int",
-                        "unit": null,
+                        "description": "overlapped area with pv_road_railway_potential area in square meters",
+                        "type": "float",
+                        "unit": "m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -696,9 +711,9 @@
                         ]
                     },{
                         "name": "overlap_pv_road_railway_percent",
-                        "description": "the overlap ov pv in road and railway area in percent" ,
-                        "type": "int",
-                        "unit": null,
+                        "description": "overlapped area with pv_road_railway_potential area in percent",
+                        "type": "float",
+                        "unit": "%",
                         "isAbout": [
                             {
                                 "name": null,
@@ -714,9 +729,9 @@
                         ]
                     },{
                         "name": "overlap_wind_area",
-                        "description": "overlap of wind area in numbers" ,
-                        "type": "int",
-                        "unit": null,
+                        "description": "overlapped area with wind area in square meters",
+                        "type": "float",
+                        "unit": "m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -732,9 +747,9 @@
                         ]
                     },{
                         "name": "overlap_wind_percent",
-                        "description": "overlap of wind in percent" ,
-                        "type": "int",
-                        "unit": null,
+                        "description": "overlapped area with wind area in percent" ,
+                        "type": "float",
+                        "unit": "%",
                         "isAbout": [
                             {
                                 "name": null,
@@ -748,7 +763,7 @@
                                 "path": null
                             }
                         ]
-                    },
+                    }
 
                 ],
                 "primaryKey": [
