@@ -298,7 +298,7 @@
                     }, {
                         "name":"source",
                         "description": "type of sources used",
-                        "type": null,
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
