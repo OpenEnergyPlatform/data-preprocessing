@@ -345,7 +345,7 @@
                     {
                         "name": "BEM",
                         "description": "Bemerkung",
-                        "type": null,
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
