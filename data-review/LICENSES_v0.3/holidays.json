@@ -96,6 +96,13 @@
             "date": "2022-09-15",
             "object": "metadata",
             "comment": "Create metadata"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-10-21",
+            "object": "metadata",
+            "comment": "Review metadata"
         }
     ],
     "resources": [
