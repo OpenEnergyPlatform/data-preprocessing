@@ -155,7 +155,7 @@
                     {
                         "name": "name",
                         "description": null,
-                        "type": null,
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -299,7 +299,7 @@
                     },{
                         "name": "source",
                         "description": null,
-                        "type": null,
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
