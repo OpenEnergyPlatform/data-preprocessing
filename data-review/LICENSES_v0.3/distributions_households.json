@@ -110,7 +110,7 @@
                     {
                         "name": "region",
                         "description": "states in germany",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "sfh",
                         "description": "number of single family homes",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "mfh",
                         "description": "number of multi family homes",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
