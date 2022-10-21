@@ -382,7 +382,7 @@
                     },
                     {
                         "name": "SN_L",
-                        "description": structural components of ARS or AGS: Land",
+                        "description": "structural components of ARS or AGS: Land",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
