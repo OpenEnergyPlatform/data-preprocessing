@@ -110,7 +110,7 @@
                     {
                         "name": "region",
                         "description": "column shows the abbreviation the german states",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "building_class",
                         "description": "column shows the building class belonging to the state",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
