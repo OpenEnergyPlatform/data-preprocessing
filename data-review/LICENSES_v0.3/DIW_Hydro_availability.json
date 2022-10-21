@@ -110,7 +110,7 @@
                     {
                         "name": "hour",
                         "description": "column shows hours of one year",
-                        "type": "integer",
+                        "type": "series",
                         "unit": "time in hours",
                         "isAbout": [
                             {
