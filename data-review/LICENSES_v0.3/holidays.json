@@ -110,7 +110,7 @@
                     {
                         "name": "year",
                         "description": "year of the holiday",
-                        "type": "integer",
+                        "type": "timestamp",
                         "unit": "a",
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "month",
                         "description": "month of the holiday",
-                        "type": "integer",
+                        "type": "series",
                         "unit": null,
                         "isAbout": [
                             {
@@ -148,7 +148,7 @@
                     {
                         "name": "day",
                         "description": "day of the holiday",
-                        "type": "integer",
+                        "type": "timestamp",
                         "unit": null,
                         "isAbout": [
                             {
@@ -167,7 +167,7 @@
                     {
                         "name": "holiday",
                         "description": "type of holiday",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
@@ -186,7 +186,7 @@
                     {
                         "name": "region",
                         "description": "region, where the holidays are",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
