@@ -110,7 +110,7 @@
                     {
                         "name": "id_region",
                         "description": "unique identifier for region",
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -129,7 +129,7 @@
                     {
                         "name": "name",
                         "description": "name of the region",
-                        "type": "string",
+                        "type": "text",
                         "unit": null,
                         "isAbout": [
                             {
