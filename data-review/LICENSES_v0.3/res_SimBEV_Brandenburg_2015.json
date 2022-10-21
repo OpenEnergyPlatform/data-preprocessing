@@ -143,7 +143,7 @@
                     {
                         "name": "time",
                         "description": "time series",
-                        "type": "integer",
+                        "type": "series",
                         "unit": null,
                         "isAbout": [
                             {
@@ -162,7 +162,7 @@
                     {
                         "name": "sum CS power",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -181,7 +181,7 @@
                     {
                         "name": "sum UC work",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -200,7 +200,7 @@
                     {
                         "name": "sum UC business",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -219,7 +219,7 @@
                     {
                         "name": "sum UC school",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -238,7 +238,7 @@
                     {
                         "name": "sum UC shopping",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -257,7 +257,7 @@
                     {
                         "name": "sum UC private/ridesharing",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -276,7 +276,7 @@
                     {
                         "name": "sum UC leisure",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -295,7 +295,7 @@
                     {
                         "name": "sum UC home",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
@@ -314,7 +314,7 @@
                     {
                         "name": "sum UC hub",
                         "description": null,
-                        "type": "integer",
+                        "type": "int",
                         "unit": null,
                         "isAbout": [
                             {
