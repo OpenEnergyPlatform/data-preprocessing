@@ -1,0 +1,385 @@
+{
+    "name": "ksz2050_r2_ks80_fugitive_emissions",
+    "title": "Projections of fugitive GHG emissions of scenario KS80",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_fugitive_emissions",
+    "description": "This table holds projections of fugitive GHG emissions of the KS80 scenario. The data corresponds to the data in table 5-112 of the report.",
+    "language": [
+        "en-GB"
+    ],
+    "subject": [
+        {
+            "name": null
+        }
+    ],
+    "keywords": [
+        "Öko-Institut",
+        "KSz-2050-R2",
+        "KS80",
+        "Germany",
+        "emissions",
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://www.klimaschutzszenario2050.de",
+        "documentation": "https://www.oeko.de/oekodoc/2451/2015-608-de.pdf",
+        "sourceCode": null,
+        "contact": "oedb@oeko.de",
+        "grantNo": "03KSE031",
+        "fundingAgency": "Diese Daten wurden im Auftrag des Bundesministeriums für Umwelt, Naturschutz und nukleare Sicherheit erstellt",
+        "fundingAgencyLogo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Logo_Bundesministerium_f%C3%BCr_Umwelt_Naturschutz_und_nukleare_Sicherheit.png",
+        "publisherLogo": "https://www.oeko.de/fileadmin/templates/oeko/Resources/Public/images/logo.svg"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Germany",
+        "resolution": "Country"
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": "2020-01-01T00:00+01",
+                "end": "2050-01-01T00:00+01",
+                "resolution": "10 years",
+                "alignment": "left",
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "todo",
+            "description": "Details see report provided under URL",
+            "path": "https://www.oeko.de/publikationen/p-details/klimaschutzszenario-2050-2-endbericht",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "DL-DE-BY-2.0",
+            "title": "Data licence Germany – attribution – version 2.0",
+            "path": "https://www.govdata.de/dl-de/by-2-0",
+            "instruction": "https://www.govdata.de/dl-de/by-2-0",
+            "attribution": "© Öko-Institut"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2019-06-26",
+            "object": "metadata",
+            "comment": "Initial version"
+        },
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2021-01-07",
+            "object": "metadata",
+            "comment": "Fixed small typos and urls"
+        },
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2021-02-17",
+            "object": "tags",
+            "comment": "add further tags"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-05-26",
+            "object": "metadata",
+            "comment": "Transfrom from oem141 to oem151 using new omi feature"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-06-03",
+            "object": "metadata",
+            "comment": "Fill isAbout and valueReference keys if applicable"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-07-20",
+            "object": "metadata",
+            "comment": "Delete key path if it is null. Needed for current MOSS sparql query implementation."
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-07-26",
+            "object": "metadata",
+            "comment": "Metadata review"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "ksz2050_r2_ks80_fugitive_emissions",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/ksz2050_r2_ks80_fugitive_emissions",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "serial",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "dc:identifier",
+                                "path": "http://purl.org/dc/elements/1.1/identifier"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "emission_source",
+                        "description": "Emission source ",
+                        "type": "string",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null
+                                
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": "Hard coal underground mines",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Hard coal treatment",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Lignite surface mines",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Coal transformation",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Abandoned mines",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Oil exploration",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Oil production",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Oil transport",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Oil storage",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Distribution of oil products",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Natural gas production",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Natural gas transport",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Natural gas distribution",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Other natural gas leakage",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "Flaring",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "all fugitive",
+                                "name": null
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "greenhouse_gas",
+                        "description": "Greenhouse gas",
+                        "type": "string",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "greenhouse gas",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000020"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": "CH4",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "CO2",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "N2O",
+                                "name": null
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "unit",
+                        "description": "Unit of measure",
+                        "type": "string",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "unit of measurement",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000000"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": "kt",
+                                "name": null
+                                
+                            },
+                            {
+                                "value": "kt CO2",
+                                "name": null
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "year",
+                        "description": "Scenario year",
+                        "type": "integer",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "scenario year",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020097"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": "2020",
+                                "name": null
+                                
+                            }
+                        ]
+                    },
+                    {
+                        "name": "value",
+                        "description": "Value",
+                        "type": "float",
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": "quantity value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000350"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null
+                                
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            "year"
+                        ],
+                        "reference": {
+                            "resource": "schema.table",
+                            "fields": [
+                                "year"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/27",
+        "badge": "Gold"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
