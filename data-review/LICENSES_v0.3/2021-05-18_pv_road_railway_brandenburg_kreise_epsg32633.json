@@ -765,7 +765,7 @@
                 "foreignKeys": []
             },
             "dialect": {
-                "delimiter": null,
+                "delimiter": ";",
                 "decimalSeparator": "."
             }
         }
