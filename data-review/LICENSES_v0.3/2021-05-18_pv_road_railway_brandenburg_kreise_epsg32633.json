@@ -762,19 +762,7 @@
                 "primaryKey": [
                     null
                 ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            null
-                        ],
-                        "reference": {
-                            "resource": null,
-                            "fields": [
-                                null
-                            ]
-                        }
-                    }
-                ]
+                "foreignKeys": []
             },
             "dialect": {
                 "delimiter": null,

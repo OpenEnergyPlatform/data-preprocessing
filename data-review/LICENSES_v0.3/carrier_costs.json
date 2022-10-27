@@ -339,17 +339,7 @@
                 ],
                 "foreignKeys": [
                     {
-                        "fields": [
-                            null
-                        ],
-                        "reference": {
-                            "resource": null,
-                            "fields": [
-                                null
-                            ]
-                        }
-                    }
-                ]
+                        "fields": []
             },
             "dialect": {
                 "delimiter": null,
