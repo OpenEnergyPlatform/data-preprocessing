@@ -129,7 +129,7 @@
             "schema": {
                 "fields": [
                     {
-                        "name": null,
+                        "name": "id",
                         "description": null,
                         "type": "int",
                         "unit": null,
