@@ -1,7 +1,7 @@
 {
-    "name": "distributions_households",
-    "title": "distributions_households",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/distributions_households",
+    "name": "distribution_households",
+    "title": "distribution_households",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/distribution_households",
     "description": null,
     "language": [
         null
@@ -108,7 +108,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "distributions_households",
+            "name": "distribution_households",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/distribution_households",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
