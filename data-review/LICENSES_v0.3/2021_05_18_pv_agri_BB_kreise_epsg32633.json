@@ -1,7 +1,7 @@
 {
-    "name": "2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
-    "title": "2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
+    "name": "2021_05_18_pv_agri_BB_kreise_epsg32633",
+    "title": "2021_05_18_pv_agri_BB_kreise_epsg32633",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/2021_05_18_pv_agri_BB_kreise_epsg32633",
     "description": null,
     "language": [
         "de-DE"
@@ -108,8 +108,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/2021-05-18_pv_agriculture_brandenburg_kreise_epsg32633",
+            "name": "model_draft.umas_2021_05_18_pv_agri_BB_kreise_epsg32633",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/2021_05_18_pv_agri_BB_kreise_epsg32633",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -702,7 +702,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_pv_road_railway_percent",
                         "description": "overlapped area with pv_road_railway_potential area in percent",
                         "type": "float",
@@ -720,7 +721,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_wind_area",
                         "description": "overlapped area with wind area in square meters",
                         "type": "float",
@@ -738,7 +740,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_wind_percent",
                         "description": "overlapped area with wind area in percent" ,
                         "type": "float",
@@ -762,22 +765,10 @@
                 "primaryKey": [
                     null
                 ],
-                "foreignKeys": [
-                    {
-                        "fields": [
-                            null
-                        ],
-                        "reference": {
-                            "resource": null,
-                            "fields": [
-                                null
-                            ]
-                        }
-                    }
-                ]
+                "foreignKeys": []
             },
             "dialect": {
-                "delimiter": null,
+                "delimiter": ";",
                 "decimalSeparator": "."
             }
         }
