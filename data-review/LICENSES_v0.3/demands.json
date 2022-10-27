@@ -1,8 +1,8 @@
 {
     "name": "demands",
-    "title": "Demands of energy carriers for regions Berlin and Brandenburg",
-    "id": null,
-    "description": "Demand of energy carriers or heat demand of scenario EL-EFF, GAS and gas_lessCH4 for the years 2040 and 2050",
+    "title": "demands",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/demands",
+    "description": "Demand of energy carriers or heat demand of scenario EL-EFF, GAS and gas_lessCH4 for the years 2040 and 2050 for regions Berlin and Brandenburg",
     "language": [
         "en-GB"
     ],
@@ -212,11 +212,11 @@
     ],
     "resources": [
         {
-            "profile": null,
-            "name": null,
-            "path": null,
-            "format": null,
-            "encoding": null,
+            "profile": "tabular-data-resource",
+            "name": "demands",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/demands",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
             "schema": {
                 "fields": [
                     {
