@@ -109,7 +109,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "scalars_methanation",
-            "path": "scalars_methanation",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/scalars_methanation",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
