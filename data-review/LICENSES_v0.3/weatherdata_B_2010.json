@@ -35,8 +35,8 @@
         "referenceDate": null,
         "timeseries": [
             {
-                "start": "2010",
-                "end": "2019",
+                "start": null,
+                "end": null,
                 "resolution": null,
                 "alignment": null,
                 "aggregationType": null
