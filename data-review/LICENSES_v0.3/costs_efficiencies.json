@@ -16,16 +16,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": null,
@@ -50,6 +41,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Danish Energy Agency",
@@ -57,11 +52,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Statistik/technology_data_catalogue_for_el_and_dh_-_0009.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,11 +66,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_el_and_dh.xlsx",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -85,11 +80,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_heating_installations_-_0003.xlsx",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -99,11 +94,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_renewable_fuels.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -113,11 +108,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.xlsx",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -127,11 +122,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -141,11 +136,11 @@
             "path": "http://dx.doi.org/10.18419/opus-9761",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -155,11 +150,11 @@
             "path": "https://ens.dk/sites/ens.dk/files/Analyser/energy_transport_datasheet.xlsx",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -169,11 +164,11 @@
             "path": "https://www.2-g.com/de/wasserstoff-bhkw/",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -183,11 +178,11 @@
             "path": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/wege-zu-einem-klimaneutralen-energiesystem.html",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -197,11 +192,11 @@
             "path": "10.5281/zenodo.5802178",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": "CC-BY-4.0",
                     "title": "Creative Commons Attribution 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode",
-                    "instruction": null,
-                    "attribution": null
+                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode"
                 }
             ]
         },
@@ -211,11 +206,11 @@
             "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
             "licenses": [
                 {
+                    "instruction": "All rights reserved. Reproduction and distribution in any form, also in parts, requires the express written permission of DIW Berlin.",
+                    "attribution": "© DIW Berlin, 2013",
                     "name": null,
                     "title": "Copyright by Deutsches Institut für Wirtschaftsforschung",
-                    "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
-                    "instruction": "All rights reserved. Reproduction and distribution in any form, also in parts, requires the express written permission of DIW Berlin.",
-                    "attribution": "© DIW Berlin, 2013"
+                    "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
                 }
             ]
         },
@@ -225,38 +220,38 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "hedwiglieselotte",
             "email": "hedwig.bartels@rl-institut.de",
-            "date": "2022-09-14",
             "object": "metadata",
-            "comment": "create metadata"
+            "comment": "create metadata",
+            "date": "2022-09-14"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -267,12 +262,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -285,13 +281,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "type of scenario and referenced year as key",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -304,13 +300,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": null,
                         "type": null,
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -323,13 +319,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -342,13 +338,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -361,13 +357,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -380,13 +376,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "type of transformer",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -399,13 +395,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": "type of component",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -418,13 +414,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "type of variable value",
                         "type": "float, bool, int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -437,13 +433,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "string",
-                        "unit": "Eur/MW, Eur/MWh,Eur/MW/a, Eur/MWh/a, Eur/MW/km/a",
                         "isAbout": [
                             {
                                 "name": null,
@@ -456,13 +452,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "Eur/MW, Eur/MWh,Eur/MW/a, Eur/MWh/a, Eur/MW/km/a"
                     },
                     {
                         "name": "source",
                         "description": "type of source",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -475,13 +471,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -494,11 +490,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -508,12 +503,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
@@ -527,6 +518,7 @@
         "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
-        "null": "If not applicable use: null"
+        "null": "If not applicable use: null",
+        "todo": null
     }
 }

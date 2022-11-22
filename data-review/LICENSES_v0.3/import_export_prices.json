@@ -3,9 +3,7 @@
     "title": "import_export_prices",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/import_export_prices",
     "description": null,
-    "language": [
-        null
-    ],
+    "language": [],
     "subject": [
         {
             "name": null,
@@ -16,16 +14,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": null,
@@ -50,6 +39,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": " Produktionskosten von Wasserstoff nach Wasserstofftyp in Deutschland im Jahr 2019 und Prognosen für die Jahre 2030 und 2050",
@@ -57,11 +50,11 @@
             "path": "https://de.statista.com/statistik/daten/studie/1195863/umfrage/produktionskosten-von-wasserstoff-nach-wasserstofftyp-in-deutschland/",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": "statista",
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "statista"
+                    "path": null
                 }
             ]
         },
@@ -71,38 +64,38 @@
             "path": "https://www.umweltbundesamt.de/publikationen/strommarkt-klimaschutz-transformation-der",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": "Umweltbundesamt",
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": "Umweltbundesamt"
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "hedwiglieselotte",
             "email": "hedwig.bartels@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "create metadata"
+            "comment": "create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -113,12 +106,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique identifier",
                         "type": "serial",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -131,13 +125,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "type of scenario used",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -150,13 +144,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": null,
                         "type": null,
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -169,13 +163,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "mariginal costs",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -188,13 +182,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -207,13 +201,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "regions",
+                        "name": "region",
                         "description": "which regions are chosen",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -226,13 +220,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "type of tech, export, import or shortage",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -245,13 +239,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": "excess or shortage",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -264,13 +258,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "var value in numbers",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -283,13 +277,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_unit",
                         "description": "unit used",
                         "type": "text",
-                        "unit": "Eur/MWh",
                         "isAbout": [
                             {
                                 "name": null,
@@ -302,13 +296,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "Eur/MWh"
                     },
                     {
                         "name": "source",
                         "description": "source used per line",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -321,13 +315,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "comment",
                         "description": "additional comments",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -340,11 +334,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -354,12 +347,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

@@ -22,8 +22,6 @@
         "sourceCode": null,
         "contact": null,
         "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
         "publisherLogo": null
     },
     "spatial": {
@@ -50,6 +48,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Regionaldatenbank Deutschland",
@@ -57,11 +59,11 @@
             "path": "https://www.regionalstatistik.de/genesis/online?operation=variable&levelindex=0&levelid=1629199727321&code=KREISE&option=value#abreadcrumb",
             "licenses": [
                 {
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute",
+                    "attribution": "dl-de/by-2-0",
                     "name": "dl-de/by-2-0",
                     "title": "Data licence Germany – attribution – version 2.0",
-                    "path": "https://www.govdata.de/dl-de/by-2-0",
-                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute",
-                    "attribution": "dl-de/by-2-0"
+                    "path": "https://www.govdata.de/dl-de/by-2-0"
                 }
             ]
         },
@@ -71,38 +73,38 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "Oskar",
             "email": "oskar.oetken@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "Create metadata"
+            "comment": "Create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -113,12 +115,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_region",
                         "description": "unique identifier for region",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -131,13 +134,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": "name of the region",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -150,11 +153,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -164,12 +166,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

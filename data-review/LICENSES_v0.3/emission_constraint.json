@@ -16,16 +16,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": "Berlin Brandenburg",
@@ -50,6 +41,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Blauer Wasserstoff Lösung oder Problem der Energiewende?",
@@ -57,11 +52,11 @@
             "path": "https://green-planet-energy.de/fileadmin/user_upload/broschuere-wasserstoff.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,11 +66,11 @@
             "path": "https://www.linde-gas.at/de/images/1007_rechnen_sie_mit_wasserstoff_v110_tcm550-169419.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -85,11 +80,11 @@
             "path": "https://www.eib.org/attachments/publications/eib_project_carbon_footprint_methodologies_2022_en.pdf",
             "licenses": [
                 {
+                    "instruction": "All rights reserved. All questions on rights and licensing should be addressed to publications@eib.org.",
+                    "attribution": "© European Investment Bank, 2022",
                     "name": null,
                     "title": "Copyright European Investment Bank",
-                    "path": "https://www.eib.org/attachments/publications/eib_project_carbon_footprint_methodologies_2022_en.pdf",
-                    "instruction": "All rights reserved. All questions on rights and licensing should be addressed to publications@eib.org.",
-                    "attribution": "© European Investment Bank, 2022"
+                    "path": "https://www.eib.org/attachments/publications/eib_project_carbon_footprint_methodologies_2022_en.pdf"
                 }
             ]
         },
@@ -99,11 +94,11 @@
             "path": "https://www.iet.hsr.ch/fileadmin/user_upload/iet.hsr.ch/Power-to-Gas/Kurzberichte/10_Heiz-_und_Brennwerte.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -113,11 +108,11 @@
             "path": "https://enertile-explorer.isi.fraunhofer.de:8443/open-view/10277/f9a716ac8221de8599bbdd5f340421ae",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -127,11 +122,11 @@
             "path": "https://download.statistik-berlin-brandenburg.de/a55e41345076fc3a/3131a11bf647/SB_E04-04-00_2018j01_BB.pdf",
             "licenses": [
                 {
+                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
+                    "attribution": "CC BY 3.0 DE",
                     "name": "CC BY 3.0 DE",
                     "title": "Attribution 3.0 Germany",
-                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
-                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
-                    "attribution": "CC BY 3.0 DE"
+                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en"
                 }
             ]
         },
@@ -141,11 +136,11 @@
             "path": "https://download.statistik-berlin-brandenburg.de/fc700d859bd0decc/4fabc08d4580/SB_E04-04-00_2018j01_BE.pdf",
             "licenses": [
                 {
+                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
+                    "attribution": "CC BY 3.0 DE",
                     "name": "CC BY 3.0 DE",
                     "title": "Attribution 3.0 Germany",
-                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
-                    "instruction": "You are free to share and adapt, but you must give appropriate credit, provide a link to the license, and indicate if changes were made.",
-                    "attribution": "CC BY 3.0 DE"
+                    "path": "https://creativecommons.org/licenses/by/3.0/de/deed.en"
                 }
             ]
         },
@@ -155,11 +150,11 @@
             "path": "https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#nationale-und-europaische-klimaziele",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -169,52 +164,52 @@
             "path": "https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#nationale-und-europaische-klimaziele",
             "licenses": [
                 {
+                    "instruction": "You are free to copy, print, present, alter, process and transmit to third parties; merge with your own or other data; integrate in internal and external business processes, products and applications in public and non-public electronic networks, but you must provide the name, the annotation referring to the license and reference the dataset.Changes, editing, new designs or other amendments must be marked as such in the source note. ",
+                    "attribution": "dl-de/by-2-0",
                     "name": "dl-de/by-2-0",
                     "title": "Data licence Germany – attribution – Version 2.0",
-                    "path": "https://www.govdata.de/dl-de/by-2-0",
-                    "instruction": "You are free to copy, print, present, alter, process and transmit to third parties; merge with your own or other data; integrate in internal and external business processes, products and applications in public and non-public electronic networks, but you must provide the name, the annotation referring to the license and reference the dataset.Changes, editing, new designs or other amendments must be marked as such in the source note. ",
-                    "attribution": "dl-de/by-2-0"
+                    "path": "https://www.govdata.de/dl-de/by-2-0"
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "hedwiglieselotte",
             "email": "hedwig.bartels@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "create metadata"
+            "comment": "create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "stefanienguyen",
             "email": "stefanie.nguyen@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data and metadata",
-            "comment": "data referring to total emissions"
+            "comment": "data referring to total emissions",
+            "date": "2022-10-19"
         },
         {
             "title": "sabinehaas",
             "email": "sabine.haas@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data and metadata",
-            "comment": "data referring to the emission factor and total emissions"
+            "comment": "data referring to the emission factor and total emissions",
+            "date": "2022-10-19"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -225,12 +220,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
                         "type": "serial",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -243,13 +239,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "type of scenario as key",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -262,13 +258,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": "name of region and type of carrier imported or exported",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -281,13 +277,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -300,13 +296,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -319,13 +315,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -338,13 +334,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "type of transmission",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -357,13 +353,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": "type of tech",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -376,13 +372,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "variable value",
                         "type": "text amd int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -395,13 +391,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "text",
-                        "unit": "kg_CO2_eq/MWh",
                         "isAbout": [
                             {
                                 "name": null,
@@ -414,13 +410,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "kg_CO2_eq/MWh"
                     },
                     {
-                        "name": "sources",
+                        "name": "source",
                         "description": "type of sources used",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -433,13 +429,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -452,11 +448,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -466,12 +461,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

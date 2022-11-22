@@ -3,9 +3,7 @@
     "title": "weatherdata_BB_2011",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/weatherdata_BB_2011",
     "description": null,
-    "language": [
-        null
-    ],
+    "language": [],
     "subject": [
         {
             "name": null,
@@ -22,8 +20,6 @@
         "sourceCode": null,
         "contact": null,
         "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
         "publisherLogo": null
     },
     "spatial": {
@@ -50,6 +46,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Climate Data Store",
@@ -57,11 +57,11 @@
             "path": "https://cds.climate.copernicus.eu",
             "licenses": [
                 {
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute",
+                    "attribution": "@Copernicus Climate Change Service",
                     "name": "CC BY 4.0",
                     "title": "Creative Commons 4.0 International",
-                    "path": "https://creativecommons.org/licenses/by/4.0/",
-                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute",
-                    "attribution": "@Copernicus Climate Change Service"
+                    "path": "https://creativecommons.org/licenses/by/4.0/"
                 }
             ]
         },
@@ -71,31 +71,31 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "Oskar",
             "email": "oskar.oetken@rl-institut.de",
-            "date": "2022-10-28",
             "object": "metadata",
-            "comment": "Create metadata"
+            "comment": "Create metadata",
+            "date": "2022-10-28"
         }
     ],
     "resources": [
@@ -106,12 +106,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "time",
                         "description": "column shows the time when the measurements were carried out",
                         "type": "series",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -124,13 +125,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "latitude",
                         "description": "column shows the latitude of the measuring station",
                         "type": "float",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -143,13 +144,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "longitude",
                         "description": "column shows the longitude of the measuring station",
                         "type": "float",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -162,13 +163,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "ghi",
                         "description": "column shows the global horizontal irradiance",
                         "type": "float",
-                        "unit": "W/m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -181,13 +182,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "W/m²"
                     },
                     {
                         "name": "wind_speed",
                         "description": "column shows the speed of the wind",
                         "type": "float",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -200,13 +201,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "temp_air",
                         "description": "column shows the temperature of the air",
                         "type": "float",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -219,13 +220,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "precipitable_water",
                         "description": "column shows the amount of precipitable water",
                         "type": "float",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -238,13 +239,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "dni",
                         "description": "column shows the direct normal irradiance",
                         "type": "int",
-                        "unit": "W/m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -257,13 +258,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "W/m²"
                     },
                     {
                         "name": "dhi",
                         "description": "column shows the diffuse horizontal irradiance",
                         "type": "float",
-                        "unit": "W/m²",
                         "isAbout": [
                             {
                                 "name": null,
@@ -276,11 +277,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "W/m²"
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -290,12 +290,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

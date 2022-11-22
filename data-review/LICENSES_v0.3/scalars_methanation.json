@@ -3,9 +3,7 @@
     "title": "scalar_methanation",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/scalars_methanation",
     "description": null,
-    "language": [
-        null
-    ],
+    "language": [],
     "subject": [
         {
             "name": null,
@@ -16,16 +14,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": null,
@@ -50,6 +39,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": null,
@@ -57,11 +50,11 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,38 +64,38 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "Oskar",
             "email": "oskar.oetken@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "Create metadata"
+            "comment": "Create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -113,12 +106,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique indentifier",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -131,13 +125,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "determines the scenario",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -150,13 +144,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": "general name ",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -169,13 +163,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "name of the variable",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -188,13 +182,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of the carrier of the energy",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -207,13 +201,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "region",
                         "description": "region in germany",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -226,13 +220,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "the used technology",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -245,13 +239,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": "the type of the technology",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -264,13 +258,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "value of the variable",
                         "type": "float",
-                        "unit": "different, described in next field",
                         "isAbout": [
                             {
                                 "name": null,
@@ -283,13 +277,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "different, described in next field"
                     },
                     {
                         "name": "var_unit",
                         "description": "the units belonging to the values of the variables",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -302,13 +296,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "source",
                         "description": "the column shows the source",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -321,13 +315,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "commment",
+                        "name": "comment",
                         "description": "a column for comments",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -340,11 +334,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -354,12 +347,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

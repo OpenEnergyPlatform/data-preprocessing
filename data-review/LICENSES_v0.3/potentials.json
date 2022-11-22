@@ -16,16 +16,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": null,
@@ -50,6 +41,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Bundesländer-Übersicht zu Erneuerbaren Energien",
@@ -57,11 +52,11 @@
             "path": "https://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/wasser/auswahl/181-installierte_leistun%20year%202017",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,11 +66,11 @@
             "path": "https://www.rpg-oderland-spree.de/sites/default/files/downloads/202311_OLS_Planungshilfe_FF-PVA_3_1.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -85,11 +80,11 @@
             "path": "https://www.foederal-erneuerbar.de/landesinfo/bundesland/B/kategorie/solar/auswahl/989-photovoltaik_-_freif/#goto_989",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -99,11 +94,11 @@
             "path": "https://www.uvp-verbund.de/documents/ingrid-group_ige-iplug-bb/E0E3D3A0-C168-4DA2-867E-00A00F8288F5/20180716_UVP_Bericht_endf.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -113,52 +108,52 @@
             "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/potenzial_der_windenergie.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "hedwiglieselotte",
             "email": "hedwig.bartels@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "create metadata"
+            "comment": "create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "sabinehaas",
             "email": "sabine.haas@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "stefanienguyen",
             "email": "stefanie.nguyen@rl-institut.de",
-            "date": "2022-10-19",
             "object": "metadata",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -169,12 +164,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
                         "type": "serial",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -187,13 +183,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "type of scenario as key",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -206,13 +202,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": "name of region, energy carrier and transformer",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -225,13 +221,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -244,13 +240,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -263,13 +259,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -282,13 +278,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "type of tech used",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -301,13 +297,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": null,
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -320,13 +316,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "variable value",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -339,13 +335,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -358,13 +354,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "source",
                         "description": "type of sources used",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -377,13 +373,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "text",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -396,11 +392,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -410,12 +405,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",

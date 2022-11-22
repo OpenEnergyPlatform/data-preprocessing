@@ -16,16 +16,7 @@
         "UMAS"
     ],
     "publicationDate": null,
-    "constring": {
-        "homepage": "https://reiner-lemoine-institut.de/umas/",
-        "documentation": "https://oemof-b3.readthedocs.io/en/latest/index.html",
-        "sourceCode": "https://github.com/rl-institut/oemof-B3",
-        "contact": "jann.launer@rl-institut.de, Sabine.Haas@rl-institut.de",
-        "grantNo": "03EI1005D",
-        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi), Reiner Lemoine Stiftung",
-        "fundingAgencyLogo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": "Berlin Brandenburg",
@@ -50,6 +41,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": "Berlin Paris-konform machen",
@@ -57,11 +52,11 @@
             "path": "https://www.berlin.de/sen/uvk/_assets/klimaschutz/klimaschutzpolitik-in-berlin/berlin-paris-konform/studie-berlin-paris-konform-endbericht.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,11 +66,11 @@
             "path": "https://mwae.brandenburg.de/media/bb1.a.3814.de/Prognos-Gutachten_Fortschreibung_Energiestratgie%20Bbg_2040.pdf",
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -85,11 +80,11 @@
             "path": "https://ag-energiebilanzen.de/index.php?article_id=8&archiv=5&year=2020",
             "licenses": [
                 {
+                    "instruction": "Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+                    "attribution": "© AG Energiebilanzen e. V.",
                     "name": null,
                     "title": "Copyright AG Energiebilanzen e. V.",
-                    "path": "https://ag-energiebilanzen.de/impressum/",
-                    "instruction": "Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
-                    "attribution": "© AG Energiebilanzen e. V."
+                    "path": "https://ag-energiebilanzen.de/impressum/"
                 }
             ]
         },
@@ -99,11 +94,11 @@
             "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Bericht_TN_Szenarien_Modul_GHD_und_Geraete_final.pdf",
             "licenses": [
                 {
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft",
                     "name": null,
                     "title": "Copyright © by Fraunhofer-Gesellschaft",
-                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Bericht_TN_Szenarien_Modul_GHD_und_Geraete_final.pdf",
-                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
-                    "attribution": "© Fraunhofer-Gesellschaft"
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Bericht_TN_Szenarien_Modul_GHD_und_Geraete_final.pdf"
                 }
             ]
         },
@@ -113,11 +108,11 @@
             "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/Modul_TN_Hauptszenarien_Industrie.pdf",
             "licenses": [
                 {
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft",
                     "name": null,
                     "title": "Copyright © by Fraunhofer-Gesellschaft",
-                    "path": null,
-                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
-                    "attribution": "© Fraunhofer-Gesellschaft"
+                    "path": null
                 }
             ]
         },
@@ -127,11 +122,11 @@
             "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Langbericht_Verkehr_final.pdf",
             "licenses": [
                 {
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft",
                     "name": null,
                     "title": "Copyright © by Fraunhofer-Gesellschaft",
-                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Langbericht_Verkehr_final.pdf",
-                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
-                    "attribution": "© Fraunhofer-Gesellschaft"
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS3_Langbericht_Verkehr_final.pdf"
                 }
             ]
         },
@@ -141,11 +136,11 @@
             "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
             "licenses": [
                 {
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft",
                     "name": null,
                     "title": "Copyright © by Fraunhofer-Gesellschaft",
-                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf",
-                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
-                    "attribution": "© Fraunhofer-Gesellschaft"
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-wAssets/docs/LFS-Gebaeude.pdf"
                 }
             ]
         },
@@ -155,59 +150,59 @@
             "path": "https://www.langfristszenarien.de/enertile-explorer-de/dokumente/",
             "licenses": [
                 {
+                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
+                    "attribution": "© Fraunhofer-Gesellschaft",
                     "name": null,
                     "title": "Copyright © by Fraunhofer-Gesellschaft",
-                    "path": "https://www.langfristszenarien.de/enertile-explorer-de/impressum/",
-                    "instruction": "Permission is granted to download or print material published on this site for personal use only. Its use for any other purpose, and in particular its commercial use or distribution, are strictly forbidden in the absence of prior written approval.",
-                    "attribution": "© Fraunhofer-Gesellschaft"
+                    "path": "https://www.langfristszenarien.de/enertile-explorer-de/impressum/"
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "hedwiglieselotte",
             "email": "hedwig.bartels@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "create metadata"
+            "comment": "create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "stefanienguyen",
             "email": "stefanie.nguyen@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data and metadata",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "sabinehaas",
             "email": "sabine.haas@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data and metadata",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "marie-clairegering",
             "email": "marie-claire.gering@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data and metadata",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -218,12 +213,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -236,13 +232,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "scenario_key",
                         "description": "type of scenario as key",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -255,13 +251,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "name",
                         "description": "name of region and type of demand",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -274,13 +270,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -293,13 +289,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -312,13 +308,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -331,13 +327,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "tech",
                         "description": "type of demand for different sectors",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -350,13 +346,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "type",
                         "description": "type of demand",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -369,13 +365,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_value",
                         "description": "variable value",
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -388,13 +384,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "string",
-                        "unit": "MWh/a",
                         "isAbout": [
                             {
                                 "name": null,
@@ -407,13 +403,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": "MWh/a"
                     },
                     {
                         "name": "source",
                         "description": "type of sources used",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -426,13 +422,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "string",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -445,11 +441,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -458,13 +453,9 @@
         }
     ],
     "@id": null,
-    "@constring": null,
-    "review": {
-        "path": null,
-        "badge": null
-    },
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
@@ -480,6 +471,5 @@
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null",
         "todo": "If a value is not yet available, use: todo"
-    },
-    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json"
+    }
 }

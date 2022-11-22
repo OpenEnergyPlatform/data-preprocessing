@@ -3,9 +3,7 @@
     "title": "res_SimBEV_Brandenburg_2017",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/res_Sim_BEV_Brandenburg_2017",
     "description": null,
-    "language": [
-        null
-    ],
+    "language": [],
     "subject": [
         {
             "name": null,
@@ -22,8 +20,6 @@
         "sourceCode": null,
         "contact": null,
         "grantNo": null,
-        "fundingAgency": null,
-        "fundingAgencyLogo": null,
         "publisherLogo": null
     },
     "spatial": {
@@ -50,6 +46,10 @@
             }
         ]
     },
+    "review": {
+        "path": null,
+        "badge": null
+    },
     "sources": [
         {
             "title": null,
@@ -57,11 +57,11 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         },
@@ -71,52 +71,52 @@
             "path": null,
             "licenses": [
                 {
+                    "instruction": null,
+                    "attribution": null,
                     "name": null,
                     "title": null,
-                    "path": null,
-                    "instruction": null,
-                    "attribution": null
+                    "path": null
                 }
             ]
         }
     ],
     "licenses": [
         {
+            "instruction": null,
+            "attribution": null,
             "name": null,
             "title": null,
-            "path": null,
-            "instruction": null,
-            "attribution": null
+            "path": null
         }
     ],
     "contributors": [
         {
             "title": "Oskar",
             "email": "oskar.oetken@rl-institut.de",
-            "date": "2022-09-15",
             "object": "metadata",
-            "comment": "Create metadata"
+            "comment": "Create metadata",
+            "date": "2022-09-15"
         },
         {
             "title": "sabinehaas",
             "email": "sabine.haas@rl-institut.de",
-            "date": "2022-10-19",
             "object": "data",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "stefanienguyen",
             "email": "stefanie.nguyen@rl-institut.de",
-            "date": "2022-10-19",
             "object": "metadata",
-            "comment": null
+            "comment": null,
+            "date": "2022-10-19"
         },
         {
             "title": "chrwm",
             "email": "christoph.muschner@rl-institut.de",
-            "date": "2022-10-21",
             "object": "metadata",
-            "comment": "Review metadata"
+            "comment": "Review metadata",
+            "date": "2022-10-21"
         }
     ],
     "resources": [
@@ -127,12 +127,13 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
+                "primaryKey": null,
+                "foreignKeys": [],
                 "fields": [
                     {
                         "name": "id",
                         "description": null,
                         "type": "integer",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -145,13 +146,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
                         "name": "time",
                         "description": null,
                         "type": "series",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -164,13 +165,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum CS power",
+                        "name": "sum_cs_power",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -183,13 +184,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC work",
+                        "name": "sum_uc_work",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -202,13 +203,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC business",
+                        "name": "sum_uc_business",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -221,13 +222,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC school",
+                        "name": "sum_uc_school",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -240,13 +241,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC shopping",
+                        "name": "sum_uc_shopping",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -259,13 +260,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC private/ridesharing",
+                        "name": "sum_uc_private_ridesharing",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -278,13 +279,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC leisure",
+                        "name": "sum_uc_leisure",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -297,13 +298,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC home",
+                        "name": "sum_uc_home",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -316,13 +317,13 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     },
                     {
-                        "name": "sum UC hub",
+                        "name": "sum_uc_hub",
                         "description": null,
                         "type": "int",
-                        "unit": null,
                         "isAbout": [
                             {
                                 "name": null,
@@ -335,11 +336,10 @@
                                 "name": null,
                                 "path": null
                             }
-                        ]
+                        ],
+                        "unit": null
                     }
-                ],
-                "primaryKey": null,
-                "foreignKeys": []
+                ]
             },
             "dialect": {
                 "delimiter": null,
@@ -349,12 +349,8 @@
     ],
     "@id": null,
     "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "review": {
-        "path": null,
-        "badge": null
-    },
     "metaMetadata": {
-        "metadataVersion": "OEP-1.5.0",
+        "metadataVersion": "OEP-1.5.1",
         "metadataLicense": {
             "name": "CC0-1.0",
             "title": "Creative Commons Zero v1.0 Universal",
