@@ -1,7 +1,7 @@
 {
     "name": "potentials",
     "title": "potentials",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/potentials",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_potentials",
     "description": null,
     "language": [
         "en-GB"
@@ -160,7 +160,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_potentials",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/potentials",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_potentials",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

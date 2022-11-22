@@ -1,7 +1,7 @@
 {
     "name": "res_SimBEV_Brandenburg_2017",
     "title": "res_SimBEV_Brandenburg_2017",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/res_Sim_BEV_Brandenburg_2017",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_res_SimBEV_Brandenburg_2017",
     "description": null,
     "language": [],
     "subject": [
@@ -123,7 +123,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_res_SimBEV_Brandenburg_2017",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/res_SimBEV_Brandenburg_2017",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_res_SimBEV_Brandenburg_2017",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

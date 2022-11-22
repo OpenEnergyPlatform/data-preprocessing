@@ -1,7 +1,7 @@
 {
     "name": "scalars_methanation",
     "title": "scalar_methanation",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/scalars_methanation",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_scalars_methanation",
     "description": null,
     "language": [],
     "subject": [
@@ -102,7 +102,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_scalars_methanation",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/scalars_methanation",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_scalars_methanation",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

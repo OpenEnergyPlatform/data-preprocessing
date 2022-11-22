@@ -1,7 +1,7 @@
 {
     "name": "ninja_pv_country_DE_merra-2_nuts-2_corrected",
     "title": "ninja_pv_country_DE_merra-2_nuts-2_corrected",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
     "description": null,
     "language": [],
     "subject": [
@@ -123,7 +123,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/ninja_pv_country_DE_merra-2_nuts-2_corrected",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

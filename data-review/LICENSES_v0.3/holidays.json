@@ -1,7 +1,7 @@
 {
     "name": "holidays",
     "title": "holidays",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/holidays",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_holidays",
     "description": null,
     "language": [],
     "subject": [
@@ -109,7 +109,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_holidays",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/holidays",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_holidays",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

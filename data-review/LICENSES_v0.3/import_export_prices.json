@@ -1,7 +1,7 @@
 {
     "name": "import_export_prices",
     "title": "import_export_prices",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/import_export_prices",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_import_export_prices",
     "description": null,
     "language": [],
     "subject": [
@@ -102,7 +102,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_import_export_prices",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/import_export_prices",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_import_export_prices",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

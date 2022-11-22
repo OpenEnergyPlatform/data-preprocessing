@@ -1,7 +1,7 @@
 {
     "name": "weatherdata_BB_2010",
     "title": "weatherdata_BB_2010",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/weatherdata_BB_2010",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_weatherdata_BB_2010",
     "description": null,
     "language": [],
     "subject": [
@@ -102,7 +102,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_weatherdata_BB_2010",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/weatherdata_BB_2010",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_weatherdata_BB_2010",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

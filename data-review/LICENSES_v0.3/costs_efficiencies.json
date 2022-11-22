@@ -1,7 +1,7 @@
 {
     "name": "costs_efficiencies",
     "title": "costs_efficiencies",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/conventional_power_plants_DE",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
     "description": "cost range of various transformer for the years 2040 and 2050",
     "language": [
         "en-GB"
@@ -258,7 +258,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_costs_efficiencies",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/costs_efficiencies",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

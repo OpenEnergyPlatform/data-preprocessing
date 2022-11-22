@@ -1,7 +1,7 @@
 {
     "name": "id_region_BB_B",
     "title": "id_region_BB_B",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/id_region_BB_B",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_id_region_BB_B",
     "description": null,
     "language": [
         "de-DE"
@@ -111,7 +111,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_id_region_BB_B",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/id_region_BB_B",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_id_region_BB_B",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

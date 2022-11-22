@@ -1,7 +1,7 @@
 {
     "name": "capacities",
     "title": "capacities",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/capacities",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_capacities",
     "description": null,
     "language": [
         "en-G"
@@ -104,7 +104,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_capacities",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/capacities",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_capacities",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

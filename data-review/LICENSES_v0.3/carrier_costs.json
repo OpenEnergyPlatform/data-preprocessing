@@ -1,7 +1,7 @@
 {
     "name": "carrier_costs",
     "title": "carrier_costs",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/carrier_costs",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_carrier_costs",
     "description": "costs of energy carriers are set to imports",
     "language": [
         "en-GB"
@@ -104,7 +104,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_carrier_costs",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/carrier_costs",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_carrier_costs",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

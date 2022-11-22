@@ -1,7 +1,7 @@
 {
     "name": "building_class",
     "title": "building_class",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/building_class",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_building_class",
     "description": null,
     "language": [],
     "subject": [
@@ -109,7 +109,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_building_class",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/building_class",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_building_class",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {

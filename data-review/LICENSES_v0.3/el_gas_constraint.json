@@ -1,7 +1,7 @@
 {
     "name": "el_gas_constraint",
     "title": "el_gas_constraint",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/el_gas_constraint",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_el_gas_constraint",
     "description": "Depicts the electricity and gas relation for central and decentral heat. Output factors for transformers are given as well.",
     "language": [
         "en-GB"
@@ -139,7 +139,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_el_gas_constraint",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/el_gas_constraint",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_el_gas_constraint",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
