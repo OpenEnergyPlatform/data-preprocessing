@@ -336,7 +336,7 @@
         }
     ],
     "@id": null,
-    "@context": null,
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
     "review": {
         "path": null,
         "badge": null
