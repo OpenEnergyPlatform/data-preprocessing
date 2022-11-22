@@ -338,7 +338,7 @@
                         ]
                     }
                 ],
-                "primaryKey": null,
+                "primaryKey": [],
                 "foreignKeys": []
             },
             "dialect": {

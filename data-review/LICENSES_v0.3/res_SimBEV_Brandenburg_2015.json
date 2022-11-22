@@ -127,7 +127,7 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": null,
+                "primaryKey": [],
                 "foreignKeys": [],
                 "fields": [
                     {
