@@ -52,7 +52,7 @@
     },
     "sources": [
         {
-            "title":"Blauer Wasserstoff Lösung oder Problem der Energiewende?",
+            "title": "Blauer Wasserstoff Lösung oder Problem der Energiewende?",
             "description": "Fakten, Hintergründe, Argumente",
             "path": "https://green-planet-energy.de/fileadmin/user_upload/broschuere-wasserstoff.pdf",
             "licenses": [
@@ -264,7 +264,7 @@
                             }
                         ]
                     },
-                  {
+                    {
                         "name": "name",
                         "description": "name of region and type of carrier imported or exported",
                         "type": "text",
@@ -282,7 +282,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "text",
@@ -300,7 +301,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
@@ -318,7 +320,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "text",
@@ -336,7 +339,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "tech",
                         "description": "type of transmission",
                         "type": "text",
@@ -354,7 +358,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "type",
                         "description": "type of tech",
                         "type": "text",
@@ -372,7 +377,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_value",
                         "description": "variable value",
                         "type": "text amd int",
@@ -390,7 +396,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "text",
@@ -408,7 +415,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "sources",
                         "description": "type of sources used",
                         "type": "text",
@@ -426,7 +434,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "text",

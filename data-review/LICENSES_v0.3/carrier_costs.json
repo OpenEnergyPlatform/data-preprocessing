@@ -170,7 +170,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "string",
@@ -188,7 +189,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "string",
@@ -206,7 +208,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "string",
@@ -224,7 +227,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "tech",
                         "description": "type of transformer",
                         "type": "string",
@@ -242,7 +246,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "type",
                         "description": "type of component",
                         "type": "string",
@@ -260,8 +265,9 @@
                                 "path": null
                             }
                         ]
-                    },{
-                        "name":"var_value",
+                    },
+                    {
+                        "name": "var_value",
                         "description": "variable value",
                         "type": "int",
                         "unit": null,
@@ -278,7 +284,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "string",
@@ -296,7 +303,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "source",
                         "description": null,
                         "type": "text",
@@ -314,7 +322,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "text",

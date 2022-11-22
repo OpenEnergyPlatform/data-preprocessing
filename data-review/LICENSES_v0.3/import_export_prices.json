@@ -170,7 +170,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_name",
                         "description": "mariginal costs",
                         "type": "text",
@@ -188,7 +189,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
@@ -206,7 +208,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "regions",
                         "description": "which regions are chosen",
                         "type": "text",
@@ -224,9 +227,10 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "tech",
-                        "description":"type of tech, export, import or shortage",
+                        "description": "type of tech, export, import or shortage",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -242,7 +246,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "type",
                         "description": "excess or shortage",
                         "type": "text",
@@ -260,7 +265,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_value",
                         "description": "var value in numbers",
                         "type": "int",
@@ -278,7 +284,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_unit",
                         "description": "unit used",
                         "type": "text",
@@ -296,9 +303,10 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "source",
-                        "description":"source used per line",
+                        "description": "source used per line",
                         "type": "text",
                         "unit": null,
                         "isAbout": [
@@ -314,7 +322,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "comment",
                         "description": "additional comments",
                         "type": "text",

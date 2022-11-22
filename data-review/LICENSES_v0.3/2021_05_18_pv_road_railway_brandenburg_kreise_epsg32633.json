@@ -65,7 +65,6 @@
                 }
             ]
         }
-
     ],
     "licenses": [
         {
@@ -117,7 +116,7 @@
                 "fields": [
                     {
                         "name": "fid",
-                        "description": "unique identifier" ,
+                        "description": "unique identifier",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -684,7 +683,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_pv_agricultural_area",
                         "description": "overlapped area with pv_agricultural area in square meters",
                         "type": "float",
@@ -702,9 +702,10 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_Agriculture_percent",
-                        "description": "overlapped area with pv_agricultural area in percent" ,
+                        "description": "overlapped area with pv_agricultural area in percent",
                         "type": "float",
                         "unit": "%",
                         "isAbout": [
@@ -720,7 +721,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_wind_area",
                         "description": "overlapped area with wind area in square meters",
                         "type": "float",
@@ -741,7 +743,7 @@
                     },
                     {
                         "name": "overlap_wind_percent",
-                        "description": "overlapped area with wind area in percent" ,
+                        "description": "overlapped area with wind area in percent",
                         "type": "float",
                         "unit": "%",
                         "isAbout": [
@@ -792,6 +794,5 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null"
-
     }
 }

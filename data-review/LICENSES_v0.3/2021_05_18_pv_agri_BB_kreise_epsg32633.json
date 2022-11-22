@@ -743,7 +743,7 @@
                     },
                     {
                         "name": "overlap_wind_percent",
-                        "description": "overlapped area with wind area in percent" ,
+                        "description": "overlapped area with wind area in percent",
                         "type": "float",
                         "unit": "%",
                         "isAbout": [
@@ -760,7 +760,6 @@
                             }
                         ]
                     }
-
                 ],
                 "primaryKey": [
                     null

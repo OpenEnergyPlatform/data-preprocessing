@@ -209,7 +209,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "timeindex_stop",
                         "description": "column shows the the time of the stop",
                         "type": "timestamp",
@@ -228,7 +228,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "timeindex_resolution",
                         "description": "column shows the resolution of the timeindex",
                         "type": "interval",
@@ -247,7 +247,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "series",
                         "description": "column shows the series",
                         "type": "float",
@@ -266,7 +266,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "var_unit",
                         "description": "column shows the unit of the variable",
                         "type": "text",
@@ -285,7 +285,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "source",
                         "description": "column shows the source",
                         "type": "text",
@@ -304,7 +304,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "comment",
                         "description": "a column for comments",
                         "type": "text",

@@ -114,9 +114,9 @@
             "encoding": "UTF-8",
             "schema": {
                 "fields": [
-                     {
+                    {
                         "name": "fid",
-                        "description": "unique identifier" ,
+                        "description": "unique identifier",
                         "type": "int",
                         "unit": null,
                         "isAbout": [
@@ -683,7 +683,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_pv_agricultural_area",
                         "description": "overlapped area with pv_agricultural area in square meters",
                         "type": "float",
@@ -701,9 +702,10 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "overlap_Agriculture_percent",
-                        "description": "overlapped area with pv_agricultural area in percent" ,
+                        "description": "overlapped area with pv_agricultural area in percent",
                         "type": "float",
                         "unit": "%",
                         "isAbout": [
@@ -739,7 +741,7 @@
                             }
                         ]
                     },
-                     {
+                    {
                         "name": "overlap_pv_road_railway_area_percent",
                         "description": "overlapped area with pv_road_railway_potential area in percent",
                         "type": "float",
@@ -792,6 +794,5 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null"
-
     }
 }

@@ -179,7 +179,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "name",
                         "description": "name of region, heating type and size of transformer",
                         "type": "text",
@@ -197,7 +198,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "text",
@@ -215,7 +217,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "text",
@@ -233,7 +236,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "text",
@@ -251,7 +255,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "tech",
                         "description": "type of tech used",
                         "type": "text",
@@ -269,7 +274,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "type",
                         "description": "type of specification of all entries",
                         "type": "text",
@@ -287,9 +293,10 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_value",
-                        "description": "variable value" ,
+                        "description": "variable value",
                         "type": "int and text",
                         "unit": null,
                         "isAbout": [
@@ -305,7 +312,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": null,
@@ -323,7 +331,8 @@
                                 "path": null
                             }
                         ]
-                    },{
+                    },
+                    {
                         "name": "source",
                         "description": "type of sources used",
                         "type": null,

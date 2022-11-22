@@ -151,7 +151,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "name",
                         "description": "name of region, carrier and type of conversion tech",
                         "type": "string",
@@ -169,7 +170,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "var_name",
                         "description": "variable name",
                         "type": "string",
@@ -187,7 +189,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "carrier",
                         "description": "type of carrier",
                         "type": "string",
@@ -205,7 +208,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "region",
                         "description": "indicator for region",
                         "type": "string",
@@ -223,7 +227,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "tech",
                         "description": "type of transformer",
                         "type": "string",
@@ -241,7 +246,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "type",
                         "description": "type of component",
                         "type": "string",
@@ -259,7 +265,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "var_value",
                         "description": "variable value",
                         "type": "int",
@@ -277,7 +284,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "var_unit",
                         "description": "variable unit",
                         "type": "string",
@@ -295,8 +303,9 @@
                                 "path": null
                             }
                         ]
-                    }, {
-                        "name":"source",
+                    },
+                    {
+                        "name": "source",
                         "description": "type of sources used",
                         "type": "text",
                         "unit": null,
@@ -313,7 +322,8 @@
                                 "path": null
                             }
                         ]
-                    }, {
+                    },
+                    {
                         "name": "comment",
                         "description": "general comments on data and data type",
                         "type": "string",
@@ -366,6 +376,5 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null"
-
     }
 }
