@@ -448,9 +448,7 @@
                         ]
                     }
                 ],
-                "primaryKey": [
-                    null
-                ],
+                "primaryKey": null,
                 "foreignKeys": []
             },
             "dialect": {
