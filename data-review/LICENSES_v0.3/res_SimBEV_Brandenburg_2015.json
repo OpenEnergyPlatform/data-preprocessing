@@ -122,7 +122,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "res_SimBEV_Brandenburg_2015",
+            "name": "model_draft.umas_res_SimBEV_Brandenburg_2015",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/res_SimBEV_Brandenburg_2015",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

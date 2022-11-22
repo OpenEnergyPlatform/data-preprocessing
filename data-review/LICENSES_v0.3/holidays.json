@@ -108,7 +108,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "holidays",
+            "name": "model_draft.umas_holidays",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/holidays",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

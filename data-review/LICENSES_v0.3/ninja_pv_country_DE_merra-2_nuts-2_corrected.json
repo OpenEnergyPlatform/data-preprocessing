@@ -122,7 +122,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "ninja_pv_country_DE_merra-2_nuts-2_corrected",
+            "name": "model_draft.umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/ninja_pv_country_DE_merra-2_nuts-2_corrected",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

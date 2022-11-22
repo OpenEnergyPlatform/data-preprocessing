@@ -138,7 +138,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "el_gas_constraint",
+            "name": "model_draft.umas_el_gas_constraint",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/el_gas_constraint",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

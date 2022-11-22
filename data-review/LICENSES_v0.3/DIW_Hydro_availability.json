@@ -108,7 +108,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "DIW_Hydro_availability",
+            "name": "model_draft.umas_DIW_Hydro_availability",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/DIW_Hydro_availability",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

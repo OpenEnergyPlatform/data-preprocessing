@@ -117,7 +117,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "lookup_table_brandenburg_kreise",
+            "name": "model_draft.umas_lookup_table_brandenburg_kreise",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/lookup_table_brandenburg_kreise",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

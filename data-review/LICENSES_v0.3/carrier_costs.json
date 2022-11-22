@@ -103,7 +103,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "carrier_costs",
+            "name": "model_draft.umas_carrier_costs",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/carrier_costs",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

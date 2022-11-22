@@ -110,7 +110,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.2021_05_18_wind_brandenburg_kreise_epsg32633",
+            "name": "model_draft.umas_2021_05_18_wind_brandenburg_kreise_epsg32633",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/2021_05_18_wind_brandenburg_kreise_epsg32633",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

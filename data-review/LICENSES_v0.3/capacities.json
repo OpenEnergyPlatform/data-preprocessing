@@ -103,7 +103,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "capacities",
+            "name": "model_draft.umas_capacities",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/capacities",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

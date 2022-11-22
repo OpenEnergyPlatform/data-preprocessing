@@ -110,7 +110,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "id_region_BB_B",
+            "name": "model_draft.umas_id_region_BB_B",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/id_region_BB_B",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

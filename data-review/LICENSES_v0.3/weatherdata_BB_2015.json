@@ -101,7 +101,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "weatherdata_BB_2015",
+            "name": "model_draft.umas_weatherdata_BB_2015",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/weatherdata_BB_2015",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

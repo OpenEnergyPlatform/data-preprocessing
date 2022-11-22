@@ -159,7 +159,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "potentials",
+            "name": "model_draft.umas_potentials",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/potentials",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

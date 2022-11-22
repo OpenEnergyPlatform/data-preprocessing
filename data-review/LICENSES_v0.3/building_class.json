@@ -108,7 +108,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "building_class",
+            "name": "model_draft.umas_building_class",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/building_class",
             "format": "PostgreSQL",
             "encoding": "UTF-8",

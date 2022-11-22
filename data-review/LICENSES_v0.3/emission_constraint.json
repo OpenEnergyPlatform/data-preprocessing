@@ -215,7 +215,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "emission_constraint",
+            "name": "model_draft.umas_emission_constraint",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/emission_constraint",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
