@@ -1,6 +1,6 @@
 {
-    "name": "DIW_Hydro_availability",
-    "title": "DIW_Hydro_availability",
+    "name": "umas_DIW_Hydro_availability",
+    "title": "umas_DIW_Hydro_availability",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_DIW_Hydro_availability",
     "description": null,
     "language": [],

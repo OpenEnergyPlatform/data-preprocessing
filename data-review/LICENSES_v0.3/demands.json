@@ -1,6 +1,6 @@
 {
-    "name": "demands",
-    "title": "demands",
+    "name": "umas_demands",
+    "title": "umas_demands",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_demands",
     "description": "Demand of energy carriers or heat demand of scenario EL-EFF, GAS and gas_lessCH4 for the years 2040 and 2050 for regions Berlin and Brandenburg",
     "language": [

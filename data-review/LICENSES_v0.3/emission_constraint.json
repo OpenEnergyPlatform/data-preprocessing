@@ -1,6 +1,6 @@
 {
-    "name": "emission_constraint",
-    "title": "emission_constraint",
+    "name": "umas_emission_constraint",
+    "title": "umas_emission_constraint",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_emission_constraint",
     "description": "List of emission factors for energy carriers for different scenarios, total emissions in base year and emission reduction factors.",
     "language": [

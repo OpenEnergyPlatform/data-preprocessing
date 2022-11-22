@@ -1,6 +1,6 @@
 {
-    "name": "carrier_costs",
-    "title": "carrier_costs",
+    "name": "umas_carrier_costs",
+    "title": "umas_carrier_costs",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_carrier_costs",
     "description": "costs of energy carriers are set to imports",
     "language": [

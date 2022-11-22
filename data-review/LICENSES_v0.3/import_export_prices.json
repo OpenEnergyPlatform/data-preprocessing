@@ -1,6 +1,6 @@
 {
-    "name": "import_export_prices",
-    "title": "import_export_prices",
+    "name": "umas_import_export_prices",
+    "title": "umas_import_export_prices",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_import_export_prices",
     "description": null,
     "language": [],

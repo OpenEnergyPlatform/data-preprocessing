@@ -1,6 +1,6 @@
 {
-    "name": "costs_efficiencies",
-    "title": "costs_efficiencies",
+    "name": "umas_costs_efficiencies",
+    "title": "umas_costs_efficiencies",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
     "description": "cost range of various transformer for the years 2040 and 2050",
     "language": [
