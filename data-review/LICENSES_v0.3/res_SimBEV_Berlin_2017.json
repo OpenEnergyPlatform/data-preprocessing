@@ -124,7 +124,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_res_SimBev_Berlin_2017",
+            "name": "model_draft.umas_res_simbev_berlin_2017",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_res_simbev_berlin_2017",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
