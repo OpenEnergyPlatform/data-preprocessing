@@ -1,9 +1,11 @@
 {
-    "name": "umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
-    "title": "umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
+    "name": "umas_2021_05_18_pv_road_railway_brandenburg_kreise",
+    "title": "umas_2021_05_18_pv_road_railway_brandenburg_kreise",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_2021_05_18_pv_road_railway_brandenburg_kreise",
     "description": null,
-    "language": [],
+    "language": [
+        "de-DE"
+    ],
     "subject": [
         {
             "name": null,
@@ -26,7 +28,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -54,30 +56,16 @@
     },
     "sources": [
         {
-            "title": "PV (NUTS-2, MERRA-2)",
-            "description": "hourly data PV",
-            "path": "https://www.renewables.ninja/country_downloads/DE/ninja_pv_country_DE_merra-2_nuts-2_corrected.csv",
+            "title": "Der Photovoltaik- und Windflächenrechner - Geodaten Potenzialflächen",
+            "description": "Eligible areas for onshore wind turbines and ground-mounted PV from the web application  Photovoltaik- und Windflächenrechner. Developed by the Reiner Lemoine Institute for Agora Energiewende with support of the Reiner Lemoine Foundation.",
+            "path": "https://zenodo.org/record/6728382#.YyHUyVrP2V4",
             "licenses": [
                 {
-                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute, Don't use it for commercial purposes",
-                    "attribution": "CC BY-NC 4.0",
-                    "name": "CC BY-NC 4.0",
-                    "title": "Creative Commons NonCommercial 4.0 ",
-                    "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
-                }
-            ]
-        },
-        {
-            "title": null,
-            "description": null,
-            "path": null,
-            "licenses": [
-                {
-                    "instruction": null,
-                    "attribution": null,
-                    "name": null,
-                    "title": null,
-                    "path": null
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+                    "attribution": "© Reiner Lemoine Institut",
+                    "name": "(ODbL) v1.0",
+                    "title": "Open Data Commons Open Database License",
+                    "path": "https://opendatacommons.org/licenses/odbl/1-0/"
                 }
             ]
         }
@@ -93,11 +81,11 @@
     ],
     "contributors": [
         {
-            "title": "Oskar",
-            "email": "oskar.oetken@rl-institut.de",
+            "title": "hedwiglieselotte",
+            "email": null,
             "object": "metadata",
-            "comment": "Create metadata",
-            "date": "2022-09-15"
+            "comment": "create metadata",
+            "date": "2022-09-14"
         },
         {
             "title": "sabinehaas",
@@ -124,8 +112,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_DE_merra-2_nuts-2_corrected",
+            "name": "model_draft.umas_2021_05_18_pv_road_railway_brandenburg_kreise",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_2021_05_18_pv_road_railway_brandenburg_kreise",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -133,28 +121,9 @@
                 "foreignKeys": [],
                 "fields": [
                     {
-                        "name": "time",
-                        "description": "hourly time series",
-                        "type": "timestamp",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": "UTC"
-                    },
-                    {
-                        "name": "de11",
-                        "description": null,
-                        "type": "float",
+                        "name": "fid",
+                        "description": "unique identifier",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -171,9 +140,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de12",
+                        "name": "id",
                         "description": null,
-                        "type": "float",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -190,9 +159,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de13",
+                        "name": "fid_2",
                         "description": null,
-                        "type": "float",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -209,9 +178,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de14",
-                        "description": null,
-                        "type": "float",
+                        "name": "ade",
+                        "description": "Adminstrative Fläche",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -228,9 +197,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de21",
-                        "description": null,
-                        "type": "float",
+                        "name": "gf",
+                        "description": "Geofaktor",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -247,9 +216,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de22",
-                        "description": null,
-                        "type": "float",
+                        "name": "bsg",
+                        "description": "Besondere Gebiete",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -266,9 +235,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de23",
-                        "description": null,
-                        "type": "float",
+                        "name": "ars",
+                        "description": "Amtlicher Regionalschlüssel",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -285,9 +254,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de24",
-                        "description": null,
-                        "type": "float",
+                        "name": "ags",
+                        "description": "Amtlicher Gemeindeschlüssel",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -304,9 +273,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de25",
-                        "description": null,
-                        "type": "float",
+                        "name": "sdv_ars",
+                        "description": "Sitz der Verwaltung (ARS), formerly SDV_RS",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -323,9 +292,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de26",
-                        "description": null,
-                        "type": "float",
+                        "name": "gen",
+                        "description": "Geografischer Name",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -342,9 +311,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de27",
-                        "description": null,
-                        "type": "float",
+                        "name": "bez",
+                        "description": "Bezeichnung der Verwaltungseinheit",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -361,9 +330,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de30",
-                        "description": null,
-                        "type": "float",
+                        "name": "ibz",
+                        "description": "Identifikator",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -380,9 +349,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de40",
-                        "description": null,
-                        "type": "float",
+                        "name": "bem",
+                        "description": "Bemerkung",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -399,9 +368,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de50",
-                        "description": null,
-                        "type": "float",
+                        "name": "nbd",
+                        "description": "Namensbildung",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -418,9 +387,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de60",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_l",
+                        "description": "structural components of ARS or AGS: Land",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -437,9 +406,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de71",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_r",
+                        "description": "structural components of ARS or AGS: Regierungsbezirk",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -456,9 +425,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de72",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_k",
+                        "description": "structural components of ARS or AGS: Kreis",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -475,9 +444,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de73",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_v1",
+                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - vorderer Teil",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -494,9 +463,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de80",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_v2",
+                        "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -513,9 +482,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de91",
-                        "description": null,
-                        "type": "float",
+                        "name": "sn_g",
+                        "description": "structural components of ARS or AGS: Gemeinde",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -532,9 +501,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de92",
-                        "description": null,
-                        "type": "float",
+                        "name": "fk_s3",
+                        "description": "Funktion der 3. Schlüsselstelle",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -551,9 +520,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de93",
-                        "description": null,
-                        "type": "float",
+                        "name": "nuts",
+                        "description": "Europäischer Statistikschlüssel",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -570,9 +539,9 @@
                         "unit": null
                     },
                     {
-                        "name": "de94",
-                        "description": null,
-                        "type": "float",
+                        "name": "ars_0",
+                        "description": "Aufgefüllter Amtlicher Regionalschlüssel, formerly RS_0",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -589,9 +558,9 @@
                         "unit": null
                     },
                     {
-                        "name": "dea1",
-                        "description": null,
-                        "type": "float",
+                        "name": "ags_0",
+                        "description": "Aufgefüllter Amtlicher Gemeindeschlüssel",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -608,9 +577,9 @@
                         "unit": null
                     },
                     {
-                        "name": "dea2",
-                        "description": null,
-                        "type": "float",
+                        "name": "wsk",
+                        "description": "Wirksamkeit",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -627,9 +596,9 @@
                         "unit": null
                     },
                     {
-                        "name": "dea3",
-                        "description": null,
-                        "type": "float",
+                        "name": "debkg_id",
+                        "description": "Digitaler Landschaftsmodell Indikator",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -646,9 +615,9 @@
                         "unit": null
                     },
                     {
-                        "name": "dea4",
-                        "description": null,
-                        "type": "float",
+                        "name": "rs",
+                        "description": "Regionalschlüssel",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -665,9 +634,9 @@
                         "unit": null
                     },
                     {
-                        "name": "dea5",
-                        "description": null,
-                        "type": "float",
+                        "name": "sdv_rs",
+                        "description": "Sitz der Verwaltung (ARS)",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -684,9 +653,9 @@
                         "unit": null
                     },
                     {
-                        "name": "deb1",
-                        "description": null,
-                        "type": "float",
+                        "name": "rs_0",
+                        "description": "Aufgefüllter Amtlicher Regionalschlüssel",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -703,9 +672,9 @@
                         "unit": null
                     },
                     {
-                        "name": "deb2",
-                        "description": null,
-                        "type": "float",
+                        "name": "area",
+                        "description": "potential area",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -719,11 +688,11 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "m²"
                     },
                     {
-                        "name": "deb3",
-                        "description": null,
+                        "name": "overlap_pv_agriculture_area",
+                        "description": "overlapped area with pv_agricultural area in square meters",
                         "type": "float",
                         "isAbout": [
                             {
@@ -738,11 +707,11 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "m²"
                     },
                     {
-                        "name": "dec0",
-                        "description": null,
+                        "name": "overlap_pv_agriculture_percent",
+                        "description": "overlapped area with pv_agricultural area in percent",
                         "type": "float",
                         "isAbout": [
                             {
@@ -757,11 +726,11 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "%"
                     },
                     {
-                        "name": "ded2",
-                        "description": null,
+                        "name": "overlap_wind_area",
+                        "description": "overlapped area with wind area in square meters",
                         "type": "float",
                         "isAbout": [
                             {
@@ -776,11 +745,11 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "m²"
                     },
                     {
-                        "name": "ded4",
-                        "description": null,
+                        "name": "overlap_wind_percent",
+                        "description": "overlapped area with wind area in percent",
                         "type": "float",
                         "isAbout": [
                             {
@@ -795,88 +764,12 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
-                    },
-                    {
-                        "name": "ded5",
-                        "description": null,
-                        "type": "float",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "dee0",
-                        "description": null,
-                        "type": "float",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "def0",
-                        "description": null,
-                        "type": "float",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "deg0",
-                        "description": null,
-                        "type": "float",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
+                        "unit": "%"
                     }
                 ]
             },
             "dialect": {
-                "delimiter": null,
+                "delimiter": ";",
                 "decimalSeparator": "."
             }
         }
@@ -899,6 +792,6 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null",
-        "todo": "If a value is not yet available, use: todo"
+        "todo": null
     }
 }

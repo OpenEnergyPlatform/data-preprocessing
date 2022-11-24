@@ -1,7 +1,7 @@
 {
-    "name": "umas_ninja_wind_country_DE_current_merra-2_nuts-2_corrected",
-    "title": "umas_ninja_wind_country_DE_current_merra-2_nuts-2_corrected",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_wind_country_DE_current_merra-2_nuts-2_corrected",
+    "name": "umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+    "title": "umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
     "description": null,
     "language": [],
     "subject": [
@@ -54,9 +54,9 @@
     },
     "sources": [
         {
-            "title": "Wind (NUTS-2, MERRA-2)",
-            "description": "Hourly data wind",
-            "path": "https://www.renewables.ninja/country_downloads/DE/ninja_wind_country_DE_current_merra-2_nuts-2_corrected.csv\n",
+            "title": "PV (NUTS-2, MERRA-2)",
+            "description": "hourly data PV",
+            "path": "https://www.renewables.ninja/country_downloads/DE/ninja_pv_country_DE_merra-2_nuts-2_corrected.csv",
             "licenses": [
                 {
                     "instruction": "You are free: To Share, To Adapt; As long as you: Attribute, Don't use it for commercial purposes",
@@ -124,8 +124,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_ninja_wind_country_DE_current_merra-2_nuts-2_corrected",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_wind_country_DE_current_merra-2_nuts-2_corrected",
+            "name": "model_draft.umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -856,25 +856,6 @@
                     },
                     {
                         "name": "deg0",
-                        "description": null,
-                        "type": "float",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "de_total",
                         "description": null,
                         "type": "float",
                         "isAbout": [

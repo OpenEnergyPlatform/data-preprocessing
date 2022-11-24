@@ -1,7 +1,7 @@
 {
-    "name": "umas_conventional_power_plants_DE",
-    "title": "umas_conventional_power_plants_DE",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_conventional_power_plants_DE",
+    "name": "umas_conventional_power_plants_de",
+    "title": "umas_conventional_power_plants_de",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_conventional_power_plants_de",
     "description": null,
     "language": [],
     "subject": [
@@ -111,7 +111,7 @@
         {
             "profile": "tabular-data-resource",
             "name": "model_draft.umas_conventional_power_plants_DE",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_conventional_power_plants_DE",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_conventional_power_plants_de",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
