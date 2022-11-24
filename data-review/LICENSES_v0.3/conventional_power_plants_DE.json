@@ -110,7 +110,7 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_conventional_power_plants_DE",
+            "name": "model_draft.umas_conventional_power_plants_de",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_conventional_power_plants_de",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
