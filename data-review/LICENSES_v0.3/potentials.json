@@ -170,7 +170,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
-                        "type": "serial",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,

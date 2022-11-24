@@ -138,7 +138,7 @@
                     {
                         "name": "month",
                         "description": "month of the holiday",
-                        "type": "series",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,

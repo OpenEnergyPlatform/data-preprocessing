@@ -226,7 +226,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
-                        "type": "serial",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -378,7 +378,7 @@
                     {
                         "name": "var_value",
                         "description": "variable value",
-                        "type": "text amd int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,

@@ -112,7 +112,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique identifier",
-                        "type": "serial",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -150,7 +150,7 @@
                     {
                         "name": "name",
                         "description": null,
-                        "type": null,
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,

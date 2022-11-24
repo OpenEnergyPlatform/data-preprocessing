@@ -133,7 +133,7 @@
                     {
                         "name": "time",
                         "description": "hourly time series",
-                        "type": "series",
+                        "type": "timestamp",
                         "isAbout": [
                             {
                                 "name": null,

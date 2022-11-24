@@ -1,7 +1,7 @@
 {
-    "name": "umas_DIW_Hydro_availability",
-    "title": "umas_DIW_Hydro_availability",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_DIW_Hydro_availability",
+    "name": "umas_diw_hydro_availability",
+    "title": "umas_diw_hydro_availability",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_diw_hydro_availability",
     "description": null,
     "language": [],
     "subject": [
@@ -108,8 +108,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_DIW_Hydro_availability",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_DIW_Hydro_availability",
+            "name": "model_draft.umas_diw_hydro_availability",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_diw_hydro_availability",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -119,7 +119,7 @@
                     {
                         "name": "hour",
                         "description": "column shows hours of one year",
-                        "type": "series",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,

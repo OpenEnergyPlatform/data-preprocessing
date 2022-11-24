@@ -152,7 +152,7 @@
                     {
                         "name": "time",
                         "description": "time series",
-                        "type": "series",
+                        "type": "timestamp",
                         "isAbout": [
                             {
                                 "name": null,

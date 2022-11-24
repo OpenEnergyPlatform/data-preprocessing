@@ -306,7 +306,7 @@
                     {
                         "name": "name",
                         "description": null,
-                        "type": null,
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -420,7 +420,7 @@
                     {
                         "name": "var_value",
                         "description": "type of variable value",
-                        "type": "float, bool, int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -453,7 +453,7 @@
                                 "path": null
                             }
                         ],
-                        "unit": "Eur/MW, Eur/MWh,Eur/MW/a, Eur/MWh/a, Eur/MW/km/a"
+                        "unit": null
                     },
                     {
                         "name": "source",

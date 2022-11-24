@@ -119,7 +119,7 @@
                     {
                         "name": "time",
                         "description": "column shows the time when the measurements were carried out",
-                        "type": "series",
+                        "type": "timestamp",
                         "isAbout": [
                             {
                                 "name": null,

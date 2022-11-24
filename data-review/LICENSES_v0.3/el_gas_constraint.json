@@ -149,7 +149,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
-                        "type": "serial",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -301,7 +301,7 @@
                     {
                         "name": "var_value",
                         "description": "variable value",
-                        "type": "int and text",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -320,7 +320,7 @@
                     {
                         "name": "var_unit",
                         "description": "variable unit",
-                        "type": null,
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -339,7 +339,7 @@
                     {
                         "name": "source",
                         "description": "type of sources used",
-                        "type": null,
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
