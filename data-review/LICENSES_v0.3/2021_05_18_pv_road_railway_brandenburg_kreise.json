@@ -142,7 +142,7 @@
                     {
                         "name": "id",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -161,7 +161,7 @@
                     {
                         "name": "fid_2",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -180,7 +180,7 @@
                     {
                         "name": "ade",
                         "description": "Adminstrative Fläche",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -199,7 +199,7 @@
                     {
                         "name": "gf",
                         "description": "Geofaktor",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -218,7 +218,7 @@
                     {
                         "name": "bsg",
                         "description": "Besondere Gebiete",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -237,7 +237,7 @@
                     {
                         "name": "ars",
                         "description": "Amtlicher Regionalschlüssel",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -256,7 +256,7 @@
                     {
                         "name": "ags",
                         "description": "Amtlicher Gemeindeschlüssel",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -332,7 +332,7 @@
                     {
                         "name": "ibz",
                         "description": "Identifikator",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -389,7 +389,7 @@
                     {
                         "name": "sn_l",
                         "description": "structural components of ARS or AGS: Land",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -408,7 +408,7 @@
                     {
                         "name": "sn_r",
                         "description": "structural components of ARS or AGS: Regierungsbezirk",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -427,7 +427,7 @@
                     {
                         "name": "sn_k",
                         "description": "structural components of ARS or AGS: Kreis",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -446,7 +446,7 @@
                     {
                         "name": "sn_v1",
                         "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - vorderer Teil",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -465,7 +465,7 @@
                     {
                         "name": "sn_v2",
                         "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -484,7 +484,7 @@
                     {
                         "name": "sn_g",
                         "description": "structural components of ARS or AGS: Gemeinde",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
