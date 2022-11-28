@@ -120,8 +120,27 @@
                 "fields": [
                     {
                         "name": "id",
-                        "description": "column shows the specific number of the power plant",
+                        "description": "id",
                         "type": "int",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "id_bentza",
+                        "description": "column shows the specific number of the power plant",
+                        "type": "str",
                         "isAbout": [
                             {
                                 "name": null,
