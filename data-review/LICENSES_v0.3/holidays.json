@@ -159,7 +159,7 @@
                     {
                         "name": "day",
                         "description": "day of the holiday",
-                        "type": "timestamp",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
