@@ -140,7 +140,7 @@
                     {
                         "name": "id_bentza",
                         "description": "column shows the specific number of the power plant",
-                        "type": "str",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
