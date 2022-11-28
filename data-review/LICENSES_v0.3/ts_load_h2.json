@@ -254,7 +254,7 @@
                     {
                         "name": "series",
                         "description": "column shows the series",
-                        "type": "float",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
