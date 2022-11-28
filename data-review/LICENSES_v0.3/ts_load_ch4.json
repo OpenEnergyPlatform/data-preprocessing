@@ -235,7 +235,7 @@
                     {
                         "name": "timeindex_resolution",
                         "description": "column shows the resolution of the timeindex",
-                        "type": "interval",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,

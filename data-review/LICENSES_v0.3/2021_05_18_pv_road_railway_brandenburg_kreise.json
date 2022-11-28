@@ -123,7 +123,7 @@
                     {
                         "name": "fid",
                         "description": "unique identifier",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -275,7 +275,7 @@
                     {
                         "name": "sdv_ars",
                         "description": "Sitz der Verwaltung (ARS), formerly SDV_RS",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -541,7 +541,7 @@
                     {
                         "name": "ars_0",
                         "description": "Aufgefüllter Amtlicher Regionalschlüssel, formerly RS_0",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -560,7 +560,7 @@
                     {
                         "name": "ags_0",
                         "description": "Aufgefüllter Amtlicher Gemeindeschlüssel",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -617,7 +617,7 @@
                     {
                         "name": "rs",
                         "description": "Regionalschlüssel",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -636,7 +636,7 @@
                     {
                         "name": "sdv_rs",
                         "description": "Sitz der Verwaltung (ARS)",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -655,7 +655,7 @@
                     {
                         "name": "rs_0",
                         "description": "Aufgefüllter Amtlicher Regionalschlüssel",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
@@ -674,7 +674,7 @@
                     {
                         "name": "area",
                         "description": "potential area",
-                        "type": "int",
+                        "type": "bigint",
                         "isAbout": [
                             {
                                 "name": null,
