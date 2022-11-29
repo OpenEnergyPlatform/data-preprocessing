@@ -2,7 +2,7 @@
     "name": "umas_costs_efficiencies",
     "title": "umas_costs_efficiencies",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
-    "description": "cost range of various transformer for the years 2040 and 2050",
+    "description": "cost range and efficiencies of various transformer for the years 2040 and 2050",
     "language": [
         "en-GB"
     ],
@@ -252,6 +252,12 @@
             "object": "metadata",
             "comment": "Review metadata",
             "date": "2022-10-21"
+        },
+        {
+            "title": "monika-o",
+            "object": "metadata",
+            "comment": "annotate metadata",
+            "date": "2022-11-29"
         }
     ],
     "resources": [
@@ -271,8 +277,8 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -290,8 +296,12 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "scenario",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000364"
+                            },
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -309,8 +319,8 @@
                         "type": null,
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "",
+                                "path": ""
                             }
                         ],
                         "valueReference": [
@@ -328,8 +338,12 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
                             }
                         ],
                         "valueReference": [
@@ -347,8 +361,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "energy carrier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020039"
                             }
                         ],
                         "valueReference": [
@@ -366,8 +380,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "study region",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020032"
                             }
                         ],
                         "valueReference": [
@@ -385,8 +399,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "technology",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000407"
                             }
                         ],
                         "valueReference": [
@@ -404,8 +418,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "",
+                                "path": ""
                             }
                         ],
                         "valueReference": [
@@ -423,8 +437,8 @@
                         "type": "float, bool, int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "",
+                                "path": ""
                             }
                         ],
                         "valueReference": [
@@ -442,8 +456,12 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "unit of measurement",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000000"
                             }
                         ],
                         "valueReference": [
@@ -461,8 +479,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "reference",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000353"
                             }
                         ],
                         "valueReference": [
@@ -480,8 +498,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "",
+                                "path": ""
                             }
                         ],
                         "valueReference": [
