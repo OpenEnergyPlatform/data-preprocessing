@@ -1,194 +1,127 @@
 {
-    "name": "umas_lookup_table_brandenburg_kreise",
-    "title": "umas_lookup_table_brandenburg_kreise",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_lookup_table_brandenburg_kreise",
-    "description": null,
-    "language": [
-        "de-DE"
-    ],
-    "subject": [
-        {
-            "name": null,
-            "path": null
-        }
-    ],
-    "keywords": [
-        "UMAS"
-    ],
-    "publicationDate": null,
-    "context": {
-        "homepage": null,
-        "documentation": null,
-        "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "publisherLogo": null
+  "name": "umas_lookup_table_brandenburg_kreise",
+  "title": "umas_lookup_table_brandenburg_kreise",
+  "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_lookup_table_brandenburg_kreise",
+  "language": [
+    "de-DE"
+  ],
+  "subject": [
+    {}
+  ],
+  "keywords": [
+    "UMAS"
+  ],
+  "temporal": {
+    "timeseries": [
+      {},
+      {}
+    ]
+  },
+  "sources": [
+    {
+      "licenses": [
+        {}
+      ]
     },
-    "spatial": {
-        "location": null,
-        "extent": null,
-        "resolution": null
-    },
-    "temporal": {
-        "referenceDate": null,
-        "timeseries": [
-            {
-                "start": null,
-                "end": null,
-                "resolution": null,
-                "alignment": null,
-                "aggregationType": null
-            },
-            {
-                "start": null,
-                "end": null,
-                "resolution": null,
-                "alignment": null,
-                "aggregationType": null
-            }
-        ]
-    },
-    "review": {
-        "path": null,
-        "badge": null
-    },
-    "sources": [
-        {
-            "title": null,
-            "description": null,
-            "path": null,
-            "licenses": [
-                {
-                    "instruction": null,
-                    "attribution": null,
-                    "name": null,
-                    "title": null,
-                    "path": null
-                }
-            ]
-        },
-        {
-            "title": null,
-            "description": null,
-            "path": null,
-            "licenses": [
-                {
-                    "instruction": null,
-                    "attribution": null,
-                    "name": null,
-                    "title": null,
-                    "path": null
-                }
-            ]
-        }
-    ],
-    "licenses": [
-        {
-            "instruction": null,
-            "attribution": null,
-            "name": null,
-            "title": null,
-            "path": null
-        }
-    ],
-    "contributors": [
-        {
-            "title": "Oskar",
-            "email": "oskar.oetken@rl-institut.de",
-            "object": "metadata",
-            "comment": "Create metadata",
-            "date": "2022-09-15"
-        },
-        {
-            "title": "sabinehaas",
-            "email": "sabine.haas@rl-institut.de",
-            "object": "data",
-            "comment": null,
-            "date": "2022-10-19"
-        },
-        {
-            "title": "chrwm",
-            "email": "christoph.muschner@rl-institut.de",
-            "object": "metadata",
-            "comment": "Review metadata",
-            "date": "2022-10-21"
-        }
-    ],
-    "resources": [
-        {
-            "profile": "tabular-data-resource",
-            "name": "model_draft.umas_lookup_table_brandenburg_kreise",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_lookup_table_brandenburg_kreise",
-            "format": "PostgreSQL",
-            "encoding": "UTF-8",
-            "schema": {
-                "primaryKey": [],
-                "foreignKeys": [],
-                "fields": [
-                    {
-                        "name": "nuts",
-                        "description": "Nomenclature of territorial units for statistics",
-                        "type": "string",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "region",
-                        "description": "name of the region",
-                        "type": "string",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    }
-                ]
-            },
-            "dialect": {
-                "delimiter": null,
-                "decimalSeparator": "."
-            }
-        }
-    ],
-    "@id": null,
-    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
-    "metaMetadata": {
-        "metadataVersion": "OEP-1.5.1",
-        "metadataLicense": {
-            "name": "CC0-1.0",
-            "title": "Creative Commons Zero v1.0 Universal",
-            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
-        }
-    },
-    "_comment": {
-        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
-        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
-        "units": "Use a space between numbers and units (100 m)",
-        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
-        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
-        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
-        "null": "If not applicable use: null",
-        "todo": "If a value is not yet available, use: todo"
+    {
+      "licenses": [
+        {}
+      ]
     }
+  ],
+  "licenses": [
+    {}
+  ],
+  "contributors": [
+    {
+      "title": "Oskar",
+      "email": "oskar.oetken@rl-institut.de",
+      "date": "2022-09-15",
+      "object": "metadata",
+      "comment": "Create metadata"
+    },
+    {
+      "title": "sabinehaas",
+      "email": "sabine.haas@rl-institut.de",
+      "date": "2022-10-19",
+      "object": "data"
+    },
+    {
+      "title": "chrwm",
+      "date": "2022-10-21",
+      "object": "metadata",
+      "comment": "Review metadata",
+      "email": "christoph.muschner@rl-institut.de"
+    },
+      {
+          "title": "monika-o",
+          "email": "monika.orlowski@rl-institut.de",
+          "object": "metadata",
+          "comment": "Annotate metadata",
+          "date": "2022-11-29"
+        }
+  ],
+  "resources": [
+    {
+      "profile": "tabular-data-resource",
+      "name": "model_draft.umas_lookup_table_brandenburg_kreise",
+      "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_lookup_table_brandenburg_kreise",
+      "format": "PostgreSQL",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "nuts",
+            "description": "Nomenclature of territorial units for statistics",
+            "type": "string",
+            "isAbout": [
+              {}
+            ],
+            "valueReference": [
+              {}
+            ]
+          },
+          {
+            "name": "region",
+            "description": "name of the region",
+            "type": "string",
+            "isAbout": [
+              {
+                "name": "spatial region",
+                "path": "http://purl.obolibrary.org/obo/BFO_0000006"
+              }
+            ],
+            "valueReference": [
+              {}
+            ]
+          }
+        ],
+        "primaryKey": [],
+        "foreignKeys": []
+      },
+      "dialect": {
+        "decimalSeparator": "."
+      }
+    }
+  ],
+  "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
+  "metaMetadata": {
+    "metadataVersion": "OEP-1.5.1",
+    "metadataLicense": {
+      "name": "CC0-1.0",
+      "title": "Creative Commons Zero v1.0 Universal",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  "_comment": {
+    "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+    "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+    "units": "Use a space between numbers and units (100 m)",
+    "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+    "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+    "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+    "null": "If not applicable use: null",
+    "todo": "If a value is not yet available, use: todo"
+  },
+  "description": "Mapping of nuts codes to districts"
 }
