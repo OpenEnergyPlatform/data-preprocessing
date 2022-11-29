@@ -2,7 +2,7 @@
     "name": "umas_DIW_Hydro_availability",
     "title": "umas_DIW_Hydro_availability",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_DIW_Hydro_availability",
-    "description": null,
+    "description": "Hourly time series for the capacity factor of hydro energy",
     "language": [],
     "subject": [
         {
@@ -103,6 +103,13 @@
             "object": "metadata",
             "comment": "Review metadata",
             "date": "2022-10-21"
+        },
+        {
+            "title": "monika-o",
+            "email": "monika.orlowski@rl-institut.de",
+            "object": "metadata",
+            "comment": "Annotate metadata",
+            "date": "2022-11-29"
         }
     ],
     "resources": [
@@ -122,8 +129,8 @@
                         "type": "series",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "hour",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000032"
                             }
                         ],
                         "valueReference": [
