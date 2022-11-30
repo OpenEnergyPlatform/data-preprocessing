@@ -1,7 +1,7 @@
 {
-    "name": "umas_ts_load_ch4",
-    "title": "umas_ts_load_ch4",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
+    "name": "umas_weatherdata_b_2019",
+    "title": "umas_weatherdata_b_2019",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_weatherdata_b_2019",
     "description": null,
     "language": [],
     "subject": [
@@ -26,7 +26,7 @@
     },
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin und Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -54,16 +54,16 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Climate Data Store",
+            "description": "climate related data base",
+            "path": "https://cds.climate.copernicus.eu",
             "licenses": [
                 {
-                    "instruction": null,
-                    "attribution": null,
-                    "name": null,
-                    "title": null,
-                    "path": null
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute",
+                    "attribution": "@Copernicus Climate Change Service",
+                    "name": "CC BY 4.0",
+                    "title": "Creative Commons 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/"
                 }
             ]
         },
@@ -97,21 +97,14 @@
             "email": "oskar.oetken@rl-institut.de",
             "object": "metadata",
             "comment": "Create metadata",
-            "date": "2022-09-15"
-        },
-        {
-            "title": "chrwm",
-            "email": "christoph.muschner@rl-institut.de",
-            "object": "metadata",
-            "comment": "Review metadata",
-            "date": "2022-10-21"
+            "date": "2022-10-28"
         }
     ],
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_ts_load_ch4",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
+            "name": "model_draft.umas_weatherdata_b_2019",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_weatherdata_b_2019",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -119,8 +112,141 @@
                 "foreignKeys": [],
                 "fields": [
                     {
-                        "name": "id_ts",
-                        "description": "column shows the specific id of the time series",
+                        "name": "time",
+                        "description": "column shows the time when the measurements were carried out",
+                        "type": "timestamp",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "latitude",
+                        "description": "column shows the latitude of the measuring station",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "longitude",
+                        "description": "column shows the longitude of the measuring station",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "ghi",
+                        "description": "column shows the global horizontal irradiance",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": "W/m²"
+                    },
+                    {
+                        "name": "wind_speed",
+                        "description": "column shows the speed of the wind",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "temp_air",
+                        "description": "column shows the temperature of the air",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "precipitable_water",
+                        "description": "column shows the amount of precipitable water",
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dni",
+                        "description": "column shows the direct normal irradiance",
                         "type": "int",
                         "isAbout": [
                             {
@@ -135,12 +261,12 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "W/m²"
                     },
                     {
-                        "name": "scenario_key",
-                        "description": "column shows the specific key of the scenarion",
-                        "type": "text",
+                        "name": "dhi",
+                        "description": "column shows the diffuse horizontal irradiance",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -154,178 +280,7 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
-                    },
-                    {
-                        "name": "region",
-                        "description": "column shows the abbreviated state in germany",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "var_name",
-                        "description": "column shows the name of the variable",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "timeindex_start",
-                        "description": "column shows the time of the start",
-                        "type": "timestamp",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "timeindex_stop",
-                        "description": "column shows the the time of the stop",
-                        "type": "timestamp",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "timeindex_resolution",
-                        "description": "column shows the resolution of the timeindex",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "series",
-                        "description": "column shows the series",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "var_unit",
-                        "description": "column shows the unit of the variable",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "source",
-                        "description": "column shows the source",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
-                    },
-                    {
-                        "name": "comment",
-                        "description": "a column for comments",
-                        "type": "text",
-                        "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "valueReference": [
-                            {
-                                "value": null,
-                                "name": null,
-                                "path": null
-                            }
-                        ],
-                        "unit": null
+                        "unit": "W/m²"
                     }
                 ]
             },

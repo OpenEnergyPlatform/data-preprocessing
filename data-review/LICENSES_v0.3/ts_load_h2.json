@@ -11,7 +11,9 @@
         }
     ],
     "keywords": [
-        "UMAS"
+        "UMAS",
+        "raw",
+        "Input-data"
     ],
     "publicationDate": null,
     "context": {
@@ -233,7 +235,7 @@
                     {
                         "name": "timeindex_resolution",
                         "description": "column shows the resolution of the timeindex",
-                        "type": "interval",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -252,7 +254,7 @@
                     {
                         "name": "series",
                         "description": "column shows the series",
-                        "type": "float",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,

@@ -1,9 +1,11 @@
 {
-    "name": "umas_ts_load_ch4",
-    "title": "umas_ts_load_ch4",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
-    "description": null,
-    "language": [],
+    "name": "umas_costs_efficiencies",
+    "title": "umas_costs_efficiencies",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
+    "description": "cost range of various transformer for the years 2040 and 2050",
+    "language": [
+        "en-GB"
+    ],
     "subject": [
         {
             "name": null,
@@ -16,14 +18,7 @@
         "Input-data"
     ],
     "publicationDate": null,
-    "context": {
-        "homepage": null,
-        "documentation": null,
-        "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
         "extent": null,
@@ -54,9 +49,9 @@
     },
     "sources": [
         {
-            "title": null,
-            "description": null,
-            "path": null,
+            "title": "Danish Energy Agency",
+            "description": "Technology Data for Electricity and District heating generation",
+            "path": "https://ens.dk/sites/ens.dk/files/Statistik/technology_data_catalogue_for_el_and_dh_-_0009.pdf",
             "licenses": [
                 {
                     "instruction": null,
@@ -68,8 +63,162 @@
             ]
         },
         {
-            "title": null,
+            "title": "Danish Energy Agency",
+            "description": "Technology Data for Electricity and District heating generation Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_el_and_dh.xlsx",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Heating Installations Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_heating_installations_-_0003.xlsx",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Renewable Fuels",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_renewable_fuels.pdf",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Storage Table ",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.xlsx",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Storage Document",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.pdf",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Storage Demand in Highly Renewable Energy Scenarios for Europe : The Influence of Methodology and Data Assumptions in Model-Based Assessments ",
             "description": null,
+            "path": "http://dx.doi.org/10.18419/opus-9761",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Danish Energy Agency",
+            "description": "Technology Data Energy Transport Table",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/energy_transport_datasheet.xlsx",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Produkte 2g BHKW",
+            "description": "Liste von Blockheizkrafterken unterschiedlicher Brennstoffarten",
+            "path": "https://www.2-g.com/de/wasserstoff-bhkw/",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Frauenhofer ISE",
+            "description": "Wege zu einem klimaneutralen Energiesystem - Anhang zur Studie",
+            "path": "https://www.ise.fraunhofer.de/de/veroeffentlichungen/studien/wege-zu-einem-klimaneutralen-energiesystem.html",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Model Input and Output Data of the FlexMex Model Comparison",
+            "description": "This data collection includes the input and output data of the FlexMex model experiment (grant number: 03ET4077A-H) funded by the German Federal Ministry for Economic Affairs and Energy (BMWi). The aim of the FlexMex project is to better understand the interrelationships of modelling approaches and model results in the mapping and analysis of technical-structural flexibilities in future electricity systems.",
+            "path": "10.5281/zenodo.5802178",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/legalcode"
+                }
+            ]
+        },
+        {
+            "title": "DIW Data Documentation",
+            "description": "Current and Prospective Costs of Electricity Generation until 2050 ",
+            "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf",
+            "licenses": [
+                {
+                    "instruction": "All rights reserved. Reproduction and distribution in any form, also in parts, requires the express written permission of DIW Berlin.",
+                    "attribution": "© DIW Berlin, 2013",
+                    "name": null,
+                    "title": "Copyright by Deutsches Institut für Wirtschaftsforschung",
+                    "path": "https://www.diw.de/documents/publikationen/73/diw_01.c.424566.de/diw_datadoc_2013-068.pdf"
+                }
+            ]
+        },
+        {
+            "title": "windnode",
+            "description": "unpublished",
             "path": null,
             "licenses": [
                 {
@@ -93,11 +242,11 @@
     ],
     "contributors": [
         {
-            "title": "Oskar",
-            "email": "oskar.oetken@rl-institut.de",
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
             "object": "metadata",
-            "comment": "Create metadata",
-            "date": "2022-09-15"
+            "comment": "create metadata",
+            "date": "2022-09-14"
         },
         {
             "title": "chrwm",
@@ -110,8 +259,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_ts_load_ch4",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
+            "name": "model_draft.umas_costs_efficiencies",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_costs_efficiencies",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -119,8 +268,8 @@
                 "foreignKeys": [],
                 "fields": [
                     {
-                        "name": "id_ts",
-                        "description": "column shows the specific id of the time series",
+                        "name": "id_scal",
+                        "description": "unique identifier of scalar",
                         "type": "int",
                         "isAbout": [
                             {
@@ -139,8 +288,8 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "column shows the specific key of the scenarion",
-                        "type": "text",
+                        "description": "type of scenario and referenced year as key",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -157,9 +306,9 @@
                         "unit": null
                     },
                     {
-                        "name": "region",
-                        "description": "column shows the abbreviated state in germany",
-                        "type": "text",
+                        "name": "name",
+                        "description": null,
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -177,8 +326,8 @@
                     },
                     {
                         "name": "var_name",
-                        "description": "column shows the name of the variable",
-                        "type": "text",
+                        "description": "variable name",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -195,9 +344,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_start",
-                        "description": "column shows the time of the start",
-                        "type": "timestamp",
+                        "name": "carrier",
+                        "description": "type of carrier",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -214,9 +363,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_stop",
-                        "description": "column shows the the time of the stop",
-                        "type": "timestamp",
+                        "name": "region",
+                        "description": "indicator for region",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -233,9 +382,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_resolution",
-                        "description": "column shows the resolution of the timeindex",
-                        "type": "text",
+                        "name": "tech",
+                        "description": "type of transformer",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -252,9 +401,28 @@
                         "unit": null
                     },
                     {
-                        "name": "series",
-                        "description": "column shows the series",
-                        "type": "text",
+                        "name": "type",
+                        "description": "type of component",
+                        "type": "string",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "var_value",
+                        "description": "type of variable value",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -272,8 +440,8 @@
                     },
                     {
                         "name": "var_unit",
-                        "description": "column shows the unit of the variable",
-                        "type": "text",
+                        "description": "variable unit",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -291,8 +459,8 @@
                     },
                     {
                         "name": "source",
-                        "description": "column shows the source",
-                        "type": "text",
+                        "description": "type of source",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -310,8 +478,8 @@
                     },
                     {
                         "name": "comment",
-                        "description": "a column for comments",
-                        "type": "text",
+                        "description": "general comments on data and data type",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -353,6 +521,6 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null",
-        "todo": "If a value is not yet available, use: todo"
+        "todo": null
     }
 }

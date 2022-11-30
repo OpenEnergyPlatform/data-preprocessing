@@ -13,7 +13,9 @@
         }
     ],
     "keywords": [
-        "UMAS"
+        "UMAS",
+        "raw",
+        "Input-data"
     ],
     "publicationDate": null,
     "context": null,
@@ -177,7 +179,7 @@
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
-                        "type": "serial",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": "unique individual identifier",

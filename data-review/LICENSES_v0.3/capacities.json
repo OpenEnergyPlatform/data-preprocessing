@@ -1,9 +1,11 @@
 {
-    "name": "umas_ts_load_ch4",
-    "title": "umas_ts_load_ch4",
-    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
+    "name": "umas_capacities",
+    "title": "umas_capacities",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_capacities",
     "description": null,
-    "language": [],
+    "language": [
+        "en-G"
+    ],
     "subject": [
         {
             "name": null,
@@ -16,17 +18,10 @@
         "Input-data"
     ],
     "publicationDate": null,
-    "context": {
-        "homepage": null,
-        "documentation": null,
-        "sourceCode": null,
-        "contact": null,
-        "grantNo": null,
-        "publisherLogo": null
-    },
+    "context": null,
     "spatial": {
         "location": null,
-        "extent": null,
+        "extent": "Berlin Brandenburg",
         "resolution": null
     },
     "temporal": {
@@ -93,11 +88,11 @@
     ],
     "contributors": [
         {
-            "title": "Oskar",
-            "email": "oskar.oetken@rl-institut.de",
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
             "object": "metadata",
-            "comment": "Create metadata",
-            "date": "2022-09-15"
+            "comment": "create metadata",
+            "date": "2022-09-14"
         },
         {
             "title": "chrwm",
@@ -110,8 +105,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "model_draft.umas_ts_load_ch4",
-            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ts_load_ch4",
+            "name": "model_draft.umas_capacities",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_capacities",
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
@@ -119,8 +114,8 @@
                 "foreignKeys": [],
                 "fields": [
                     {
-                        "name": "id_ts",
-                        "description": "column shows the specific id of the time series",
+                        "name": "id_scal",
+                        "description": "unique identifier of scalar",
                         "type": "int",
                         "isAbout": [
                             {
@@ -139,8 +134,8 @@
                     },
                     {
                         "name": "scenario_key",
-                        "description": "column shows the specific key of the scenarion",
-                        "type": "text",
+                        "description": "type of scenario as key",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -157,9 +152,9 @@
                         "unit": null
                     },
                     {
-                        "name": "region",
-                        "description": "column shows the abbreviated state in germany",
-                        "type": "text",
+                        "name": "name",
+                        "description": "name of region, carrier and type of conversion tech",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -177,8 +172,8 @@
                     },
                     {
                         "name": "var_name",
-                        "description": "column shows the name of the variable",
-                        "type": "text",
+                        "description": "variable name",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -195,9 +190,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_start",
-                        "description": "column shows the time of the start",
-                        "type": "timestamp",
+                        "name": "carrier",
+                        "description": "type of carrier",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -214,9 +209,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_stop",
-                        "description": "column shows the the time of the stop",
-                        "type": "timestamp",
+                        "name": "region",
+                        "description": "indicator for region",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -233,9 +228,9 @@
                         "unit": null
                     },
                     {
-                        "name": "timeindex_resolution",
-                        "description": "column shows the resolution of the timeindex",
-                        "type": "text",
+                        "name": "tech",
+                        "description": "type of transformer",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -252,9 +247,28 @@
                         "unit": null
                     },
                     {
-                        "name": "series",
-                        "description": "column shows the series",
-                        "type": "text",
+                        "name": "type",
+                        "description": "type of component",
+                        "type": "string",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "var_value",
+                        "description": "variable value",
+                        "type": "int",
                         "isAbout": [
                             {
                                 "name": null,
@@ -272,8 +286,8 @@
                     },
                     {
                         "name": "var_unit",
-                        "description": "column shows the unit of the variable",
-                        "type": "text",
+                        "description": "variable unit",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -287,11 +301,11 @@
                                 "path": null
                             }
                         ],
-                        "unit": null
+                        "unit": "MW, MWh"
                     },
                     {
                         "name": "source",
-                        "description": "column shows the source",
+                        "description": "type of sources used",
                         "type": "text",
                         "isAbout": [
                             {
@@ -310,8 +324,8 @@
                     },
                     {
                         "name": "comment",
-                        "description": "a column for comments",
-                        "type": "text",
+                        "description": "general comments on data and data type",
+                        "type": "string",
                         "isAbout": [
                             {
                                 "name": null,
@@ -353,6 +367,6 @@
         "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
         "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
         "null": "If not applicable use: null",
-        "todo": "If a value is not yet available, use: todo"
+        "todo": null
     }
 }
