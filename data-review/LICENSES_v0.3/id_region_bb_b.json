@@ -126,8 +126,12 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
+                            },
+                            {
+                                "name": "spatial region",
+                                "path": "http://purl.obolibrary.org/obo/BFO_0000006"
                             }
                         ],
                         "valueReference": [
@@ -145,8 +149,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
+                            },
+                            {
+                                "name": "spatial region",
+                                "path": "http://purl.obolibrary.org/obo/BFO_0000006"
                             }
                         ],
                         "valueReference": [

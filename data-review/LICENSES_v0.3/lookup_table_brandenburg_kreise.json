@@ -132,10 +132,7 @@
                         "description": "Nomenclature of territorial units for statistics",
                         "type": "string",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -152,8 +149,8 @@
                         "type": "string",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "spatial region",
+                                "path": "http://purl.obolibrary.org/obo/BFO_0000006"
                             }
                         ],
                         "valueReference": [

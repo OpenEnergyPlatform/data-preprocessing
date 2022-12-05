@@ -125,10 +125,7 @@
                         "description": "unique identifier",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -145,8 +142,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -163,10 +160,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -182,10 +176,7 @@
                         "description": "Adminstrative Fläche",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -201,10 +192,7 @@
                         "description": "Geofaktor",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -220,10 +208,7 @@
                         "description": "Besondere Gebiete",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -239,10 +224,7 @@
                         "description": "Amtlicher Regionalschlüssel, formerly RS",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -258,10 +240,7 @@
                         "description": "Amtlicher Gemeindeschlüssel",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -277,10 +256,7 @@
                         "description": "Sitz der Verwaltung (ARS), formerly SDV_RS",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -297,9 +273,10 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -315,10 +292,7 @@
                         "description": "Bezeichnung der Verwaltungseinheit",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -334,10 +308,7 @@
                         "description": "Identifikator",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -353,10 +324,7 @@
                         "description": "Bemerkung",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -372,10 +340,7 @@
                         "description": "Namensbildung",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -391,10 +356,7 @@
                         "description": "structural components of ARS or AGS: Land",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -410,10 +372,7 @@
                         "description": "structural components of ARS or AGS: Regierungsbezirk",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -429,10 +388,7 @@
                         "description": "structural components of ARS or AGS: Kreis",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -448,10 +404,7 @@
                         "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - vorderer Teil",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -467,10 +420,7 @@
                         "description": "structural components of ARS or AGS: Verwaltungsgemeinschaft - hinterer Teil",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -486,10 +436,7 @@
                         "description": "structural components of ARS or AGS: Gemeinde",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -505,10 +452,7 @@
                         "description": "Funktion der 3. Schlüsselstelle",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -524,10 +468,7 @@
                         "description": "Europäischer Statistikschlüssel",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -543,10 +484,7 @@
                         "description": "Aufgefüllter Amtlicher Regionalschlüssel, formerly RS_0",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -562,10 +500,7 @@
                         "description": "Aufgefüllter Amtlicher Gemeindeschlüssel",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -581,10 +516,7 @@
                         "description": "Wirksamkeit",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -600,10 +532,7 @@
                         "description": "Digitaler Landschaftsmodell Indikator",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -619,10 +548,7 @@
                         "description": "Regionalschlüssel",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -638,10 +564,7 @@
                         "description": "Sitz der Verwaltung (ARS)",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -657,10 +580,7 @@
                         "description": "Aufgefüllter Amtlicher Regionalschlüssel",
                         "type": "bigint",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -677,8 +597,13 @@
                         "type": "bigint",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "potential",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00290000"
+                            },
+                            {},
+                            {
+                                "name": "area value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020143"
                             }
                         ],
                         "valueReference": [
@@ -696,9 +621,15 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "PV panel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000348"
+                            },
+                            {
+                                "name": "agriculture",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010047"
+                            },
+                            {},
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -715,8 +646,16 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "PV panel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000348"
+                            },
+                            {
+                                "name": "CRF sector (IPCC 2006): agriculture",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010047"
+                            },
+                            {
+                                "name": "fraction",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000191"
                             }
                         ],
                         "valueReference": [
@@ -734,8 +673,21 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "PV panel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000348"
+                            },
+                            {},
+                            {
+                                "name": "CRF sector (IPCC 2006): road transportation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010060"
+                            },
+                            {
+                                "name": "CRF sector (IPCC 2006): railways",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010061"
+                            },
+                            {
+                                "name": "area value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020143"
                             }
                         ],
                         "valueReference": [
@@ -753,8 +705,20 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "PV panel",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000348"
+                            },
+                            {
+                                "name": "CRF sector (IPCC 2006): road transportation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010060"
+                            },
+                            {
+                                "name": "CRF sector (IPCC 2006): railways",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010061"
+                            },
+                            {
+                                "name": "fraction",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000191"
                             }
                         ],
                         "valueReference": [

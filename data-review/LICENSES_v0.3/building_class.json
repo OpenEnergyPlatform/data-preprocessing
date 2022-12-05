@@ -124,8 +124,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "study region",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020032"
+                            },
+                            {
+                                "name": "abbreviation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010247"
                             }
                         ],
                         "valueReference": [
@@ -142,10 +146,7 @@
                         "description": "column shows the building class belonging to the state",
                         "type": "int",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {

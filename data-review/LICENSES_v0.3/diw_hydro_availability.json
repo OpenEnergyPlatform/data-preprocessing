@@ -124,8 +124,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "hour",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000032"
                             }
                         ],
                         "valueReference": [

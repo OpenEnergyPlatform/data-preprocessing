@@ -123,10 +123,7 @@
                         "description": "states in germany",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -143,9 +140,10 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "has number",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140178"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -161,10 +159,7 @@
                         "description": "number of multi family homes",
                         "type": "int",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
