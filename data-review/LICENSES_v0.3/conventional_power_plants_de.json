@@ -133,8 +133,8 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -171,9 +171,10 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -190,8 +191,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "power generating unit",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000334"
                             }
                         ],
                         "valueReference": [
@@ -209,8 +210,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
                             }
                         ],
                         "valueReference": [
@@ -227,10 +228,7 @@
                         "description": "column shows the company which runs the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -246,10 +244,7 @@
                         "description": "column shows the street of power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -265,10 +260,7 @@
                         "description": "column shows the postcode of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -284,10 +276,7 @@
                         "description": "column shows the city where the power plant is located",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -303,10 +292,7 @@
                         "description": "column shows the state in which the power plant is located",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -322,10 +308,7 @@
                         "description": "column shows the country of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -342,8 +325,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "power capacity",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010257"
                             }
                         ],
                         "valueReference": [
@@ -361,9 +344,10 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "power capacity",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010257"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -380,8 +364,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "primary energy carrier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140078"
                             }
                         ],
                         "valueReference": [
@@ -399,8 +383,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "technology",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000407"
                             }
                         ],
                         "valueReference": [
@@ -418,8 +402,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "combined heat and power generation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00240009"
                             }
                         ],
                         "valueReference": [
@@ -437,8 +421,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "combined heat and power generation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00240009"
+                            },
+                            {
+                                "name": "power capacity",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010257"
                             }
                         ],
                         "valueReference": [
@@ -455,10 +443,7 @@
                         "description": "column shows the year in which the power plant was commisioned",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -474,10 +459,7 @@
                         "description": "column shows the date of the comission",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -493,10 +475,7 @@
                         "description": "column shows the year of retrofit",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -512,10 +491,7 @@
                         "description": "column shows the year of shutdown",
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -531,10 +507,7 @@
                         "description": "column shows the status of activity",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -550,10 +523,7 @@
                         "description": "column shows the type of the power plant (CHP/IPP)",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -569,10 +539,7 @@
                         "description": "column shows the latitude of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -588,10 +555,7 @@
                         "description": "column shows the longitude of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -607,10 +571,7 @@
                         "description": "column shows the code of the power plant given by european innovation council",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -626,10 +587,7 @@
                         "description": "column shows the code of the block given by european innovation council",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -646,8 +604,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "efficiency value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140050"
                             }
                         ],
                         "valueReference": [
@@ -665,8 +623,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "efficiency value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140050"
+                            },
+                            {
+                                "name": "reference",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000353"
                             }
                         ],
                         "valueReference": [
@@ -684,9 +646,10 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "efficiency value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140050"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -702,10 +665,7 @@
                         "description": "column shows general energy source of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -721,10 +681,7 @@
                         "description": "column shows the specific energy source",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -740,10 +697,7 @@
                         "description": "column shows the energy source very differentiated",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -759,10 +713,7 @@
                         "description": "column shows if the power plant is part of the renewable energy sources act",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -779,8 +730,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "grid node",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000296"
                             }
                         ],
                         "valueReference": [
@@ -797,10 +748,7 @@
                         "description": "column shows the voltage of the power plant",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -816,10 +764,7 @@
                         "description": "column shows the company operating the network",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -835,10 +780,7 @@
                         "description": "column for comments on merging",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -854,10 +796,7 @@
                         "description": "column for comments",
                         "type": "text",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
