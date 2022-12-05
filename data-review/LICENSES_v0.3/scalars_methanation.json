@@ -124,8 +124,8 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -143,8 +143,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "scenario",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000364"
+                            },
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -162,8 +166,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
                             }
                         ],
                         "valueReference": [
@@ -181,8 +185,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
                             }
                         ],
                         "valueReference": [
@@ -200,8 +208,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "energy carrier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020039"
                             }
                         ],
                         "valueReference": [
@@ -219,8 +227,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "study region",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020032"
                             }
                         ],
                         "valueReference": [
@@ -238,8 +246,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "technology",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000407"
                             }
                         ],
                         "valueReference": [
@@ -295,8 +303,12 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "unit of measurement",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000000"
                             }
                         ],
                         "valueReference": [
@@ -314,8 +326,8 @@
                         "type": "text",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "reference",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000353"
                             }
                         ],
                         "valueReference": [
