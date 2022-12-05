@@ -339,7 +339,7 @@
                     {
                         "name": "var_value",
                         "description": "variable value",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,

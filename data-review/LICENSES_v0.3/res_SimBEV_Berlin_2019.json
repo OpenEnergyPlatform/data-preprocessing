@@ -123,7 +123,7 @@
     ],
     "resources": [
         {
-            "profile": "tabular-data-resources",
+            "profile": "tabular-data-resource",
             "name": "model_draft.umas_res_simbev_berlin_2019",
             "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_res_simbev_berlin_2019",
             "format": "PostgreSQL",
@@ -173,7 +173,7 @@
                     {
                         "name": "sum_cs_power",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -192,7 +192,7 @@
                     {
                         "name": "sum_uc_work",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -211,7 +211,7 @@
                     {
                         "name": "sum_uc_business",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -230,7 +230,7 @@
                     {
                         "name": "sum_uc_school",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -249,7 +249,7 @@
                     {
                         "name": "sum_uc_shopping",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -268,7 +268,7 @@
                     {
                         "name": "sum_uc_private_ridesharing",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -287,7 +287,7 @@
                     {
                         "name": "sum_uc_leisure",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -306,7 +306,7 @@
                     {
                         "name": "sum_uc_home",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -325,7 +325,7 @@
                     {
                         "name": "sum_uc_hub",
                         "description": null,
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,

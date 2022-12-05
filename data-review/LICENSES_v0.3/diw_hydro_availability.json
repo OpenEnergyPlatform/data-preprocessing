@@ -115,13 +115,32 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": [],
+                "primaryKey": ["id"],
                 "foreignKeys": [],
                 "fields": [
                     {
+                        "name": "id",
+                        "description": null,
+                        "type": "bigint",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
                         "name": "hour",
                         "description": "column shows hours of one year",
-                        "type": "float",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": "hour",

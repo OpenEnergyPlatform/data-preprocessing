@@ -115,7 +115,7 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": [],
+                "primaryKey": ["id"],
                 "foreignKeys": [],
                 "fields": [
                     {
@@ -254,7 +254,7 @@
                     {
                         "name": "postcode",
                         "description": "column shows the postcode of the power plant",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -330,7 +330,7 @@
                     {
                         "name": "capacity_net_bnetza",
                         "description": "column shows the net capacity of the power plant by the bundesnetzagentur",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -349,7 +349,7 @@
                     {
                         "name": "capacity_gross_uba",
                         "description": "column shows the gross capacity of the power plant by the umweltbundesamt",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -425,7 +425,7 @@
                     {
                         "name": "chp_capacity_uba",
                         "description": "column shows the capacity of the heat and power combined",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -444,7 +444,7 @@
                     {
                         "name": "commissioned",
                         "description": "column shows the year in which the power plant was commisioned",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -463,7 +463,7 @@
                     {
                         "name": "commissioned_original",
                         "description": "column shows the date of the comission",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -482,7 +482,7 @@
                     {
                         "name": "retrofit",
                         "description": "column shows the year of retrofit",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -501,7 +501,7 @@
                     {
                         "name": "shutdown",
                         "description": "column shows the year of shutdown",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -558,7 +558,7 @@
                     {
                         "name": "lat",
                         "description": "column shows the latitude of the power plant",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -577,7 +577,7 @@
                     {
                         "name": "lon",
                         "description": "column shows the longitude of the power plant",
-                        "type": "int",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -634,7 +634,7 @@
                     {
                         "name": "efficiency_data",
                         "description": "column shows the efficiency of the power plant",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,
@@ -672,7 +672,7 @@
                     {
                         "name": "efficiency_estimate",
                         "description": "column shows the estimated efficiency for power plants without data/source",
-                        "type": "int",
+                        "type": "float",
                         "isAbout": [
                             {
                                 "name": null,

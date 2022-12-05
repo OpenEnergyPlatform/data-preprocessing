@@ -264,9 +264,28 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": [],
+                "primaryKey": ["id"],
                 "foreignKeys": [],
                 "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "int",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
@@ -289,7 +308,7 @@
                     {
                         "name": "scenario_key",
                         "description": "type of scenario and referenced year as key",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -308,7 +327,7 @@
                     {
                         "name": "name",
                         "description": null,
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -327,7 +346,7 @@
                     {
                         "name": "var_name",
                         "description": "variable name",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -346,7 +365,7 @@
                     {
                         "name": "carrier",
                         "description": "type of carrier",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -365,7 +384,7 @@
                     {
                         "name": "region",
                         "description": "indicator for region",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -384,7 +403,7 @@
                     {
                         "name": "tech",
                         "description": "type of transformer",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -403,7 +422,7 @@
                     {
                         "name": "type",
                         "description": "type of component",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -422,7 +441,7 @@
                     {
                         "name": "var_value",
                         "description": "type of variable value",
-                        "type": "float",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -441,7 +460,7 @@
                     {
                         "name": "var_unit",
                         "description": "variable unit",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -460,7 +479,7 @@
                     {
                         "name": "source",
                         "description": "type of source",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
@@ -479,7 +498,7 @@
                     {
                         "name": "comment",
                         "description": "general comments on data and data type",
-                        "type": "string",
+                        "type": "text",
                         "isAbout": [
                             {
                                 "name": null,
