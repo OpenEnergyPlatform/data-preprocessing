@@ -173,9 +173,28 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": [],
+                "primaryKey": ["id"],
                 "foreignKeys": [],
                 "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "int",
+                        "isAbout": [
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
                     {
                         "name": "id_scal",
                         "description": "unique identifier of scalar",
