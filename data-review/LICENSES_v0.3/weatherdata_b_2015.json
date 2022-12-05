@@ -2,7 +2,7 @@
     "name": "umas_weatherdata_b_2015",
     "title": "umas_weatherdata_b_2015",
     "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_weatherdata_b_2015",
-    "description": null,
+    "description": "Weather data for Berlin in 2015, hourly resolution",
     "language": [],
     "subject": [
         {
@@ -124,8 +124,8 @@
                         "type": "timestamp",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "time stamp",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140043"
                             }
                         ],
                         "valueReference": [
@@ -143,8 +143,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "geographic coordinate",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000189"
                             }
                         ],
                         "valueReference": [
@@ -162,8 +162,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "geographic coordinate",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000189"
                             }
                         ],
                         "valueReference": [
@@ -181,8 +181,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "solar radiation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020038"
                             }
                         ],
                         "valueReference": [
@@ -200,8 +200,12 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "wind",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000043"
+                            },
+                            {
+                                "name": "speed/velocity unit",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000060"
                             }
                         ],
                         "valueReference": [
@@ -219,8 +223,12 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "air",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000054"
+                            },
+                            {
+                                "name": "temperature unit",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000005"
                             }
                         ],
                         "valueReference": [
@@ -238,9 +246,10 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "water",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000441"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -257,9 +266,10 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
-                            }
+                                "name": "solar radiation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020038"
+                            },
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -276,8 +286,8 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "solar radiation",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020038"
                             }
                         ],
                         "valueReference": [
