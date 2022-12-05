@@ -145,8 +145,8 @@
                         "type": "int",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
                             }
                         ],
                         "valueReference": [
@@ -164,8 +164,8 @@
                         "type": "timestamp",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "time series",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00030034"
                             }
                         ],
                         "valueReference": [
@@ -183,8 +183,12 @@
                         "type": "float",
                         "isAbout": [
                             {
-                                "name": null,
-                                "path": null
+                                "name": "power value",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010157"
+                            },
+                            {
+                                "name": "integral",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00140070"
                             }
                         ],
                         "valueReference": [
@@ -201,10 +205,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -220,10 +221,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -239,10 +237,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -258,10 +253,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -277,10 +269,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -296,10 +285,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -315,10 +301,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
@@ -334,10 +317,7 @@
                         "description": null,
                         "type": "float",
                         "isAbout": [
-                            {
-                                "name": null,
-                                "path": null
-                            }
+                            {}
                         ],
                         "valueReference": [
                             {
