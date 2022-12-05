@@ -105,6 +105,13 @@
             "object": "metadata",
             "comment": "Review metadata",
             "date": "2022-10-21"
+        },
+        {
+            "title": "monika-o",
+            "email": "monika.orlowski@rl-institut.de",
+            "object": "metadata",
+            "comment": "Annotate metadata",
+            "date": "2022-12-05"
         }
     ],
     "resources": [
@@ -115,7 +122,9 @@
             "format": "PostgreSQL",
             "encoding": "UTF-8",
             "schema": {
-                "primaryKey": ["id"],
+                "primaryKey": [
+                    "id"
+                ],
                 "foreignKeys": [],
                 "fields": [
                     {

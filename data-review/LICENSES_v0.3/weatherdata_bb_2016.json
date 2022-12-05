@@ -98,6 +98,13 @@
             "object": "metadata",
             "comment": "Create metadata",
             "date": "2022-10-28"
+        },
+        {
+            "title": "monika-o",
+            "email": "monika.orlowski@rl-institut.de",
+            "object": "metadata",
+            "comment": "Annotate metadata",
+            "date": "2022-12-05"
         }
     ],
     "resources": [
