@@ -133,6 +133,25 @@
                 "foreignKeys": [],
                 "fields": [
                     {
+                        "name": "id",
+                        "description": null,
+                        "type": "bigint",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
                         "name": "time",
                         "description": "hourly time series",
                         "type": "timestamp",
