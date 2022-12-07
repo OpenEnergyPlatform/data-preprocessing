@@ -1,0 +1,923 @@
+{
+    "name": "umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+    "title": "umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+    "description": null,
+    "language": [],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "UMAS",
+        "raw",
+        "Input-data"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            },
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "sources": [
+        {
+            "title": "PV (NUTS-2, MERRA-2)",
+            "description": "hourly data PV",
+            "path": "https://www.renewables.ninja/country_downloads/DE/ninja_pv_country_DE_merra-2_nuts-2_corrected.csv",
+            "licenses": [
+                {
+                    "instruction": "You are free: To Share, To Adapt; As long as you: Attribute, Don't use it for commercial purposes",
+                    "attribution": "CC BY-NC 4.0",
+                    "name": "CC BY-NC 4.0",
+                    "title": "Creative Commons NonCommercial 4.0 ",
+                    "path": "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+                }
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "instruction": null,
+            "attribution": null,
+            "name": null,
+            "title": null,
+            "path": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Oskar",
+            "email": "oskar.oetken@rl-institut.de",
+            "object": "metadata",
+            "comment": "Create metadata",
+            "date": "2022-09-15"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "object": "data",
+            "comment": null,
+            "date": "2022-10-19"
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "object": "metadata",
+            "comment": null,
+            "date": "2022-10-19"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "object": "metadata",
+            "comment": "Review metadata",
+            "date": "2022-10-21"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_ninja_pv_country_de_merra_2_nuts_2_corrected",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "primaryKey": [],
+                "foreignKeys": [],
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "bigint",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "time",
+                        "description": "hourly time series",
+                        "type": "timestamp",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": "UTC"
+                    },
+                    {
+                        "name": "de11",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de12",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de13",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de14",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de21",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de22",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de23",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de24",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de25",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de26",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de27",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de30",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de40",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de50",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de60",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de71",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de72",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de73",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de80",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de91",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de92",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de93",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "de94",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dea1",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dea2",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dea3",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dea4",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dea5",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "deb1",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "deb2",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "deb3",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dec0",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "ded2",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "ded4",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "ded5",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "dee0",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "def0",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "deg0",
+                        "description": null,
+                        "type": "float",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}

@@ -1,0 +1,466 @@
+{
+    "name": "umas_potentials",
+    "title": "umas_potentials",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/umas_potentials",
+    "description": "Assumptions for capacity potentials of different technologies in Berlin and Brandenburg",
+    "language": [
+        "en-GB"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "UMAS",
+        "raw",
+        "Input-data"
+    ],
+    "publicationDate": null,
+    "context": null,
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            },
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "sources": [
+        {
+            "title": "Bundesländer-Übersicht zu Erneuerbaren Energien",
+            "description": "Vergleich der Bundesländer und ihrer Erneuerbaren Energien",
+            "path": "https://www.foederal-erneuerbar.de/uebersicht/bundeslaender/BW|BY|B|BB|HB|HH|HE|MV|NI|NRW|RLP|SL|SN|ST|SH|TH|D/kategorie/wasser/auswahl/181-installierte_leistun%20year%202017",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Planungshilfe Freiflächen-Photovoltaikanlagen",
+            "description": "Planungshilfe für PV in Oderland-Spree",
+            "path": "https://www.rpg-oderland-spree.de/sites/default/files/downloads/202311_OLS_Planungshilfe_FF-PVA_3_1.pdf",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "EE in Berlin",
+            "description": "Photovoltaik - Freiflächenanlagen Leistung (2021, in MW)",
+            "path": "https://www.foederal-erneuerbar.de/landesinfo/bundesland/B/kategorie/solar/auswahl/989-photovoltaik_-_freif/#goto_989",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Windpark Ludwigsfelde UVP Bericht",
+            "description": "UVP Bericht",
+            "path": "https://www.uvp-verbund.de/documents/ingrid-group_ige-iplug-bb/E0E3D3A0-C168-4DA2-867E-00A00F8288F5/20180716_UVP_Bericht_endf.pdf",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        },
+        {
+            "title": "Potenzial der Windenergie an Land",
+            "description": "Studie zur Ermittlung des bundesweiten Flächen- und Leistungspotentials der Windenergienutzung an Land",
+            "path": "https://www.umweltbundesamt.de/sites/default/files/medien/378/publikationen/potenzial_der_windenergie.pdf",
+            "licenses": [
+                {
+                    "instruction": null,
+                    "attribution": null,
+                    "name": null,
+                    "title": null,
+                    "path": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "instruction": null,
+            "attribution": null,
+            "name": null,
+            "title": null,
+            "path": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "hedwiglieselotte",
+            "email": "hedwig.bartels@rl-institut.de",
+            "object": "metadata",
+            "comment": "create metadata",
+            "date": "2022-09-15"
+        },
+        {
+            "title": "sabinehaas",
+            "email": "sabine.haas@rl-institut.de",
+            "object": "data",
+            "comment": null,
+            "date": "2022-10-19"
+        },
+        {
+            "title": "stefanienguyen",
+            "email": "stefanie.nguyen@rl-institut.de",
+            "object": "metadata",
+            "comment": null,
+            "date": "2022-10-19"
+        },
+        {
+            "title": "chrwm",
+            "email": "christoph.muschner@rl-institut.de",
+            "object": "metadata",
+            "comment": "Review metadata",
+            "date": "2022-10-21"
+        },
+        {
+            "title": "monika-o",
+            "email": "monika.orlowski@rl-institut.de",
+            "object": "metadata",
+            "comment": "Annotate metadata",
+            "date": "2022-11-29"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.umas_potentials",
+            "path": "http://openenergyplatform.org/dataedit/view/model_draft/umas_potentials",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "primaryKey": ["id"],
+                "foreignKeys": [],
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": null,
+                        "type": "int",
+                        "isAbout": [
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "id_scal",
+                        "description": "unique identifier of scalar",
+                        "type": "int",
+                        "isAbout": [
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "scenario_key",
+                        "description": "type of scenario as key",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "scenario",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000364"
+                            },
+                            {
+                                "name": "unique individual identifier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00010037"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "name",
+                        "description": "name of region, energy carrier and transformer",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "var_name",
+                        "description": "variable name",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "written name",
+                                "path": "http://purl.obolibrary.org/obo/IAO_0000590"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "carrier",
+                        "description": "type of carrier",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "energy carrier",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020039"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "region",
+                        "description": "indicator for region",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "study region",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00020032"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "tech",
+                        "description": "type of tech used",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "technology",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000407"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "type",
+                        "description": null,
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "var_value",
+                        "description": "variable value",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "var_unit",
+                        "description": "variable unit",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "variable",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000435"
+                            },
+                            {
+                                "name": "unit of measurement",
+                                "path": "http://purl.obolibrary.org/obo/UO_0000000"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "source",
+                        "description": "type of sources used",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": "reference",
+                                "path": "http://openenergy-platform.org/ontology/oeo/OEO_00000353"
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    },
+                    {
+                        "name": "comment",
+                        "description": "general comments on data and data type",
+                        "type": "text",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "unit": null
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": "https://raw.githubusercontent.com/OpenEnergyPlatform/oemetadata/master/metadata/latest/context.json",
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
