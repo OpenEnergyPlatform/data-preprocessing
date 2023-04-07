@@ -1,0 +1,238 @@
+{
+    "name": "rli_dea_technology_data_gen_wind_turbine_selected_parameters",
+    "title": "RLI - Danish Energy Agency - Technology Data for Generation of Electricity and District Heating - Technology Data Catalogue for Electricity and district heating production - Updated April 2020 - Wind Turbine (Selected Parameter)",
+    "id": "http://openenergyplatform.org/dataedit/view/model_draft/rli_dea_technology_data_gen_wind_turbine_selected_parameters",
+    "description": "This Technology Data catalogue includes technology data for technologies for centralized and decentralized production of electricity and district heat. Technology data concerns more or less mature technologies. There is currently one combined Technology Data catalogue concerning generation of electricity and district heating.  The catalogue was first published in August 2016, and is updated continuously. Technology descriptions in the previous catalogue from May 2012 have now been included in the catalogue from 2016 although some are not updated since 2015. It is mentioned in the beginning of the specific chapters, when each technology has been updated the last time. Index: 20 Wind turbines on-shore (updated May 2019) On-shore turbines and Domestic turbines. 21 Wind turbines off-shore (updated May 2019) Off-shore turbines and Near shore turbines (minor adjustment September 2019).",
+    "subject": null,
+    "language": [
+        "en-GB"
+    ],
+    "keywords": [
+        "RLI",
+        "Danish Energy Agency",
+        "Technology Data Catalogue",
+        "wind turbine",
+        "onshore",
+        "offshore"
+    ],
+    "publicationDate": "2022-02-11",
+    "context": {
+        "homepage": null,
+        "documentation": null,
+        "sourceCode": null,
+        "contact": null,
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2021",
+        "timeseries": [{
+            "start": "2015",
+            "end": "2050",
+            "resolution": "year",
+            "alignment": null,
+            "aggregationType": null
+        }
+        ]
+    },
+    "sources": [
+        {
+            "title":  "Technology Data Catalogue for Electricity and district heating production - Updated April 2020",
+            "description": "2020, Data collection for electricity generation and district heating plants, last update: April 2020 ",
+            "path": "https://ens.dk/sites/ens.dk/files/Analyser/technology_data_for_el_and_dh.xlsx",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "© Danish Energy Agency 2021"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "todo",
+            "title": "todo",
+            "path": "todo",
+            "instruction": "todo",
+            "attribution": "todo"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Christoph Muschner",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2021-06-29",
+            "object": "Metadata",
+            "comment": "transpose the original table"
+        },
+        {
+            "title": "ludee",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-02-11",
+            "object": "metadata",
+            "comment": "Create file with new columns"
+        },
+        {
+            "title": "ludee",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-02-11",
+            "object": "metadata",
+            "comment": "Update to OEM version 1.5.0"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.rli_dea_technology_data_generation_wind_turbine",
+            "path": "todo",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "unique id",
+                        "type": "bigint",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "model",
+                        "description": "Model name",
+                        "type": "string",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "scenario",
+                        "description": "Contains information about technology data and year, beginning from 2015 until 2050",
+                        "type": "string",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "region",
+                        "description": "Region to which the data applies",
+                        "type": "string",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "wind_technology_type",
+                        "description": "Type of wind turbine",
+                        "type": "string",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "year",
+                        "description": "Year of calculated scenario",
+                        "type": "int",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": null
+                    },
+                    {
+                        "name": "wind_turbine_technical_generating_capacity_for_one_unit",
+                        "description": "The column contains the generation capacity for one unit of the technology",
+                        "type": "decimal",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "MW"
+                    },
+                    {
+                        "name": "wind_turbine_technical_full_load_hours",
+                        "description": "The column contains the average annual full load hours for the technology",
+                        "type": "int",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "hours"
+                    },
+                    {
+                        "name": "wind_turbine_financial_nominal_investment",
+                        "description": "The column contains the nominal investment of the technology",
+                        "type": "decimal",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "million euro per megawatt"
+                    },
+                    {
+                        "name": "wind_turbine_technical_rotor_diameter",
+                        "description": "The column contains the rotor diameter of the technology",
+                        "type": "int",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "meter"
+                    },
+                    {
+                        "name": "wind_turbine_technical_hub_hight",
+                        "description": "The column contains the hub hight of the technology",
+                        "type": "int",
+                        "is_about": null,
+                        "value_reference": null,
+                        "unit": "meter"
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
