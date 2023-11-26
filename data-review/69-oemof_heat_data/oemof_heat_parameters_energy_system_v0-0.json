@@ -1,0 +1,357 @@
+{
+    "name": "parameters_energy_system",
+    "title": "Collection of technical and economical specifications needed for arguments in oemof components",
+    "id": null,
+    "description": "Table containing multiple parameters such as efficiency, investment cost and storage capacity",
+    "language": [
+        "en-US"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "oemof-thermal"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/oemof_heat/",
+        "documentation": null,
+        "sourceCode": "https://github.com/oemof-heat",
+        "contact": "caroline.moeller@rl-institut.de",
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": "https://reiner-lemoine-institut.de/wp-content/uploads/2015/08/RLI_Logo.png"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Jakob Wolf",
+            "description": "Self estimated values",
+            "path": "Jakob.Wolf@beuth-hochschule.de",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Optimierungsmodell REMod-D",
+            "description": "Materialien des Akademienprojekts „Energiesysteme der Zukunft“",
+            "path": "https://energiesysteme-zukunft.de/publikationen/materialien/optimierungsmodell-remod-d/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Jakob Wolf",
+            "email": "Jakob.Wolf@beuth-hochschule.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr. Berit Erlach",
+            "email": "erlach@acatech.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Prof. Dr. Hans-Martin Henning",
+            "email": "hans-martin.henning@ise.fraunhofer.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr. Christoph Kost",
+            "email": "christoph.kost@ise.fraunhofer.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr.-Ing. Dipl.-Wirt.-Ing. Andreas Palzer",
+            "email": "andreas.palzer@ise.fraunhofer.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr. Cyril Stephanos",
+            "email": "stephanos@acatech.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "parameters_energy_system",
+            "path": null,
+            "format": "csv",
+            "encoding": "us-ascii",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Position",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "var_name",
+                        "description": "Name of parameter",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "value",
+                        "description": "Value",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "unit",
+                        "description": "Unit",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "reference",
+                        "description": "Reference of value",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Comment",
+                        "description": "Comment",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tag_1",
+                        "description": null,
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "tag_2",
+                        "description": null,
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "component",
+                        "description": "Component",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": ",",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
