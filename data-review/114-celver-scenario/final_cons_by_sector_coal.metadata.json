@@ -1,8 +1,8 @@
 {
- "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_ambient_heat",
- "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_ambient_heat",
- "name": "final_cons_by_sector_ambient_heat",
- "title": "nègaWatt - CLEVER Scenario - Final consumption by sector - All energies for EU30 + EU27 countries, aggregated and individually",
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_coal",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_coal",
+ "name": "final_cons_by_sector_coal",
+ "title": "nègaWatt - CLEVER Scenario - Final consumption by sector - Electricity for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
   "badge": null
@@ -143,7 +143,7 @@
  },
  "resources": [
   {
-   "name": "final_cons_by_sector_ambient_heat",
+   "name": "final_cons_by_sector_coal",
    "path": null,
    "format": null,
    "schema": {
@@ -216,7 +216,7 @@
    "encoding": null
   }
  ],
- "description": "Final consumption by sector - All energies ",
+ "description": "Final consumption by sector - Electricity ",
  "contributors": [
   {
    "date": null,
