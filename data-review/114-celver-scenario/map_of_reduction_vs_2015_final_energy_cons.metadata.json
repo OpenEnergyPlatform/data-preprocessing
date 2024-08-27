@@ -1,8 +1,8 @@
 {
- "id": "https://openenergyplatform.org/dataedit/view/model_draft/local_production_coverage_ratios",
- "@id": "https://openenergyplatform.org/dataedit/view/model_draft/local_production_coverage_ratios",
- "name": "local_production_coverage_ratios",
- "title": "nègaWatt - CLEVER Scenario - Internal and final uses - District heating - included losses for EU30 + EU27 countries, aggregated and individually",
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/map_of_reduction_vs_2015_final_energy_cons",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/map_of_reduction_vs_2015_final_energy_cons",
+ "name": "map_of_reduction_vs_2015_final_energy_cons",
+ "title": "nègaWatt - CLEVER Scenario - Internal and final uses - District heating - separated losses for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
   "badge": null
@@ -138,7 +138,7 @@
  },
  "resources": [
   {
-   "name": "local_production_coverage_ratios",
+   "name": "map_of_reduction_vs_2015_final_energy_cons",
    "path": null,
    "format": null,
    "schema": {
@@ -211,7 +211,7 @@
    "encoding": null
   }
  ],
- "description": "Internal and final uses - District heating - included losses ",
+ "description": "Internal and final uses - District heating - separated losses ",
  "contributors": [
   {
    "date": null,
