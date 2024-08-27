@@ -1,7 +1,7 @@
 {
  "id": "https://openenergyplatform.org/dataedit/view/model_draft/int_and_final_uses_elec_grid_incl_loss",
  "@id": "https://openenergyplatform.org/dataedit/view/model_draft/int_and_final_uses_elec_grid_incl_loss",
- "name": "CLEVER Mix of secondary energies - Hydrogen network for EU30 + EU27 countries, aggregated and individually",
+ "name": "int_and_final_uses_elec_grid_incl_loss",
  "title": "nègaWatt - CLEVER Scenario - Mix of secondary energies - Hydrogen network for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
@@ -32,39 +32,35 @@
  },
  "subject": [
   {
-   "name": "OEO_00050009",
+   "name": "terawatt-hour",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00050009"
   },
   {
-   "name": "OEO_00020345",
+   "name": "sufficiency scenario",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020345"
   },
   {
-   "name": "OEO_00020012",
+   "name": "study report",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020012"
   },
   {
-   "name": "OEO_00010213",
+   "name": "emission constraint",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
   },
   {
-   "name": "OEO_00010213",
-   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
-  },
-  {
-   "name": "OEO_00020024",
+   "name": "bottom up",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020024"
   },
   {
-   "name": "OEO_00030015",
+   "name": "energy system model",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00030015"
   },
   {
-   "name": "OEO_00360003",
+   "name": "scenario projection comparison",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00360003"
   },
   {
-   "name": "OEO_00020097",
+   "name": "scenario year",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020097"
   }
  ],
