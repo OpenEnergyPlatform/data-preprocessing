@@ -1,8 +1,8 @@
 {
- "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_industry",
- "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_industry",
- "name": "final_cons_by_carrier_industry",
- "title": "nègaWatt - CLEVER Scenario - Map of Local prod coverage ratios - Solid biomass for EU30 + EU27 countries, aggregated and individually",
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_residential",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_residential",
+ "name": "final_cons_by_carrier_residential",
+ "title": "nègaWatt - CLEVER Scenario - Map of Local prod coverage ratios - Liquid motor fuels for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
   "badge": null
@@ -31,7 +31,7 @@
   "resolution": null
  },
  "subject": [
-  {
+ {
    "name": "terawatt-hour",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00050009"
   },
@@ -139,7 +139,7 @@
  },
  "resources": [
   {
-   "name": "final_cons_by_carrier_industry",
+   "name": "final_cons_by_carrier_residential",
    "path": null,
    "format": null,
    "schema": {
@@ -212,7 +212,7 @@
    "encoding": null
   }
  ],
- "description": "Map of Local prod coverage ratios - Solid biomass ",
+ "description": "Map of Local prod coverage ratios - Liquid motor fuels ",
  "contributors": [
   {
    "date": null,
