@@ -1,8 +1,8 @@
 {
- "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_ambient_heat",
- "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_ambient_heat",
- "name": "final_cons_by_sector_ambient_heat",
- "title": "nègaWatt - CLEVER Scenario - Final consumption by sector - All energies for EU30 + EU27 countries, aggregated and individually",
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_solid_biomass",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_solid_biomass",
+ "name": "final_cons_by_sector_solid_biomass",
+ "title": "nègaWatt - CLEVER Scenario - Final consumption by sector - Solar thermal for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
   "badge": null
@@ -25,11 +25,7 @@
    "description": null
   }
  ],
- "spatial": {
-  "extent": "Europe",
-  "location": null,
-  "resolution": null
- },
+ "spatial": null,
  "subject": [
   {
    "name": "sectoral energy consumption",
@@ -143,7 +139,7 @@
  },
  "resources": [
   {
-   "name": "final_cons_by_sector_ambient_heat",
+   "name": "final_cons_by_sector_solid_biomass",
    "path": null,
    "format": null,
    "schema": {
@@ -216,7 +212,7 @@
    "encoding": null
   }
  ],
- "description": "Final consumption by sector - All energies ",
+ "description": "Final consumption by sector - Solar thermal ",
  "contributors": [
   {
    "date": null,
