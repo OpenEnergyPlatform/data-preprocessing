@@ -1,8 +1,8 @@
 {
- "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_all_sectors",
- "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_all_sectors",
- "name": "final_cons_by_carrier_all_sectors",
- "title": "nègaWatt - CLEVER Scenario - Local production coverage ratios for EU30 + EU27 countries, aggregated and individually",
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_origin",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_origin",
+ "name": "final_cons_by_origin",
+ "title": "nègaWatt - CLEVER Scenario - Map of Local prod coverage ratios - Uranium for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
   "badge": null
@@ -17,7 +17,7 @@
   "publisherLogo": null,
   "fundingAgencyLogo": null
  },
-  "sources": [
+ "sources": [
   {
    "path": null,
    "title": null,
@@ -147,7 +147,7 @@
  },
  "resources": [
   {
-   "name": "final_cons_by_carrier_all_sectors",
+   "name": "final_cons_by_origin",
    "path": null,
    "format": null,
    "schema": {
@@ -220,7 +220,7 @@
    "encoding": null
   }
  ],
- "description": "Local production coverage ratios ",
+ "description": "Map of Local prod coverage ratios - Uranium",
  "contributors": [
   {
    "date": null,
