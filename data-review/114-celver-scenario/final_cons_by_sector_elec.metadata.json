@@ -1,7 +1,7 @@
 {
  "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_elec",
  "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_sector_elec",
- "name": "model_draft/final_cons_by_sector_elec",
+ "name": "final_cons_by_sector_elec",
  "title": "nègaWatt - CLEVER Scenario - Final consumption by sector - Liquid combustion fuels for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
