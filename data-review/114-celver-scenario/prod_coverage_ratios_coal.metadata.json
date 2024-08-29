@@ -48,10 +48,6 @@
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
   },
   {
-   "name": "emission constraint",
-   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
-  },
-  {
    "name": "bottom up",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020024"
   },
@@ -60,7 +56,7 @@
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00030015"
   },
   {
-   "name": "Oscenario projection comparison",
+   "name": "scenario projection comparison",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00360003"
   },
   {

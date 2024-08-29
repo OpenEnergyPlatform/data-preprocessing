@@ -52,10 +52,6 @@
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
   },
   {
-   "name": "emission constraint",
-   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
-  },
-  {
    "name": "bottom up",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020024"
   },
