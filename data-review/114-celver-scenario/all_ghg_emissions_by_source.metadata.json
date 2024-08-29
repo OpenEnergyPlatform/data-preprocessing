@@ -1,7 +1,7 @@
 {
  "id": "https://openenergyplatform.org/dataedit/view/model_draft/all_ghg_emissions_by_source",
  "@id": "https://openenergyplatform.org/dataedit/view/model_draft/all_ghg_emissions_by_source",
- "name": "model_draft/all_ghg_emissions_by_source",
+ "name": "all_ghg_emissions_by_source",
  "title": "nègaWatt - CLEVER Scenario - All GHG emissions by source for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
