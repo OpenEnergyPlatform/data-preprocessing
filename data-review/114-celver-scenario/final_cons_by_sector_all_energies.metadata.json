@@ -32,10 +32,6 @@
  },
  "subject": [
  {
-   "name": "carbon dioxide equivalent quantity value",
-   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00140083"
-  },
-  	{
 	"name": "sectoral energy consumption"
 	"path": "https://openenergyplatform.org/ontology/oeo/OEO_00010313"
 	},
