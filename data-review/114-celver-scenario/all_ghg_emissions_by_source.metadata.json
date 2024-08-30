@@ -40,11 +40,11 @@
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010137"
   },
   {
-   "name": "study report",
+   "name": "greenhouse gas emission scenario",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020317"
   },
   {
-   "name": "study report",
+   "name": "sufficiency scenario",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020345"
   },
   {
