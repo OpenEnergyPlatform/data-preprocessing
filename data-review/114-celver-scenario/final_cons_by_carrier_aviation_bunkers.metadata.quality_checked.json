@@ -1,7 +1,7 @@
 {
  "id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_aviation_bunkers",
  "@id": "https://openenergyplatform.org/dataedit/view/model_draft/final_cons_by_carrier_aviation_bunkers",
- "name": "CLEVER Map of Local prod coverage ratios - Total for EU30 + EU27 countries, aggregated and individually",
+ "name": "final_cons_by_carrier_aviation_bunkers",
  "title": "nègaWatt - CLEVER Scenario - Map of Local prod coverage ratios - Total for EU30 + EU27 countries, aggregated and individually",
  "review": {
   "path": null,
