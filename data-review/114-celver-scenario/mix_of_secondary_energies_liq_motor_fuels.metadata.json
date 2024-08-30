@@ -36,6 +36,10 @@
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00160006"
   },
   {
+    "name": "combustion fuel",
+    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00000099"
+   },
+  {
    "name": "terawatt-hour",
    "path": "https://openenergy-platform.org/ontology/oeo/OEO_00050009"
   },
