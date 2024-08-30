@@ -32,7 +32,7 @@
  },
  "subject": [
  {
-	"name": "sectoral energy consumption"
+	"name": "sectoral energy consumption",
 	"path": "https://openenergyplatform.org/ontology/oeo/OEO_00010313"
 	},
    {
