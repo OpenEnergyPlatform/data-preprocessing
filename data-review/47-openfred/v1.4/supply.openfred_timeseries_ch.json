@@ -1,0 +1,268 @@
+{
+    "name": "openfred_timeseries_ch",
+    "title": "open_FRED Weatherdata",
+    "id": "https://openenergy-platform.org/dataedit/view/supply/openfred_timeseries_ch",
+    "description": "This is an atmospheric hindcast for Western Europe and the North Atlantic using COSMO-CLM version 5.0 with spectral nudging from 2002-2017. MERRA2 reanalysis data are used as forcing. Additionally transient and monthly aerosol data of the MACv2 climatology are prescribed. The model uses a rotated grid with 566 x 481 grid points and a grid point distance of 0.0625 degrees, the rotated North pole is located at 162.0 W, 39.25 N. The published data excludes the sponge zone and have 526 x 441 grid points. In rotated coordinates the published simulation data extends from 22.64 W to 10.18 E, 11.2 S to 16.3 N, in geographical coordinates this corresponds to about 12 W to 30 E, 39 N to 60 N.",
+    "language": [
+        "en-GB", "de-DE"
+    ],
+    "keywords": [
+        "COSMO-CLM", "hindcast", "MERRA2", "Open Data", "regional modelling", "renewable energy", "timeseries"
+    ],
+    "publicationDate": "2020-02-06",
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/open_fred-open-feed-time-series-based-renewable-energy-database/",
+        "documentation": null,
+        "sourceCode": "https://github.com/open-fred",
+        "contact": "Christian.Hofmann@rl-institut.de",
+        "grantNo": "0324006A-C",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Germany (generous)",
+        "resolution": "0.0625° (~6.6 km)"
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": "2015-12-31 23:30:00+00:00",
+            "end": "2016-01-03 00:30:00+00:00",
+            "resolution": "30 min",
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "MERRA2",
+            "description": "Modern-Era Retrospective analysis for Research and Applications, Version 2",
+            "path": "https://gmao.gsfc.nasa.gov/reanalysis/MERRA-2/data_access/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "noaa_globe",
+            "description": "Global Land One-km Base Elevation Project (GLOBE)",
+            "path": "http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "ecjrc_glc2000",
+            "description": "Global Land Cover 2000",
+            "path": "http://www.ngdc.noaa.gov/mgg/topo/globe.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "nasa_aerosols",
+            "description": "GACP aerosol optical thickness and Angstrom exponent dataset",
+            "path": "https://gacp.giss.nasa.gov/data/time_ser/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "gldb",
+            "description": "Global Lake Database (GLDB)",
+            "path": "https://www.adv-sci-res.net/16/57/2019/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "copernicus_clc",
+            "description": "Copernicus Land Monitoring Services - CORINE Land Cover (CLC) - CLC 2012",
+            "path": "https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012?tab=download",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "fao_hwsd",
+            "description": "Harmonised World Soil Database",
+            "path": "http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "modis_albedo",
+            "description": "Filled Land Surface Albedo Product",
+            "path": "https://www.umb.edu/spectralmass/terra_aqua_modis/modis_brdf_albedo_product_mcd43",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "ODC-By-1.0",
+            "title": "Open Data Commons Attribution License v1.0",
+            "path": "https://opendatacommons.org/licenses/by/1.0/",
+            "instruction": "https://opendatacommons.org/licenses/by/summary/index.html",
+            "attribution": "© Helmholtz-Zentrum Geesthacht"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-02-06", 
+            "object": "metadata", 
+            "comment": "Create metadata"},
+        {
+            "title": "Jonas Huber",
+            "email": "Jonas.Huber@rl-institut.de",
+            "date": "2020-02-06",
+            "object": "metadata",
+            "comment": "Update metadata"
+        },
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-02-19",
+            "object": "metadata",
+            "comment": "Update license information"
+        },
+        {
+            "title": "Ludee", 
+            "email": "Ludwig.Huelk@rl-institut.de", 
+            "date": "2020-04-30",
+            "object": "metadata",
+            "comment": "Update metadata information"
+        },
+        {
+            "title": "jh-RLI", 
+            "email": "jonas.huber@rl-institut.de", 
+            "date": "2021-04-23",
+            "object": "metadata",
+            "comment": "Create metadata for additional openfred table"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "supply.openfred_timeseries_ch",
+            "path": "https://openenergy-platform.org/dataedit/view/supply/openfred_timeseries_ch",
+            "format": "PostgreSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "Unique identifier",
+                        "type": "bigint",
+                        "unit": null
+                    },
+                    {
+                        "name": "time",
+                        "description": "timestamp without time zone",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "feedin",
+                        "description": "feedin value",
+                        "type": "numeric",
+                        "unit": null
+                    },
+                    {
+                        "name": "nut",
+                        "description": "Region identifier",
+                        "type": "text",
+                        "unit": null
+                    },
+                    {
+                        "name": "technology",
+                        "description": "Identifier Name for the technology",
+                        "type": "text",
+                        "unit": null
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ]
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "review": {
+        "path": "https://github.com/OpenEnergyPlatform/data-preprocessing/issues/47",
+        "badge": "Gold"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
