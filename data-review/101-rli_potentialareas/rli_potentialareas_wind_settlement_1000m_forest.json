@@ -1,0 +1,628 @@
+{
+    "name": "rli_potentialareas_wind_settlement_1000m_forest",
+    "title": "RLI - Potenzialflächen Windenergie an Land in Deutschland - Siedlungen 1000 m mit Waldgebieten",
+    "id": "https://openenergy-platform.org/dataedit/view/model_draft/rli_potentialareas_wind_settlement_1000m_forest",
+    "description": "Ergebnisdaten vom Agora Photovoltaik- und Windflächenrechner. Diese Flächen stehen grundsätzlich für die Nutzung durch Windenergie oder Freiflächen-Photovoltaik zur Verfügung.",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "RLI",
+        "potential",
+        "potentialareas",
+        "wind",
+        "ODbL-1.0",
+        "Germany"
+    ],
+    "publicationDate": "2022-07-01",
+    "context": {
+        "homepage": "https://www.agora-energiewende.de/service/pv-und-windflaechenrechner/",
+        "documentation": "https://doi.org/10.5281/zenodo.6794558",
+        "sourceCode": "https://doi.org/10.5281/zenodo.6728382",
+        "contact": "https://reiner-lemoine-institut.de/forschungsfelder/transformation-von-energiesystemen-2/",
+        "grantNo": null,
+        "fundingAgency": "Agora Energiewende, Reiner Lemoine Stiftung",
+        "fundingAgencyLogo": "https://www.agora-energiewende.de/fileadmin2/downloads/presse/agora_logo_RGB.jpg",
+        "publisherLogo": "https://reiner-lemoine-institut.de//wp-content/uploads/2015/09/rlilogo.png"
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Germany",
+        "resolution": "vector, 10 m"
+    },
+    "temporal": {
+        "referenceDate": "2021-01-01",
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "RLI - Djagora-Data Pipeline",
+            "description": "Data preprocessing for Djagora project",
+            "path": "https://github.com/rl-institut",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": "Djagora-Data Pipeline © Reiner Lemoine Institut"
+                }
+            ]
+        },
+        {
+            "title": "Dienstleistungszentrum des Bundes für Geoinformation und Geodäsie (DLZ) - Verwaltungsgebiete 1:250 000 VG250 (Ebenen)",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Verkehr - VER03 - Bahnverkehr (bkg_dlm250_ver03_l)",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Verkehr - VER03 - Bahnverkehr (bkg_dlm250_ver03_f)",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Gewässer - GEW01 - Gewässer (Linien) - bkg_dlm250_gew01_l",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Gewässer - GEW01 - Gewässer (Flächen) - bkg_dlm250_gew01_f",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Siedlung - SIE02 - Baulich geprägte Flächen",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Verkehr - VER04 - Flugverkehr (bkg_dlm250_ver04_f) - 2019-12-31",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Siedlung - SIE02 - Baulich geprägte Flächen",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Gebiet - GEB03 - Schutzgebiete",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Siedlung - SIE02 - Baulich geprägte Flächen (bkg_dlm250_sie02_f) - 2019-12-31",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Verkehr - VER01 - Straßenverkehr",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Siedlung - SIE03 - Bauwerke und sonstige Einrichtungen",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Landschaftsmodell 1:250 000 - Thema Vegetation- VEG02 - Forstwirtschaftliche Nutzfläche (bkg_dlm250_veg02_f)",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/open-data/digitales-landschaftsmodell-1-250-000-ebenen-dlm250-ebenen.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "BKG - Digitales Geländemodell (DGM) Gitterweite 200 m",
+            "description": "Das Bundesamt für Kartographie und Geodäsie (BKG) gehört zum Geschäftsbereich des Bundesministeriums des Innern, für Bau und Heimat und ist ein modernes Kompetenz- und Dienstleistungszentrum des Bundes.",
+            "path": "https://gdz.bkg.bund.de/index.php/default/digitales-gelandemodell-gitterweite-200-m-dgm200.html",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© GeoBasis-DE / BKG - 2020"
+                }
+            ]
+        },
+        {
+            "title": "Less favoured areas",
+            "description": "Less favoured areas in the European Union.",
+            "path": "https://www.eea.europa.eu/ds_resolveuid/79177C92-81F8-48A1-9C14-278B14C2A7D4",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://ec.europa.eu/info/legal-notice_en",
+                    "instruction": "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC-BY-4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated.",
+                    "attribution": "Statistical Office of the European Union (Eurostat), 2012"
+                }
+            ]
+        },
+        {
+            "title": "Bundesanstalt für Gewässerkunde - Bewirtschaftungsgebiete, Schutzgebiete, geregelte Gebiete und Berichterstattungseinheiten - Überschwemmungsgebiete",
+            "description": "Die Bundesanstalt für Gewässerkunde (BfG) ist ein wissenschaftliches Institut im Rang einer Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur.",
+            "path": "https://geoportal.bafg.de/inspire/download/AM/floodplain/datasetfeed.xml",
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "© WasserBLIcK/BfG & Zuständige Behörden der Länder, 2020-11-09"
+                }
+            ]
+        },
+        {
+            "title": "Auszug der öffentlichen Daten des Marktstammdatenregisters.",
+            "description": "Auszug der öffentlichen Daten des Marktstammdatenregisters.",
+            "path": "https://www.marktstammdatenregister.de/MaStR/Datendownload",
+            "licenses": [
+                {
+                    "name": "DL-DE-BY-2.0",
+                    "title": "Datenlizenz Deutschland – Namensnennung – Version 2.0",
+                    "path": "https://www.govdata.de/dl-de/by-2-0",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute!",
+                    "attribution": "© 2021 Bundesnetzagentur für Elektrizität, Gas, Telekommunikation, Post und Eisenbahnen"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Zonierung der Biosphärenreservate Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Landschaftsschutzgebiete Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Flora-Fauna-Habitat-Gebiete Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - RAMSAR-Gebiete Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Nationalparke Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Naturschutzgebiete Deutschlands",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesamt für Naturschutz - Schutzgebiete - Natura2000-Daten - Vogelschutzgebiete Deutschlands (SPA)",
+            "description": "Das Bundesamt für Naturschutz (BfN) ist die wissenschaftliche Behörde des Bundes für den nationalen und internationalen Naturschutz. Es ist eine der Ressortforschungseinrichtungen des Bundes und gehört zum Geschäftsbereich des Bundesumweltministeriums.",
+            "path": null,
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "Natura2000-Daten, Bundesamt für Naturschutz (BfN), 2019"
+                }
+            ]
+        },
+        {
+            "title": "Bundesanstalt für Gewässerkunde - Bewirtschaftungsgebiete, Schutzgebiete, geregelte Gebiete und Berichterstattungseinheiten - Wasserschutzgebiete",
+            "description": "Die Bundesanstalt für Gewässerkunde (BfG) ist ein wissenschaftliches Institut im Rang einer Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Verkehr und digitale Infrastruktur.",
+            "path": "https://geoportal.bafg.de/inspire/download/AM/drinkingWaterProtectionArea/datasetfeed.xml",
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "© WasserBLIcK/BfG & Zuständige Behörden der Länder, 2020-11-09"
+                }
+            ]
+        },
+        {
+            "title": "OpenStreetMap - Germany - Extract Aviation - 2021-01-01",
+            "description": "Welcome to OpenStreetMap, the project that creates and distributes free geographic data for the world.",
+            "path": "https://www.openstreetmap.org/",
+            "licenses": [
+                {
+                    "name": "ODbL-1.0",
+                    "title": "Open Data Commons Open Database License 1.0",
+                    "path": "https://opendatacommons.org/licenses/odbl/1.0/",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+                    "attribution": "© OpenStreetMap contributors"
+                }
+            ]
+        },
+        {
+            "title": "OpenStreetMap - Germany - Extract Settlements - 2021-01-01",
+            "description": "Welcome to OpenStreetMap, the project that creates and distributes free geographic data for the world.",
+            "path": "https://www.openstreetmap.org/",
+            "licenses": [
+                {
+                    "name": "ODbL-1.0",
+                    "title": "Open Data Commons Open Database License 1.0",
+                    "path": "https://opendatacommons.org/licenses/odbl/1.0/",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+                    "attribution": "© OpenStreetMap contributors"
+                }
+            ]
+        },
+        {
+            "title": "Geofabrik - Download - OpenStreetMap Data Extracts - Germany - 2021-01-01",
+            "description": "Welcome to Geofabrik's free download server. This server has data extracts from the OpenStreetMap project which are normally updated every day.",
+            "path": "http://download.geofabrik.de/europe/germany.html#",
+            "licenses": [
+                {
+                    "name": "ODbL-1.0",
+                    "title": "Open Data Commons Open Database License 1.0",
+                    "path": "https://opendatacommons.org/licenses/odbl/1-0/",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+                    "attribution": "© 2020 Geofabrik GmbH"
+                }
+            ]
+        },
+        {
+            "title": "Global Solar Atlas 2.0",
+            "description": "Global Solar Atlas 2.0. Dataset: Long-term global photovoltaic power potential for Germany (LTAym_YearlyMonthlyTotals)",
+            "path": "https://globalsolaratlas.info/download/germany",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://globalsolaratlas.info/support/terms-of-use",
+                    "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute.",
+                    "attribution": "Global Solar Atlas 2.0, a free, web-based application is developed and operated by the company Solargis s.r.o. on behalf of the World Bank Group, utilizing Solargis data, with funding provided by the Energy Sector Management Assistance Program (ESMAP). For additional information: https://globalsolaratlas.info"
+                }
+            ]
+        },
+        {
+            "title": "SQR1000 V1.0",
+            "description": "WMS-Service zum Ackerbaulichen Ertragspotential der Böden in Deutschland. Das Müncheberger Soil Quality Rating (SQR) wurde vom Leibniz-Zentrum für Agrarlandschaftsforschung (ZALF) entwickelt. Das SQR ist ein Verfahren zur Bewertung der Eignung von Standorten für die landwirtschaftliche Nutzung und dient der Abschätzung des Ertragspotentials im globalen Maßstab. Die Methode wurde für die Anwendung auf Bodenkarten von der Bundesanstalt für Geowissenschaften und Rohstoffe (BGR) modifiziert und ist in der Methodendokumentation der Ad-hoc-AG Boden aufgenommen.",
+            "path": "https://produktcenter.bgr.de/terraCatalog/OpenSearch.do?search=47BE6C4F-409A-11E3-8643-8851FB422C62&type=/Query/OpenSearch.do",
+            "licenses": [
+                {
+                    "name": "geonutzv-de-2013-03-19",
+                    "title": "Verordnung zur Festlegung der Nutzungsbestimmungen für die Bereitstellung von Geodaten des Bundes",
+                    "path": "https://www.gesetze-im-internet.de/geonutzv/",
+                    "instruction": "Geodaten und Geodatendienste, einschließlich zugehöriger Metadaten, werden für alle derzeit bekannten sowie für alle zukünftig bekannten Zwecke kommerzieller und nicht kommerzieller Nutzung geldleistungsfrei zur Verfügung gestellt, soweit durch besondere Rechtsvorschrift nichts anderes bestimmt ist oder vertragliche oder gesetzliche Rechte Dritter dem nicht entgegenstehen.",
+                    "attribution": "SQR1000 V1.0, © BGR, Hannover, 2013"
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "ODbL-1.0",
+            "title": "Open Data Commons Open Database License 1.0",
+            "path": "https://opendatacommons.org/licenses/odbl/1.0/",
+            "instruction": "You are free: To Share, To Create, To Adapt; As long as you: Attribute, Share-Alike, Keep open!",
+            "attribution": "© Reiner Lemoine Institut © GeoBasis-DE / BKG - 2020 © Bundesamt für Naturschutz (BfN), 2019 © Bundesaufsichtsamt für Flugsicherung (BAF), 2020 © 2020 Geofabrik GmbH © OpenStreetMap contributors"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Ludee",
+            "email": "https://github.com/Ludee",
+            "date": "2021-01-27",
+            "object": "metadata",
+            "comment": "Create metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "https://github.com/Ludee",
+            "date": "2021-03-09",
+            "object": "metadata",
+            "comment": "Update metadata and resource"
+        },
+        {
+            "title": "nesnoj",
+            "email": "https://github.com/nesnoj",
+            "date": "2021-10-01",
+            "object": "metadata",
+            "comment": "Update metadata"
+        },
+        {
+            "title": "nesnoj",
+            "email": "https://github.com/nesnoj",
+            "date": "2021-11-05",
+            "object": "metadata",
+            "comment": "Update Zenodo docs link"
+        },
+        {
+            "title": "nesnoj",
+            "email": "https://github.com/nesnoj",
+            "date": "2022-07-01",
+            "object": "metadata",
+            "comment": "Update metadata"
+        },
+        {
+            "title": "Ludee",
+            "email": "https://github.com/Ludee",
+            "date": "2022-08-29",
+            "object": "metadata",
+            "comment": "Update metadata to OEM151"
+        },
+        {
+            "title": "Ludee",
+            "email": "https://github.com/Ludee",
+            "date": "2022-08-29",
+            "object": "data",
+            "comment": "Update data to OEP"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "model_draft.rli_potentialareas_wind_settlement_1000m_forest",
+            "path": null,
+            "format": "gpkg",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country_id",
+                        "description": "Idenifier for country",
+                        "type": "integer",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "geometry",
+                        "description": "Geometry",
+                        "type": "geometry",
+                        "unit": "m",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": ["id"],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
