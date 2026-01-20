@@ -1,0 +1,356 @@
+{
+    "name": "constants",
+    "title": "Collection of technical and economical specifications needed for arguments in oemof components",
+    "id": null,
+    "description": "Table containing multiple parameters such as efficiency, investment cost and storage capacity",
+    "language": [
+        "en-US"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "oemof-thermal"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://reiner-lemoine-institut.de/oemof_heat/",
+        "documentation": null,
+        "sourceCode": "https://github.com/oemof-heat",
+        "contact": "caroline.moeller@rl-institut.de",
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": "https://reiner-lemoine-institut.de/wp-content/uploads/2015/08/RLI_Logo.png"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "Jakob Wolf",
+            "description": "Self estimated values",
+            "path": "Jakob.Wolf@beuth-hochschule.de",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Norman Gerhardt",
+            "description": "INTERAKTION EE-STROM, WÄRME UND VERKEHR - Analyse der Interaktion zwischen den Sektoren Strom, Wärme/Kälte und Verkehr in Deutschland in Hinblick auf steigende Anteile fluktuierender Erneuerbarer Energien im Strombereich unter Berücksichtigung der europäischen Entwicklung",
+            "path": "https://www.iee.fraunhofer.de/de/projekte/suche/2015/interaktion_strom_waerme_verkehr.html",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Tom W. Brown",
+            "description": "Synergies of sector coupling and transmission reinforcement in a cost-optimised, highly renewable European energy system",
+            "path": "https://www.sciencedirect.com/science/article/abs/pii/S036054421831288X#!",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Elisa Dunkelberg",
+            "description": "Wirtschaftlichkeit von Mehrleiter-Wärmenetzen - Ökonomische Bewertung von Mehrleiter-Wärmenetzen zur Nutzung von Niedertemperaturwärme",
+            "path": "https://www.ioew.de/publikation/wirtschaftlichkeit_von_mehrleiter_waermenetzen/",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": null,
+            "description": null,
+            "path": null,
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Jakob Wolf",
+            "email": "Jakob.Wolf@beuth-hochschule.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Norman Gerhardt, M.Sc.",
+            "email": "norman.gerhardt@iee.fraunhofer.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr. Thomas William Brown",
+            "email": "tom.brown@kit.edu",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": null,
+            "email": null,
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Dr. Elisa Dunkelberg",
+            "email": "elisa.dunkelberg@ioew.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": null,
+            "email": null,
+            "date": null,
+            "object": null,
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "constants",
+            "path": null,
+            "format": "csv",
+            "encoding": "us-ascii",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "description": "Name",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "var_name",
+                        "description": "Name of variable",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "var_unit",
+                        "description": "Unit of variable",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "var_value",
+                        "description": "Value of variable",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "reference",
+                        "description": "Reference of variable",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ok?",
+                        "description": "Status",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    null
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": ",",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}

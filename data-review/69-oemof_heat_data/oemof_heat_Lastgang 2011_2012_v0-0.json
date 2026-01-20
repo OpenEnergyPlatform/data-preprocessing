@@ -1,0 +1,222 @@
+{
+    "name": "Lastgang 2011_2012",
+    "title": "District heating load profile",
+    "id": null,
+    "description": "Normalized load profile of a district heating network in Germany with hourly time steps.",
+    "language": [
+        "de-DE"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "oemof-thermal"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "unknown",
+        "documentation": "unknown",
+        "sourceCode": null,
+        "contact": "unknown",
+        "grantNo": null,
+        "fundingAgency": null,
+        "fundingAgencyLogo": null,
+        "publisherLogo": null
+    },
+    "spatial": {
+        "location": null,
+        "extent": "Germany",
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": "2011-01-01",
+        "timeseries": [
+            {
+                "start": "2011-01-01T00:00:00",
+                "end": "2012-12-31T23:00:00",
+                "resolution": "1 h",
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "AGFW | Der Energieeffizienzverband für Wärme, Kälte und KWK e. V.",
+            "description": "Der AGFW fördert als unabhängiger, neutraler und leistungsstarker Energieeffizienzverband seit über 40 Jahren die Entwicklung und den Ausbau der Kraft-Wärme-Kopplung (KWK), der Wärmebereitstellung aus Erneuerbaren Energien, der Fernwärme-, Kälteversorgung sowie Speicherung aller Größenordnungen auf nationaler und internationaler Ebene.",
+            "path": "https://www.agfw.de",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        },
+        {
+            "title": "Stadtwerke Flensburg GmbH",
+            "description": "District heating network data for the city of Flensburg from 2014-2016",
+            "path": "https://zenodo.org/record/2562658#.X04oEC1XY_U",
+            "licenses": [
+                {
+                    "name": "CC BY-SA 4.0",
+                    "title": "Creative Commons Attribution-ShareAlike 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by-sa/4.0/",
+                    "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": "You are free to: Share — copy and redistribute the material in any medium or format. Adapt — remix, transform, and build upon the material for any purpose, even commercially. This license is acceptable for Free Cultural Works. The licensor cannot revoke these freedoms as long as you follow the license terms.",
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "M.Eng. Cord Kaldemeyer",
+            "email": "cord.kaldemeyer@hs-flensburg.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "M.Eng. Cynthia Boysen",
+            "email": "cynthia.boysen@hs-flensburg.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        },
+        {
+            "title": "Prof. Dr. Ilja Tuschy",
+            "email": "ilja.tuschy@hs-flensburg.de",
+            "date": null,
+            "object": null,
+            "comment": null
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "Lastgang 2011_2012.xls",
+            "path": null,
+            "format": "xls",
+            "encoding": null,
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Datum",
+                        "description": "Date",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2011",
+                        "description": "load of time step in 2011",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "2012",
+                        "description": "load of time step in 2012",
+                        "type": null,
+                        "unit": null,
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "Datum"
+                ],
+                "foreignKeys": [
+                    {
+                        "fields": [
+                            null
+                        ],
+                        "reference": {
+                            "resource": null,
+                            "fields": [
+                                null
+                            ]
+                        }
+                    }
+                ]
+            },
+            "dialect": {
+                "delimiter": "\t",
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": null
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.0",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
