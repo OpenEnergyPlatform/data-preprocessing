@@ -1,0 +1,112 @@
+{
+    "name": "modex_open_MODEX_supply",
+    "title": "MODEX - open_MODEX - Supply",
+    "id": "",
+    "description": "[Multiple Topics]: Generation profiles of variable RES by country based on historical capacity factors from 2016/2012; Water levels in German rivers in hourly resolution",
+    "language": [
+        "en-GB",
+        "de-DE"
+    ],
+    "keywords": [
+        "renewable",
+        "quantity",
+        "electricity",
+        "profile"
+    ],
+    "publicationDate": "",
+    "context": {
+        "homepage": "https://www.energiesystem-forschung.de/forschen/projekte/open_MODEX",
+        "documentation": "https://github.com/open-modex/models",
+        "sourceCode": "https://github.com/open-modex",
+        "contact": "sarah.berendes@rl-institut.de",
+        "grantNo": "03ET4076",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie (BMWi)",
+        "fundingAgencyLogo": "https://www.innovation-beratung-foerderung.de/INNO/Redaktion/DE/Bilder/Titelbilder/titel_foerderlogo_bmwi.jpg;jsessionid=7C329FD594B914D85D84649345B95756?__blob=normal&v=3",
+        "publisherLogo": "https://avatars2.githubusercontent.com/u/47811754?s=200&v=4"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": {
+            "start": null,
+            "end": null,
+            "resolution": null,
+            "alignment": null,
+            "aggregationType": null
+        }
+    },
+    "sources": [
+        {
+            "title": "Using bias-corrected reanalysis to simulate current and future wind power output",
+            "description": "[oed-table:timeseries],[Bibtexkey:Staffell2016] - Energy, Elsevier BV, 2016, Staffell, I. & Pfenninger, S.",
+            "path": "https://doi.org/10.1016/j.energy.2016.08.068",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "© 2016 The Authors. Published by Elsevier Ltd."
+                }
+            ]
+        },
+        {
+            "title": "Long-term patterns of European {PV} output using 30 years of validated hourly reanalysis and satellite data.",
+            "description": "[oed-table:timeseries],[Bibtexkey:Pfenninger2016] - Energy, Elsevier BV, 2016, Pfenninger, S. & Staffell, I.",
+            "path": "https://doi.org/10.1016/j.energy.2016.08.060",
+            "licenses": [
+                {
+                    "name": "CC-BY-4.0",
+                    "title": "Creative Commons Attribution 4.0 International",
+                    "path": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "instruction": "You are free: To Share, To Adapt",
+                    "attribution": "© 2016 The Authors. Published by Elsevier Ltd."
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": null,
+            "title": null,
+            "path": null,
+            "instruction": null,
+            "attribution": null
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Christoph",
+            "email": "christoph.muschner@rl-institut.de",
+            "date": "2022-01-09",
+            "object": "Metadata",
+            "comment": "Create metadata and group sources"
+        }
+    ],
+    "resources": null,
+    "review": {
+        "path": "",
+        "badge": ""
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.4.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/organisation/wiki/metadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/wiki)",
+        "null": "If not applicable use (null)"
+    }
+}
