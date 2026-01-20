@@ -1,0 +1,159 @@
+{
+ "name": "tyndp_2022_updated_energy_demand_transport",
+ "title": "TYNDP 2022 updated Engergy Demand for the Transport Sector Global Ambition and Distributed Energy",
+ "id": "https://openenergy-platform.org/dataedit/view/model_draft/tyndp_2022_updated_energy_demand_transport",
+ "description": "TYNDP 2022 updated shows total energy demand for transport sector in the EU27 by energy carriers electricity, hydrogene, methane and liquids for the scenarios Global Ambition and Distributed Engergy(derived from draft report).",
+ "language": [
+  "en-GB"
+ ],
+ "subject": [],
+ "keywords": [
+  "energy demand",
+  "transport sector",
+  "TYNDP 2022",
+  "electricity",
+  "hydrogene",
+  "methane",
+  "liquids",
+  "Global Ambition",
+  "Distributed Energy"
+ ],
+ "publicationDate": "2022-03-07",
+ "context": {
+  "homepage": "https://2022.entsos-tyndp-scenarios.eu/download/",
+  "documentation": "www.entsog.eu  www.entsoe.eu",
+  "sourceCode": "none",
+  "contact": "Transmission System Operators for Gas Avenue de Cortenbergh 100 1000 Brussels, Belgium  www.entsog.eu  ENTSO-E European Network of Transmission System Operators for Electricity Rue de Spa, 8 1000 Brussels, Belgium  www.entsoe.eu",
+  "publisherLogo": " "
+ },
+ "spatial": {
+  "location": "Europe",
+  "extent": "EU27",
+  "resolution": "Total"
+ },
+ "temporal": {
+  "referenceDate": "2015-12-31",
+  "timeseries": [
+   {
+    "start": "2030-03-07T00:",
+    "end": "2050-03-07T00:",
+    "resolution": "10 y"
+   }
+  ]
+ },
+ "review": {
+  "badge": null
+ },
+ "sources": [
+  {
+   "title": "TYNDP 2022 - Scenario Report",
+   "description": "ENTSO-E and ENTSOG are committed to developing ­TYNDP scenarios that will support the European Union plans for energy infrastructure and to achieve the objectives of the EU Green Deal as well as the Paris Agreement, and to ensure a fair, affordable and secure transition towards a clean and decarbonised energy system. The TYNDP 2022 scenarios were developed over the last two years on this basis, and with extensive stakeholder engagement.",
+   "path": "https://2022.entsos-tyndp-scenarios.eu/wp-content/uploads/2022/04/Updated-TYNDP-2022-Scenario-Report-Data_Figures.xlsx",
+   "licenses": []
+  }
+ ],
+ "licenses": [
+  {
+   "instruction": "You are free: To Share, To Adapt, Under the following terms: Attribution, No additional restrictions",
+   "attribution": "©ENTSO-E ©ENTSOG TYNDP 2022 Scenarios",
+   "name": "CC-BY-4.0",
+   "title": "Creative Commons Attribution 4.0 International  ",
+   "path": "https://creativecommons.org/licenses/by/4.0/"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Ulf Mueller",
+   "email": "ulf.mueller@iee.fraunhofer.de",
+   "object": "Data, Metadata",
+   "comment": "Upload data table, metadata.",
+   "date": "2022-03-07"
+  }
+ ],
+ "resources": [
+  {
+   "name": "tyndp_2022_updated_energy_demand_transport",
+   "schema": {
+    "primaryKey": [],
+    "foreignKeys": [],
+    "fields": [
+     {
+      "name": "id",
+      "type": "bigint",
+      "isAbout": [],
+      "valueReference": []
+     },
+     {
+      "name": "scenario_name",
+      "description": "Name of scenario for which the data was calculated",
+      "type": "varchar",
+      "isAbout": [],
+      "valueReference": []
+     },
+     {
+      "name": "scenario_year",
+      "description": "Year for which the scenario data was calculated",
+      "type": "integer",
+      "isAbout": [],
+      "valueReference": []
+     },
+     {
+      "name": "region",
+      "description": "Europe comprising EU27 Member States",
+      "type": "varchar",
+      "isAbout": [],
+      "valueReference": []
+     },
+     {
+      "name": "sector",
+      "description": "Only transport sector considered",
+      "type": "varchar",
+      "isAbout": [],
+      "valueReference": []
+     },
+     {
+      "name": "energy_carrier",
+      "description": "The energy carriers condidered in the scenarios",
+      "type": "varchar",
+      "isAbout": [],
+      "valueReference": [],
+      "unit": "electricity, hydrogene, methane, liquids"
+     },
+     {
+      "name": "unit",
+      "description": "The physical unit, in which the values are given",
+      "type": "varchar",
+      "isAbout": [],
+      "valueReference": [],
+      "unit": "TWh/y"
+     },
+     {
+      "name": "value",
+      "type": "integer",
+      "isAbout": [],
+      "valueReference": []
+     }
+    ]
+   },
+   "dialect": {}
+  }
+ ],
+ "metaMetadata": {
+  "metadataVersion": "OEP-1.5.1",
+  "metadataLicense": {
+   "name": "CC0-1.0",
+   "title": "Creative Commons Zero v1.0 Universal",
+   "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+ },
+ "_comment": {
+  "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+  "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+  "units": "Use a space between numbers and units (100 m)",
+  "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+  "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+  "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+  "null": "If not applicable use: null",
+  "todo": "If a value is not yet available, use: todo"
+ }
+}
