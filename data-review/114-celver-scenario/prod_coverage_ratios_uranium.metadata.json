@@ -1,0 +1,353 @@
+{
+ "id": "https://openenergyplatform.org/dataedit/view/model_draft/prod_coverage_ratios_uranium",
+ "@id": "https://openenergyplatform.org/dataedit/view/model_draft/prod_coverage_ratios_uranium",
+ "name": "prod_coverage_ratios_uranium",
+ "title": "nègaWatt - CLEVER Scenario - Primary energy consumption by type for EU30 + EU27 countries, aggregated and individually",
+ "review": {
+  "path": null,
+  "badge": null
+ },
+ "context": {
+  "contact": "nicolas.taillard@negawatt.org",
+  "grantNo": null,
+  "homepage": "https://clever-energy-scenario.eu/",
+  "sourceCode": null,
+  "documentation": "https://clever-energy-scenario.eu/#clever-major-publications",
+  "fundingAgency": null,
+  "publisherLogo": null,
+  "fundingAgencyLogo": null
+ },
+ "sources": [
+  {
+   "path": null,
+   "title": null,
+   "licenses": [],
+   "description": null
+  }
+ ],
+ "spatial": {
+  "extent": "Europe",
+  "location": null,
+  "resolution": null
+ },
+ "subject": [
+  {
+   "name": "percent",
+   "path": "https://openenergy-platform.org/ontology/oeo/UO_0000187"
+  },
+  {
+   "name": "sufficiency scenario",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020345"
+  },
+  {
+   "name": "study report",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020012"
+  },
+  {
+   "name": "emission constraint",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00010213"
+  },
+  {
+   "name": "bottom up",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020024"
+  },
+  {
+   "name": "energy system model",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00030015"
+  },
+  {
+   "name": "scenario projection comparison",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00360003"
+  },
+  {
+   "name": "scenario year",
+   "path": "https://openenergy-platform.org/ontology/oeo/OEO_00020097"
+  }
+ ],
+ "@context": null,
+ "_comment": {
+  "null": "If not applicable use: null",
+  "todo": "If a value is not yet available, use: todo",
+  "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ss±hh)",
+  "units": "Use a space between numbers and units (100 m)",
+  "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+  "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+  "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+  "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)"
+ },
+ "keywords": [
+  "Nuclear",
+  "CLEVER",
+  "Output-data",
+  "negawatt",
+  "EU30",
+  "Austria",
+  "Belgium",
+  "Bulgaria",
+  "Switzerland",
+  "Cyprus",
+  "Czech Republic",
+  "Germany",
+  "Denmark",
+  "Estonia",
+  "Greece",
+  "Spain",
+  "EU27",
+  "Finland",
+  "France",
+  "Croatia",
+  "Hungary",
+  "Ireland",
+  "Italy",
+  "Lithuania",
+  "Luxembourg",
+  "Latvia",
+  "Malta",
+  "Netherlands",
+  "Norway",
+  "Poland",
+  "Portugal",
+  "Romania",
+  "Sweden",
+  "Slovenia",
+  "Slovakia",
+  "United Kingdom"
+ ],
+ "language": [
+  "en-GB"
+ ],
+ "licenses": [
+  {
+   "name": "CC BY 4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Creative Commons Attribution 4.0 International",
+   "attribution": "© nègaWatt",
+   "instruction": null
+  }
+ ],
+ "temporal": {
+  "timeseries": [
+   {
+    "end": "2050-12-31",
+    "start": "2015-01-01",
+    "alignment": null,
+    "resolution": "1 year",
+    "aggregationType": null
+   }
+  ],
+  "referenceDate": "2015-01-01"
+ },
+ "resources": [
+  {
+   "name": "prod_coverage_ratios_uranium",
+   "path": null,
+   "format": null,
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "bigint",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "region",
+      "type": "varchar",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "identifier",
+      "type": "varchar",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "subidentifier",
+      "type": "varchar",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "unit",
+      "type": "varchar",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "year",
+      "type": "bigint",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     },
+     {
+      "name": "value",
+      "type": "float",
+      "unit": null,
+      "isAbout": [],
+      "description": null,
+      "valueReference": []
+     }
+    ],
+    "primaryKey": [],
+    "foreignKeys": []
+   },
+   "dialect": {
+    "delimiter": null,
+    "decimalSeparator": null
+   },
+   "profile": null,
+   "encoding": null
+  }
+ ],
+ "description": "Primary energy consumption by type ",
+ "contributors": [
+  {
+   "date": null,
+   "email": null,
+   "title": "Stéphane Bourgeois",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Nicolas Taillard",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Emile Balembois",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Adrien Toledano",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Alexandre Gabert",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Yves Marignac",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Fabien Baudelet",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Sébastien Teysset",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Adrien Jacob",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Mathilde Djelali",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Sébastien Meyer",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Adria Serarols LLorens",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Gunnar Boye Olesen",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Johannes Thema",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Bendix Vogel",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Luisa Cordroch",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Andrea Roscetti",
+   "object": null,
+   "comment": null
+  },
+  {
+   "date": null,
+   "email": null,
+   "title": "Mathias Gustavsson",
+   "object": null,
+   "comment": null
+  }
+ ],
+ "metaMetadata": {
+  "metadataLicense": {
+   "name": "CC0-1.0",
+   "path": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "title": "Creative Commons Zero v1.0 Universal"
+  },
+  "metadataVersion": "OEP-1.5.2"
+ },
+ "publicationDate": "2023-06-05"
+}
