@@ -1,8 +1,8 @@
 {
-    "name": "oekoinstitut_eea_eionet_eu_emissions_per_country_2017",
-    "title": "Öko-Institut - Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - 2017",
-    "id": "https://openenergy-platform.org/dataedit/view/scenario/oekoinstitut_eea_eionet_eu_emissions_per_country_2017",
-    "description": "Parameters for 2017 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
+    "name": "eu_leg_data_2016_eio_ir_article23_t3",
+    "title": "Collection of parameters for greenhouse gas emission projections submitted by European Member States under the Monitoring Mechanism Regulation (MMR) - 2016",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2016_eio_ir_article23_t3",
+    "description": "Parameters for 2016 greenhouse gas emission projections submitted by European Member States pursuant to Article 14 REGULATION (EU) No 525/2013 and Article 23 COMMISSION IMPLEMENTING REGULATION (EU) No 749/2014. Note: submissions by all European Member States are only mandatory every uneven year. In even years there is no requirement to submit emission projections. The data provided here includes all data openly available at the time of compilation.",
     "language": [
         "en-GB"
     ],
@@ -11,7 +11,7 @@
         "path": null}
     ],
     "keywords": [
-    "2017",
+    "2016",
     "parameters",
     "Öko-Institut",
     "EU-legislation",
@@ -35,7 +35,7 @@
         "resolution": "country"
     },
     "temporal": {
-        "referenceDate": "2017",
+        "referenceDate": "2016",
         "timeseries": [{
             "start": "2015",
             "end": "2040",
@@ -103,8 +103,8 @@
     "resources": [
         {
             "profile": "tabular-data-resource",
-            "name": "eea_eionet_eu_legislation_data_2017",
-            "path": "https://openenergy-platform.org/dataedit/view/scenario/eea_eionet_eu_legislation_data_2017",
+            "name": "eu_leg_data_2016_eio_ir_article23_t3",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_data_2016_eio_ir_article23_t3",
             "format": "PostgresSQL",
             "encoding": "UTF-8",
             "schema": {

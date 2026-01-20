@@ -1,0 +1,195 @@
+{
+    "name": "eu_leg_dim_notation",
+    "title": "Notation keys used in greenhouse gas emission projections submitted under EU legislation",
+    "id": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_notation",
+    "description": "This table holds notation keys prescribed by EU legislation and used by European Member States when submitting greenhouse gas emission projections as required by EU legislation. The notation keys (except NK) are provided in Annex XXV in the source linked below. NK occurred in a Member States submission but is not prescribed by legislation.",
+    "language": [
+        "en-GB"
+    ],
+    "subject": [
+        {
+            "name": null,
+            "path": null
+        }
+    ],
+    "keywords": [
+        "european_environment_agency",
+        "abbreviation",
+        "sirop",
+        "notation_keys",
+        "cc_by_4_0",
+        "eu_legislation",
+        "ko_institut"
+    ],
+    "publicationDate": null,
+    "context": {
+        "homepage": "https://oeko.de/",
+        "documentation": null,
+        "sourceCode": null,
+        "contact": "oedb@oeko.de",
+        "grantNo": "03EI1035B",
+        "fundingAgency": "Bundesministerium für Wirtschaft und Energie",
+        "fundingAgencyLogo": "https://commons.wikimedia.org/wiki/File:BMWi_Logo.svg",
+        "publisherLogo": "https://www.oeko.de/typo3conf/ext/wwt3_sitepackage/Resources/Public/frontend/assets/images/logo.svg"
+    },
+    "spatial": {
+        "location": null,
+        "extent": null,
+        "resolution": null
+    },
+    "temporal": {
+        "referenceDate": null,
+        "timeseries": [
+            {
+                "start": null,
+                "end": null,
+                "resolution": null,
+                "alignment": null,
+                "aggregationType": null
+            }
+        ]
+    },
+    "sources": [
+        {
+            "title": "COMMISSION  IMPLEMENTING  REGULATION  (EU)  2020/1208",
+            "description": "Implementing Regulation that deals (among other things) with reporting formats of data on greenhouse gas projections to be submitted under Article 18 REGULATION (EU) 2018/1999",
+            "path": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R1208&from=EN",
+            "licenses": [
+                {
+                    "name": null,
+                    "title": null,
+                    "path": null,
+                    "instruction": null,
+                    "attribution": null
+                }
+            ]
+        }
+    ],
+    "licenses": [
+        {
+            "name": "CC BY 4.0",
+            "title": "Creative Commons Attribution 4.0 International",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "instruction": null,
+            "attribution": "© Öko-Institut"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "Öko-Institut",
+            "email": "oedb@oeko.de",
+            "date": "2021-09-08",
+            "object": "data, metadata",
+            "comment": "initial version"
+        },
+        {
+            "title": "steull",
+            "email": "datenzentrum@rl-institut.de",
+            "date": "2022-06-10",
+            "object": "metadata",
+            "comment": "Review and update metadata"
+        }
+    ],
+    "resources": [
+        {
+            "profile": "tabular-data-resource",
+            "name": "eu_leg_dim_notation",
+            "path": "https://openenergy-platform.org/dataedit/view/scenario/eu_leg_dim_notation",
+            "format": "PostgresSQL",
+            "encoding": "UTF-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "id",
+                        "description": "unique id",
+                        "type": "bigint",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "notation",
+                        "description": "notation key (= abbreviation)",
+                        "type": "varchar(64)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    },
+                    {
+                        "name": "notation_name",
+                        "description": "explanation of notation key",
+                        "type": "varchar(128)",
+                        "unit": "none",
+                        "isAbout": [
+                            {
+                                "name": null,
+                                "path": null
+                            }
+                        ],
+                        "valueReference": [
+                            {
+                                "value": null,
+                                "name": null,
+                                "path": null
+                            }
+                        ]
+                    }
+                ],
+                "primaryKey": [
+                    "id"
+                ],
+                "foreignKeys": []
+            },
+            "dialect": {
+                "delimiter": null,
+                "decimalSeparator": "."
+            }
+        }
+    ],
+    "@id": null,
+    "@context": null,
+    "review": {
+        "path": null,
+        "badge": "Silver"
+    },
+    "metaMetadata": {
+        "metadataVersion": "OEP-1.5.1",
+        "metadataLicense": {
+            "name": "CC0-1.0",
+            "title": "Creative Commons Zero v1.0 Universal",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    },
+    "_comment": {
+        "metadata": "Metadata documentation and explanation (https://github.com/OpenEnergyPlatform/oemetadata)",
+        "dates": "Dates and time must follow the ISO8601 including time zone (YYYY-MM-DD or YYYY-MM-DDThh:mm:ssÂ±hh)",
+        "units": "Use a space between numbers and units (100 m)",
+        "languages": "Languages must follow the IETF (BCP47) format (en-GB, en-US, de-DE)",
+        "licenses": "License name must follow the SPDX License List (https://spdx.org/licenses/)",
+        "review": "Following the OEP Data Review (https://github.com/OpenEnergyPlatform/data-preprocessing/blob/master/data-review/manual/review_manual.md)",
+        "null": "If not applicable use: null",
+        "todo": "If a value is not yet available, use: todo"
+    }
+}
